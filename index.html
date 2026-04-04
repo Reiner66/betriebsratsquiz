@@ -33,43 +33,110 @@
 </div>
 
 <script>
-    async function loadQuiz() {
-        try {
-            const res = await fetch('fragen.csv');
-            const txt = await res.text();
-            const rows = txt.split('\n').filter(r => r.trim() !== '');
-            
-            // Zufällige oder Tagesfrage? Hier: Täglich wechselnd
-            const now = new Date();
-            const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
-            const rowIndex = (dayOfYear % (rows.length - 1)) + 1;
-            
-            const cols = rows[rowIndex].split(';');
-            
-            document.getElementById('q-text').innerText = cols[1];
-            const opts = document.getElementById('q-options');
-            const feedback = document.getElementById('feedback');
+   let allQuestions = [];
+let currentSessionQuestions = [];
+let currentIndex = 0;
 
-            ['A', 'B', 'C'].forEach((letter, i) => {
-                const btn = document.createElement('button');
-                btn.innerText = letter + ') ' + cols[i+2];
-                btn.onclick = () => {
-                    feedback.style.display = 'block';
-                    const isCorrect = letter === cols[5].trim();
-                    feedback.innerText = isCorrect ? "✅ Richtig! Stark gemacht." : "❌ Falsch! Richtig wäre " + cols[5];
-                    feedback.style.background = isCorrect ? "rgba(0,255,100,0.1)" : "rgba(255,0,0,0.1)";
-                    feedback.style.color = isCorrect ? "#44ff88" : "#ff4444";
-                    document.getElementById('next-btn').style.display = 'block';
-                    // Alle Buttons deaktivieren nach Klick
-                    Array.from(opts.children).forEach(b => b.disabled = true);
-                };
-                opts.appendChild(btn);
-            });
-        } catch (e) {
-            document.getElementById('q-text').innerText = "Fehler beim Laden der fragen.csv!";
-        }
+async function loadQuiz() {
+    try {
+        const res = await fetch('fragen.csv');
+        const txt = await res.text();
+        allQuestions = txt.split('\n').filter(r => r.trim() !== '' && r.includes(';'));
+        allQuestions.shift(); // Kopfzeile entfernen
+
+        prepareDailyQuestions();
+        showQuestion();
+    } catch (e) {
+        document.getElementById('q-text').innerText = "Fehler beim Laden!";
     }
-    loadQuiz();
+}
+
+function prepareDailyQuestions() {
+    const now = new Date();
+    // Eindeutige Zahl für den Tag (Tage seit 1970)
+    const dayId = Math.floor(now / 86400000); 
+    
+    // 5 neue Fragen basierend auf dem Tag
+    // Wir nehmen einfach einen Startpunkt in der Liste, der jeden Tag um 5 wandert
+    const startIdx = (dayId * 5) % allQuestions.length;
+    const dailyNew = [];
+    for(let i=0; i<5; i++) {
+        dailyNew.push(allQuestions[(startIdx + i) % allQuestions.length]);
+    }
+
+    // 2 Wiederholungsfragen (die von gestern)
+    const prevDayId = dayId - 1;
+    const prevStartIdx = (prevDayId * 5) % allQuestions.length;
+    const dailyRepeat = [];
+    for(let i=0; i<2; i++) {
+        dailyRepeat.push(allQuestions[(prevStartIdx + i) % allQuestions.length]);
+    }
+
+    // Kombinieren: Erst die 2 von gestern (Wiederholung), dann die 5 neuen
+    currentSessionQuestions = [...dailyRepeat, ...dailyNew];
+}
+
+function showQuestion() {
+    const feedback = document.getElementById('feedback');
+    const nextBtn = document.getElementById('next-btn');
+    const opts = document.getElementById('q-options');
+    
+    feedback.style.display = 'none';
+    nextBtn.style.display = 'none';
+
+    if (currentIndex >= currentSessionQuestions.length) {
+        showFinal();
+        return;
+    }
+
+    const cols = currentSessionQuestions[currentIndex].split(';');
+    const isRepeat = currentIndex < 2; // Die ersten zwei sind Wiederholung
+
+    document.getElementById('q-text').innerHTML = `
+        <small style="color:var(--acc)">${isRepeat ? '🔄 WIEDERHOLUNG VON GESTERN' : '🔥 NEUE FRAGE'}</small><br>
+        <span style="font-size:0.8rem; color:var(--muted)">Frage ${currentIndex + 1} von 7</span><br>
+        ${cols[1]}`;
+
+    opts.innerHTML = '';
+    ['A', 'B', 'C'].forEach((letter, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'btn-act';
+        btn.style.width = '100%';
+        btn.style.textAlign = 'left';
+        btn.innerText = letter + ') ' + cols[i+2];
+        btn.onclick = () => {
+            feedback.style.display = 'block';
+            const isCorrect = letter === cols[5].trim();
+            feedback.innerText = isCorrect ? "✅ Richtig!" : "❌ Falsch! Lösung: " + cols[5];
+            feedback.style.color = isCorrect ? "#44ff88" : "#ff4444";
+            feedback.style.background = isCorrect ? "rgba(0,255,100,0.1)" : "rgba(255,0,0,0.1)";
+            
+            Array.from(opts.children).forEach(b => b.disabled = true);
+            nextBtn.style.display = 'block';
+            nextBtn.innerText = (currentIndex + 1 < currentSessionQuestions.length) ? "Nächste Frage" : "Ergebnis zeigen";
+        };
+        opts.appendChild(btn);
+    });
+}
+
+function handleNext() {
+    currentIndex++;
+    showQuestion();
+}
+
+function showFinal() {
+    document.getElementById('q-text').innerText = "Tages-Etappe geschafft!";
+    document.getElementById('q-options').innerHTML = `
+        <div style="text-align:center; padding:20px;">
+            <p>Du hast die 2 Wiederholungen und 5 neuen Fragen für heute erledigt.</p>
+            <p>Morgen gibt es die nächsten Fragen!</p>
+        </div>`;
+    document.getElementById('next-btn').innerText = "Fenster schließen";
+    document.getElementById('next-btn').onclick = () => window.close();
+}
+
+// Im HTML muss der Button jetzt handleNext() aufrufen
+// <button id="next-btn" class="btn-next" style="display:none;" onclick="handleNext()">Nächste Frage</button>
 </script>
 
 </body>
