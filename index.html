@@ -13,10 +13,11 @@
         .sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 25px; }
         #q-text { font-size: 1.1rem; font-weight: 600; min-height: 60px; margin-bottom: 20px; line-height: 1.4; }
         .options { display: grid; gap: 12px; }
-        button { background: #181824; border: 1px solid #303048; color: white; padding: 15px; border-radius: 12px; cursor: pointer; text-align: left; font-family: inherit; font-size: 1rem; transition: 0.2s; }
+        button { background: #181824; border: 1px solid #303048; color: white; padding: 15px; border-radius: 12px; cursor: pointer; text-align: left; font-family: inherit; font-size: 1rem; transition: 0.2s; width: 100%; }
         button:hover { border-color: var(--acc); background: #202030; }
+        button:disabled { cursor: default; opacity: 0.8; }
         #feedback { margin-top: 25px; padding: 15px; border-radius: 10px; text-align: center; font-weight: 600; display: none; }
-        .btn-next { background: var(--acc); color: white; border: none; width: 100%; margin-top: 20px; text-align: center; font-weight: bold; }
+        .btn-next { background: var(--acc); color: white; border: none; width: 100%; margin-top: 20px; text-align: center; font-weight: bold; display: block; }
     </style>
 </head>
 <body>
@@ -29,42 +30,45 @@
     <div id="q-options" class="options"></div>
     <div id="feedback"></div>
     
-    <button id="next-btn" class="btn-next" style="display:none;" onclick="location.reload()">Nächste Frage</button>
+    <button id="next-btn" class="btn-next" style="display:none;" onclick="handleNext()">Nächste Frage</button>
 </div>
 
 <script>
-   let allQuestions = [];
+let allQuestions = [];
 let currentSessionQuestions = [];
 let currentIndex = 0;
 
 async function loadQuiz() {
     try {
+        console.log("Lade CSV...");
         const res = await fetch('fragen.csv');
+        if(!res.ok) throw new Error("Datei nicht gefunden");
         const txt = await res.text();
-        allQuestions = txt.split('\n').filter(r => r.trim() !== '' && r.includes(';'));
-        allQuestions.shift(); // Kopfzeile entfernen
+        
+        // CSV in Zeilen zerlegen und säubern
+        allQuestions = txt.split(/\r?\n/).filter(r => r.trim() !== '' && r.includes(';'));
+        allQuestions.shift(); // Kopfzeile weg
 
+        console.log(allQuestions.length + " Fragen geladen.");
         prepareDailyQuestions();
         showQuestion();
     } catch (e) {
-        document.getElementById('q-text').innerText = "Fehler beim Laden!";
+        console.error(e);
+        document.getElementById('q-text').innerText = "Fehler: Konnte fragen.csv nicht laden! (Dateiname korrekt?)";
     }
 }
 
 function prepareDailyQuestions() {
     const now = new Date();
-    // Eindeutige Zahl für den Tag (Tage seit 1970)
-    const dayId = Math.floor(now / 86400000); 
+    // Eindeutige Zahl für den Tag
+    const dayId = Math.floor(now.getTime() / 86400000); 
     
-    // 5 neue Fragen basierend auf dem Tag
-    // Wir nehmen einfach einen Startpunkt in der Liste, der jeden Tag um 5 wandert
     const startIdx = (dayId * 5) % allQuestions.length;
     const dailyNew = [];
     for(let i=0; i<5; i++) {
         dailyNew.push(allQuestions[(startIdx + i) % allQuestions.length]);
     }
 
-    // 2 Wiederholungsfragen (die von gestern)
     const prevDayId = dayId - 1;
     const prevStartIdx = (prevDayId * 5) % allQuestions.length;
     const dailyRepeat = [];
@@ -72,7 +76,6 @@ function prepareDailyQuestions() {
         dailyRepeat.push(allQuestions[(prevStartIdx + i) % allQuestions.length]);
     }
 
-    // Kombinieren: Erst die 2 von gestern (Wiederholung), dann die 5 neuen
     currentSessionQuestions = [...dailyRepeat, ...dailyNew];
 }
 
@@ -90,7 +93,7 @@ function showQuestion() {
     }
 
     const cols = currentSessionQuestions[currentIndex].split(';');
-    const isRepeat = currentIndex < 2; // Die ersten zwei sind Wiederholung
+    const isRepeat = currentIndex < 2;
 
     document.getElementById('q-text').innerHTML = `
         <small style="color:var(--acc)">${isRepeat ? '🔄 WIEDERHOLUNG VON GESTERN' : '🔥 NEUE FRAGE'}</small><br>
@@ -100,14 +103,13 @@ function showQuestion() {
     opts.innerHTML = '';
     ['A', 'B', 'C'].forEach((letter, i) => {
         const btn = document.createElement('button');
-        btn.className = 'btn-act';
-        btn.style.width = '100%';
-        btn.style.textAlign = 'left';
         btn.innerText = letter + ') ' + cols[i+2];
         btn.onclick = () => {
             feedback.style.display = 'block';
-            const isCorrect = letter === cols[5].trim();
-            feedback.innerText = isCorrect ? "✅ Richtig!" : "❌ Falsch! Lösung: " + cols[5];
+            const correctLetter = cols[5] ? cols[5].trim() : "";
+            const isCorrect = letter === correctLetter;
+            
+            feedback.innerText = isCorrect ? "✅ Richtig!" : "❌ Falsch! Lösung: " + correctLetter;
             feedback.style.color = isCorrect ? "#44ff88" : "#ff4444";
             feedback.style.background = isCorrect ? "rgba(0,255,100,0.1)" : "rgba(255,0,0,0.1)";
             
@@ -131,12 +133,12 @@ function showFinal() {
             <p>Du hast die 2 Wiederholungen und 5 neuen Fragen für heute erledigt.</p>
             <p>Morgen gibt es die nächsten Fragen!</p>
         </div>`;
-    document.getElementById('next-btn').innerText = "Fenster schließen";
-    document.getElementById('next-btn').onclick = () => window.close();
+    document.getElementById('next-btn').style.display = 'none';
 }
 
-// Im HTML muss der Button jetzt handleNext() aufrufen
-// <button id="next-btn" class="btn-next" style="display:none;" onclick="handleNext()">Nächste Frage</button>
+// WICHTIG: Hier wird das Quiz gestartet!
+loadQuiz();
+
 </script>
 
 </body>
