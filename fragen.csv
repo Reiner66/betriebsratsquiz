@@ -1,0 +1,101 @@
+Kategorie;Frage;Antwort A;Antwort B;Antwort C;Loesung
+Arbeitszeit;Darf der Chef Überstunden ohne Zustimmung des BR anordnen?;Ja immer;Nur im Notfall;Nein (Mitbestimmung §87);C
+Stahl-Spezial;Wer wählt den Arbeitsdirektor im Montan-Bereich?;Der Vorstand allein;Der Aufsichtsrat (BR-Veto);Die Gewerkschaft;B
+Urlaub;Was passiert bei Krankheit im Urlaub?;Pech gehabt;Tage werden gutgeschrieben;Urlaub wird verlängert;B
+Kuendigung;Was ist die Frist für eine Kündigungsschutzklage?;1 Woche;3 Wochen;3 Monate;B
+Arbeitszeit;Wie lange muss die Ruhepause zwischen zwei Schichten sein?;8 Stunden;10 Stunden;11 Stunden;C
+Rechte;Darf der BR-Vorsitzende allein Entscheidungen treffen?;Ja;Nein (nur im Namen des Gremiums);Nur bei Eile;B
+Versetzung;Ab welcher Dauer gilt eine Zuweisung als Versetzung?;1 Tag;1 Woche;Mehr als 1 Monat;C
+Geheimhaltung;Darf man BR-Infos dem Ehepartner erzählen?;Ja klar;Nein (Verschwiegenheitspflicht);Nur bei Stress;B
+Ausschuesse;Wann MUSS ein Betriebsausschuss gebildet werden?;Ab 3 BR-Mitgliedern;Ab 9 BR-Mitgliedern;Immer;B
+Stahl-Spezial;Was ist das Besondere an der Montan-Parität?;Gleiche Anzahl AG/AN im AR;AG hat mehr Stimmen;BR entscheidet alles;A
+Arbeitsschutz;Wer zahlt die Sicherheitsschuhe im Werk?;Der Kollege selbst;50/50;Der Arbeitgeber komplett;C
+Abmahnung;Muss man eine Abmahnung unterschreiben?;Ja Pflicht;Nein (nur Erhalt bestätigen);Nur wenn man zustimmt;B
+Urlaub;Darf der BR die allgemeine Urlaubsplanung mitbestimmen?;Nein;Ja (§87 BetrVG);Nur bei Streik;B
+Betriebsvereinbarung;Wie lange wirkt eine BV nach?;Gar nicht;Bis eine neue Regelung gilt;Maximal 1 Monat;B
+Kuendigung;Wann muss der BR zur Kündigung angehört werden?;Nach der Kündigung;Gleichzeitig;Vor der Kündigung;C
+Arbeitszeit;Sind Raucherpausen gesetzliche Arbeitszeit?;Ja;Nein;Nur in der Spätschicht;B
+Stahl-Spezial;Darf der BR bei der Wahl des Ofen-Teams mitreden?;Nein;Ja (Versetzung/Besetzung);Nur bei Hitze;B
+Freistellung;Was ist der Grundsatz für BR-Schulungen?;Freiwillig;Erforderlichkeit;Lust und Laune;B
+Arbeitsschutz;Darf der BR eine Gefährdungsbeurteilung erzwingen?;Nein;Ja (Initiativrecht);Nur nach Unfall;B
+IT-Datenschutz;Darf der AG heimlich GPS im Stapler auswerten?;Ja zur Logistik;Nein (Leistungskontrolle);Nur nachts;B
+Urlaub;Kann der AG Urlaub wegen Personalmangel einfach streichen?;Ja jederzeit;Nein (nur bei Notfällen);Nur bei Azubis;B
+Arbeitszeit;Gilt Fahrzeit zur Baustelle als Arbeitszeit?;Immer;Oft ja (kommt auf BV/TV an);Nie;B
+Stahl-Spezial;Wie hoch ist die Mitbestimmung bei Arbeitsschutz?;Gering;Eingeschränkt;Sehr hoch (Zwingend);C
+Freistellung;Muss man sich beim Chef für BR-Arbeit abmelden?;Nein;Ja (Abmelden & Zurückmelden);Nur bei Meetings;B
+Versetzung;Kann eine Versetzung auch eine Lohnkürzung sein?;Immer;Nein;Ja (erfordert Änderungskündigung);C
+Geheimhaltung;Darf ein BR-Mitglied Betriebsgeheimnisse an Dritte geben?;Ja;Nie (§79 BetrVG);Nur nach Wahl;B
+Ausschuesse;Was macht der Arbeitsschutzausschuss (ASA)?;Feiern planen;Sicherheit prüfen;Lohn verhandeln;B
+Arbeitsschutz;Ab welcher Lautstärke ist Gehörschutz Pflicht?;70 dB(A);80-85 dB(A);100 dB(A);B
+Kuendigung;Darf man während der Krankheit gekündigt werden?;Nein nie;Ja (unter engen Bedingungen);Nur bei Betrug;B
+Arbeitszeit;Zählt Umkleidezeit zur Arbeitszeit?;Nie;Oft ja (wenn PSA vorgeschrieben);Nur bei Stahl;B
+Stahl-Spezial;Was regelt der Tarifvertrag Eisen/Stahl primär?;Lohn und Arbeitszeit;Nur Urlaub;Nur Kantinenpreise;A
+Abmahnung;Kann man eine Gegendarstellung zur Abmahnung schreiben?;Nein;Ja (muss in die Akte);Nur mündlich;B
+Urlaub;Was ist der gesetzliche Mindesturlaub (5-Tage-Woche)?;20 Tage;24 Tage;30 Tage;A
+Betriebsvereinbarung;Wer unterschreibt eine BV?;Alle Kollegen;BR-Vorsitz & AG-Leitung;Nur der Chef;B
+Ausschuesse;Darf ein Ausschuss eigenständig Verträge schließen?;Nie;Nur bei Übertragung durch Gremium;Immer;B
+Rechte;Darf der BR an Vorstellungsgesprächen teilnehmen?;Ja (§95);Nur bei Azubis;Nein;A
+Arbeitsschutz;Was ist die UVV?;Urlaubsverordnung;Unfallverhütungsvorschrift;Umweltvorschrift;B
+Kuendigung;Was passiert bei einer betriebsbedingten Kündigung?;Losentscheid;Sozialauswahl;Chef entscheidet;B
+Arbeitszeit;Wie viele Sonntage müssen im Jahr frei bleiben?;Mindestens 10;Mindestens 15;Mindestens 20;B
+Stahl-Spezial;Was ist eine Erschwerniszulage?;Geld für Hitze/Schmutz;Geld für Urlaub;Geld für Pendler;A
+IT-Datenschutz;Muss der BR bei neuen Tablets im Werk zustimmen?;Nein;Ja (Überwachungspotenzial);Nur bei Kamera;B
+Freistellung;Wie werden BR-Sitzungen bezahlt?;Gar nicht;Wie normale Arbeitszeit;Doppelt;B
+Versetzung;Darf der BR eine Versetzung ablehnen?;Nie;Ja (bei Verstoß gegen Gesetze);Nur bei Frauen;B
+Geheimhaltung;Was droht bei Verrat von Betriebsgeheimnissen?;Nichts;Geldstrafe/Kündigung/Haft;Nur Rüge;B
+Betriebsvereinbarung;Wo muss die BV im Betrieb hängen?;Im Safe;An geeigneter Stelle (bekannt);Gar nicht;B
+Arbeitsschutz;Muss der BR bei der PSA-Farbe mitreden?;Kann er (Trageakzeptanz);Nein;Nur bei Gelb;A
+Kuendigung;Gilt der Kündigungsschutz während der Probezeit?;Ja voll;Nein (nur Mindestschutz);Erst nach 1 Jahr;B
+Urlaub;Was ist Sonderurlaub?;Urlaub für Sport;Bezahlte Freistellung (z.B. Geburt);Urlaub ohne Lohn;B
+Arbeitszeit;Darf der BR die Schichtpläne mitgestalten?;Nein;Ja (volles Recht);Nur bei Nacht;B
+Stahl-Spezial;Wie viele AN-Vertreter sind im Montan-Aufsichtsrat?;3;Hälfte;2;B
+Ausschuesse;Muss der Wirtschaftsausschuss informiert werden?;Vierteljährlich;Einmal im Jahr;Nie;A
+Abmahnung;Wie viele Abmahnungen braucht man zur Kündigung?;Immer genau 3;Kommt auf die Schwere an;Keine;B
+Rechte;Hat der BR ein eigenes Büro-Recht?;Nein;Ja (Sachmittelanspruch §40);Nur bei 500 MA;B
+Arbeitsschutz;Ab wann ist ein Betriebsarzt Pflicht?;Ab 1 MA;Ab 100 MA;Ab 500 MA;A
+Kuendigung;Was ist eine außerordentliche Kündigung?;Fristlose Kündigung;Kündigung mit 1 Jahr Frist;Aufhebungsvertrag;A
+Arbeitszeit;Darf man 12 Stunden am Stück arbeiten?;Ja immer;Nur in Ausnahmen/Notfall;Nein verboten;B
+Urlaub;Darf Urlaub in Geld ausgezahlt werden?;Ja immer;Nur bei Beendigung des Jobs;Nur bei Stahl;B
+Stahl-Spezial;Wer ist der "Neutrale" im Montan-Aufsichtsrat?;Der Chef;Zusätzliches Mitglied (Zünglein);Der Bürgermeister;B
+Betriebsvereinbarung;Kann eine BV den Tarifvertrag verschlechtern?;Ja;Nein (Günstigkeitsprinzip);Nur bei Krise;B
+Freistellung;Darf der BR während der Arbeitszeit tagen?;Nur in der Pause;Ja (erforderlich);Nur abends;B
+Versetzung;Was ist eine "Umgruppierung"?;Anderer Parkplatz;Andere Lohnstufe;Anderes Werk;B
+IT-Datenschutz;Was ist die DSGVO?;Dampf-Schutz-Gesetz;Datenschutzgrundverordnung;Dienst-Sicherungs-Gesetz;B
+Arbeitsschutz;Wer ist für die Sicherheit im Werk verantwortlich?;Nur der BR;Der Arbeitgeber;Nur der Sanitäter;B
+Rechte;Darf der BR eine Betriebsversammlung abhalten?;Nein;Ja (vierteljährlich);Nur einmal im Jahr;B
+Kuendigung;Was ist der besondere Kündigungsschutz für BR?;Unkündbar;Kündigung nur mit BR-Zustimmung;Kein Schutz;B
+Arbeitszeit;Darf der BR Überstunden-Konten kontrollieren?;Nein;Ja (Überwachungsrecht);Nur bei Fehlern;B
+Urlaub;Was ist der "Urlaubsanspruch" bei Teilzeit?;Weniger Tage;Verhältnismäßig gleich;Gar keiner;B
+Stahl-Spezial;Darf der BR am Hochofen Hitze-Messungen fordern?;Nein;Ja (Arbeitsschutz);Nur im Sommer;B
+Geheimhaltung;Gilt die Verschwiegenheit nach dem BR-Amt weiter?;Nein;Ja (lebenslang für Geheimnisse);Nur 1 Jahr;B
+Ausschuesse;Darf der BR-Vorsitzende Gast im Ausschuss sein?;Nein;Ja jederzeit;Nur mit Einladung;B
+Abmahnung;Was ist die "Warnfunktion" der Abmahnung?;Chef droht nur;Ankündigung der Kündigung;Lob;B
+Versetzung;Muss der BR bei jeder Einstellung gefragt werden?;Nein;Ja (§99 BetrVG);Nur bei Führungskräften;B
+Rechte;Darf der BR externe Berater hinzuziehen?;Nein;Ja (nach Absprache/Beschluss);Nur Anwälte;B
+Arbeitsschutz;Was ist eine "Begehung"?;Spaziergang;Kontrolle der Arbeitsplätze;Besuch beim Chef;B
+Kuendigung;Was ist eine Änderungskündigung?;Neuer Job oder Kündigung;Kündigung mit neuer Frist;Lohnerhöhung;A
+Arbeitszeit;Sind 6-Tage-Wochen gesetzlich erlaubt?;Nein;Ja (Montag bis Samstag);Nur im Winter;B
+Stahl-Spezial;Wer entscheidet über die Schutzkleidung?;Chef allein;BR und AG gemeinsam;Gewerkschaft;B
+IT-Datenschutz;Darf der AG den Browserverlauf prüfen?;Immer;Nein (außer bei Verdacht/BV);Ja zur Sicherheit;B
+Freistellung;Wie meldet man sich zur Schulung an?;Gar nicht;BR-Beschluss und Mitteilung AG;Chef fragen;B
+Betriebsvereinbarung;Wie lange ist die Kündigungsfrist einer BV?;1 Woche;3 Monate;Keine;B
+Stahl-Spezial;Was ist die "Arbeitsdirektoren-Klausel"?;Veto-Recht des BR;Gehaltsgrenze;Urlaubstage;A
+Rechte;Darf der BR in die Gehaltslisten schauen?;Nein;Ja (Einsichtsrecht Bruttolohn);Nur bei Chefs;B
+Arbeitsschutz;Was ist psychische Belastung?;Stress/Mobbing/Lärm;Nur Faulheit;Gibt es nicht;A
+Kuendigung;Muss eine Kündigung schriftlich sein?;Ja (auf Papier);E-Mail reicht;Mündlich reicht;A
+Arbeitszeit;Wann beginnt die Nachtarbeit im Gesetz?;18 Uhr;23 Uhr (bis 6 Uhr);20 Uhr;B
+Urlaub;Hat man Anspruch auf Urlaub am Stück?;Nein;Ja (mind. 12 Werktage);Nur im Sommer;B
+Stahl-Spezial;Darf der BR bei der Stilllegung eines Ofens mitreden?;Nein;Ja (Interessenausgleich/Sozialplan);Nur beim Preis;B
+Ausschuesse;Wann tagt der Arbeitsschutzausschuss?;Täglich;Vierteljährlich;Nie;B
+Abmahnung;Kann der BR eine Abmahnung stoppen?;Ja;Nein (nur Beschwerde möglich);Nur bei Azubis;B
+Versetzung;Muss der AG die Kosten einer Versetzung tragen?;Nein;In der Regel ja;Nur bei Benzin;B
+Rechte;Wer trägt die Kosten für BR-Wahlen?;Der BR;Der Arbeitgeber;Die Gewerkschaft;B
+Arbeitsschutz;Darf man die Arbeit bei akuter Gefahr verweigern?;Nein;Ja (Selbstschutz);Nur bei Regen;B
+Kuendigung;Was ist eine Sozialauswahl?;Alter/Dienstzeit/Kinder/Behinderung;Wer am besten arbeitet;Wer am wenigsten verdient;A
+Arbeitszeit;Darf die tägliche Arbeitszeit 10h überschreiten?;Ja immer;Nein (nur in Ausnahmen);Nur bei Stahl;B
+Stahl-Spezial;Wer vertritt die AN im Aufsichtsrat?;Nur interne BR;BR und externe Gewerkschafter;Nur Anwälte;B
+Geheimhaltung;Darf der BR die Presse über BR-Sitzungen informieren?;Ja;Nein (Sitzungen sind nicht öffentlich);Nur bei Streik;B
+Betriebsvereinbarung;Gilt eine BV für alle Mitarbeiter?;Nur für BR-Mitglieder;Ja für alle im Geltungsbereich;Nur für Azubis;B
+Arbeitsschutz;Was ist die "Unterweisung"?;Befehl vom Chef;Schulung zur Sicherheit;Hausordnung;B
+Rechte;Darf der BR IT-Systeme sperren?;Nein;Indirekt ja (über Einigungsstelle);Nur am PC;B
+Allgemein;Was ist das höchste Ziel des BetrVG?;Streik;Wohl der Arbeitnehmer und des Betriebs;Mehr Lohn;B
