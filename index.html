@@ -34,39 +34,47 @@
 </div>
 
 <script>
+// --- BASIS VARIABLEN ---
 let allQuestions = [];
 let currentSessionQuestions = [];
 let currentIndex = 0;
-let correctCount = 0; // NEU: Zählt die richtigen Antworten
+let correctCount = 0; 
+
+// --- EWIGE STATISTIK (LocalStorage) ---
+// Holt die alten Werte vom Gerät oder startet bei 0
+let totalPlayed = localStorage.getItem('hüttenfuchs_total') || 0;
+let totalCorrect = localStorage.getItem('hüttenfuchs_correct') || 0;
 
 async function loadQuiz() {
     try {
-        const res = await fetch('fragen.csv');
+        // Cache-Busting: Zwingt den Browser immer die neueste CSV zu laden
+        const res = await fetch('fragen.csv?v=' + new Date().getTime());
         const txt = await res.text();
-        allQuestions = txt.split('\n').filter(r => r.trim() !== '' && r.includes(';'));
-        allQuestions.shift(); // Kopfzeile entfernen
+        
+        // CSV verarbeiten
+        allQuestions = txt.split(/\r?\n/).filter(r => r.trim() !== '' && r.includes(';'));
+        allQuestions.shift(); // Kopfzeile weg
 
         prepareDailyQuestions();
         showQuestion();
     } catch (e) {
-        document.getElementById('q-text').innerText = "Fehler beim Laden!";
+        document.getElementById('q-text').innerText = "Fehler: fragen.csv nicht gefunden!";
+        console.error(e);
     }
 }
 
 function prepareDailyQuestions() {
     const now = new Date();
-    // Eindeutige Zahl für den Tag (Tage seit 1970)
-    const dayId = Math.floor(now / 86400000); 
+    const dayId = Math.floor(now.getTime() / 86400000); 
     
-    // 5 neue Fragen basierend auf dem Tag
-    // Wir nehmen einfach einen Startpunkt in der Liste, der jeden Tag um 5 wandert
+    // 5 neue Fragen
     const startIdx = (dayId * 5) % allQuestions.length;
     const dailyNew = [];
     for(let i=0; i<5; i++) {
         dailyNew.push(allQuestions[(startIdx + i) % allQuestions.length]);
     }
 
-    // 2 Wiederholungsfragen (die von gestern)
+    // 2 Wiederholungen von gestern
     const prevDayId = dayId - 1;
     const prevStartIdx = (prevDayId * 5) % allQuestions.length;
     const dailyRepeat = [];
@@ -74,7 +82,6 @@ function prepareDailyQuestions() {
         dailyRepeat.push(allQuestions[(prevStartIdx + i) % allQuestions.length]);
     }
 
-    // Kombinieren: Erst die 2 von gestern (Wiederholung), dann die 5 neuen
     currentSessionQuestions = [...dailyRepeat, ...dailyNew];
 }
 
@@ -92,40 +99,29 @@ function showQuestion() {
     }
 
     const cols = currentSessionQuestions[currentIndex].split(';');
-    const isRepeat = currentIndex < 2; // Die ersten zwei sind Wiederholung
+    const isRepeat = currentIndex < 2;
 
     document.getElementById('q-text').innerHTML = `
-        <small style="color:var(--acc)">${isRepeat ? '🔄 WIEDERHOLUNG VON GESTERN' : '🔥 NEUE FRAGE'}</small><br>
+        <small style="color:var(--acc)">${isRepeat ? '🔄 WIEDERHOLUNG' : '🔥 NEUE FRAGE'}</small><br>
         <span style="font-size:0.8rem; color:var(--muted)">Frage ${currentIndex + 1} von 7</span><br>
         ${cols[1]}`;
 
     opts.innerHTML = '';
     ['A', 'B', 'C'].forEach((letter, i) => {
         const btn = document.createElement('button');
-        btn.className = 'btn-act';
-        btn.style.width = '100%';
-        btn.style.textAlign = 'left';
         btn.innerText = letter + ') ' + cols[i+2];
-btn.onclick = () => {
+        btn.onclick = () => {
             feedback.style.display = 'block';
-            
-            // Die Lösung aus der CSV (Spalte 6) holen und Leerzeichen entfernen
             const correctLetter = cols[5] ? cols[5].trim() : "";
             const isCorrect = letter === correctLetter;
             
-            // NEU: Wenn richtig, einen Punkt zum Gesamtergebnis addieren
-            if (isCorrect) {
-                correctCount++;
-            }
-            
+            if (isCorrect) correctCount++; 
+
             feedback.innerText = isCorrect ? "✅ Richtig!" : "❌ Falsch! Lösung: " + correctLetter;
             feedback.style.color = isCorrect ? "#44ff88" : "#ff4444";
             feedback.style.background = isCorrect ? "rgba(0,255,100,0.1)" : "rgba(255,0,0,0.1)";
             
-            // Buttons deaktivieren, damit man nicht mehrfach klicken kann
             Array.from(opts.children).forEach(b => b.disabled = true);
-            
-            // "Nächste Frage" oder "Ergebnis" Button einblenden
             nextBtn.style.display = 'block';
             nextBtn.innerText = (currentIndex + 1 < currentSessionQuestions.length) ? "Nächste Frage" : "Ergebnis zeigen";
         };
@@ -139,46 +135,41 @@ function handleNext() {
 }
 
 function showFinal() {
-    const total = currentSessionQuestions.length;
-    const prozent = Math.round((correctCount / total) * 100);
-    
-    // Persönliche Bewertung je nach Erfolg
-    let bewertung = "";
-    let farbe = "";
-    
-    if (prozent === 100) {
-        bewertung = "🏆 Absoluter Hütten-Experte! Alles richtig!";
-        farbe = "#44ff88"; // Grün
-    } else if (prozent >= 75) {
-        bewertung = "🦾 Starke Leistung! Du kennst deine Rechte.";
-        farbe = "#4466ff"; // Blau
-    } else if (prozent >= 50) {
-        bewertung = "👍 Bestanden! Da geht aber noch was.";
-        farbe = "#ffaa00"; // Orange
-    } else {
-        bewertung = "⚒️ Da musst du nochmal ran. Frag mal deinen BR!";
-        farbe = "#ff4444"; // Rot
-    }
+    // 1. Aktuelle Runde zur ewigen Statistik addieren
+    totalPlayed = parseInt(totalPlayed) + currentSessionQuestions.length;
+    totalCorrect = parseInt(totalCorrect) + correctCount;
 
-    // Das Layout für die Ergebnis-Box
+    // 2. Auf dem Gerät speichern
+    localStorage.setItem('hüttenfuchs_total', totalPlayed);
+    localStorage.setItem('hüttenfuchs_correct', totalCorrect);
+
+    // 3. Berechnungen
+    const total = currentSessionQuestions.length;
+    const prozentHeute = Math.round((correctCount / total) * 100);
+    const ewigerSchnitt = Math.round((totalCorrect / totalPlayed) * 100);
+    
+    let bewertung = prozentHeute === 100 ? "🏆 Perfekt!" : prozentHeute >= 70 ? "🦾 Stark!" : "⚒️ Dranbleiben!";
+    let farbe = prozentHeute >= 70 ? "#44ff88" : "#ffaa00";
+
+    // 4. Layout-Ausgabe
     document.getElementById('q-text').innerHTML = `
         <div style="text-align:center; padding:20px; background: rgba(255,255,255,0.05); border-radius: 20px; border: 1px solid ${farbe};">
-            <h2 style="margin:0; color:${farbe};">Dein Ergebnis</h2>
-            <div style="font-size: 3rem; font-weight: bold; margin: 10px 0;">${correctCount} <span style="font-size:1.5rem; color:var(--muted);">von</span> ${total}</div>
-            <p style="font-size: 1.1rem; font-weight: 600;">${prozent}% Wissen</p>
-            <p style="font-style: italic; color: var(--muted);">${bewertung}</p>
+            <h2 style="margin:0; color:${farbe};">Heute: ${correctCount} von ${total}</h2>
+            <p style="font-size: 1.1rem; font-weight: 600; margin: 10px 0;">${prozentHeute}% richtig</p>
+            <p style="font-style: italic; color: var(--muted); font-size: 0.9rem;">${bewertung}</p>
+            
+            <hr style="border: 0; border-top: 1px solid #303048; margin: 15px 0;">
+            
+            <p style="font-size: 0.85rem; color: var(--acc); margin-bottom: 5px;">📊 Dein persönlicher Gesamtschnitt</p>
+            <div style="font-size: 1.5rem; font-weight: bold;">${ewigerSchnitt}%</div>
+            <small style="color: var(--muted); font-size: 0.7rem;">(${totalCorrect} Treffer aus ${totalPlayed} Fragen)</small>
         </div>`;
-    
-    // Optionen und Button leeren/ausblenden
+        
     document.getElementById('q-options').innerHTML = "";
     document.getElementById('next-btn').style.display = 'none';
 }
 
-// Im HTML muss der Button jetzt handleNext() aufrufen
-// <button id="next-btn" class="btn-next" style="display:none;" onclick="handleNext()">Nächste Frage</button>
-// WICHTIG: Dieser Befehl startet das Quiz!
 loadQuiz();
 </script>
-
 </body>
 </html>
