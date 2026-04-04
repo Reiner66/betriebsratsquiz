@@ -17,7 +17,7 @@
         button:hover { border-color: var(--acc); background: #202030; }
         button:disabled { cursor: default; opacity: 0.6; border-color: #303048; }
         #feedback { margin-top: 25px; padding: 15px; border-radius: 10px; text-align: center; font-weight: 600; display: none; }
-        .btn-next { background: var(--acc); color: white; border: none; width: 100%; margin-top: 20px; text-align: center; font-weight: bold; }
+        .btn-next { background: var(--acc); color: white; border: none; width: 100%; margin-top: 20px; text-align: center; font-weight: bold; padding: 15px; border-radius: 12px; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -26,62 +26,89 @@
     <h1>🎓 BR-Tagesquiz</h1>
     <p class="sub">Hüttenfuchs Edition • Wissen für Stahlwerker</p>
     
-    <div id="q-text">Lade Fragen...</div>
+    <div id="q-text">Lade...</div>
     <div id="q-options" class="options"></div>
     <div id="feedback"></div>
     
-   <button id="next-btn" class="btn-next" style="display:none;" onclick="handleNext()">Nächste Frage</button>
+    <button id="next-btn" class="btn-next" style="display:none;" onclick="handleNext()">Nächste Frage</button>
 </div>
 
 <script>
-// --- BASIS VARIABLEN ---
+// --- VARIABLEN ---
 let allQuestions = [];
 let currentSessionQuestions = [];
 let currentIndex = 0;
 let correctCount = 0; 
+let trackingAllowed = false;
 
-// --- EWIGE STATISTIK (LocalStorage) ---
-// Holt die alten Werte vom Gerät oder startet bei 0
+// Ewige Statistik aus dem Speicher laden
 let totalPlayed = localStorage.getItem('hüttenfuchs_total') || 0;
 let totalCorrect = localStorage.getItem('hüttenfuchs_correct') || 0;
 
+// --- 1. START-FUNKTION ---
 async function loadQuiz() {
+    const consent = localStorage.getItem('hüttenfuchs_consent');
+    
+    // Wenn noch nie gefragt wurde -> Abfrage zeigen
+    if (consent === null) {
+        showConsent();
+        return;
+    }
+    
+    trackingAllowed = (consent === 'true');
+    startLogic();
+}
+
+// --- 2. DATENSCHUTZ-ABFRAGE ---
+function showConsent() {
+    document.getElementById('q-options').innerHTML = "";
+    document.getElementById('q-text').innerHTML = `
+        <div style="text-align:left; padding:15px; background: rgba(68, 102, 255, 0.1); border-radius: 15px; border: 1px solid var(--acc);">
+            <h3 style="margin-top:0; color:var(--acc);">📊 Statistik aktivieren?</h3>
+            <p style="font-size:0.85rem; line-height:1.4;">Möchtest du, dass deine Ergebnisse <b>lokal auf deinem Gerät</b> gespeichert werden, um deinen ewigen Schnitt anzuzeigen?</p>
+            <p style="font-size:0.7rem; color:var(--muted);">🔒 Deine Daten verlassen niemals dieses Gerät. Keine Übertragung an Dritte oder Server.</p>
+            <div style="display:grid; gap:10px; margin-top:15px;">
+                <button onclick="setConsent(true)" style="background:var(--acc); text-align:center;">Ja, Statistik führen</button>
+                <button onclick="setConsent(false)" style="text-align:center; opacity:0.7;">Nein, nicht speichern</button>
+            </div>
+        </div>`;
+}
+
+function setConsent(val) {
+    localStorage.setItem('hüttenfuchs_consent', val);
+    trackingAllowed = val;
+    startLogic();
+}
+
+// --- 3. DAS EIGENTLICHE QUIZ LADEN ---
+async function startLogic() {
     try {
-        // Cache-Busting: Zwingt den Browser immer die neueste CSV zu laden
         const res = await fetch('fragen.csv?v=' + new Date().getTime());
         const txt = await res.text();
-        
-        // CSV verarbeiten
         allQuestions = txt.split(/\r?\n/).filter(r => r.trim() !== '' && r.includes(';'));
-        allQuestions.shift(); // Kopfzeile weg
+        allQuestions.shift(); 
 
         prepareDailyQuestions();
         showQuestion();
     } catch (e) {
-        document.getElementById('q-text').innerText = "Fehler: fragen.csv nicht gefunden!";
-        console.error(e);
+        document.getElementById('q-text').innerText = "Fehler beim Laden der Fragen!";
     }
 }
 
 function prepareDailyQuestions() {
     const now = new Date();
     const dayId = Math.floor(now.getTime() / 86400000); 
-    
-    // 5 neue Fragen
     const startIdx = (dayId * 5) % allQuestions.length;
     const dailyNew = [];
     for(let i=0; i<5; i++) {
         dailyNew.push(allQuestions[(startIdx + i) % allQuestions.length]);
     }
-
-    // 2 Wiederholungen von gestern
     const prevDayId = dayId - 1;
     const prevStartIdx = (prevDayId * 5) % allQuestions.length;
     const dailyRepeat = [];
     for(let i=0; i<2; i++) {
         dailyRepeat.push(allQuestions[(prevStartIdx + i) % allQuestions.length]);
     }
-
     currentSessionQuestions = [...dailyRepeat, ...dailyNew];
 }
 
@@ -89,7 +116,6 @@ function showQuestion() {
     const feedback = document.getElementById('feedback');
     const nextBtn = document.getElementById('next-btn');
     const opts = document.getElementById('q-options');
-    
     feedback.style.display = 'none';
     nextBtn.style.display = 'none';
 
@@ -114,13 +140,10 @@ function showQuestion() {
             feedback.style.display = 'block';
             const correctLetter = cols[5] ? cols[5].trim() : "";
             const isCorrect = letter === correctLetter;
-            
             if (isCorrect) correctCount++; 
-
             feedback.innerText = isCorrect ? "✅ Richtig!" : "❌ Falsch! Lösung: " + correctLetter;
             feedback.style.color = isCorrect ? "#44ff88" : "#ff4444";
             feedback.style.background = isCorrect ? "rgba(0,255,100,0.1)" : "rgba(255,0,0,0.1)";
-            
             Array.from(opts.children).forEach(b => b.disabled = true);
             nextBtn.style.display = 'block';
             nextBtn.innerText = (currentIndex + 1 < currentSessionQuestions.length) ? "Nächste Frage" : "Ergebnis zeigen";
@@ -134,42 +157,47 @@ function handleNext() {
     showQuestion();
 }
 
+// --- 4. DAS FINALE LAYOUT (ERGEBNIS) ---
 function showFinal() {
-    // 1. Aktuelle Runde zur ewigen Statistik addieren
-    totalPlayed = parseInt(totalPlayed) + currentSessionQuestions.length;
-    totalCorrect = parseInt(totalCorrect) + correctCount;
+    let statsHTML = "";
 
-    // 2. Auf dem Gerät speichern
-    localStorage.setItem('hüttenfuchs_total', totalPlayed);
-    localStorage.setItem('hüttenfuchs_correct', totalCorrect);
+    // Wenn Nutzer zugestimmt hat, Statistik berechnen und anzeigen
+    if (trackingAllowed) {
+        totalPlayed = parseInt(totalPlayed) + currentSessionQuestions.length;
+        totalCorrect = parseInt(totalCorrect) + correctCount;
+        localStorage.setItem('hüttenfuchs_total', totalPlayed);
+        localStorage.setItem('hüttenfuchs_correct', totalCorrect);
+        const ewigerSchnitt = Math.round((totalCorrect / totalPlayed) * 100);
+        
+        statsHTML = `
+            <hr style="border: 0; border-top: 1px solid #303048; margin: 15px 0;">
+            <p style="font-size: 0.85rem; color: var(--acc); margin-bottom: 5px;">📊 Dein ewiger Schnitt</p>
+            <div style="font-size: 1.5rem; font-weight: bold;">${ewigerSchnitt}%</div>
+            <small style="color: var(--muted); font-size: 0.7rem;">(${totalCorrect} Treffer aus ${totalPlayed} Fragen)</small>
+        `;
+    }
 
-    // 3. Berechnungen
     const total = currentSessionQuestions.length;
     const prozentHeute = Math.round((correctCount / total) * 100);
-    const ewigerSchnitt = Math.round((totalCorrect / totalPlayed) * 100);
-    
-    let bewertung = prozentHeute === 100 ? "🏆 Perfekt!" : prozentHeute >= 70 ? "🦾 Stark!" : "⚒️ Dranbleiben!";
     let farbe = prozentHeute >= 70 ? "#44ff88" : "#ffaa00";
 
-    // 4. Layout-Ausgabe
     document.getElementById('q-text').innerHTML = `
         <div style="text-align:center; padding:20px; background: rgba(255,255,255,0.05); border-radius: 20px; border: 1px solid ${farbe};">
             <h2 style="margin:0; color:${farbe};">Heute: ${correctCount} von ${total}</h2>
             <p style="font-size: 1.1rem; font-weight: 600; margin: 10px 0;">${prozentHeute}% richtig</p>
-            <p style="font-style: italic; color: var(--muted); font-size: 0.9rem;">${bewertung}</p>
-            
-            <hr style="border: 0; border-top: 1px solid #303048; margin: 15px 0;">
-            
-            <p style="font-size: 0.85rem; color: var(--acc); margin-bottom: 5px;">📊 Dein persönlicher Gesamtschnitt</p>
-            <div style="font-size: 1.5rem; font-weight: bold;">${ewigerSchnitt}%</div>
-            <small style="color: var(--muted); font-size: 0.7rem;">(${totalCorrect} Treffer aus ${totalPlayed} Fragen)</small>
+            ${statsHTML}
+            <div style="margin-top: 20px; font-size: 0.6rem; color: var(--muted);">
+                🔒 Ergebnisse werden nur lokal gespeichert.
+            </div>
         </div>`;
         
     document.getElementById('q-options').innerHTML = "";
     document.getElementById('next-btn').style.display = 'none';
 }
 
+// DER MOTOR: Startet alles
 loadQuiz();
 </script>
+
 </body>
 </html>
