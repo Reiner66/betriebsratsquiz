@@ -6,42 +6,55 @@
     <title>Hüttenfuchs - BR Quiz</title>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        :root { --bg:#0a0a0f; --surf:#111118; --acc:#4466ff; --txt:#ffffff; --muted:#808090; }
+        :root { --bg:#0a0a0f; --surf:#111118; --acc:#4466ff; --txt:#ffffff; --muted:#808090; --correct:#44ff88; --wrong:#ff4444; }
         body { background: var(--bg); color: var(--txt); font-family: 'Sora', sans-serif; display: flex; justify-content: center; padding: 20px; margin: 0; }
         .card { background: var(--surf); padding: 25px; border-radius: 20px; width: 100%; max-width: 500px; border: 1px solid #303048; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        h1 { color: var(--acc); font-size: 1.5rem; margin-bottom: 5px; }
-        .sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 25px; }
-        #q-text { font-size: 1.1rem; font-weight: 600; min-height: 60px; margin-bottom: 20px; line-height: 1.4; }
+        h1 { color: var(--acc); font-size: 1.5rem; margin: 0; }
+        .sub { color: var(--muted); font-size: 0.8rem; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        #q-meta { font-size: 0.75rem; color: var(--acc); margin-bottom: 8px; font-weight: 600; }
+        #q-text { font-size: 1.15rem; font-weight: 600; min-height: 50px; margin-bottom: 20px; line-height: 1.4; }
         .options { display: grid; gap: 12px; }
         button { background: #181824; border: 1px solid #303048; color: white; padding: 15px; border-radius: 12px; cursor: pointer; text-align: left; font-family: inherit; font-size: 1rem; transition: 0.2s; }
-        button:hover { border-color: var(--acc); background: #202030; }
-        button:disabled { cursor: default; opacity: 0.6; border-color: #303048; }
-        #feedback { margin-top: 25px; padding: 15px; border-radius: 10px; text-align: center; font-weight: 600; display: none; }
-        .btn-next { background: var(--acc); color: white; border: none; width: 100%; margin-top: 20px; text-align: center; font-weight: bold; padding: 15px; border-radius: 12px; cursor: pointer; }
+        button:hover:not(:disabled) { border-color: var(--acc); background: #202030; }
+        button:disabled { cursor: default; opacity: 0.8; }
+        .correct-opt { border-color: var(--correct) !important; background: rgba(68, 255, 136, 0.1) !important; }
+        .wrong-opt { border-color: var(--wrong) !important; background: rgba(255, 68, 68, 0.1) !important; }
+        #feedback-box { margin-top: 20px; padding: 15px; border-radius: 12px; display: none; border: 1px solid #303048; animation: slideIn 0.3s ease; }
+        #feedback-title { font-weight: bold; margin-bottom: 5px; font-size: 1.1rem; }
+        #feedback-reason { font-size: 0.9rem; line-height: 1.5; color: #ccc; }
+        #feedback-law { font-size: 0.8rem; color: var(--acc); margin-top: 10px; font-weight: bold; }
+        .btn-next { background: var(--acc); color: white; border: none; width: 100%; margin-top: 20px; text-align: center; font-weight: bold; padding: 15px; border-radius: 12px; cursor: pointer; font-size: 1rem; }
+        @keyframes slideIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .rank-badge { display: inline-block; padding: 5px 15px; border-radius: 20px; background: var(--acc); font-size: 0.9rem; margin-top: 10px; }
     </style>
 </head>
 <body>
 
 <div class="card">
-    <h1>🎓 BR-Tagesquiz</h1>
-    <p class="sub">Hüttenfuchs Edition • 100% Sicher & Zufällig</p>
-    <div id="q-text">Lade Fragen...</div>
-    <div id="q-options" class="options"></div>
-    <div id="feedback"></div>
-    <button id="next-btn" class="btn-next" style="display:none;" onclick="handleNext()">Nächste Frage</button>
+    <h1>🎓 Hüttenfuchs</h1>
+    <p class="sub">BR-Wissen • Stahlhart & Fair</p>
+    
+    <div id="quiz-area">
+        <div id="q-meta">Lade...</div>
+        <div id="q-text"></div>
+        <div id="q-options" class="options"></div>
+        
+        <div id="feedback-box">
+            <div id="feedback-title"></div>
+            <div id="feedback-reason"></div>
+            <div id="feedback-law"></div>
+            <button id="next-btn" class="btn-next" onclick="handleNext()">Weiter</button>
+        </div>
+    </div>
 </div>
 
 <script>
 let allQuestions = [];
 let currentSessionQuestions = [];
 let currentIndex = 0;
-let correctCount = 0; 
+let correctCount = 0;
 let trackingAllowed = false;
 
-let totalPlayed = localStorage.getItem('hüttenfuchs_total') || 0;
-let totalCorrect = localStorage.getItem('hüttenfuchs_correct') || 0;
-
-// Hilfsfunktion zum Mischen
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -58,15 +71,10 @@ async function loadQuiz() {
 }
 
 function showConsent() {
-    document.getElementById('q-text').innerHTML = `
-        <div style="text-align:left; padding:10px; background: rgba(68, 102, 255, 0.1); border-radius: 15px;">
-            <h3 style="margin-top:0; color:var(--acc);">📊 Statistik & Fairness</h3>
-            <p style="font-size:0.85rem;">Möchtest du deine Ergebnisse lokal speichern? <br><br>
-            💡 <b>Neu:</b> Antworten werden ab jetzt bei jeder Frage zufällig gemischt!</p>
-        </div>`;
+    document.getElementById('q-text').innerHTML = "Willkommen beim Hüttenfuchs! <br><br>Bereit für dein tägliches BR-Update?";
     document.getElementById('q-options').innerHTML = `
-        <button onclick="setConsent(true)" style="background:var(--acc); text-align:center;">Ja, los geht's!</button>
-        <button onclick="setConsent(false)" style="text-align:center; opacity:0.7;">Nein, nur spielen</button>`;
+        <button onclick="setConsent(true)" style="background:var(--acc); text-align:center;">Statistiken speichern & Start</button>
+        <button onclick="setConsent(false)" style="text-align:center; opacity:0.7;">Nur spielen (ohne Speichern)</button>`;
 }
 
 function setConsent(val) {
@@ -79,70 +87,78 @@ async function startLogic() {
     try {
         const res = await fetch('fragen.csv?v=' + new Date().getTime());
         const txt = await res.text();
+        // Trennung nach Zeilen, Filterung leerer Zeilen
         allQuestions = txt.split(/\r?\n/).filter(r => r.trim() !== '' && r.includes(';'));
-        allQuestions.shift(); 
+        
+        // Die erste Zeile (Header) wurde vom User bereits entfernt oder wir überspringen sicherheitshalber nichts,
+        // falls die Datei direkt mit Daten beginnt. Wenn Header da ist: allQuestions.shift();
+        
         prepareDailyQuestions();
         showQuestion();
     } catch (e) {
-        document.getElementById('q-text').innerText = "CSV-Datei konnte nicht geladen werden.";
+        document.getElementById('q-text').innerText = "Fehler beim Laden der Fragen.csv!";
     }
 }
 
 function prepareDailyQuestions() {
-    const dayId = Math.floor(new Date().getTime() / 86400000); 
+    const dayId = Math.floor(new Date().getTime() / 86400000);
     const startIdx = (dayId * 5) % allQuestions.length;
-    const dailyNew = [];
+    let dailyNew = [];
     for(let i=0; i<5; i++) { dailyNew.push(allQuestions[(startIdx + i) % allQuestions.length]); }
-    const dailyRepeat = [];
+    let dailyRepeat = [];
     for(let i=0; i<2; i++) { dailyRepeat.push(allQuestions[((dayId - 1) * 5 + i) % allQuestions.length]); }
     currentSessionQuestions = [...dailyRepeat, ...dailyNew];
 }
 
 function showQuestion() {
-    const feedback = document.getElementById('feedback');
-    const nextBtn = document.getElementById('next-btn');
-    const opts = document.getElementById('q-options');
-    feedback.style.display = 'none';
-    nextBtn.style.display = 'none';
-
     if (currentIndex >= currentSessionQuestions.length) { showFinal(); return; }
 
-    const cols = currentSessionQuestions[currentIndex].split(';');
-    
-    // Dynamische Erkennung: Wo steht die Lösung? (Letzte Spalte)
-    const solutionIdx = cols.length - 1;
-    const solutionLetter = cols[solutionIdx].trim().toUpperCase();
-    const letterToIdx = { 'A': 2, 'B': 3, 'C': 4, 'D': 5 };
-    const correctText = cols[letterToIdx[solutionLetter]].trim();
-
-    // Antworten sammeln (A, B, C und falls vorhanden D)
-    let choices = [cols[2], cols[3], cols[4]];
-    if (cols[5] && cols[5].trim() !== "" && solutionIdx === 6) {
-        choices.push(cols[5]); // Füge D hinzu, wenn die Spalte existiert
-    }
-
-    // Antworten mischen
-    shuffle(choices);
-
-    document.getElementById('q-text').innerHTML = `
-        <small style="color:var(--acc)">FRAGE ${currentIndex + 1} VON 7</small><br>
-        ${cols[1]}`;
-
+    const box = document.getElementById('feedback-box');
+    const opts = document.getElementById('q-options');
+    box.style.display = 'none';
     opts.innerHTML = '';
-    choices.forEach(choiceText => {
-        if(!choiceText || choiceText.trim() === "") return;
+
+    const cols = currentSessionQuestions[currentIndex].split(';');
+    // Struktur: 0:Nr; 1:Kategorie; 2:Frage; 3:A; 4:B; 5:C; 6:D; 7:Lösung; 8:Paragraf; 9:Begründung
+    const qNr = cols[0];
+    const qKat = cols[1];
+    const qText = cols[2];
+    const choicesRaw = [
+        { text: cols[3], id: 'A' },
+        { text: cols[4], id: 'B' },
+        { text: cols[5], id: 'C' },
+        { text: cols[6], id: 'D' }
+    ].filter(c => c.text && c.text.trim() !== "");
+
+    const solutionLetter = cols[7].trim().toUpperCase();
+    const correctText = cols[ { 'A': 3, 'B': 4, 'C': 5, 'D': 6 }[solutionLetter] ].trim();
+    const lawRef = cols[8];
+    const reason = cols[9];
+
+    document.getElementById('q-meta').innerText = `FRAGE ${qNr} • ${qKat.toUpperCase()}`;
+    document.getElementById('q-text').innerText = qText;
+
+    let choicesShuffled = shuffle([...choicesRaw]);
+
+    choicesShuffled.forEach(choice => {
         const btn = document.createElement('button');
-        btn.innerText = choiceText.trim();
+        btn.innerText = choice.text.trim();
         btn.onclick = () => {
-            feedback.style.display = 'block';
-            const isCorrect = (choiceText.trim() === correctText);
-            if (isCorrect) correctCount++; 
-            feedback.innerText = isCorrect ? "✅ Richtig!" : "❌ Falsch! Lösung: " + correctText;
-            feedback.style.color = isCorrect ? "#44ff88" : "#ff4444";
-            feedback.style.background = isCorrect ? "rgba(255,255,255,0.05)" : "rgba(255,0,0,0.05)";
-            Array.from(opts.children).forEach(b => b.disabled = true);
-            nextBtn.style.display = 'block';
-            nextBtn.innerText = (currentIndex + 1 < currentSessionQuestions.length) ? "Weiter" : "Ergebnis";
+            const isCorrect = (choice.text.trim() === correctText);
+            if (isCorrect) correctCount++;
+            
+            // UI Feedback
+            Array.from(opts.children).forEach(b => {
+                b.disabled = true;
+                if(b.innerText === correctText) b.classList.add('correct-opt');
+                if(!isCorrect && b.innerText === choice.text.trim()) b.classList.add('wrong-opt');
+            });
+
+            document.getElementById('feedback-title').innerText = isCorrect ? "✅ Richtig!" : "❌ Nicht ganz...";
+            document.getElementById('feedback-title').style.color = isCorrect ? "var(--correct)" : "var(--wrong)";
+            document.getElementById('feedback-reason').innerText = reason;
+            document.getElementById('feedback-law').innerText = "Quelle: " + lawRef;
+            box.style.display = 'block';
         };
         opts.appendChild(btn);
     });
@@ -150,27 +166,51 @@ function showQuestion() {
 
 function handleNext() { currentIndex++; showQuestion(); }
 
+function getRank(percent) {
+    if (percent >= 95) return { name: "Hüttenfuchs 🦊", desc: "Du bist der Schrecken der Personalabteilung!", color: "#ffd700" };
+    if (percent >= 80) return { name: "Meister-Delegierter 🛠️", desc: "Fast ein Profi! Du kennst die Kniffe.", color: "#c0c0c0" };
+    if (percent >= 65) return { name: "Vertrauensmann 🤝", desc: "Solide! Du kennst deine Rechte im Werk.", color: "#cd7f32" };
+    if (percent >= 50) return { name: "Jung-Arbeiter 👷", desc: "Du bist bestimmt der Betriebsratspostbote?! 😉", color: "#4466ff" };
+    return { name: "Lehrling 📖", desc: "Da ist noch viel Schlacke im Getriebe. Da geht noch mehr!", color: "#808090" };
+}
+
 function showFinal() {
+    const scorePercent = Math.round((correctCount / currentSessionQuestions.length) * 100);
+    const rank = getRank(scorePercent);
+    
     let statsHTML = "";
     if (trackingAllowed) {
-        totalPlayed = parseInt(totalPlayed) + currentSessionQuestions.length;
-        totalCorrect = parseInt(totalCorrect) + correctCount;
-        localStorage.setItem('hüttenfuchs_total', totalPlayed);
-        localStorage.setItem('hüttenfuchs_correct', totalCorrect);
-        const ewigerSchnitt = Math.round((totalCorrect / totalPlayed) * 100);
-        statsHTML = `<hr style="border:0; border-top:1px solid #333; margin:15px 0;">
-                     <p style="font-size:0.8rem; color:var(--acc);">📊 Dein Gesamtschnitt: ${ewigerSchnitt}%</p>`;
+        let totalP = (parseInt(localStorage.getItem('hüttenfuchs_total') || 0)) + currentSessionQuestions.length;
+        let totalC = (parseInt(localStorage.getItem('hüttenfuchs_correct') || 0)) + correctCount;
+        localStorage.setItem('hüttenfuchs_total', totalP);
+        localStorage.setItem('hüttenfuchs_correct', totalC);
+        const ewigerSchnitt = Math.round((totalC / totalP) * 100);
+        statsHTML = `<p style="font-size:0.8rem; color:var(--muted); margin-top:15px;">Gesamtschnitt: ${ewigerSchnitt}%</p>`;
     }
-    document.getElementById('q-text').innerHTML = `
-        <div style="text-align:center; padding:10px;">
-            <h2 style="color:var(--acc);">Fertig!</h2>
-            <p style="font-size:1.5rem; font-weight:bold;">${correctCount} von 7 richtig</p>
+
+    document.getElementById('quiz-area').innerHTML = `
+        <div style="text-align:center; padding:20px 0;">
+            <h2 style="margin:0; color:var(--acc);">Geschafft!</h2>
+            <div style="font-size:3.5rem; font-weight:bold; margin:10px 0;">${correctCount}/${currentSessionQuestions.length}</div>
+            
+            <div class="rank-badge" style="background:${rank.color}; color:#000; font-weight:bold; margin-bottom:15px;">
+                ${rank.name}
+            </div>
+            
+            <p style="font-size:1.1rem; font-weight:600; margin:10px 0; color:var(--txt);">
+                ${rank.desc}
+            </p>
+            
+            <p style="margin-top:5px; font-size:0.9rem; color:var(--muted);">
+                Du hast ${scorePercent}% der heutigen Fragen korrekt beantwortet.
+            </p>
+            
             ${statsHTML}
-            <p style="font-size:0.7rem; color:var(--muted); margin-top:20px;">Morgen gibt es 5 neue Fragen! ⚒️</p>
+            
+            <button class="btn-next" onclick="location.reload()" style="margin-top:30px;">Morgen neue Fragen!</button>
         </div>`;
-    document.getElementById('q-options').innerHTML = "";
-    document.getElementById('next-btn').style.display = 'none';
 }
+
 loadQuiz();
 </script>
 </body>
