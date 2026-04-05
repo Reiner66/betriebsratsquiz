@@ -1,559 +1,550 @@
-Kategorie;Frage;Antwort A;Antwort B;Antwort C;Antwort D;Loesung
-Arbeitszeit;Darf der Chef morgen die Frühschicht um 2 Std. verlängern?;Ja bei Reparaturen immer;Nein (Mitbestimmung §87);Nur gegen 50% Zuschlag;Nur wenn er es 24h vorher sagt;B
-Stahl;Wer ist im Montan-Betrieb für Personal im Vorstand zuständig?;Der Vorstandschef;Der Arbeitsdirektor;Der kaufmännische Leiter;Der Aufsichtsratsvorsitzende;B
-Urlaub;Wann verfällt Resturlaub aus dem Vorjahr normalerweise?;Am 31. Dezember;Am 31. März (Folgejahr);Gar nicht;Nach genau 12 Monaten;B
-Rechte;Wem darf ein BR-Mitglied geheime Investitionspläne verraten?;Der Presse;Nur den BR-Kollegen (intern);Jedem in der Kantine;Dem Ehepartner;B
-Abmahnung;Muss eine rechtmäßige Abmahnung nach genau 2 Jahren gelöscht werden?;Ja Pflicht;Nein (keine starre Frist);Nur bei Rauchern;Nur auf Antrag des Anwalts;B
-Ausschuesse;Ab wie vielen BR-Mitgliedern MUSS ein Betriebsausschuss her?;Ab 5 Mitgliedern;Ab 9 Mitgliedern;Immer;Ab 15 Mitgliedern;B
-Versetzung;Ist ein Hallenwechsel (dauerhaft) eine Versetzung?;Nein;Ja (bei erheblicher Änderung);Nur wenn der Weg länger wird;Nur bei Lohnänderung;B
-Kuendigung;Was ist eine Kündigung ohne BR-Anhörung?;Trotzdem gültig;Unwirksam (§ 102);Schwebend wirksam;Nur eine Ordnungswidrigkeit;B
-Arbeitsschutz;Wer trägt die Kosten für feuerfeste Kleidung am Ofen?;Der Kollege;Der Arbeitgeber;Die Berufsgenossenschaft;50/50 Beteiligung;B
-IT;Darf der AG den Browserverlauf am PC heimlich prüfen?;Immer;Nein (nur bei begründetem Verdacht);Nur in der Nachtschicht;Ja, zur Performance-Messung;B
-Wahl;Darf ein Leiharbeiter den BR im Werk wählen?;Nie;Ja (wenn > 3 Monate im Betrieb);Nur wenn er Gewerkschaftsmitglied ist;Nur bei der JAV-Wahl;B
-Geheimhaltung;Darf man BR-Sitzungsprotokolle kopieren und aushängen?;Ja klar;Nein (streng vertraulich);Nur die Ergebnisse;Nur für die Gewerkschaft;B
-Schicht;Darf der BR die Schichtzulagen im Werk erhöhen?;Ja (Mitbestimmung);Nein (Tarifvorrang §77);Nur bei Überstunden;Nur für Azubis;B
-Stahl;Was ist die "Montan-Mitbestimmung"?;Gleichberechtigung im Aufsichtsrat;Mehr Geld für Stahlwerker;Recht auf Freibier;Verbot von Nachtarbeit;A
-Urlaub;Darf der Chef Urlaub wegen "viel Arbeit" einfach streichen?;Ja immer;Nein (nur in extremen Notfällen);Nur bei Azubis;Nur gegen Auszahlung;B
-Rechte;Darf ein einzelnes BR-Mitglied allein verhandeln?;Ja;Nein (nur das Gremium);Nur der Vorsitzende;Nur bei Eilbedürftigkeit;B
-Abmahnung;Muss der BR bei jeder Abmahnung vorher gefragt werden?;Ja;Nein (keine Mitbestimmung);Nur bei Schwerbehinderten;Nur bei Azubis;B
-Arbeitszeit;Darf man 12 Stunden am Stück im Werk arbeiten?;Ja immer;Nur im Notfall/Ausnahme;Nie;Nur am Wochenende;B
-Hütte;Wer bestimmt die PSA (Schutzkleidung) im Werk?;Der Chef allein;BR und AG gemeinsam;Die Feuerwehr;Der Sicherheitsbeauftragte;B
-IT;Darf der AG eine Kamera direkt am Arbeitsplatz aufstellen?;Ja zur Sicherheit;Nein (Persönlichkeitsrecht);Nur bei Diebstahl;Nur in der Kantine;B
-Wahl;Wie lange dauert eine Amtszeit des BR?;2 Jahre;4 Jahre;6 Jahre;Unbefristet;B
-Konflikt;Was ist die "Einigungsstelle"?;Ein Gericht;Internes Schiedsgericht;Eine Kantine;Der Pausenraum;B
-Geld;Darf der BR über die Lohnhöhe (Grundgehalt) entscheiden?;Ja;Nein (Tarifautonomie);Nur bei Sonderprämien;Nur bei Weihnachtsgeld;B
-Stahl;Was regelt der Manteltarifvertrag?;Nur den Lohn;Arbeitsbedingungen (Urlaub/Kündigung);Die Farbe der Helme;Den Preis von Stahl;B
-Rechte;Darf der BR Sachverständige (Berater) hinzuziehen?;Nein;Ja (nach Beschluss/Absprache);Nur Anwälte;Nur im Streikfall;B
-Schicht;Sind Raucherpausen bezahlte Arbeitszeit?;Ja;Nein;Nur in der Spätschicht;Nur für den BR;B
-Urlaub;Hat man Anspruch auf Urlaub am Stück (2 Wochen)?;Nein;Ja (mind. 12 Werktage);Nur im Sommer;Nur bei Hochzeit;B
-Abmahnung;Kann man eine Gegendarstellung zur Abmahnung schreiben?;Nein;Ja (muss in die Akte);Nur mündlich;Nur über die Gewerkschaft;B
-Arbeitsschutz;Darf der BR eine Gefährdungsbeurteilung erzwingen?;Nein;Ja (Initiativrecht);Nur nach einem Unfall;Nur bei Hitze;B
-Versetzung;Muss der BR bei einer Einstellung gefragt werden?;Nein;Ja (§ 99 BetrVG);Nur bei Führungskräften;Nur bei Leiharbeit;B
-Kuendigung;Darf man während der Krankheit gekündigt werden?;Nein nie;Ja (unter engen Bedingungen);Nur bei Betrug;Nur nach 6 Monaten;B
-Stahl;Was ist die "Parität"?;Gleichgewicht im Aufsichtsrat;Ein Werkzeug;Eine Lohnstufe;Ein Feiertag;A
-Geld;Darf der AG Weihnachtsgeld einfach kürzen?;Ja immer;Nein (oft betriebliche Übung);Nur bei Azubis;Nur bei Kurzarbeit;B
-Wahl;Muss der AG die Kosten der BR-Wahl tragen?;Nein;Ja (§ 20);Nur 50%;Nur die Stimmzettel;B
-Konflikt;Darf der BR zum Streik aufrufen?;Ja;Nein (nur Gewerkschaft);Nur bei Lohnverzug;Nur am Wochenende;B
-IT;Muss der BR bei neuer Software (SAP etc.) zustimmen?;Nein;Ja (Leistungsüberwachung);Nur bei Kameras;Nur bei Internetnutzung;B
-Rechte;Darf der BR-Vorsitzende ein Machtwort sprechen?;Ja;Nein (Gleichberechtigung);Nur bei Eile;Nur bei Azubis;B
-Schicht;Darf man Schichten untereinander einfach tauschen?;Ja immer;Nein (Zustimmung AG/BR nötig);Nur in der Frühschicht;Nur bei Krankheit;B
-Urlaub;Was passiert mit Resturlaub bei Kündigung?;Er verfällt;Er muss abgegolten (bezahlt) werden;Pech gehabt;Er wird halbiert;B
-Abmahnung;Wie viele Abmahnungen braucht man zur Kündigung?;Immer genau 3;Kommt auf die Schwere an;Keine;Immer 5;B
-Arbeitsschutz;Wer ist der Sicherheitsbeauftragte?;Ein BR-Mitglied;Ein erfahrener Kollege (beratend);Der Werksleiter;Ein externer Prüfer;B
-Hütte;Darf der AG den Spind ohne Grund durchsuchen?;Ja immer;Nein (Privatsphäre);Nur bei Diebstahlverdacht;Nur mit dem BR;B
-Geld;Darf der BR die Verteilung von Prämien mitbestimmen?;Nein;Ja (§ 87 Abs. 1 Nr. 10);Nur bei Akkord;Nur bei Chefs;B
-Versetzung;Darf der BR eine Versetzung ablehnen?;Nie;Ja (bei Gesetzesverstoß);Nur bei Lohneinbußen;Nur bei Azubis;B
-Wahl;Dürfen leitende Angestellte den BR wählen?;Ja;Nein;Nur wenn sie wollen;Nur bei der JAV;B
-Stahl;Wie oft tagt der Wirtschaftsausschuss?;Monatlich;Vierteljährlich;Nie;Wöchentlich;B
-IT;Darf der AG private Handys im Werk verbieten?;Nein;Ja (Ordnungsverhalten § 87);Nur bei Azubis;Nur am Ofen;B
-Konflikt;Was ist die "Friedenspflicht"?;Kein Streit im Werk;Kein Streik während Tariflaufzeit;Mittagspause;Sitzungsruhe;B
-Rechte;Darf der BR Infos vom Wirtschaftsausschuss fordern?;Nein;Ja (Informationsrecht);Nur bei Krise;Nur bei Kündigungen;B
-Schicht;Darf der AG "Kurzarbeit" allein anordnen?;Ja;Nein (Zustimmung BR nötig);Nur bei Stahlkrise;Nur für 1 Woche;B
-Arbeitszeit;Zählt Umkleidezeit zur Arbeitszeit?;Nie;Oft ja (wenn PSA vorgeschrieben);Nur bei Hitze;Nur für den BR;B
-Urlaub;Darf der BR bei der Urlaubsliste mitreden?;Nein;Ja (Mitbestimmung);Nur bei Azubis;Nur im Sommer;B
-Abmahnung;Muss eine Abmahnung schriftlich sein?;Ja;Nein (mündlich gilt auch);Nur bei Kündigung;Nur per E-Mail;B
-Arbeitsschutz;Darf der BR Messungen (Lärm/Staub) fordern?;Nein;Ja (Gesundheitsschutz);Nur nach Unfall;Nur im Sommer;B
-Hütte;Wer zahlt die Brille für Bildschirmarbeit?;Der Kollege;Der Arbeitgeber (anteilig);Die Krankenkasse;Niemand;B
-Versetzung;Gilt eine Zuweisung von 2 Wochen als Versetzung?;Ja;Nein (erst ab 1 Monat);Nur bei Lohnänderung;Nur im Notfall;B
-Wahl;Darf der BR-Vorsitzende den Wahlvorstand bestimmen?;Ja;Nein (das Gremium wählt ihn);Nur bei Eile;Nur bei Neuwahlen;B
-Stahl;Was macht der Arbeitsdirektor?;Verkauft Stahl;Leitet Personal/Soziales;Prüft die Qualität;Fährt den Stapler;B
-Rechte;Darf der BR die Bruttolohnliste einsehen?;Nein;Ja (§ 80 Abs. 2);Nur bei Chefs;Nur bei Männern;B
-Konflikt;Was passiert bei "grober Pflichtverletzung" des BR?;Nichts;Auflösung durch Arbeitsgericht;Rüge vom Chef;Geldstrafe;B
-Geld;Darf der BR eine Lohnerhöhung für alle fordern?;Nein;Ja (Initiativrecht bei Zulagen);Nur im Streik;Nur bei Gewinn;B
-IT;Darf der AG E-Mails lesen (bei Privatnutzung erlaubt)?;Ja;Nein (Fernmeldegeheimnis);Nur bei Viren;Nur bei Kündigung;B
-Hütte;Darf der BR eine Kantine fordern?;Ja;Nein (Freiwillige Leistung);Nur bei 1000 MA;Nur bei Nachtschicht;B
-Arbeitszeit;Wann ist die maximale Arbeitszeit pro Tag erreicht?;8 Stunden;10 Stunden;12 Stunden;14 Stunden;B
-Urlaub;Darf der Chef "Betriebsferien" allein festlegen?;Ja;Nein (Zustimmung BR nötig);Nur im Winter;Nur bei Streik;B
-Schicht;Muss der Schichtplan 4 Wochen vorher aushängen?;Ja;Nein (aber angemessene Frist);Nur bei Azubis;Nur bei Nachtschicht;B
-Abmahnung;Darf ein BR-Mitglied bei einer Abmahnung dabei sein?;Nein;Ja (Recht des MA);Nur als Zeuge;Nur bei Azubis;B
-Versetzung;Kann eine Versetzung gegen den Willen des MA erfolgen?;Nein;Ja (wenn BR zustimmt);Nur bei Notfall;Nur bei Azubis;B
-Wahl;Sind BR-Mitglieder besonders vor Kündigung geschützt?;Nein;Ja (Sonderkündigungsschutz);Nur 1 Jahr lang;Nur der Vorsitzende;B
-Rechte;Darf der BR während der Arbeitszeit tagen?;Nein;Ja (soweit erforderlich);Nur in der Pause;Nur abends;B
-Hütte;Wer ist für Erste Hilfe im Werk verantwortlich?;Nur der Arzt;Der Arbeitgeber;Die Berufsgenossenschaft;Der BR;B
-Geld;Sind Fahrtkosten zum Werk Arbeitszeit?;Immer;Nein (Privatsache);Nur bei Baustellen;Nur bei 100km;B
-Stahl;Wie viele Sitze hat der Montan-Aufsichtsrat oft?;5;11, 15 oder 21;Immer 100;Nur 3;B
-Wahl;Darf der Chef eine BR-Wahl verbieten?;Ja;Nein (Straftat § 119);Nur bei Krise;Nur bei Azubis;B
-IT;Darf der AG GPS-Tracking im Stapler nutzen?;Ja zur Logistik;Nein (Leistungsüberwachung);Nur nachts;Nur bei Unfällen;B
-Hütte;Darf der BR Musik in der Werkhalle fordern?;Nein;Ja (Ordnungsverhalten § 87);Nur bei Radio;Nur bei Spätschicht;B
-Arbeitszeit;Muss man Überstunden leisten ohne Vertrag/BV?;Ja immer;Nein;Nur bei Hitze;Nur bei Azubis;B
-Rechte;Darf der BR eine Betriebsversammlung abhalten?;Nein;Ja (4x pro Jahr);Nur bei Krise;Nur einmal im Jahr;B
-Geld;Darf der BR bei der Eingruppierung mitreden?;Nein;Ja (§ 99);Nur bei Azubis;Nur bei Chefs;B
-Konflikt;Wer zahlt den Anwalt des Betriebsrats?;Die Gewerkschaft;Der Arbeitgeber (§ 40);Der BR selbst;Niemand;B
-Stahl;Was ist ein "Hüttenvertrag"?;Kaufvertrag;Spezieller Haustarif;Mietvertrag;Arbeitsanweisung;B
-Hütte;Darf der AG Taschenkontrollen am Tor machen?;Ja immer;Nein (nur bei Verdacht/BV);Nur bei Azubis;Nur nach Feierabend;B
-IT;Darf der AG den Monitor des MA spiegeln?;Ja;Nein (Überwachung);Nur zur Schulung;Nur bei Verdacht;B
-Arbeitszeit;Wie lange muss die Ruhezeit zwischen Schichten sein?;8 Stunden;11 Stunden;12 Stunden;14 Stunden;B
-Abmahnung;Kann man eine Abmahnung nach 3 Jahren löschen lassen?;Nein;Ja (wenn keine Bedeutung mehr);Nur bei Rauchern;Nur bei Versetzung;B
-Wahl;Ab wie vielen MA ist ein BR-Mitglied freigestellt?;Ab 100 MA;Ab 200 MA;Ab 500 MA;Ab 1000 MA;B
-Geld;Darf der BR eine Prämie für "Unfallfreies Arbeiten" fordern?;Nein;Ja (Mitbestimmung);Nur bei Stahl;Nur bei Azubis;B
-Rechte;Darf der BR-Vorsitzende allein eine BV unterschreiben?;Nein;Ja (wenn Beschluss vorliegt);Nur bei Eile;Nur im Urlaub;B
-Stahl;Wer ist "Obermeister" im Werk?;Ein Chef;Ein Handwerks-Titel;Gibt es nicht;Ein Azubi-Sprecher;B
-Hütte;Darf der BR einen Raum für Gebete fordern?;Nein;Ja (Glaubensfreiheit/BV);Nur am Sonntag;Nur für den BR;B
-Urlaub;Was passiert bei Krankheit im Urlaub?;Pech gehabt;Tage werden gutgeschrieben;Urlaub wird verlängert;Lohnkürzung;B
-IT;Darf der AG "Keylogger" (Tastatur-Aufzeichnung) einsetzen?;Nie;Nur bei schwerstem Straftatverdacht;Immer;Nur zur IT-Sicherheit;B
-Konflikt;Darf der AG Kleidungsvorschriften (Dienstkleidung) machen?;Nein;Ja (Mitbestimmung des BR § 87);Nur bei Azubis;Nur bei Krawattenpflicht;B
-Geld;Darf der AG bei Krankheit den Lohn ab dem 1. Tag kürzen?;Nein;Ja (wenn im Vertrag geregelt);Nur bei Azubis;Nur bei Stahlkochern;B
-Rechte;Darf der BR-Vorsitzende ein eigenes Siegel führen?;Ja;Nein;Nur bei Wahlen;Nur im Montan-Bereich;B
-IT;Darf der AG die private IP-Adresse im Homeoffice tracken?;Ja;Nein (Datenschutz);Nur bei Diebstahl;Nur bei Azubis;B
-Schicht;Darf man in der Schichtpause das Werk verlassen?;Nein;Ja (Pause ist Freizeit);Nur mit Pass;Nur zur Kantine;B
-Wahl;Ab wie vielen MA darf ein BR gewählt werden?;5 wahlberechtigte MA;50 MA;100 MA;500 MA;A
-Konflikt;Darf der AG den BR-Vorsitzenden kündigen?;Nur bei Diebstahl/Gewalt;Ja (mit Zustimmung BR/Gericht);Gar nicht;Nur bei Krise;B
-Rechte;Darf der BR Akteneinsicht in Personalakten fordern?;Nein;Nur mit Zustimmung des MA;Immer;Nur bei Azubis;B
-Stahl;Was ist die "Arbeitsdirektoren-Klausel"?;Veto-Recht des BR;Gehaltsgrenze;Urlaubstage;Arbeitszeit;A
-Arbeitszeit;Darf die tägliche Arbeitszeit 10h überschreiten?;Ja immer;Nein (nur in Ausnahmen);Nur bei Stahl;Nur bei Azubis;B
-Kuendigung;Was ist eine Sozialauswahl?;Kriterien: Alter/Dienstzeit/Unterhalt;Wer am besten arbeitet;Wer am wenigsten verdient;Losverfahren;A
-Schicht;Darf der BR Überstunden-Konten kontrollieren?;Nein;Ja (Überwachungsrecht);Nur bei Verdacht;Nur bei Leiharbeitern;B
-Arbeitsschutz;Ab wann ist ein Betriebsarzt Pflicht?;Ab 1 MA;Ab 100 MA;Ab 500 MA;Ab 1000 MA;A
-Urlaub;Darf Urlaub in Geld ausgezahlt werden?;Ja immer;Nur bei Beendigung des Jobs;Nur bei Stahl;Nur über 10 Tage;B
-Freistellung;Darf der BR während der Arbeitszeit tagen?;Nur in der Pause;Ja (erforderlich);Nur abends;Nur am Wochenende;B
-Rechte;Darf der BR externe Berater hinzuziehen?;Nein;Ja (nach Absprache);Nur Anwälte;Nur Gewerkschaft;B
-IT-Datenschutz;Was ist die DSGVO?;Dampf-Schutz;Datenschutzgrundverordnung;Dienst-Sicherung;Datenspeicher;B
-Versetzung;Was ist eine "Umgruppierung"?;Anderer Parkplatz;Andere Lohnstufe;Anderes Werk;Pausenänderung;B
-Kuendigung;Muss eine Kündigung schriftlich sein?;Ja (Papier);E-Mail reicht;Mündlich reicht;WhatsApp reicht;A
-Arbeitsschutz;Was ist die "Unterweisung"?;Befehl vom Chef;Schulung zur Sicherheit;Hausordnung;Abmahnung;B
-Urlaub;Hat man Anspruch auf Urlaub am Stück?;Nein;Ja (mind. 12 Werktage);Nur im Sommer;Nur bei Hochzeit;B
-Abmahnung;Kann der BR eine Abmahnung stoppen?;Ja;Nein (nur Beschwerde);Nur bei Azubis;Nur im Streik;B
-Rechte;Wer trägt die Kosten für BR-Wahlen?;Der BR;Der Arbeitgeber (§20);Die Gewerkschaft;Das Arbeitsamt;B
-Schicht;Darf der AG "Kurzarbeit" allein anordnen?;Ja;Nein (Zustimmung BR nötig);Nur bei Stahlkrise;Nur für 1 Woche;B
-Arbeitszeit;Muss man sich beim Chef für BR-Arbeit abmelden?;Nein;Ja (Abmelden & Zurückmelden);Nur bei Meetings;Nur bei Azubis;B
-Urlaub;Was passiert mit dem Urlaub bei einem Betriebsübergang?;Er verfällt;Er bleibt unverändert bestehen;Er wird ausgezahlt;Er wird halbiert;B
-Stahl-Spezial;Wie viele AN-Vertreter sind im Montan-Aufsichtsrat?;3;Genau die Hälfte;2;Zwei Drittel;B
-Ausschuesse;Muss der Wirtschaftsausschuss informiert werden?;Vierteljährlich;Einmal im Jahr;Nie;Nur bei Gewinn;A
-Abmahnung;Wie viele Abmahnungen braucht man zur Kündigung?;Immer genau 3;Kommt auf die Schwere an;Keine;Immer 5;B
-Rechte;Hat der BR ein eigenes Büro-Recht?;Nein;Ja (Sachmittelanspruch §40);Nur bei 500 MA;Nur im Keller;B
-Arbeitsschutz;Ab wann ist ein Betriebsarzt Pflicht?;Ab 1 MA;Ab 100 MA;Ab 500 MA;Ab 10 MA;A
-Kuendigung;Was ist eine außerordentliche Kündigung?;Fristlose Kündigung;Kündigung mit 1 Jahr Frist;Aufhebungsvertrag;Abmahnung;A
-Arbeitszeit;Darf man 12 Stunden am Stück arbeiten?;Ja immer;Nur in Ausnahmen/Notfall;Nein verboten;Nur bei Hitze;B
-Urlaub;Darf Urlaub in Geld ausgezahlt werden?;Ja immer;Nur bei Beendigung des Jobs;Nur bei Stahl;Nur bei Azubis;B
-Stahl-Spezial;Wer ist der "Neutrale" im Montan-Aufsichtsrat?;Der Chef;Zusätzliches Mitglied (Zünglein);Der Bürgermeister;Der Pförtner;B
-Betriebsvereinbarung;Kann eine BV den Tarifvertrag verschlechtern?;Ja;Nein (Günstigkeitsprinzip);Nur bei Krise;Nur bei Azubis;B
-Freistellung;Darf der BR während der Arbeitszeit tagen?;Nur in der Pause;Ja (erforderlich);Nur abends;Nur am Wochenende;B
-Versetzung;Was ist eine "Umgruppierung"?;Anderer Parkplatz;Andere Lohnstufe;Anderes Werk;Neue Arbeitszeit;B
-IT-Datenschutz;Was ist die DSGVO?;Dampf-Schutz-Gesetz;Datenschutzgrundverordnung;Dienst-Sicherungs-Gesetz;Datenspeichergesetz;B
-Arbeitsschutz;Wer ist für die Sicherheit im Werk verantwortlich?;Nur der BR;Der Arbeitgeber;Nur der Sanitäter;Die Gewerkschaft;B
-Rechte;Darf der BR eine Betriebsversammlung abhalten?;Nein;Ja (vierteljährlich);Nur einmal im Jahr;Nur im Streik;B
-Kuendigung;Was ist der besondere Kündigungsschutz für BR?;Unkündbar;Kündigung nur mit BR-Zustimmung;Kein Schutz;Schutz für 10 Jahre;B
-Arbeitszeit;Darf der BR Überstunden-Konten kontrollieren?;Nein;Ja (Überwachungsrecht);Nur bei Fehlern;Nur bei Leiharbeitern;B
-Urlaub;Was ist der "Urlaubsanspruch" bei Teilzeit?;Weniger Tage;Verhältnismäßig gleich;Gar keiner;Hängt vom BR ab;B
-Stahl-Spezial;Darf der BR am Hochofen Hitze-Messungen fordern?;Nein;Ja (Arbeitsschutz);Nur im Sommer;Nur bei 50 Grad;B
-Geheimhaltung;Gilt die Verschwiegenheit nach dem BR-Amt weiter?;Nein;Ja (lebenslang für Geheimnisse);Nur 1 Jahr;Nur für 5 Jahre;B
-Ausschuesse;Darf der BR-Vorsitzende Gast im Ausschuss sein?;Nein;Ja jederzeit;Nur mit Einladung;Nur bei Azubi-Themen;B
-Abmahnung;Was ist die "Warnfunktion" der Abmahnung?;Chef droht nur;Ankündigung der Kündigung;Lob;Hausverbot;B
-Versetzung;Muss der BR bei jeder Einstellung gefragt werden?;Nein;Ja (§99 BetrVG);Nur bei Führungskräften;Nur bei Azubis;B
-Rechte;Darf der BR externe Berater hinzuziehen?;Nein;Ja (nach Absprache/Beschluss);Nur Anwälte;Nur im Notfall;B
-Arbeitsschutz;Was ist eine "Begehung"?;Spaziergang;Kontrolle der Arbeitsplätze;Besuch beim Chef;Feuerwehrübung;B
-Kuendigung;Was ist eine Änderungskündigung?;Neuer Job oder Kündigung;Kündigung mit neuer Frist;Lohnerhöhung;Urlaubskürzung;A
-Arbeitszeit;Sind 6-Tage-Wochen gesetzlich erlaubt?;Nein;Ja (Montag bis Samstag);Nur im Winter;Nur bei Azubis;B
-Stahl-Spezial;Wer entscheidet über die Schutzkleidung?;Chef allein;BR und AG gemeinsam;Gewerkschaft;Arbeitsamt;B
-IT-Datenschutz;Darf der AG den Browserverlauf prüfen?;Immer;Nein (außer bei Verdacht/BV);Ja zur Sicherheit;Nur in der Pause;B
-Freistellung;Wie meldet man sich zur Schulung an?;Gar nicht;BR-Beschluss und Mitteilung AG;Chef fragen;Per SMS;B
-Betriebsvereinbarung;Wie lange ist die Kündigungsfrist einer BV?;1 Woche;3 Monate;Keine;1 Jahr;B
-Stahl-Spezial;Was ist die "Arbeitsdirektoren-Klausel"?;Veto-Recht des BR;Gehaltsgrenze;Urlaubstage;Pausenzeit;A
-Rechte;Darf der BR in die Gehaltslisten schauen?;Nein;Ja (Einsichtsrecht Bruttolohn);Nur bei Chefs;Nur bei Männern;B
-Arbeitsschutz;Was ist psychische Belastung?;Stress/Mobbing/Lärm;Nur Faulheit;Gibt es nicht;Nur Privatkram;A
-Kuendigung;Muss eine Kündigung schriftlich sein?;Ja (auf Papier);E-Mail reicht;Mündlich reicht;WhatsApp reicht;A
-Arbeitszeit;Wann beginnt die Nachtarbeit im Gesetz?;18 Uhr;23 Uhr (bis 6 Uhr);20 Uhr;0 Uhr;B
-Urlaub;Hat man Anspruch auf Urlaub am Stück?;Nein;Ja (mind. 12 Werktage);Nur im Sommer;Nur bei Hochzeit;B
-Stahl-Spezial;Darf der BR bei der Stilllegung eines Ofens mitreden?;Nein;Ja (Interessenausgleich/Sozialplan);Nur beim Preis;Nur bei Azubis;B
-Ausschuesse;Wann tagt der Arbeitsschutzausschuss?;Täglich;Vierteljährlich;Nie;Wöchentlich;B
-Abmahnung;Kann der BR eine Abmahnung stoppen?;Ja;Nein (nur Beschwerde möglich);Nur bei Azubis;Nur im Streik;B
-Versetzung;Muss der AG die Kosten einer Versetzung tragen?;Nein;In der Regel ja;Nur bei Benzin;Nur bei Hotel;B
-Rechte;Wer trägt die Kosten für BR-Wahlen?;Der BR;Der Arbeitgeber;Die Gewerkschaft;Die Stadt;B
-Arbeitsschutz;Darf man die Arbeit bei akuter Gefahr verweigern?;Nein;Ja (Selbstschutz);Nur bei Regen;Nur mit Helm;B
-Kuendigung;Was ist eine Sozialauswahl?;Alter/Dienstzeit/Kinder/Behinderung;Wer am besten arbeitet;Wer am wenigsten verdient;Wer am lautesten ist;A
-Arbeitszeit;Darf die tägliche Arbeitszeit 10h überschreiten?;Ja immer;Nein (nur in Ausnahmen);Nur bei Stahl;Nur bei Azubis;B
-Stahl-Spezial;Wer vertritt die AN im Aufsichtsrat?;Nur interne BR;BR und externe Gewerkschafter;Nur Anwälte;Nur der Werksleiter;B
-Geheimhaltung;Darf der BR die Presse über BR-Sitzungen informieren?;Ja;Nein (Sitzungen sind nicht öffentlich);Nur bei Streik;Nur anonym;B
-Betriebsvereinbarung;Gilt eine BV für alle Mitarbeiter?;Nur für BR-Mitglieder;Ja für alle im Geltungsbereich;Nur für Azubis;Nur für Männer;B
-Arbeitsschutz;Was ist die "Unterweisung"?;Befehl vom Chef;Schulung zur Sicherheit;Hausordnung;Abmahnung;B
-Rechte;Darf der BR IT-Systeme sperren?;Nein;Indirekt ja (über Einigungsstelle);Nur am PC;Nur im Homeoffice;B
-Allgemein;Was ist das höchste Ziel des BetrVG?;Streik;Wohl der Arbeitnehmer und des Betriebs;Mehr Lohn;Abschaffung der Chefs;B
-Hütte;Wer muss den Ersthelfer-Kurs bezahlen?;Der Kollege;Der Arbeitgeber;Die Gewerkschaft;Die Krankenkasse;B
-Arbeitszeit;Darf der BR Kurzarbeit ablehnen?;Nein;Ja (erzwingbare Mitbestimmung);Nur bei Gewinn;Nur bei Azubis;B
-Urlaub;Darf der Chef Urlaub "vorschreiben"?;Ja immer;Nein (Wünsche des MA vorrangig);Nur bei Azubis;Nur im Winter;B
-Stahl;Was ist ein "Gieß-Rhythmus"?;Ein Tanz;Zeitplan für die Schmelze;Pausenzeiten;Lohnmodell;B
-Abmahnung;Wie lange bleibt eine Abmahnung in der Akte?;Immer 1 Jahr;Keine feste Frist;Immer 10 Jahre;Nur 1 Monat;B
-Wahl;Wer darf den Wahlvorstand wählen?;Der Chef;Der Betriebsrat;Nur die Gewerkschaft;Das Amtsgericht;B
-Konflikt;Was macht man bei Uneinigkeit über Überstunden?;Streik;Einigungsstelle anrufen;Chef entscheiden lassen;Polizei rufen;B
-Geld;Gibt es gesetzlichen Anspruch auf Weihnachtsgeld?;Ja;Nein (nur über Vertrag/BV/Übung);Nur bei Stahl;Nur bei Azubis;B
-Stahl;Was ist die "IG Metall"?;Ein Metallhandel;Zuständige Gewerkschaft;Ein Sportverein;Ein Werkzeug;B
-Rechte;Darf der BR die Kantinenpreise mitbestimmen?;Nein;Ja (Soziale Angelegenheit);Nur bei Azubis;Nur beim Bier;B
-IT;Darf der AG den Laptop per Fernzugriff sperren?;Ja immer;Nur bei Gefahr/Kündigung;Nie;Nur in der Pause;B
-Versetzung;Was ist eine "Abordnung"?;Kündigung;Vorübergehende Zuweisung;Beförderung;Betriebsratswahl;B
-Urlaub;Was ist die "Urlaubssperre"?;Verbot von Urlaub;Zeitraum ohne Urlaubsgenehmigung;Ein Schloss am Koffer;Streik;B
-Arbeitsschutz;Was ist eine "Sifa"?;Eine Limonade;Fachkraft für Arbeitssicherheit;Ein Werkzeug;Eine Lohnstufe;B
-Hütte;Was ist "Schlacke"?;Abfallprodukt der Schmelze;Ein Kollege;Pausenzeit;Lohnzulage;A
-Geld;Darf der AG den Lohn bar auszahlen?;Ja;Nur noch per Überweisung (Regelfall);Nur bei Azubis;Nur bei Streik;B
-Wahl;Wann ist die nächste reguläre BR-Wahl?;2024;2026;2030;Jedes Jahr;B
-Rechte;Darf der BR eine Sprechstunde abhalten?;Nein;Ja (während der Arbeitszeit);Nur in der Pause;Nur per Telefon;B
-Konflikt;Was ist ein "Hausverbot" für BR?;Gibt es nicht;Nur bei schwersten Straftaten möglich;Darf der Chef immer;Nur bei Streik;B
-IT;Darf der BR eine eigene Website im Intranet haben?;Nein;Ja (Informationsrecht);Nur nach Prüfung durch Chef;Nur für Azubis;B
-Stahl;Was ist "Roheisen"?;Eisen mit hohem Kohlenstoffgehalt;Kaputtes Eisen;Ein Werkzeug;Eine Lohnstufe;A
-Hütte;Was ist ein "Konverter"?;Ein Taschenrechner;Anlage zur Stahlerzeugung;Ein Pausenraum;Ein Dienstwagen;B
-Arbeitszeit;Was ist die "Kernarbeitszeit"?;Zeit der Schmelze;Anwesenheitspflicht bei Gleitzeit;Mittagspause;Sitzungszeit;B
-Urlaub;Darf man im Urlaub für einen anderen AG arbeiten?;Ja;Nein (Erholungszweck);Nur bei Stahl;Nur am Wochenende;B
-Abmahnung;Muss der Name des Abmahnenden draufstehen?;Nein;Ja (Klarheit);Nur bei Azubis;Nur bei Diebstahl;B
-Rechte;Darf der BR Briefe an alle MA schreiben?;Nein;Ja (Informationsrecht);Nur mit Erlaubnis;Nur per Post;B
-Geld;Was ist die "Entgeltfortzahlung"?;Lohn bei Krankheit;Lohn bei Streik;Lohn bei Kündigung;Lohn bei Urlaub;A
-IT;Darf der AG eine "Blacklist" für Websites führen?;Nein;Ja (Ordnungsverhalten);Nur bei Azubis;Nur im Homeoffice;B
-Stahl;Was ist ein "Walzwerk"?;Eine Bäckerei;Anlage zur Formgebung von Stahl;Ein Parkplatz;Ein Bürogebäude;B
-Hütte;Darf der BR eine Dusche im Werk fordern?;Ja;Ja (Hygiene/Arbeitsschutz);Nur bei Hitze;Nur für Chefs;B
-Arbeitszeit;Darf man die Ruhepause aufteilen?;Nein;Ja (in mind. 15 Min Blöcke);Nur bei Stahl;Nur in der Nacht;B
-Urlaub;Darf der AG Urlaub "wegen Krankheit" kürzen?;Ja;Nein;Nur bei Azubis;Nur bei Langzeitkranken;B
-Abmahnung;Darf man Zeugen zur Abmahnung mitbringen?;Nein;Ja (BR-Mitglied);Nur die Eltern;Nur den Anwalt;B
-Wahl;Was ist eine "Liste" bei der Wahl?;Eine Einkaufsliste;Vorschlagsliste von Kandidaten;Eine Anwesenheitsliste;Ein Protokoll;B
-Geld;Darf der BR bei der Lohngestaltung mitreden?;Nein;Ja (§87 Abs. 1 Nr. 10);Nur bei Azubis;Nur bei Überstunden;B
-Konflikt;Was ist ein "Friedensrichter"?;Der Chef;Vorsitzender der Einigungsstelle;Der Pförtner;Der Bürgermeister;B
-IT;Darf der BR ein Handy vom AG fordern?;Nein;Ja (wenn für Arbeit erforderlich);Nur der Vorsitzende;Nur bei Rufbereitschaft;B
-Stahl;Was ist "legierter Stahl"?;Billiger Stahl;Stahl mit Zusatzstoffen;Rostiger Stahl;Flüssiger Stahl;B
-Hütte;Was ist "PSA"?;Persönliche Schutzausrüstung;Pausen-Service-Amt;Personal-Stahl-Abteilung;Prüf-Siegel-Ausschuss;A
-Arbeitszeit;Darf der AG Stechuhren einführen?;Nein;Ja (Mitbestimmung BR);Nur bei Azubis;Nur im Büro;B
-Urlaub;Was ist "unbezahlter Urlaub"?;Freistellung ohne Lohn;Krankheit;Streik;Urlaubsgeld;A
-Abmahnung;Darf man bei einer Abmahnung weinen?;Ja;Ist egal (keine rechtliche Relevanz);Nein verboten;Nur im BR-Büro;B
-Wahl;Darf ein Azubi in den BR gewählt werden?;Nein (nur JAV);Ja (wenn über 18);Nur als Gast;Nur bei 500 MA;B
-Geld;Was ist die "Beitragsbemessungsgrenze"?;Lohnobergrenze;Grenze für Sozialbeiträge;Mindestlohn;Steuersatz;B
-Rechte;Darf der BR die Belegschaft befragen (Umfrage)?;Nein;Ja (BR-Arbeit);Nur mit Chef-Erlaubnis;Nur über Urlaub;B
-Stahl;Was ist "Schrott"?;Wertvoller Rohstoff für den Ofen;Müll;Ein kaputter Hammer;Pausenbrot;A
-Stahl;Was ist "Sinter"?;Feinkörniges Eisenerz für den Hochofen;Abfall;Ein Werkzeug;Pausenbrot;A
-Hütte;Darf der BR eine Klimaanlage im Steuerstand fordern?;Nein;Ja (Gesundheitsschutz);Nur bei 40 Grad;Nur für Chefs;B
-Arbeitszeit;Darf man die Pausenzeit am PC verbringen?;Ja;Ja (Pause ist Freizeit);Nein verboten;Nur bei IT-lern;B
-Urlaub;Was ist der "Urlaubskalender"?;Ein Geschenk;Planung der Abwesenheiten;Ein Feiertag;Streikliste;B
-Abmahnung;Darf der Chef eine Abmahnung per WhatsApp schicken?;Ja;Nein (Beweiskraft/Dokumentation);Nur bei Azubis;Nur im Notfall;B
-Wahl;Darf man während der Arbeitszeit wählen gehen?;Nein;Ja (Wahlrecht unterstützen);Nur in der Pause;Nur per Post;B
-Geld;Was ist die "Jahressonderzahlung"?;Weihnachtsgeld;Lohn;Bonus;Urlaubsgeld;A
-Konflikt;Was ist eine "Dienstvereinbarung"?;BV im öffentlichen Dienst;Ein Befehl;Ein Vertrag;Ein Gesetz;A
-IT;Darf der BR ein Laptop-Verbot fordern?;Nein;Ja (bei Gefährdung/Überwachung);Nur nachts;Nur für Azubis;B
-Stahl;Was ist ein "Hochofenabstich"?;Entnahme des flüssigen Eisens;Ein Unfall;Feierabend;Pausenbeginn;A
-Hütte;Darf der BR Arbeitskleidung mit Logo fordern?;Ja;Ja (Mitbestimmung);Nur für PR;Nur bei Streik;B
-Arbeitszeit;Was ist "Vertrauensarbeitszeit"?;Arbeit ohne Zeiterfassung;Überstunden;Pausenzeit;Freizeit;A
-Urlaub;Darf der AG Urlaub wegen "Ungehorsam" kürzen?;Ja;Nein;Nur bei Azubis;Nur bei Stahl;B
-Abmahnung;Muss der BR-Vorsitzende die Abmahnung prüfen?;Nein;Ja (bei Beschwerde des MA);Immer;Nur bei Kündigung;B
-Wahl;Darf ein Leiharbeiter den Wahlvorstand wählen?;Nein;Ja (nach 3 Monaten);Nur bei Streik;Nur bei Azubis;B
-Geld;Was ist die "Bezugnahme-Klausel"?;Link zum Tarifvertrag;Kündigungsfrist;Urlaubsregel;Lohnstufe;A
-Konflikt;Was ist die "Urabstimmung"?;Wahl des BR;Abstimmung über Streik;Essenwahl;Pausenwahl;B
-IT;Darf der AG "Big Data" zur Leistungsprüfung nutzen?;Ja;Nein (Mitbestimmung/Datenschutz);Nur nachts;Nur bei Chefs;B
-Stahl;Was ist "Flüssigstahl"?;Geschmolzenes Eisen;Wasser;Öl;Farbe;A
-Hütte;Darf der BR Obstkörbe fordern?;Ja;Ja (Gesundheit/Freiwillig);Nur bei Hitze;Nur für Frauen;B
-Arbeitszeit;Darf der AG "Rufbereitschaft" allein anordnen?;Ja;Nein (Mitbestimmung);Nur bei Stahl;Nur am Sonntag;B
-Urlaub;Darf man Urlaub "mitnehmen" bei AG-Wechsel?;Ja;Nein (Urlaubsbescheinigung nötig);Nur bei Stahl;Nur bei Azubis;B
-Abmahnung;Darf die Abmahnung in die Personalakte?;Nein;Ja (Dokumentation);Nur bei Kündigung;Nur bei Diebstahl;B
-Wahl;Darf man den BR-Wahl-Aushang abreißen?;Ja;Nein (Wahlbehinderung);Nur nach 1 Woche;Nur der Chef;B
-Geld;Was ist der "Lohnsteuerausgleich"?;Steuererstattung;Gehalt;Bonus;Abzug;A
-Konflikt;Darf der BR-Vorsitzende den Chef beleidigen?;Ja;Nein (Arbeitsvertragspflichten);Nur im Streit;Nur leise;B
-IT;Darf der BR eine Schulung für Excel fordern?;Nein;Ja (wenn erforderlich für BR-Arbeit);Nur für Azubis;Nur privat;B
-Stahl;Was ist "Stahl-Schrott"?;Rohstoff;Müll;Ein kaputter Eimer;Pausenrest;A
-Hütte;Darf der BR einen Grillplatz fordern?;Ja;Ja (Soziales/BV);Nur im Sommer;Nur für Chefs;B
-Arbeitszeit;Was ist die "Sollarbeitszeit"?;Geplante Arbeitszeit;Überstunden;Freizeit;Nachtschicht;A
-Urlaub;Darf der Chef im Urlaub anrufen?;Ja;Nein (Freizeit);Nur im Notfall;Nur bei Azubis;B
-Abmahnung;Darf man die Unterschrift unter die Abmahnung verweigern?;Nein;Ja (man muss nur Empfang bestätigen);Nur bei Unschuld;Nur bei Azubis;B
-Wahl;Was ist ein "Ersatzmitglied"?;Nachrücker für den BR;Ein Azubi;Der Chef;Ein Zeuge;A
-Geld;Was ist die "Gefahrenzulage"?;Extra Geld für riskante Arbeit;Urlaubsgeld;Bonus;Lohn;A
-Konflikt;Darf der AG den BR-Raum kündigen?;Ja;Nein (Sachmittelanspruch);Nur bei Platzmangel;Nur nachts;B
-IT;Darf der AG die Mausbewegungen tracken?;Ja;Nein (unzulässige Kontrolle);Nur bei IT-lern;Nur bei Azubis;B
-Stahl;Was ist "Edelstahl"?;Besonders reiner Stahl;Teurer Stahl;Gold;Silber;A
-Hütte;Darf der BR einen Wasserspender fordern?;Ja;Ja (Arbeitsschutz/Hygiene);Nur bei Hitze;Nur für Gäste;B
-Arbeitszeit;Was ist "Freizeitausgleich"?;Abbummeln von Stunden;Urlaub;Feiertag;Streik;A
-Urlaub;Darf man Urlaubstage "verkaufen"?;Ja;Nein (Gesetzlicher Schutz);Nur bei Stahl;Nur bei Kündigung;B
-Abmahnung;Darf der AG die Abmahnung vor allen Kollegen aussprechen?;Ja;Nein (Datenschutz/Persönlichkeit);Nur bei Azubis;Nur im Notfall;B
-Wahl;Muss die Wahlkabine blickdicht sein?;Nein;Ja (Wahlgeheimnis);Ist egal;Nur im Werk;B
-Geld;Was ist die "Kalte Progression"?;Steuereffekt;Gehalt;Bonus;Abzug;A
-Konflikt;Darf der BR gegen den AG klagen?;Nein;Ja (bei Rechtsverletzung);Nur bei Streik;Nur bei Kündigung;B
-IT;Darf der BR WLAN für alle fordern?;Nein;Ja (Soziale Einrichtung);Nur im Büro;Nur für den BR;B
-Stahl;Was ist "Baustahl"?;Stahl für den Bau;Stahl für Autos;Gold;Holz;A
-Hütte;Darf der BR eine Kantinen-App fordern?;Ja;Ja (Mitbestimmung IT);Nur für Jüngere;Nur bei Streik;B
-Arbeitszeit;Was ist "Schichtwechsel"?;Wechsel der Arbeitszeit;Pause;Feierabend;Urlaub;A
-Urlaub;Was ist "Erholungsurlaub"?;Gesetzlicher Urlaub;Freizeit;Krankheit;Streik;A
-Abmahnung;Was ist eine "mündliche Abmahnung"?;Ermahnung;Befehl;Lob;Witz;A
-Wahl;Wer darf die Stimmen auszählen?;Nur der Chef;Der Wahlvorstand (öffentlich);Nur die Gewerkschaft;Nur der BR;B
-Geld;Was ist das "Bruttogehalt"?;Lohn vor Abzügen;Lohn nach Abzügen;Bonus;Urlaubsgeld;A
-Konflikt;Was ist ein "Schlichtungsverfahren"?;Einigungsversuch;Streik;Krieg;Pausenregelung;A
-IT;Darf der AG die Webcam am Laptop einschalten?;Ja;Nein (Verbot ohne Grund/Zustimmung);Nur bei Meetings;Nur bei Azubis;B
-Stahl;Was ist ein "Walzgerüst"?;Teil der Walzstraße;Ein Baugerüst;Ein Stuhl;Ein Auto;A
-Hütte;Darf der BR E-Bikes für das Werksgelände fordern?;Ja;Ja (Arbeitsschutz/Mobilität);Nur bei Hitze;Nur für Chefs;B
-Arbeitszeit;Was ist "Gleitzeit"?;Flexible Arbeitszeit;Pause;Streik;Feierabend;A
-Urlaub;Darf man Resturlaub ins nächste Jahr mitnehmen?;Ja;Ja (bis 31.03. bei Grund);Nein nie;Nur bei Stahl;B
-Abmahnung;Darf man nach der Abmahnung sofort gehen?;Ja;Nein (Arbeitspflicht);Nur bei Wut;Nur bei Azubis;B
-Wahl;Darf der Wahlvorstand die Wahl abbrechen?;Ja;Nein (nur bei extremen Fehlern);Nur wenn der Chef will;Nur bei Regen;B
-Geld;Was ist die "Sozialversicherung"?;Rente/Krankheit/Pflege;Lohn;Bonus;Steuer;A
-Konflikt;Was ist eine "Güteverhandlung"?;Erster Termin beim Gericht;Streik;Pausengespräch;Essenwahl;A
-IT;Darf der BR die Nutzung von ChatGPT regeln?;Nein;Ja (IT-Mitbestimmung);Nur für Texte;Nur für Azubis;B
-Stahl;Was ist "Werkzeugstahl"?;Stahl für Werkzeuge;Stahl für Autos;Büromaterial;Holz;A
-Hütte;Darf der BR eine Lärmschutzwand fordern?;Ja;Ja (Arbeitsschutz);Nur bei 100 dB;Nur für das Büro;B
-Arbeitszeit;Was ist "Mehrarbeit"?;Arbeit über die tarifliche Zeit;Pause;Freizeit;Nachtschicht;A
-Urlaub;Was ist der "Urlaubsantrag"?;Schriftlicher Wunsch;Befehl;Witz;Geschenk;A
-Abmahnung;Was ist eine "Sammelabmahnung"?;Abmahnung für mehrere Gründe;Abmahnung für alle;Lob;Wahlwerbung;A
-Wahl;Darf man die Wahlurne mit nach Hause nehmen?;Ja;Nein (Wahlmanipulation);Nur über Nacht;Nur der Chef;B
-Geld;Was ist das "Nettogehalt"?;Auszahlungsbetrag;Lohn vor Steuern;Bonus;Abzug;A
-Konflikt;Darf der AG dem BR-Mitglied die Zulagen kürzen?;Ja;Nein (Benachteiligungsverbot);Nur bei Fehlern;Nur nachts;B
-IT;Darf der AG den Browser-Cache löschen?;Ja;Ja (IT-Wartung);Nein verboten;Nur bei Azubis;B
-Stahl;Was ist "Draht"?;Dünner, langer Stahl;Ein Blech;Ein Rohr;Ein Stein;A
-Hütte;Darf der BR eine bessere Beleuchtung fordern?;Ja;Ja (Arbeitsschutz);Nur im Winter;Nur nachts;B
-Arbeitszeit;Was ist "Anwesenheitszeit"?;Zeit im Betrieb;Pause;Weg zur Arbeit;Schlafzeit;A
-Urlaub;Was ist der "Mindesturlaub"?;Gesetzliche 20/24 Tage;1 Tag;100 Tage;Gibt es nicht;A
-Abmahnung;Darf der AG die Abmahnung "befristen"?;Nein;Ja (Bewährungsfrist);Nur bei Azubis;Nur bei Stahl;B
-Wahl;Muss der Wahlvorstand neutral sein?;Nein;Ja (Pflicht);Nur zum Chef;Nur zur Gewerkschaft;B
-Geld;Was ist die "Kirchensteuer"?;Abgabe an die Kirche;Lohn;Bonus;Abzug;A
-Konflikt;Darf der BR die Arbeit niederlegen?;Ja;Nein (nur im Rahmen Streik);Nur bei Wut;Nur nachts;B
-IT;Darf der BR eine "Digital-Pause" fordern?;Nein;Ja (Gesundheitsschutz);Nur für IT-ler;Nur bei Azubis;B
-Stahl;Was ist ein "Bramme"?;Gussblock aus Stahl;Ein Pausenbrot;Ein Hammer;Ein Auto;A
-Hütte;Darf der BR Ladestationen für E-Autos fordern?;Ja;Ja (BV/Mitbestimmung);Nur für Chefs;Nur bei Sonne;B
-Arbeitszeit;Was ist "Schichtzulage"?;Extra Geld für Schicht;Lohn;Bonus;Abzug;A
-Urlaub;Was ist "Urlaubsentgelt"?;Lohnfortzahlung im Urlaub;Urlaubsgeld;Bonus;Abzug;A
-Abmahnung;Darf der AG bei Verspätung abmahnen?;Nein;Ja (Verhaltensfehler);Nur bei 1 Minute;Nur bei Azubis;B
-Wahl;Darf man den Stimmzettel fotografieren?;Ja;Nein (Wahlgeheimnis);Nur für Facebook;Nur der Chef;B
-Geld;Was ist die "Pendlerpauschale"?;Steuervorteil für Fahrweg;Lohn;Bonus;Abzug;A
-Konflikt;Darf der BR den AG anzeigen?;Nein;Ja (bei Straftaten/Verstößen);Nur bei Streik;Nur bei Kündigung;B
-IT;Darf der AG den Desktop-Hintergrund vorschreiben?;Nein;Ja (Ordnungsverhalten/Corporate Design);Nur bei Azubis;Nur im Büro;B
-Stahl;Was ist ein "Ofen"?;Anlage zum Schmelzen;Ein Kühlschrank;Ein Tisch;Ein Auto;A
-Hütte;Darf der BR eine Kaffeemaschine fordern?;Ja;Ja (Soziale Einrichtung);Nur für Chefs;Nur im Büro;B
-Arbeitszeit;Was ist "Pausendurchgriff"?;Durchgehende Arbeit ohne Pause;Essen;Schlafen;Streik;A
-Urlaub;Was ist "Betriebsurlaub"?;Urlaub für alle;Einzelurlaub;Krankheit;Streik;A
-Abmahnung;Darf der AG wegen "schlechter Laune" abmahnen?;Ja;Nein (kein Verhaltensverstoß);Nur bei Verkäufern;Nur bei Azubis;B
-Wahl;Wer darf die Wahl anfechten?;Nur der Chef;Arbeitnehmer/BR/AG;Niemand;Nur die Polizei;B
-Geld;Was ist das "13. Monatsgehalt"?;Zusatzgehalt;Lohn;Bonus;Abzug;A
-Stahl;Was ist "Schlacke-Verwertung"?;Einsatz im Straßenbau;Entsorgung im Meer;Verbrennung;Gibt es nicht;A
-Hütte;Darf der BR einen Ruheraum für Schwangere fordern?;Ja;Ja (Mutterschutz/Arbeitsstättenrichtlinie);Nur bei Hitze;Nur im Büro;B
-Arbeitszeit;Was ist "Kapazitätsorientierte Arbeitszeit"?;Arbeit nach Bedarf (Abruf);Feste Schicht;Überstunden;Urlaub;A
-Urlaub;Was ist die "Urlaubsbescheinigung"?;Nachweis über genommenen Urlaub;Ein Attest;Ein Visum;Ein Kündigungsschreiben;A
-Abmahnung;Darf man die Abmahnung selbst aus der Akte nehmen?;Ja;Nein (Urkundenunterdrückung);Nur nach 2 Jahren;Nur bei Kündigung;B
-Wahl;Was ist eine "Personenwahl"?;Wahl ohne Listen (Mehrheitswahl);Wahl des Chefs;Essenwahl;Pausenwahl;A
-Geld;Was ist die "Lohnfortzahlung"?;Geld bei Krankheit (6 Wochen);Streikgeld;Bonus;Abzug;A
-Konflikt;Was ist ein "Mediator"?;Neutraler Vermittler;Anwalt des Chefs;Polizist;Richter;A
-IT;Darf der BR die Nutzung von KI-Tools regeln?;Nein;Ja (Mitbestimmung §87);Nur für Texte;Nur für Azubis;B
-Stahl;Was ist "Strangguss"?;Endloses Gießen von Stahl;Ein Seil;Ein Eimer;Ein Auto;A
-Hütte;Darf der BR Gehörschutz-Stopfen fordern?;Ja;Ja (Arbeitsschutz);Nur bei 100 dB;Nur für Gäste;B
-Arbeitszeit;Was ist "Arbeitsbereitschaft"?;Warten auf Arbeit am Platz;Schlafen;Pause;Freizeit;A
-Urlaub;Darf der AG den Urlaub wegen "Lustlosigkeit" streichen?;Ja;Nein;Nur bei Azubis;Nur bei Stahl;B
-Abmahnung;Muss der BR-Vorsitzende die Abmahnung unterschreiben?;Ja;Nein;Nur als Zeuge;Nur bei Azubis;B
-Wahl;Darf ein Rentner den BR wählen?;Nein;Nein (nur aktive MA);Ja;Nur wenn er Gewerkschafter ist;B
-Geld;Was ist die "Entgeltgruppe"?;Einstufung im Tarif;Alter;Wohnort;Schuhgröße;A
-Konflikt;Was ist ein "Warnstreik"?;Kurzer Streik zur Druckerzeugung;Krieg;Feuerwehralarm;Pausenende;A
-IT;Darf der AG das Tippverhalten analysieren?;Ja;Nein (Persönlichkeitsrecht);Nur bei IT-lern;Nur bei Azubis;B
-Stahl;Was ist "Kaltwalzen"?;Walzen bei Raumtemperatur;Walzen im Winter;Eiswürfelform;Kühlung;A
-Hütte;Darf der BR ergonomische Stühle fordern?;Ja;Ja (Gesundheitsschutz);Nur für Chefs;Nur im Büro;B
-Arbeitszeit;Was ist "Kurzarbeit Null"?;Gar keine Arbeit bei vollem Lohnausgleich;Überstunden;Urlaub;Gar keine Arbeit (0 Stunden);D
-Urlaub;Darf man Urlaubstage "vererben"?;Ja;Nein;Nur bei Stahl;Nur bei Azubis;B
-Abmahnung;Darf der AG die Abmahnung an die Privatadresse schicken?;Ja;Ja (wirksamer Zugang);Nein verboten;Nur bei Kündigung;B
-Wahl;Darf man die Wahlurne versiegeln?;Nein;Ja (Schutz vor Manipulation);Ist egal;Nur der Chef;B
-Geld;Was ist die "Steuerklasse"?;Einstufung beim Finanzamt;Lohnstufe;Bonus;Abzug;A
-Konflikt;Darf der BR den Chef zum Duell fordern?;Ja;Nein (Friedenspflicht);Nur im Wald;Nur bei Beleidigung;B
-IT;Darf der BR eine Schulung für Zoom/Teams fordern?;Nein;Ja (wenn für BR nötig);Nur für Azubis;Nur privat;B
-Stahl;Was ist "Grobblech"?;Dickes Stahlblech;Dünne Folie;Ein Hammer;Ein Auto;A
-Hütte;Darf der BR Sonnencreme am Hochofen fordern?;Ja;Ja (Arbeitsschutz/UV);Nur im Sommer;Nur für Gäste;B
-Arbeitszeit;Was ist die "Rahmenarbeitszeit"?;Zeitfenster für Gleitzeit;Pause;Nacht;Urlaub;A
-Urlaub;Darf der Chef im Urlaub "Hausbesuche" machen?;Ja;Nein (Privatsphäre);Nur bei Krankheit;Nur bei Azubis;B
-Abmahnung;Muss der MA die Abmahnung laut vorlesen?;Ja;Nein;Nur vor Zeugen;Nur bei Azubis;B
-Wahl;Was ist ein "Listenvertreter"?;Ansprechpartner einer Wahlliste;Der Chef;Ein Bote;Ein Zeuge;A
-Geld;Was ist die "Schmutzzulage"?;Geld für dreckige Arbeit;Urlaubsgeld;Bonus;Abzug;A
-Konflikt;Darf der AG den BR-Computer überwachen?;Ja;Nein (Vertraulichkeit §79);Nur bei Viren;Nur nachts;B
-IT;Darf der AG die Mausgeschwindigkeit messen?;Ja;Nein (Leistungsprüfung);Nur bei IT-lern;Nur bei Azubis;B
-Stahl;Was ist "Feinblech"?;Dünnes Stahlblech;Dicker Block;Gold;Silber;A
-Hütte;Darf der BR einen Defibrillator fordern?;Ja;Ja (Erste Hilfe/Schutz);Nur für Chefs;Nur bei 1000 MA;B
-Arbeitszeit;Was ist "Freischicht"?;Schichtfrei durch Stundenabbau;Urlaub;Feiertag;Streik;A
-Urlaub;Was ist "Sonderurlaub bei Umzug"?;Bezahlte Freistellung (oft per BV/TV);Pech gehabt;Normaler Urlaub;Streik;A
-Abmahnung;Darf der AG die Abmahnung im Intranet veröffentlichen?;Ja;Nein (schwere Persönlichkeitsverletzung);Nur bei Azubis;Nur bei Diebstahl;B
-Wahl;Muss die Wahlurne aus Metall sein?;Nein;Nein (jedes sichere Gefäß);Ja;Nur im Stahlwerk;B
-Geld;Was ist die "Progressionszone"?;Steuerbereich;Lohnstufe;Bonus;Abzug;A
-Konflikt;Darf der BR den AG beim Arbeitsgericht verklagen?;Nein;Ja (Beschlussverfahren);Nur bei Streik;Nur bei Kündigung;B
-IT;Darf der BR freies Internet in den Pausen fordern?;Nein;Ja (Soziale Angelegenheit);Nur im Büro;Nur für den BR;B
-Stahl;Was ist "Profilstahl"?;Geformter Stahl (z.B. T-Träger);Flaches Blech;Gold;Holz;A
-Hütte;Darf der BR eine Essensbezuschussung fordern?;Ja;Ja (Mitbestimmung Kantine);Nur für Chefs;Nur bei Überstunden;B
-Arbeitszeit;Was ist "Schichtwechselanzeige"?;Ankündigung neuer Schichtzeit;Pause;Feierabend;Urlaub;A
-Urlaub;Was ist "Bildungsurlaub"?;Freistellung für Fortbildung;Ferien;Krankheit;Streik;A
-Abmahnung;Darf man die Abmahnung zerreißen?;Ja;Ja (aber sie gilt trotzdem);Nein verboten;Nur im BR-Büro;B
-Wahl;Wer darf die Stimmzettel vernichten?;Der Chef;Der BR nach Ablauf der Fristen;Niemand;Die Polizei;B
-Geld;Was ist das "Grundentgelt"?;Basislohn ohne Zulagen;Lohn mit Überstunden;Bonus;Urlaubsgeld;A
-Konflikt;Was ist eine "Einigung"?;Vertragliche Lösung;Streik;Krieg;Pausenende;A
-IT;Darf der AG die Mikrofon-Lautstärke am PC regeln?;Ja;Ja (IT-Einstellung);Nein verboten;Nur bei Azubis;B
-Stahl;Was ist ein "Walzballen"?;Teil einer Walze;Ein Fußball;Ein Brot;Ein Auto;A
-Hütte;Darf der BR Lastenfahrräder fordern?;Ja;Ja (Arbeitsschutz/Mobilität);Nur bei Hitze;Nur für Chefs;B
-Arbeitszeit;Was ist "Kernzeitverletzung"?;Früheres Gehen bei Gleitzeit;Pause;Streik;Feierabend;A
-Urlaub;Darf man Resturlaub bis zum Jahresende behalten?;Ja;Ja (Regelfall);Nein nie;Nur bei Stahl;B
-Abmahnung;Darf man nach der Abmahnung weinen?;Ja;Ist egal;Nein verboten;Nur im BR-Büro;B
-Wahl;Darf der Wahlvorstand die Wahl verschieben?;Ja;Nein (nur in Ausnahmen);Nur wenn der Chef will;Nur bei Regen;B
-Geld;Was ist die "Rentenversicherung"?;Altersvorsorge;Lohn;Bonus;Steuer;A
-Konflikt;Was ist ein "Vergleich"?;Gegenseitiges Nachgeben;Streik;Pausenende;Essenwahl;A
-IT;Darf der BR die Nutzung von Social Media regeln?;Nein;Ja (Ordnungsverhalten);Nur für Marketing;Nur für Azubis;B
-Stahl;Was ist "Edelstahl rostfrei"?;Chrom-Nickel-Stahl;Normales Eisen;Holz;Plastik;A
-Hütte;Darf der BR Schallschutzkabinen fordern?;Ja;Ja (Arbeitsschutz);Nur bei 100 dB;Nur im Büro;B
-Arbeitszeit;Was ist "Sonderarbeitszeit"?;Abweichende Regelung;Pause;Freizeit;Nacht;A
-Urlaub;Was ist ein "Urlaubskonto"?;Übersicht der Tage;Sparbuch;Witz;Geschenk;A
-Abmahnung;Was ist eine "verhaltensbedingte Abmahnung"?;Abmahnung wegen Fehlverhalten;Lob;Wahlwerbung;Krankmeldung;A
-Wahl;Darf man die Wahlurne aus Pappe bauen?;Ja;Ja (wenn sie stabil und verschlossen ist);Nein verboten;Nur der Chef;B
-Geld;Was ist die "Lohnsteuerbescheinigung"?;Nachweis für das Finanzamt;Lohn;Bonus;Abzug;A
-Konflikt;Darf der AG dem BR den Strom abstellen?;Ja;Nein (Sachmittelanspruch);Nur bei Fehlern;Nur nachts;B
-IT;Darf der AG die IP-Adressen protokollieren?;Ja;Ja (IT-Sicherheit/Mitbestimmung);Nein verboten;Nur bei Azubis;B
-Stahl;Was ist "Drahtwalzen"?;Herstellung von Draht;Ein Blech;Ein Rohr;Ein Stein;A
-Hütte;Darf der BR bessere Spiegel in der Umkleide fordern?;Ja;Ja (Soziale Einrichtung);Nur im Winter;Nur nachts;B
-Arbeitszeit;Was ist "Präsenzzeit"?;Zeit der Anwesenheit;Pause;Weg zur Arbeit;Schlafzeit;A
-Urlaub;Was ist "unbezahlte Freistellung"?;Pause ohne Lohn;1 Tag;100 Tage;Gibt es nicht;A
-Abmahnung;Darf der AG die Abmahnung "befristen"?;Nein;Ja (Bewährungsfrist);Nur bei Azubis;Nur bei Stahl;B
-Wahl;Muss der Wahlvorstand Protokoll führen?;Nein;Ja (Pflicht);Nur zum Chef;Nur zur Gewerkschaft;B
-Geld;Was ist die "Solidaritätszuschlag"?;Steuerabgabe;Lohn;Bonus;Abzug;A
-Konflikt;Darf der BR die Arbeit verweigern?;Ja;Nein (Arbeitspflicht);Nur bei Wut;Nur nachts;B
-IT;Darf der BR "Digital-Detox" fordern?;Nein;Ja (Gesundheitsschutz);Nur für IT-ler;Nur bei Azubis;B
-Stahl;Was ist "Flüssigeisen"?;Geschmolzenes Erz;Pausenbrot;Hammer;Auto;A
-Hütte;Darf der BR Wallboxen fordern?;Ja;Ja (BV/Mitbestimmung);Nur für Chefs;Nur bei Sonne;B
-Arbeitszeit;Was ist "Nachtzuschlag"?;Extra Geld für Nachtarbeit;Lohn;Bonus;Abzug;A
-Urlaub;Was ist "Urlaubsgeld"?;Zusatzleistung zum Lohn;Normaler Lohn;Bonus;Abzug;B
-Abmahnung;Darf der AG bei Rauchen im Werk abmahnen?;Nein;Ja (Verstoß gegen Brandschutz/Ordnung);Nur bei 1 Minute;Nur bei Azubis;B
-Wahl;Darf man den Stimmzettel unterschreiben?;Ja;Nein (Wahlgeheimnis/Ungültig);Nur für Facebook;Nur der Chef;B
-Geld;Was ist die "Entfernungspauschale"?;Steuervorteil;Lohn;Bonus;Abzug;A
-Konflikt;Darf der BR den AG verklagen?;Nein;Ja (Arbeitsgericht);Nur bei Streik;Nur bei Kündigung;B
-IT;Darf der AG die Desktop-Farbe vorschreiben?;Nein;Ja (Corporate Design);Nur bei Azubis;Nur im Büro;B
-Stahl;Was ist ein "Lichtbogenofen"?;Elektrischer Ofen;Kühlschrank;Tisch;Auto;A
-Hütte;Darf der BR einen Wasserkühler fordern?;Ja;Ja (Arbeitsschutz);Nur für Chefs;Nur im Büro;B
-Arbeitszeit;Was ist "Mehrarbeitszuschlag"?;Geld für Überstunden;Essen;Schlafen;Streik;A
-Urlaub;Was ist "Erholungszweck"?;Ziel des Urlaubs;Einzelurlaub;Krankheit;Streik;A
-Abmahnung;Darf der AG wegen "müdem Aussehen" abmahnen?;Ja;Nein (kein Verhaltensverstoß);Nur bei Verkäufern;Nur bei Azubis;B
-Wahl;Wer darf die Wahl stoppen?;Nur das Arbeitsgericht;Jeder;Niemand;Die Polizei;A
-Geld;Was ist das "Urlaubsentgelt"?;Lohnfortzahlung;Lohn;Bonus;Abzug;A
-Stahl;Was ist "Stranggießen"?;Kontinuierliches Gießen von Stahl;Ein Seiltrick;Ein Eimer;Ein Auto;A
-Hütte;Darf der BR einen Sichtschutz an Glaswänden fordern?;Ja;Ja (Persönlichkeitsschutz);Nur bei Sonne;Nur für Chefs;B
-Arbeitszeit;Was ist "Schichtfolge"?;Reihenfolge der Schichten (Früh/Spät/Nacht);Pause;Urlaub;Streik;A
-Urlaub;Was ist die "Urlaubskartei"?;Übersicht der Urlaubstage;Ein Stadtplan;Ein Pass;Ein Kündigungsschreiben;A
-Abmahnung;Darf man die Abmahnung im Müll entsorgen?;Ja;Ja (aber sie bleibt in der Akte);Nein verboten;Nur im BR-Büro;B
-Wahl;Was ist eine "Listenwahl"?;Wahl nach Vorschlagslisten;Wahl des Essens;Einkaufsliste;Pausenwahl;A
-Geld;Was ist die "Lohnabrechnung"?;Dokument über den Verdienst;Ein Brief;Ein Bonus;Ein Abzug;A
-Konflikt;Was ist ein "Gewerkschaftssekretär"?;Hauptamtlicher Mitarbeiter der Gewerkschaft;Der Chef;Ein Polizist;Ein Richter;A
-IT;Darf der BR die Nutzung von USB-Sticks regeln?;Nein;Ja (IT-Sicherheit/Mitbestimmung);Nur für Musik;Nur für Azubis;B
-Stahl;Was ist "Konti-Schicht"?;Durchgehende Schichtarbeit (7 Tage/Woche);Pause;Feierabend;Urlaub;A
-Hütte;Darf der BR eine Abstimmung über die Kantinen-Menüs fordern?;Ja;Ja (Soziale Angelegenheit);Nur für Chefs;Nur bei Überstunden;B
-Arbeitszeit;Was ist "Arbeitszeitbetrug"?;Falsche Zeiterfassung;Pause;Überstunden;Urlaub;A
-Urlaub;Darf der AG den Urlaub wegen "schlechtem Wetter" streichen?;Ja;Nein;Nur bei Azubis;Nur bei Stahl;B
-Abmahnung;Muss der BR-Vorsitzende die Abmahnung absegnen?;Ja;Nein;Nur als Zeuge;Nur bei Azubis;B
-Wahl;Darf ein Leiharbeiter nach 6 Monaten den BR wählen?;Ja;Ja (§ 7 BetrVG);Nein;Nur wenn er Gewerkschafter ist;B
-Geld;Was ist die "Entgelttabelle"?;Übersicht der Lohnstufen;Alter;Wohnort;Schuhgröße;A
-Konflikt;Was ist ein "Streikbrecher"?;Person, die trotz Streik arbeitet;Der Chef;Ein Polizist;Ein Richter;A
-IT;Darf der AG die Tippgeschwindigkeit protokollieren?;Ja;Nein (Leistungsüberwachung);Nur bei IT-lern;Nur bei Azubis;B
-Stahl;Was ist "Warmwalzen"?;Walzen bei hoher Temperatur;Walzen im Sommer;Heizung;Kühlung;A
-Hütte;Darf der BR höhenverstellbare Tische fordern?;Ja;Ja (Gesundheitsschutz);Nur für Chefs;Nur im Büro;B
-Arbeitszeit;Was ist "Minusstunden"?;Arbeitszeitkonto unter Null;Überstunden;Urlaub;Pause;A
-Urlaub;Darf man Urlaubstage "verschenken"?;Ja;Nein;Nur bei Stahl;Nur bei Azubis;B
-Abmahnung;Darf der AG die Abmahnung per Einschreiben schicken?;Ja;Ja (Nachweis des Zugangs);Nein verboten;Nur bei Kündigung;B
-Wahl;Darf man die Wahlurne bewachen?;Nein;Ja (Schutz vor Betrug);Ist egal;Nur der Chef;B
-Geld;Was ist die "Steueridentifikationsnummer"?;Dauerhafte Nummer beim Finanzamt;Lohnstufe;Bonus;Abzug;A
-Konflikt;Darf der BR den Chef zum Armdrücken herausfordern?;Ja;Ist rechtlich unerheblich;Nein verboten;Nur im Sportverein;B
-IT;Darf der BR eine Schulung für Datensicherheit fordern?;Nein;Ja (wenn für BR nötig);Nur für Azubis;Nur privat;B
-Stahl;Was ist "Feuerverzinken"?;Stahl mit Zink vor Rost schützen;Anzünden;Lackieren;Einfrieren;A
-Hütte;Darf der BR Insektenschutzgitter fordern?;Ja;Ja (Arbeitsschutz/Hygiene);Nur im Sommer;Nur für Gäste;B
-Arbeitszeit;Was ist die "Kernzeit"?;Anwesenheitspflicht bei Gleitzeit;Pause;Nacht;Urlaub;A
-Urlaub;Darf der Chef im Urlaub "Kontrollanrufe" machen?;Ja;Nein (Freizeit);Nur bei Krankheit;Nur bei Azubis;B
-Abmahnung;Muss der MA die Abmahnung unterschreiben?;Ja;Nein (nur Empfang quittieren);Nur vor Zeugen;Nur bei Azubis;B
-Wahl;Was ist ein "Listenführer"?;Erster Kandidat einer Wahlliste;Der Chef;Ein Bote;Ein Zeuge;A
-Geld;Was ist die "Schichtzulage"?;Geld für Arbeit in Schichten;Urlaubsgeld;Bonus;Abzug;A
-Konflikt;Darf der AG den BR-Drucker überwachen?;Ja;Nein (Vertraulichkeit);Nur bei Viren;Nur nachts;B
-IT;Darf der AG die Klicks pro Minute zählen?;Ja;Nein (unzulässige Kontrolle);Nur bei IT-lern;Nur bei Azubis;B
-Stahl;Was ist "Edelstahl"?;Besonders legierter/reiner Stahl;Dicker Block;Gold;Silber;A
-Hütte;Darf der BR eine Erste-Hilfe-Schulung fordern?;Ja;Ja (Arbeitsschutz);Nur für Chefs;Nur bei 1000 MA;B
-Arbeitszeit;Was ist "Freizeitausgleich"?;Abbummeln von Überstunden;Urlaub;Feiertag;Streik;A
-Urlaub;Was ist "Sonderurlaub bei Hochzeit"?;Bezahlte Freistellung;Pech gehabt;Normaler Urlaub;Streik;A
-Abmahnung;Darf der AG die Abmahnung am Schwarzen Brett aushängen?;Ja;Nein (Datenschutzverstoß);Nur bei Azubis;Nur bei Diebstahl;B
-Wahl;Muss die Wahlurne blickdicht sein?;Nein;Ja (Wahlgeheimnis);Ist egal;Nur im Stahlwerk;B
-Geld;Was ist die "Einkommensteuer"?;Steuer auf das Gehalt;Lohnstufe;Bonus;Abzug;A
-Konflikt;Darf der BR den AG vor dem Arbeitsgericht verklagen?;Nein;Ja (Rechtsstreit);Nur bei Streik;Nur bei Kündigung;B
-IT;Darf der BR WLAN in der Kantine fordern?;Nein;Ja (Soziale Einrichtung);Nur im Büro;Nur für den BR;B
-Stahl;Was ist "Formstahl"?;Stahlträger in Profilform;Flaches Blech;Gold;Holz;A
-Hütte;Darf der BR einen Kantinen-Zuschuss fordern?;Ja;Ja (Mitbestimmung);Nur für Chefs;Nur bei Überstunden;B
-Arbeitszeit;Was ist "Schichtplanänderung"?;Anpassung der Arbeitszeiten;Pause;Feierabend;Urlaub;A
-Urlaub;Was ist "Bildungsfreistellung"?;Recht auf Weiterbildung;Ferien;Krankheit;Streik;A
-Abmahnung;Darf man die Abmahnung wegwerfen?;Ja;Ja (aber sie bleibt wirksam);Nein verboten;Nur im BR-Büro;B
-Wahl;Wer bewahrt die Wahlunterlagen auf?;Der Chef;Der Betriebsrat (§ 19 WO);Niemand;Die Polizei;B
-Geld;Was ist das "Nettoentgelt"?;Auszahlungsbetrag nach Abzügen;Lohn mit Überstunden;Bonus;Urlaubsgeld;A
-Konflikt;Was ist eine "Güteverhandlung"?;Termin zur gütlichen Einigung;Streik;Krieg;Pausenende;A
-IT;Darf der AG die Lautsprecher am PC fernsteuern?;Ja;Nein (Eingriff in Arbeitsplatz);Nein verboten;Nur bei Azubis;B
-Stahl;Was ist ein "Haspel"?;Vorrichtung zum Aufwickeln von Draht/Blech;Ein Fisch;Ein Brot;Ein Auto;A
-Hütte;Darf der BR Werksfahrräder fordern?;Ja;Ja (Gesundheit/Mobilität);Nur bei Hitze;Nur für Chefs;B
-Arbeitszeit;Was ist "Gleitzeitkonto"?;Dokumentation der Zeitdifferenz;Pause;Streik;Feierabend;A
-Urlaub;Darf man Resturlaub bis zum 31.03. mitnehmen?;Ja;Ja (bei dringenden Gründen);Nein nie;Nur bei Stahl;B
-Abmahnung;Darf man nach der Abmahnung weinen?;Ja;Ist egal;Nein verboten;Nur im BR-Büro;B
-Wahl;Darf der Wahlvorstand die Wahl vorzeitig beenden?;Ja;Nein (Wahlzeit einhalten);Nur wenn der Chef will;Nur bei Regen;B
-Geld;Was ist die "Pflegeversicherung"?;Teil der Sozialversicherung;Lohn;Bonus;Steuer;A
-Konflikt;Was ist ein "Teilvergleich"?;Einigung über einen Teil des Streits;Streik;Pausenende;Essenwahl;A
-IT;Darf der BR die Nutzung von privaten Handys regeln?;Nein;Ja (Ordnung im Betrieb);Nur für Marketing;Nur für Azubis;B
-Stahl;Was ist "Verzinken"?;Korrosionsschutz;Normales Eisen;Holz;Plastik;A
-Hütte;Darf der BR Lärmschutzkopfhörer fordern?;Ja;Ja (Arbeitsschutz);Nur bei 100 dB;Nur im Büro;B
-Arbeitszeit;Was ist "Sonderschicht"?;Zusätzliche Schicht;Pause;Freizeit;Nacht;A
-Urlaub;Was ist ein "Urlaubsplaner"?;Tool zur Koordination;Sparbuch;Witz;Geschenk;A
-Abmahnung;Was ist eine "personenbedingte Abmahnung"?;Gibt es nicht (nur Ermahnung möglich);Lob;Wahlwerbung;Krankmeldung;A
-Wahl;Darf man die Wahlurne versperren?;Ja;Ja (Sicherung gegen Zugriff);Nein verboten;Nur der Chef;B
-Geld;Was ist die "Lohnsteuerkarte"?;Elektronisches Merkmal (ELStAM);Lohn;Bonus;Abzug;A
-Konflikt;Darf der AG den BR-Zugang zum Internet sperren?;Ja;Nein (Informationsrecht);Nur bei Fehlern;Nur nachts;B
-IT;Darf der AG die Mac-Adresse protokollieren?;Ja;Ja (IT-Verwaltung);Nein verboten;Nur bei Azubis;B
-Stahl;Was ist "Profilwalzen"?;Herstellung von Trägern;Ein Blech;Ein Rohr;Ein Stein;A
-Hütte;Darf der BR Seifenspender in den Duschen fordern?;Ja;Ja (Hygiene/Soziales);Nur im Winter;Nur nachts;B
-Arbeitszeit;Was ist "Ist-Arbeitszeit"?;Tatsächlich geleistete Zeit;Pause;Weg zur Arbeit;Schlafzeit;A
-Urlaub;Was ist "unbezahlter Urlaub"?;Freistellung ohne Gehalt;1 Tag;100 Tage;Gibt es nicht;A
-Abmahnung;Darf der AG die Abmahnung "befristen"?;Nein;Ja (Bewährungsfrist);Nur bei Azubis;Nur bei Stahl;B
-Wahl;Muss der Wahlvorstand die Stimmen zählen?;Nein;Ja (Pflicht);Nur zum Chef;Nur zur Gewerkschaft;B
-Geld;Was ist die "Kirchensteuer"?;Abgabe an Religionsgemeinschaft;Lohn;Bonus;Abzug;A
-Konflikt;Darf der BR die Arbeit boykottieren?;Ja;Nein (Friedenspflicht);Nur bei Wut;Nur nachts;B
-IT;Darf der BR "Digital-Pause" fordern?;Nein;Ja (Gesundheitsschutz);Nur für IT-ler;Nur bei Azubis;B
-Stahl;Was ist "Flüssigschlacke"?;Nebenprodukt der Schmelze;Pausenbrot;Hammer;Auto;A
-Hütte;Darf der BR Parkplätze mit Schatten fordern?;Ja;Ja (Mitbestimmung Ordnung/BV);Nur für Chefs;Nur bei Sonne;B
-Arbeitszeit;Was ist "Spätzuschlag"?;Extra Geld für Spätschicht;Lohn;Bonus;Abzug;A
-Urlaub;Was ist "Urlaubsentgelt"?;Lohnfortzahlung während Urlaub;Zusatzgeld;Bonus;Abzug;A
-Abmahnung;Darf der AG bei Alkoholkonsum abmahnen?;Nein;Ja (Verstoß gegen Sicherheit/Ordnung);Nur bei 1 Minute;Nur bei Azubis;B
-Wahl;Darf man den Stimmzettel bemalen?;Ja;Nein (Ungültigkeit riskieren);Nur für Facebook;Nur der Chef;B
-Geld;Was ist die "Kilometerpauschale"?;Steuervorteil;Lohn;Bonus;Abzug;A
-Konflikt;Darf der BR gegen den AG klagen?;Nein;Ja (Arbeitsgericht);Nur bei Streik;Nur bei Kündigung;B
-IT;Darf der AG die Desktop-Icons sortieren?;Nein;Ja (Standardisierung);Nur bei Azubis;Nur im Büro;B
-Stahl;Was ist ein "Induktionsofen"?;Elektrischer Schmelzofen;Kühlschrank;Tisch;Auto;A
-Hütte;Darf der BR einen Getränkeautomaten fordern?;Ja;Ja (Soziale Einrichtung);Nur für Chefs;Nur im Büro;B
-Arbeitszeit;Was ist "Mehrarbeit"?;Arbeit über Tarif/Gesetz;Essen;Schlafen;Streik;A
-Urlaub;Was ist "Erholung"?;Zweck des Urlaubs;Einzelurlaub;Krankheit;Streik;A
-Abmahnung;Darf der AG wegen "unordentlichem Schreibtisch" abmahnen?;Ja;Nein (meist kein Verhaltensverstoß);Nur bei Verkäufern;Nur bei Azubis;B
-Wahl;Wer darf die Wahl für ungültig erklären?;Nur das Arbeitsgericht;Jeder;Niemand;Die Polizei;A
-Geld;Was ist die "Entgeltfortzahlung"?;Lohn im Krankheitsfall;Lohn;Bonus;Abzug;A
-Stahl;Was ist "Sintern"?;Verbacken von Feinerz zu Brocken;Einschmelzen;Waschen;Verrosten;A
-Hütte;Darf der BR eine Beschwerdestelle für Diskriminierung fordern?;Ja;Ja (Allgemeines Gleichbehandlungsgesetz);Nur für Frauen;Nur für Azubis;B
-Arbeitszeit;Was ist "Kappung"?;Automatischer Abzug von Zeit;Pause;Bonus;Streik;A
-Urlaub;Was ist die "Urlaubsregelung"?;Interne Richtlinie zur Planung;Witz;Geschenk;Kündigung;A
-Abmahnung;Darf man die Abmahnung im Personalgespräch ablehnen?;Ja;Ja (hilft aber nicht gegen Wirksamkeit);Nein verboten;Nur im BR-Büro;B
-Wahl;Was ist eine "Stützunterschrift"?;Unterschrift zur Zulassung einer Liste;Autogramm;Pausenzettel;Wahlzettel;A
-Geld;Was ist die "Lohnfortzahlung im Todesfall"?;Zahlung an Hinterbliebene (oft TV);Gibt es nicht;Bonus;Abzug;A
-Konflikt;Was ist ein "Gewerkschaftsmitglied"?;Zugehöriger einer Gewerkschaft;Der Chef;Ein Polizist;Ein Richter;A
-IT;Darf der BR die Einführung von Microsoft 365 regeln?;Nein;Ja (Mitbestimmung §87);Nur für Word;Nur für Azubis;B
-Stahl;Was ist "Dauerbetrieb"?;Anlage läuft 24/7;Pause;Feierabend;Urlaub;A
-Hütte;Darf der BR eine gesunde Menülinie in der Kantine fordern?;Ja;Ja (Gesundheitsschutz/Soziales);Nur für Chefs;Nur bei Überstunden;B
-Arbeitszeit;Was ist "Zeitschuld"?;Fehlstunden auf dem Konto;Geld;Urlaub;Pause;A
-Urlaub;Was ist "Urlaubssperre bei Inventur"?;Zulässiger Grund zur Urlaubsablehnung;Witz;Geschenk;Streik;A
-Abmahnung;Muss der MA die Abmahnung sofort unterschreiben?;Ja;Nein (Bedenkzeit ist erlaubt);Nur vor Zeugen;Nur bei Azubis;B
-Wahl;Darf ein gekündigter MA wählen (wenn Klage läuft)?;Ja;Ja (Status bleibt bis Urteil);Nein;Nur wenn er Gewerkschafter ist;B
-Geld;Was ist die "Entgeltumwandlung"?;Teil vom Lohn für Rente;Lohnraub;Bonus;Abzug;A
-Konflikt;Was ist ein "Solidaritätsstreik"?;Streik zur Unterstützung anderer;Krieg;Feuerwehralarm;Pausenende;A
-IT;Darf der AG die Verweildauer auf Websites messen?;Ja;Nein (Leistungsüberwachung);Nur bei IT-lern;Nur bei Azubis;B
-Stahl;Was ist "Kaltfließpressen"?;Umformen bei Raumtemperatur;Walzen im Sommer;Heizung;Kühlung;A
-Hütte;Darf der BR Stehhilfen fordern?;Ja;Ja (Gesundheitsschutz);Nur für Chefs;Nur im Büro;B
-Arbeitszeit;Was ist "Ampelkonto"?;Arbeitszeitkonto mit Warnstufen;Überstunden;Urlaub;Pause;A
-Urlaub;Darf man Urlaubstage "spenden"?;Ja;Nein;Nur bei Stahl;Nur bei Azubis;B
-Abmahnung;Darf der AG die Abmahnung per E-Mail schicken?;Ja;Ja (wirksamer Zugang);Nein verboten;Nur bei Kündigung;B
-Wahl;Darf man die Wahlurne im Tresor lagern?;Nein;Ja (Sicherung);Ist egal;Nur der Chef;B
-Geld;Was ist die "Lohnsteuerklasse VI"?;Klasse für Nebenjobs;Lohnstufe;Bonus;Abzug;A
-Konflikt;Darf der BR den Chef zum Schachspiel herausfordern?;Ja;Ist rechtlich privat;Nein verboten;Nur im Sportverein;B
-IT;Darf der BR eine Schulung für Datenschutz fordern?;Nein;Ja (wenn für BR nötig);Nur für Azubis;Nur privat;B
-Stahl;Was ist "Verchromen"?;Stahl mit Chrom beschichten;Anzünden;Lackieren;Einfrieren;A
-Hütte;Darf der BR Fliegengitter fordern?;Ja;Ja (Arbeitsschutz/Hygiene);Nur im Sommer;Nur für Gäste;B
-Arbeitszeit;Was ist die "Gleitzeitspanne"?;Zeit zwischen frühestem/spätestem Beginn;Pause;Nacht;Urlaub;A
-Urlaub;Darf der Chef im Urlaub "SMS schreiben"?;Ja;Nein (Freizeit);Nur bei Krankheit;Nur bei Azubis;B
-Abmahnung;Muss der MA die Abmahnung verstehen?;Ja;Ja (Hinweisfunktion);Nur vor Zeugen;Nur bei Azubis;B
-Wahl;Was ist ein "Wahlhelfer"?;Unterstützer des Wahlvorstands;Der Chef;Ein Bote;Ein Zeuge;A
-Geld;Was ist die "Nachtzulage"?;Geld für Arbeit nachts;Urlaubsgeld;Bonus;Abzug;A
-Konflikt;Darf der AG das BR-Telefon abhören?;Ja;Nein (Straftat/Vertraulichkeit);Nur bei Viren;Nur nachts;B
-IT;Darf der AG die Anschläge pro Stunde zählen?;Ja;Nein (unzulässige Kontrolle);Nur bei IT-lern;Nur bei Azubis;B
-Stahl;Was ist "Spezialstahl"?;Stahl für extreme Belastung;Dicker Block;Gold;Silber;A
-Hütte;Darf der BR eine Brandschutzschulung fordern?;Ja;Ja (Arbeitsschutz);Nur für Chefs;Nur bei 1000 MA;B
-Arbeitszeit;Was ist "Zeitausgleich"?;Abbummeln von Stunden;Urlaub;Feiertag;Streik;A
-Urlaub;Was ist "Sonderurlaub bei Todesfall"?;Bezahlte Freistellung (nahe Angehörige);Pech gehabt;Normaler Urlaub;Streik;A
-Abmahnung;Darf der AG die Abmahnung im Schaukasten aushängen?;Ja;Nein (schwere Ehrverletzung);Nur bei Azubis;Nur bei Diebstahl;B
-Wahl;Muss die Wahlurne versperrt sein?;Nein;Ja (Wahlgeheimnis);Ist egal;Nur im Stahlwerk;B
-Geld;Was ist die "Umsatzsteuer"?;Steuer auf Verkäufe;Lohnstufe;Bonus;Abzug;A
-Konflikt;Darf der BR den AG vor dem Bundesarbeitsgericht verklagen?;Nein;Ja (letzte Instanz);Nur bei Streik;Nur bei Kündigung;B
-IT;Darf der BR WLAN im Pausenraum fordern?;Nein;Ja (Soziale Einrichtung);Nur im Büro;Nur für den BR;B
-Stahl;Was ist "Rundstahl"?;Stabstahl mit rundem Querschnitt;Flaches Blech;Gold;Holz;A
-Hütte;Darf der BR einen Essenszuschuss fordern?;Ja;Ja (Mitbestimmung);Nur für Chefs;Nur bei Überstunden;B
-Arbeitszeit;Was ist "Schichtdienst"?;Regelmäßiger Wechsel der Arbeitszeit;Pause;Feierabend;Urlaub;A
-Urlaub;Was ist "Bildungszeit"?;Anspruch auf Weiterbildung;Ferien;Krankheit;Streik;A
-Abmahnung;Darf man die Abmahnung im Klo runterspülen?;Ja;Ja (aber sie bleibt wirksam);Nein verboten;Nur im BR-Büro;B
-Wahl;Wer ist für die Richtigkeit der Wählerliste verantwortlich?;Der Chef;Der Wahlvorstand;Niemand;Die Polizei;B
-Geld;Was ist das "Jahresbrutto"?;Gesamtverdienst im Jahr;Lohn mit Überstunden;Bonus;Urlaubsgeld;A
+Nr;Kategorie;Frage;Antwort A;Antwort B;Antwort C;Antwort D;Loesung;Paragraf;Begruendung
+1;Arbeitszeit;Darf der Chef die Frühschicht ohne BR-Zustimmung verlängern?;Ja, bei viel Arbeit;Nein (Mitbestimmung);Nur gegen 50% Zuschlag;Nur bei Ansage 24h vorher;B;§ 87 Abs. 1 Nr. 3 BetrVG;Die vorübergehende Verlängerung der betriebsüblichen Arbeitszeit ist zwingend mitbestimmungspflichtig.
+2;Stahl;Wer wählt den Arbeitsdirektor im Montan-Bereich?;Der Vorstand allein;Der Aufsichtsrat (BR-Veto);Die Gewerkschaft;Der Werksleiter;B;§ 13 MontanMitbestG;Im Montan-Bereich kann der Arbeitsdirektor nicht gegen die Mehrheit der Arbeitnehmervertreter im Aufsichtsrat bestellt werden.
+3;Urlaub;Was passiert bei Krankheit im Urlaub?;Pech gehabt;Tage werden gutgeschrieben;Urlaub wird verlängert;Lohnkürzung;B;§ 9 BUrlG;Durch ärztliches Zeugnis nachgewiesene Tage der Arbeitsunfähigkeit werden auf den Jahresurlaub nicht angerechnet.
+4;Kuendigung;Was ist die Frist für eine Kündigungsschutzklage?;1 Woche;3 Wochen;3 Monate;6 Monate;B;§ 4 KSchG;Die Klage muss innerhalb von drei Wochen nach Zugang der schriftlichen Kündigung beim Arbeitsgericht erhoben werden.
+5;Arbeitszeit;Wie lange muss die Ruhepause zwischen zwei Schichten sein?;8 Stunden;10 Stunden;11 Stunden;12 Stunden;C;§ 5 ArbZG;Die Arbeitnehmer müssen nach Beendigung der täglichen Arbeitszeit eine ununterbrochene Ruhezeit von mindestens 11 Stunden haben.
+6;Rechte;Darf der BR-Vorsitzende allein Entscheidungen treffen?;Ja;Nein (nur im Namen des Gremiums);Nur bei Eile;Nur im Urlaub;B;§ 26 BetrVG;Der Vorsitzende vertritt den Betriebsrat nur im Rahmen der von ihm gefassten Beschlüsse.
+7;Versetzung;Ab welcher Dauer gilt eine Zuweisung als Versetzung?;1 Tag;1 Woche;Mehr als 1 Monat;Mehr als 3 Monate;C;§ 95 Abs. 3 BetrVG;Eine Versetzung ist die Zuweisung eines anderen Arbeitsbereichs, die die Dauer von einem Monat voraussichtlich überschreitet.
+8;Geheimhaltung;Darf man BR-Infos dem Ehepartner erzählen?;Ja klar;Nein (Verschwiegenheitspflicht);Nur bei Stress;Nur nach der Wahl;B;§ 79 BetrVG;BR-Mitglieder sind verpflichtet, Betriebs- oder Geschäftsgeheimnisse, die als solche bezeichnet sind, nicht zu offenbaren.
+9;Ausschuesse;Wann MUSS ein Betriebsausschuss gebildet werden?;Ab 3 BR-Mitgliedern;Ab 9 BR-Mitgliedern;Immer;Ab 15 BR-Mitgliedern;B;§ 27 BetrVG;Hat ein Betriebsrat neun oder mehr Mitglieder, so bildet er einen Betriebsausschuss zur Erledigung der laufenden Geschäfte.
+10;Stahl;Was ist das Besondere an der Montan-Parität?;Gleiche Anzahl AG/AN im AR;AG hat mehr Stimmen;BR entscheidet alles;Gilt nur für Azubis;A;MontanMitbestG;In Montan-Unternehmen besteht der Aufsichtsrat aus einer gleichen Anzahl von Vertretern der Anteilseigner und der Arbeitnehmer sowie einem neutralen Mitglied.
+11;Arbeitsschutz;Wer zahlt die Sicherheitsschuhe im Werk?;Der Kollege selbst;50/50;Der Arbeitgeber komplett;Die Krankenkasse;C;§ 3 ArbSchG;Der Arbeitgeber ist verpflichtet, die erforderlichen Mittel für Maßnahmen des Arbeitsschutzes bereitzustellen; Kosten dürfen nicht den Beschäftigten auferlegt werden.
+12;Abmahnung;Muss man eine Abmahnung unterschreiben?;Ja Pflicht;Nein (nur Erhalt bestätigen);Nur wenn man zustimmt;Nur mit Anwalt;B;BetrVG allgemein;Es gibt keine gesetzliche Pflicht, eine Abmahnung inhaltlich zu unterschreiben. Eine Empfangsquittung reicht aus.
+13;Urlaub;Darf der BR die allgemeine Urlaubsplanung mitbestimmen?;Nein;Ja (§87 BetrVG);Nur bei Streik;Nur bei Azubis;B;§ 87 Abs. 1 Nr. 5 BetrVG;Der BR hat bei der Aufstellung allgemeiner Urlaubsgrundsätze und des Urlaubsplans zwingend mitzubestimmen.
+14;Betriebsvereinbarung;Wie lange wirkt eine BV nach?;Gar nicht;Bis eine neue Regelung gilt;Maximal 1 Monat;Genau 1 Jahr;B;§ 77 Abs. 6 BetrVG;Nach Ablauf einer BV gelten ihre Regelungen in Angelegenheiten, in denen ein Spruch der Einigungsstelle die Einigung ersetzen kann, weiter, bis sie durch eine andere Abmachung ersetzt werden.
+15;Kuendigung;Wann muss der BR zur Kündigung angehört werden?;Nach der Kündigung;Gleichzeitig;Vor der Kündigung;Gar nicht;C;§ 102 Abs. 1 BetrVG;Der Arbeitgeber hat vor jeder Kündigung den Betriebsrat anzuhören, andernfalls ist die Kündigung unwirksam.
+16;Arbeitszeit;Sind Raucherpausen gesetzliche Arbeitszeit?;Ja;Nein;Nur in der Spätschicht;Nur für den BR;B;§ 2 ArbZG;Arbeitszeit ist die Zeit von Beginn bis zum Ende der Arbeit ohne die Ruhepausen. Raucherpausen zählen rechtlich als Ruhepause.
+17;Stahl;Darf der BR bei der Wahl des Ofen-Teams mitreden?;Nein;Ja (Versetzung/Besetzung);Nur bei Hitze;Nur bei Azubis;B;§ 99 BetrVG;Bei Einstellungen und Versetzungen in Betrieben mit mehr als 20 Wahlberechtigten hat der Betriebsrat ein Mitbestimmungsrecht.
+18;Freistellung;Was ist der Grundsatz für BR-Schulungen?;Freiwillig;Erforderlichkeit;Lust und Laune;Nur für den Vorsitz;B;§ 37 Abs. 6 BetrVG;Der AG trägt die Kosten für Schulungen, wenn diese Kenntnisse vermitteln, die für die Arbeit des Betriebsrats erforderlich sind.
+19;Arbeitsschutz;Darf der BR eine Gefährdungsbeurteilung erzwingen?;Nein;Ja (Initiativrecht);Nur nach Unfall;Nur im Sommer;B;§ 87 Abs. 1 Nr. 7 BetrVG;Der BR hat bei Regelungen über den Gesundheitsschutz ein Initiativrecht, um Gefährdungsbeurteilungen einzufordern.
+20;IT-Datenschutz;Darf der AG heimlich GPS im Stapler auswerten?;Ja zur Logistik;Nein (Leistungskontrolle);Nur nachts;Nur bei Diebstahl;B;§ 87 Abs. 1 Nr. 6 BetrVG;Die Einführung von technischen Einrichtungen, die dazu bestimmt sind, das Verhalten oder die Leistung der Arbeitnehmer zu überwachen, ist mitbestimmungspflichtig.
+21;Urlaub;Kann der AG Urlaub wegen Personalmangel einfach streichen?;Ja jederzeit;Nein (nur bei Notfällen);Nur bei Azubis;Nur gegen Geld;B;§ 7 BUrlG;Einmal genehmigter Urlaub kann vom AG nur in absoluten, existenzbedrohenden Notfällen widerrufen werden.
+22;Arbeitszeit;Gilt Fahrzeit zur Baustelle als Arbeitszeit?;Immer;Oft ja (kommt auf BV/TV an);Nie;Nur für den Fahrer;B;ArbZG / BAG Urteile;Fahrten zwischen Betrieb und wechselnden Einsatzstellen gehören in der Regel zur vergütungspflichtigen Arbeitszeit.
+23;Stahl;Wie hoch ist die Mitbestimmung bei Arbeitsschutz?;Gering;Eingeschränkt;Sehr hoch (Zwingend);Gibt es nicht;C;§ 87 Abs. 1 Nr. 7 BetrVG;Der Arbeitsschutz gehört zu den Kernbereichen der erzwingbaren Mitbestimmung des Betriebsrats.
+24;Freistellung;Muss man sich beim Chef für BR-Arbeit abmelden?;Nein;Ja (Abmelden & Zurückmelden);Nur bei Meetings;Nur per E-Mail;B;§ 37 Abs. 2 BetrVG;BR-Mitglieder müssen sich für die Durchführung von BR-Tätigkeiten beim Vorgesetzten abmelden und nach Beendigung zurückmelden.
+25;Versetzung;Kann eine Versetzung auch eine Lohnkürzung sein?;Immer;Nein;Ja (erfordert Änderungskündigung);Nur bei Azubis;C;§ 2 KSchG;Eine einseitige Lohnkürzung durch Versetzung ist nicht möglich; sie erfordert eine einvernehmliche Änderung oder eine Änderungskündigung.
+26;Geheimhaltung;Darf ein BR-Mitglied Betriebsgeheimnisse an Dritte geben?;Ja;Nie (§79 BetrVG);Nur nach Wahl;Nur der Presse;B;§ 79 BetrVG;Die Verschwiegenheitspflicht gilt auch nach dem Ausscheiden aus dem Betriebsrat lebenslang für geschützte Geheimnisse.
+27;Ausschuesse;Was macht der Arbeitsschutzausschuss (ASA)?;Feiern planen;Sicherheit prüfen;Lohn verhandeln;Urlaub buchen;B;§ 11 ASiG;Der ASA hat die Aufgabe, Anliegen des Arbeitsschutzes und der Unfallverhütung zu beraten.
+28;Arbeitsschutz;Ab welcher Lautstärke ist Gehörschutz Pflicht?;70 dB(A);80-85 dB(A);100 dB(A);120 dB(A);B;LärmVibrationsArbSchV;Ab einem Tages-Lärmexpositionspegel von 85 dB(A) hat der AG die Verwendung von Gehörschutz sicherzustellen.
+29;Kuendigung;Darf man während der Krankheit gekündigt werden?;Nein nie;Ja (unter engen Bedingungen);Nur bei Betrug;Nur bei Rauchern;B;KSchG;Krankheit schützt nicht vor Kündigung (z.B. personenbedingte Kündigung bei negativer Gesundheitsprognose möglich).
+30;Arbeitszeit;Zählt Umkleidezeit zur Arbeitszeit?;Nie;Oft ja (wenn PSA vorgeschrieben);Nur bei Stahl;Nur in der Nacht;B;BAG Urteile;Wenn das Tragen einer bestimmten Arbeitskleidung vorgeschrieben ist und diese im Betrieb angelegt werden muss, zählt das Umkleiden zur Arbeitszeit.
+31;Stahl;Was regelt der Tarifvertrag Eisen/Stahl primär?;Lohn und Arbeitszeit;Nur Urlaub;Nur Kantinenpreise;Die Helmfarbe;A;TV Eisen-Stahl;Tarifverträge regeln die Arbeitsbedingungen (Lohn, Arbeitszeit, Urlaub), die für die tarifgebundenen Unternehmen gelten.
+32;Abmahnung;Kann man eine Gegendarstellung schreiben?;Nein;Ja (muss in die Akte);Nur mündlich;Nur über die Gewerkschaft;B;§ 83 Abs. 2 BetrVG;Arbeitnehmer können Erklärungen zur Personalakte abgeben, die der AG zur Akte nehmen muss.
+33;Urlaub;Was ist der gesetzliche Mindesturlaub (5-Tage-Woche)?;20 Tage;24 Tage;30 Tage;15 Tage;A;§ 3 BUrlG;Der gesetzliche Mindesturlaub beträgt 24 Werktage (bei einer 6-Tage-Woche), was 20 Arbeitstagen bei einer 5-Tage-Woche entspricht.
+34;Betriebsvereinbarung;Wer unterschreibt eine BV?;Alle Kollegen;BR-Vorsitz & AG-Leitung;Nur der Chef;Die Gewerkschaft;B;§ 77 Abs. 2 BetrVG;Betriebsvereinbarungen sind vom Betriebsrat und Arbeitgeber gemeinsam schriftlich niederzulegen und zu unterzeichnen.
+35;Ausschuesse;Darf ein Ausschuss eigenständig Verträge schließen?;Nie;Nur bei Übertragung durch Gremium;Immer;Nur mit dem Chef;B;§ 27 Abs. 2 BetrVG;Der BR kann dem Betriebsausschuss Aufgaben zur selbstständigen Erledigung übertragen (außer den Abschluss von BVs).
+36;Rechte;Darf der BR an Vorstellungsgesprächen teilnehmen?;Ja (§95);Nur bei Azubis;Nein;Nur als Gast;A;§ 95 BetrVG / § 99;Der BR hat bei personellen Einzelmaßnahmen (Einstellungen) ein umfassendes Informations- und Teilnahmerecht.
+37;Arbeitsschutz;Was ist die UVV?;Urlaubsverordnung;Unfallverhütungsvorschrift;Umweltvorschrift;Umsatzvorgabe;B;SGB VII;Unfallverhütungsvorschriften sind für die Versicherten der Berufsgenossenschaften verbindlich geltendes Recht am Arbeitsplatz.
+38;Kuendigung;Was passiert bei einer betriebsbedingten Kündigung?;Losentscheid;Sozialauswahl;Chef entscheidet;Würfeln;B;§ 1 KSchG;Bei betriebsbedingten Kündigungen muss der Arbeitgeber eine Sozialauswahl (Dauer der Betriebszugehörigkeit, Lebensalter, Unterhaltspflichten) durchführen.
+39;Arbeitszeit;Wie viele Sonntage müssen im Jahr frei bleiben?;Mindestens 10;Mindestens 15;Mindestens 20;Gar keine;B;§ 11 ArbZG;Mindestens 15 Sonntage im Jahr müssen beschäftigungsfrei bleiben.
+40;Stahl;Was ist eine Erschwerniszulage?;Geld für Hitze/Schmutz;Geld für Urlaub;Geld für Pendler;Geld für Werkzeug;A;Tarifvertrag;Zulagen für Arbeiten, die unter besonders belastenden Bedingungen (Hitze, Schmutz, Gas) ausgeführt werden.
+41;IT-Datenschutz;Muss der BR bei neuen Tablets im Werk zustimmen?;Nein;Ja (Überwachungspotenzial);Nur bei Kamera;Nur bei GPS;B;§ 87 Abs. 1 Nr. 6 BetrVG;Sobald eine technische Einrichtung zur Überwachung von Leistung oder Verhalten geeignet ist, besteht Mitbestimmung.
+42;Freistellung;Wie werden BR-Sitzungen bezahlt?;Gar nicht;Wie normale Arbeitszeit;Doppelt;Nur mit Überstunden;B;§ 37 Abs. 2 BetrVG;Mitglieder des Betriebsrats sind von ihrer beruflichen Tätigkeit ohne Minderung des Arbeitsentgelts zu befreien.
+43;Versetzung;Darf der BR eine Versetzung ablehnen?;Nie;Ja (bei Verstoß gegen Gesetze);Nur bei Frauen;Nur bei Azubis;B;§ 99 Abs. 2 BetrVG;Der BR kann die Zustimmung verweigern, wenn die Maßnahme gegen ein Gesetz, eine Verordnung oder eine Bestimmung im Tarifvertrag verstößt.
+44;Geheimhaltung;Was droht bei Verrat von Betriebsgeheimnissen?;Nichts;Geldstrafe/Kündigung/Haft;Nur Rüge;Urlaubskürzung;B;§ 120 BetrVG;Die Verletzung der Verschwiegenheitspflicht kann mit Freiheitsstrafe bis zu einem Jahr oder Geldstrafe bestraft werden.
+45;Betriebsvereinbarung;Wo muss die BV im Betrieb hängen?;Im Safe;An geeigneter Stelle (bekannt);Gar nicht;Nur beim BR;B;§ 77 Abs. 2 BetrVG;Der Arbeitgeber ist verpflichtet, die Betriebsvereinbarungen an geeigneter Stelle im Betrieb auszulegen.
+46;Arbeitsschutz;Muss der BR bei der PSA-Farbe mitreden?;Kann er (Trageakzeptanz);Nein;Nur bei Gelb;Nur bei Blau;A;§ 87 Abs. 1 Nr. 7 BetrVG;Der BR bestimmt bei der Ausgestaltung von Arbeitsschutzmaßnahmen mit, was auch die Akzeptanz der Schutzkleidung betrifft.
+47;Kuendigung;Gilt der Kündigungsschutz während der Probezeit?;Ja voll;Nein (nur Mindestschutz);Erst nach 1 Jahr;Nur bei Azubis;B;§ 1 KSchG;Der allgemeine Kündigungsschutz nach dem KSchG greift erst nach einer ununterbrochenen Betriebszugehörigkeit von mehr als 6 Monaten.
+48;Urlaub;Was ist Sonderurlaub?;Urlaub für Sport;Bezahlte Freistellung (z.B. Geburt);Urlaub ohne Lohn;Urlaub für Haustiere;B;§ 616 BGB;Der Arbeitnehmer hat Anspruch auf bezahlte Freistellung, wenn er für eine verhältnismäßig nicht erhebliche Zeit durch einen in seiner Person liegenden Grund ohne sein Verschulden verhindert ist.
+49;Arbeitszeit;Darf der BR die Schichtpläne mitgestalten?;Nein;Ja (volles Recht);Nur bei Nacht;Nur am Wochenende;B;§ 87 Abs. 1 Nr. 2 BetrVG;Die Festsetzung der täglichen Arbeitszeit und die Verteilung auf die Wochentage sowie die Schichtpläne sind zwingend mitbestimmungspflichtig.
+50;Mitbestimmung;Muss der AG über geplante Investitionen informieren?;Nein;Ja (im Wirtschaftsausschuss);Nur bei Erfolg;Nur bei Kündigungen;B;§ 106 BetrVG;In Unternehmen mit mehr als 100 Mitarbeitern muss der Wirtschaftsausschuss über Investitionsprogramme rechtzeitig informiert werden.
+51;Arbeitszeit;Darf der AG die Zeiterfassung einseitig abschaffen?;Ja;Nein (EuGH-Urteil/BetrVG);Nur bei Führungskräften;Nur in der Verwaltung;B;§ 3 ArbSchG / § 87;Nach der Rechtsprechung ist der AG verpflichtet, ein System zur Erfassung der täglichen Arbeitszeit einzuführen und zu betreiben.
+52;Stahl;Was ist ein "Arbeitsdirektor"?;Ein Vorarbeiter;Vorstandsmitglied für Personal;Der BR-Vorsitzende;Ein externer Berater;B;§ 13 MontanMitbestG;Der Arbeitsdirektor ist ein vollwertiges Vorstandsmitglied, das insbesondere für das Personalwesen zuständig ist.
+53;Kuendigung;Darf der BR einer Kündigung widersprechen?;Nein;Ja (bei sozialen Gründen);Nur bei Azubis;Nur mündlich;B;§ 102 Abs. 3 BetrVG;Der BR kann ordentlichen Kündigungen innerhalb einer Woche schriftlich widersprechen, wenn soziale Gesichtspunkte nicht ausreichend berücksichtigt wurden.
+54;Rechte;Hat der BR ein Recht auf ein eigenes Büro?;Nein;Ja (in erforderlichem Umfang);Nur nach 5 Jahren;Nur im Keller;B;§ 40 Abs. 2 BetrVG;Der Arbeitgeber hat dem Betriebsrat für die Sitzungen, die Sprechstunden und die laufende Geschäftsführung Räume und Sachmittel bereitzustellen.
+55;Arbeitsschutz;Wer ernennt die Sicherheitsbeauftragten?;Nur der Chef;AG nach Anhörung des BR;Die Krankenkasse;Der Werksarzt;B;§ 22 SGB VII;In Betrieben mit mehr als 20 Beschäftigten hat der AG Sicherheitsbeauftragte unter Mitwirkung des BR zu bestellen.
+56;Urlaub;Kann Resturlaub wegen Krankheit verfallen?;Immer;Nein (bis zu 15 Monate nach Jahresende);Ja nach 3 Monaten;Nur bei Kündigung;B;BAG Rechtsprechung;Urlaub, der wegen Langzeiterkrankung nicht genommen werden kann, verfällt erst 15 Monate nach Ende des Urlaubsjahres.
+57;Allgemein;Was ist die "Friedenspflicht"?;Kein Streit im BR;Verbot von Streiks während BV;Kein Lärm am Sonntag;Pause für alle;B;§ 74 Abs. 2 BetrVG;Arbeitgeber und Betriebsrat haben alles zu unterlassen, was den Arbeitsablauf oder den Frieden des Betriebs beeinträchtigt (z.B. keine Arbeitskämpfe gegeneinander).
+58;IT-Datenschutz;Darf der BR einen Sachverständigen für IT hinzuziehen?;Nein;Ja (nach Vereinbarung mit AG);Nur bei Spionage;Nur wenn er selbst zahlt;B;§ 80 Abs. 3 BetrVG;Der Betriebsrat kann bei Bedarf und nach näherer Vereinbarung mit dem Arbeitgeber Sachverständige hinzuziehen.
+59;Gehalt;Was ist eine "übertarifliche Zulage"?;Lohn unter Tarif;Zahlung über dem Tarifniveau;Ein Darlehen;Urlaubsgeld;B;BetrVG allgemein;Zulagen, die über den Tarifvertrag hinausgehen, unterliegen bei der Verteilung der Mitbestimmung des BR gemäß § 87 Abs. 1 Nr. 10.
+60;Versetzung;Muss der BR bei einer Versetzung ins Ausland zustimmen?;Nein;Ja (wenn Betrieb im Inland bleibt);Nur bei Flugreisen;Nur bei Managern;B;§ 99 BetrVG;Auch Auslandsentsendungen können Versetzungen sein, wenn das Arbeitsverhältnis zum inländischen Betrieb bestehen bleibt.
+61;Gleichstellung;Wer überwacht die Entgeltgleichheit (Männer/Frauen)?;Nur das Finanzamt;Der Betriebsrat;Niemand;Der Zoll;B;§ 80 Abs. 1 Nr. 2a BetrVG;Der BR hat die Aufgabe, die Durchsetzung der tatsächlichen Gleichstellung von Frauen und Männern zu fördern.
+62;Arbeitszeit;Darf der AG "Handyverbot am Platz" einseitig anordnen?;Ja;Nein (Ordnungsverhalten im Betrieb);Nur im Büro;Nur für Azubis;B;§ 87 Abs. 1 Nr. 1 BetrVG;Regeln zum Verhalten der Arbeitnehmer im Betrieb (wie private Handynutzung) sind mitbestimmungspflichtig.
+63;Stahl;Was regelt die "Eingruppierung"?;Die Parkplatzwahl;Die Zuordnung zu einer Lohnstufe;Den Renteneintritt;Die Schichtfolge;B;§ 99 BetrVG;Die Eingruppierung ist die Einordnung eines Mitarbeiters in eine Entgeltgruppe des Tarifvertrags und ist mitbestimmungspflichtig.
+64;Kuendigung;Was ist eine "Änderungskündigung"?;Kündigung mit neuem Angebot;Kündigung wegen Umzug;Namensänderung;Ein Schreibfehler;A;§ 2 KSchG;Der AG kündigt das Arbeitsverhältnis und bietet gleichzeitig die Fortsetzung zu geänderten Bedingungen an.
+65;Rechte;Darf der BR während der Arbeitszeit tagen?;Nein;Ja (Grundsatz);Nur nachts;Nur bei Streik;B;§ 30 BetrVG;Die Sitzungen des Betriebsrats finden während der Arbeitszeit statt. Der AG ist rechtzeitig zu informieren.
+66;Arbeitsschutz;Darf der BR Alkoholkontrollen erzwingen?;Ja;Nein (Persönlichkeitsrecht);Nur bei Fahrern;Nur im Sommer;B;§ 87 / GG;Alkoholkontrollen greifen tief in das Persönlichkeitsrecht ein und bedürfen einer klaren Rechtsgrundlage oder einer freiwilligen BV.
+67;Bildung;Hat jedes BR-Mitglied Anspruch auf Grundlagenschulung?;Nein;Ja (erforderlich);Nur der Vorsitz;Nur nach 4 Jahren;B;§ 37 Abs. 6 BetrVG;Kenntnisse im Betriebsverfassungs- und Arbeitsrecht gelten als grundsätzlich erforderlich für jedes BR-Mitglied.
+68;Allgemein;Was ist die "Schwellenzahl"?;Anzahl der Treppen;MA-Zahl für bestimmte BR-Rechte;Lohnuntergrenze;Temperatur im Ofen;B;BetrVG;Viele Rechte des BR (z.B. Freistellungen, Wirtschaftsausschuss) hängen von der Anzahl der regelmäßig beschäftigten Mitarbeiter ab.
+69;IT-Datenschutz;Darf der AG den Browserverlauf prüfen?;Immer;Nur bei begründetem Verdacht;Nie;Nur bei IT-lern;B;TDDDG / BDSG;Eine anlasslose Kontrolle des Browserverlaufs ist aufgrund des Datenschutzes und Persönlichkeitsrechts in der Regel unzulässig.
+70;Jugend;Ab wie vielen Azubis wird eine JAV gewählt?;Ab 1;Ab 5;Ab 20;Ab 50;B;§ 60 BetrVG;In Betrieben mit mindestens fünf Arbeitnehmern unter 18 Jahren oder Auszubildenden unter 25 Jahren wird eine JAV gewählt.
+71;Arbeitszeit;Darf der BR "Überstunden für alle" ablehnen?;Nein;Ja (Mitbestimmungsrecht);Nur im Winter;Nur am Freitag;B;§ 87 Abs. 1 Nr. 3 BetrVG;Der BR kann die Zustimmung zu Überstunden verweigern, wenn z.B. kein dringender Bedarf nachgewiesen ist.
+72;Stahl;Was ist eine "Betriebliche Übung"?;Sport im Werk;Gewohnheitsrecht auf Leistungen;Ein Testlauf;Brandschutzübung;B;BGB Rechtsprechung;Wenn der AG eine Leistung (z.B. Weihnachtsgeld) dreimal vorbehaltlos zahlt, entsteht ein Rechtsanspruch für die Zukunft.
+73;Kuendigung;Wer hat besonderen Kündigungsschutz?;Jeder nach 10 Jahren;BR-Mitglieder / Schwangere;Nur der Chef;Nur Pendler;B;§ 15 KSchG / § 103 BetrVG;Mitglieder des Betriebsrats genießen einen besonderen Schutz; ihre Kündigung bedarf der vorherigen Zustimmung des BR-Gremiums.
+74;Rechte;Darf der BR eine Betriebsversammlung einberufen?;Nein;Ja (einmal pro Kalendervierteljahr);Nur bei Entlassungen;Nur am Wochenende;B;§ 43 BetrVG;Der Betriebsrat hat einmal in jedem Kalendervierteljahr eine Betriebsversammlung einzuberufen und einen Tätigkeitsbericht zu erstatten.
+75;Arbeitsschutz;Wer ist für die Erste Hilfe im Betrieb verantwortlich?;Das Rote Kreuz;Der Arbeitgeber;Der BR;Jeder selbst;B;§ 10 ArbSchG;Der Arbeitgeber hat entsprechend der Art der Arbeitsstätte die Maßnahmen zu treffen, die zur Ersten Hilfe erforderlich sind.
+76;Personal;Was ist eine "Stellenausschreibung"?;Ein Werbeplakat;Interne/externe Suche nach MA;Eine Kündigung;Ein Zeugnis;B;§ 93 BetrVG;Der BR kann verlangen, dass Arbeitsplätze, die besetzt werden sollen, vor ihrer Besetzung innerhalb des Betriebs ausgeschrieben werden.
+77;Gehalt;Darf der AG Lohn einbehalten bei Streik?;Nein;Ja (keine Arbeit, kein Lohn);Nur als Strafe;Nur bei Azubis;B;Arbeitskampfrecht;Während eines rechtmäßigen Streiks ruht das Arbeitsverhältnis; der AG muss für die Streikzeit kein Entgelt zahlen.
+78;Allgemein;Was ist das "Hausrecht"?;Recht des BR;Recht des AG am Eigentum;Mietvertrag;Pausenordnung;B;BGB;Der AG übt das Hausrecht aus, darf aber den BR oder Gewerkschaften (§2 BetrVG) nicht unberechtigt am Zugang hindern.
+79;Versetzung;Darf der AG einen MA in eine andere Stadt schicken?;Immer;Nur wenn im Arbeitsvertrag vereinbart;Nie;Nur bei Beförderung;B;§ 106 GewO;Das Weisungsrecht erlaubt Versetzungen an andere Orte nur, wenn der Arbeitsvertrag dies nicht ausschließt.
+80;Kuendigung;Was ist eine "Verdachtskündigung"?;Kündigung ohne Grund;Kündigung bei dringendem Verdacht;Kündigung bei Krankheit;Ein Irrtum;B;Rechtsprechung;Bei schwerwiegenden Vorwürfen kann ein dringender Verdacht für eine Kündigung ausreichen, wenn der MA vorher angehört wurde.
+81;Arbeitszeit;Darf der BR die Einführung von Schichtarbeit fordern?;Nein;Ja (Initiativrecht);Nur bei Hitze;Nur für Azubis;B;§ 87 Abs. 1 Nr. 2 BetrVG;Der BR hat beim "Ob" und "Wie" der Arbeitszeitverteilung (Schichten) ein volles Mitbestimmungs- und Initiativrecht.
+82;Stahl;Was ist die "Gefährdungsbeurteilung"?;Lohnprüfung;Analyse von Arbeitsrisiken;Ein Eignungstest;Wetterbericht;B;§ 5 ArbSchG;Der Arbeitgeber muss die mit der Arbeit verbundenen Gefährdungen ermitteln und Maßnahmen des Arbeitsschutzes festlegen.
+83;Rechte;Darf der BR die Personalakten einsehen?;Immer;Nur mit Zustimmung des MA;Nie;Nur bei Kündigung;B;§ 83 Abs. 1 BetrVG;Der MA hat das Recht auf Einsicht und kann ein Mitglied des Betriebsrats zur Unterstützung hinzuziehen.
+84;Jugend;Darf die JAV an BR-Sitzungen teilnehmen?;Nein;Ja (zu ihren Themen);Immer mit Stimmrecht;Nur als Gast ohne Wort;B;§ 67 BetrVG;Die JAV kann zu Besprechungen entsandt werden, die Angelegenheiten betreffen, die besonders die jugendlichen Arbeitnehmer betreffen.
+85;Gehalt;Was ist "Entgeltfortzahlung"?;Lohn bei Krankheit;Bonus;Abfindung;Vorschuss;A;EntgFG;Der AG muss im Krankheitsfall das Entgelt für bis zu sechs Wochen weiterzahlen.
+86;Allgemein;Was ist eine "Einigungsstelle"?;Ein Café;Internes Schiedsgericht bei Konflikten;Die Kantine;Das Arbeitsgericht;B;§ 76 BetrVG;Bei Meinungsverschiedenheiten zwischen AG und BR wird bei Bedarf eine Einigungsstelle zur Beilegung des Konflikts gebildet.
+87;Arbeitsschutz;Muss der BR Unfälle untersuchen?;Nein;Ja (Teil der Überwachungspflicht);Nur bei Tod;Nur bei Azubis;B;§ 80 Abs. 1 Nr. 1 BetrVG;Der BR hat darüber zu wachen, dass die zugunsten der Arbeitnehmer geltenden Unfallverhütungsvorschriften durchgeführt werden.
+88;Bildung;Darf der Chef eine Schulung ablehnen?;Nie;Ja (wenn nicht erforderlich);Nur wenn er keine Lust hat;Nur bei Stahl;B;§ 37 Abs. 6 BetrVG;Der AG kann die Erforderlichkeit prüfen; im Streitfall entscheidet die Einigungsstelle oder das Gericht.
+89;Personal;Darf der BR einen eigenen Anwalt wählen?;Nein;Ja (bei Rechtsstreit gegen AG);Nur bei Streik;Nur privat;B;§ 40 Abs. 1 BetrVG;Die durch die Tätigkeit des Betriebsrats entstehenden Kosten (auch Anwaltskosten bei Verfahren) trägt der Arbeitgeber.
+90;Arbeitszeit;Sind Pausen von 15 Min. Pflicht?;Erst nach 10 Std.;Ab 6 Std. Arbeitszeit;Nie;Nur bei Hitze;B;§ 4 ArbZG;Die Arbeit ist durch im Voraus feststehende Ruhepausen von mindestens 30 Min. (bei >6 Std.) oder 45 Min. (bei >9 Std.) zu unterbrechen.
+91;Stahl;Was ist eine "Konzernbetriebsvereinbarung"?;Gilt für eine Abteilung;Gilt für den ganzen Konzern;Gilt nur für Chefs;Gilt nur für Fremdfirmen;B;§ 58 BetrVG;Der Konzernbetriebsrat kann Regelungen treffen, die konzerneinheitlich für alle beteiligten Unternehmen gelten.
+92;Kuendigung;Darf der AG während der Elternzeit kündigen?;Immer;Nur mit Genehmigung der Behörde;Ja nach 3 Monaten;Nur bei Diebstahl;B;§ 18 BEEG;Während der Elternzeit besteht ein besonderer Kündigungsschutz; Ausnahmen bedürfen der Zustimmung der Aufsichtsbehörde.
+93;Rechte;Darf der BR Sprechstunden abhalten?;Nein;Ja (während der Arbeitszeit);Nur in der Pause;Nur per Telefon;B;§ 39 BetrVG;Der Betriebsrat kann während der Arbeitszeit Sprechstunden einrichten. Zeit und Ort sind mit dem AG zu vereinbaren.
+94;Gleichstellung;Was ist das AGG?;Ein Sportverein;Allgemeines Gleichbehandlungsgesetz;Abgasgesetz;Arbeitsgeldgesetz;B;AGG;Das AGG schützt vor Diskriminierung aus Gründen der Rasse, Religion, Alter, Behinderung oder Geschlecht.
+95;Allgemein;Wann finden die regelmäßigen BR-Wahlen statt?;Alle 2 Jahre;Alle 4 Jahre (März-Mai);Alle 5 Jahre;Jedes Jahr;B;§ 13 BetrVG;Die regelmäßigen Betriebsratswahlen finden alle vier Jahre in der Zeit vom 1. März bis 31. Mai statt.
+96;Arbeitsschutz;Darf der BR eine Bildschirmbrille fordern?;Nein;Ja (wenn Augenarzt es bestätigt);Nur für Privat;Nur bei 100% PC-Arbeit;B;ArbMedVV;Der AG hat den Beschäftigten an Bildschirmgeräten im erforderlichen Umfang spezielle Sehhilfen zur Verfügung zu stellen.
+97;Gehalt;Was ist eine "Leistungszulage"?;Festgehalt;Zahlung nach messbarer Leistung;Urlaubsgeld;Abzug;B;§ 87 Abs. 1 Nr. 11 BetrVG;Die Festsetzung von Akkord- und Prämiensätzen sowie vergleichbaren leistungsbezogenen Entgelten ist mitbestimmungspflichtig.
+98;Versetzung;Kann ein MA eine Versetzung verweigern?;Ja immer;Nein (muss erst mal folgen);Nur bei Krankheit;Nur mit BR;B;Arbeitsrecht;Ein MA muss einer wirksamen Versetzung zunächst Folge leisten (Remonstrationspflicht), kann sie aber gerichtlich prüfen lassen.
+99;Kuendigung;Was ist eine "personenbedingte Kündigung"?;Kündigung wegen Verhalten;Kündigung wegen mangelnder Eignung;Umzug;Streik;B;KSchG;Hier liegt der Grund in der Person des Arbeitnehmers (z.B. lang anhaltende Krankheit), nicht in seinem steuerbaren Verhalten.
+100;Stahl;Wer stellt den "Neutralen" im Montan-Aufsichtsrat?;Der Chef;Der Wahlausschuss;Die Hauptversammlung;Die Bundesregierung;C;§ 8 MontanMitbestG;Das elfte (neutrale) Mitglied wird auf Vorschlag der übrigen Aufsichtsratsmitglieder von der Hauptversammlung gewählt.
+101;Arbeitszeit;Darf der AG "Vertrauensarbeitszeit" ohne BR einführen?;Ja;Nein (Mitbestimmung);Nur für Chefs;Nur im Homeoffice;B;§ 87 Abs. 1 Nr. 2 BetrVG;Die Einführung und Ausgestaltung von Arbeitszeitsystemen (auch Vertrauenszeit) unterliegt der zwingenden Mitbestimmung.
+102;Rechte;Darf der BR einen eigenen Sachverständigen für Bilanzen laden?;Nein;Ja (Wirtschaftsausschuss);Nur bei Insolvenz;Nur bei Streik;B;§ 108 Abs. 2 BetrVG;Der Wirtschaftsausschuss kann bei Bedarf unter Hinzuziehung von Sachverständigen tagen.
+103;Kuendigung;Was ist eine "Druckkündigung"?;Kündigung durch Erpressung;Kündigung auf Druck Dritter;Eine schnelle Kündigung;Ein Irrtum;B;KSchG Rechtsprechung;Wenn Dritte (z.B. Kunden oder Belegschaft) unter Androhung von Nachteilen die Entlassung eines MA fordern.
+104;Versetzung;Gilt der Wechsel von Tagschicht auf Dauernacht als Versetzung?;Nein;Ja (erhebliche Änderung);Nur im Sommer;Nur bei Azubis;B;§ 95 Abs. 3 BetrVG;Eine erhebliche Änderung der Arbeitsumstände (wie der dauerhafte Schichtwechsel) gilt rechtlich als Versetzung.
+105;Gehalt;Was ist eine "Ausschlussfrist"?;Zeit bis zur Rente;Frist zum Einklagen von Lohn;Pause;Probezeit;B;Tarifvertrag / BGB;Zeitraum (oft 3-6 Monate), in dem Ansprüche aus dem Arbeitsverhältnis schriftlich geltend gemacht werden müssen, sonst verfallen sie.
+106;Stahl;Was ist das Ziel der Montan-Mitbestimmung?;Gewinnmaximierung;Soziale Sicherheit & Frieden;Abbau von Stellen;Mehr Urlaub;B;MontanMitbestG;Das Gesetz zielt darauf ab, durch paritätische Mitbestimmung den sozialen Frieden in der Schlüsselindustrie Eisen und Stahl zu sichern.
+107;Arbeitsschutz;Muss der BR bei der Auswahl der FFP2-Masken mitreden?;Nein;Ja (Gesundheitsschutz);Nur bei Staub;Nur im Winter;B;§ 87 Abs. 1 Nr. 7 BetrVG;Bei der Ausgestaltung von Gesundheitsschutzmaßnahmen (PSA-Auswahl) hat der BR ein Mitbestimmungsrecht.
+108;Rechte;Darf ein BR-Mitglied während der Kurzarbeit geschult werden?;Nein;Ja (trotz Kurzarbeit);Nur auf eigene Kosten;Nur am Wochenende;B;§ 37 Abs. 6 BetrVG;Der Schulungsanspruch besteht fort, auch wenn im Betrieb Kurzarbeit herrscht, sofern die Kenntnisse erforderlich sind.
+109;Allgemein;Was ist ein "Tendenzbetrieb"?;Ein Bergbauunternehmen;Betrieb mit politischem/religiösem Ziel;Ein Start-up;Eine Stahlhütte;B;§ 118 BetrVG;Betriebe, die unmittelbar politischen, konfessionellen oder karitativen Zwecken dienen. Hier ist die Mitbestimmung eingeschränkt.
+110;Kuendigung;Darf der AG eine Kündigung per WhatsApp schicken?;Ja;Nein (Schriftformerfordernis);Nur bei Azubis;Nur bei Diebstahl;B;§ 623 BGB;Die Beendigung von Arbeitsverhältnissen bedarf zu ihrer Wirksamkeit der Schriftform (Originalunterschrift auf Papier).
+111;Arbeitszeit;Wie viel Pause steht einem MA bei 10 Std. Arbeit zu?;30 Min.;45 Min.;60 Min.;15 Min.;B;§ 4 ArbZG;Bei einer Arbeitszeit von mehr als neun Stunden ist eine Pause von insgesamt mindestens 45 Minuten vorgeschrieben.
+112;Stahl;Was ist die Aufgabe des Aufsichtsrats?;Tagesgeschäft;Überwachung des Vorstands;Essen kochen;Post verteilen;B;AktG / GmbHG;Der Aufsichtsrat überwacht die Geschäftsführung (Vorstand) und berät sie bei wichtigen Entscheidungen.
+113;Rechte;Darf der BR eine Mitarbeiterbefragung stoppen?;Nein;Ja (Ordnungsverhalten);Nur bei Kritik;Nur bei Azubis;B;§ 87 Abs. 1 Nr. 1 BetrVG;Anonyme Befragungen zum Betriebsklima berühren das Ordnungsverhalten und sind oft mitbestimmungspflichtig.
+114;Urlaub;Darf der AG Urlaub "anordnen" (Betriebsferien)?;Nein;Ja (mit BR-Zustimmung);Immer;Nur im Winter;B;§ 87 Abs. 1 Nr. 5 BetrVG;Die Einführung von Betriebsferien ist eine allgemeine Urlaubsgrundregel und muss mit dem BR vereinbart werden.
+115;Gleichstellung;Muss der AG eine Frauenquote im BR beachten?;Nein;Ja (Minderheitengeschlecht);Nur bei 1000 MA;Nur im Büro;B;§ 15 Abs. 2 BetrVG;Das Geschlecht, das im Betrieb in der Minderheit ist, muss entsprechend seinem zahlenmäßigen Verhältnis im BR vertreten sein.
+116;IT-Datenschutz;Darf der AG "Keylogger" (Tasten-Aufzeichnung) nutzen?;Ja;Nein (strafbar/unzulässig);Nur bei IT-lern;Nur nachts;B;BDSG / BAG Urteil;Der Einsatz von Keyloggern zur bloßen Leistungskontrolle ohne konkreten Verdacht einer Straftat ist unzulässig.
+117;Personal;Was ist ein "Personalfragebogen"?;Ein Test;Formular zur Datenerhebung;Ein Kündigungsgrund;Ein Urlaubsantrag;B;§ 94 BetrVG;Personalfragebogen bedürfen der Zustimmung des Betriebsrats.
+118;Allgemein;Was ist ein "Gemeinsamer Betrieb"?;Zwei Firmen an einem Ort;Eine Kantine;Ein Parkplatz;Ein Sportverein;A;§ 1 Abs. 2 BetrVG;Wenn zwei oder mehr Unternehmen ihre Betriebsmittel und Arbeitnehmer zur Verfolgung arbeitstechnischer Zwecke gemeinsam nutzen.
+119;Versetzung;Darf der AG einen MA "strafversetzen"?;Ja;Nein (willkürlich verboten);Nur bei Diebstahl;Nur bei Azubis;B;§ 106 GewO / § 99 BetrVG;Maßnahmen des AG dürfen nicht schikkanös oder willkürlich sein (Maßregelungsverbot).
+120;Kuendigung;Wann ist eine Kündigung "sozial ungerechtfertigt"?;Immer;Wenn kein Grund nach KSchG vorliegt;Nur bei Azubis;Nur im Sommer;B;§ 1 KSchG;Wenn sie nicht durch personen-, verhaltens- oder betriebsbedingte Gründe bedingt ist.
+121;Arbeitszeit;Muss der BR Mehrarbeit bei Notfällen zustimmen?;Nein;Ja (auch nachträglich);Egal;Nur bei Feuer;B;§ 87 Abs. 1 Nr. 3 BetrVG;Auch bei Eilfällen besteht Mitbestimmung; der AG muss den BR unverzüglich informieren und die Zustimmung einholen.
+122;Stahl;Was regelt die "Montan-Mitbestimmung Ergänzung"?;Pausenzeiten;Mitbestimmung in Holding-Strukturen;Parkplätze;Helmfarbe;B;MontanMitbestGErgG;Regelt die Mitbestimmung in Konzernen, deren Tochtergesellschaften überwiegend im Montanbereich tätig sind.
+123;Rechte;Darf der BR-Vorsitzende den AG allein verklagen?;Ja;Nein (BR-Beschluss nötig);Nur bei Eile;Nur bei Geld;B;§ 33 BetrVG;Der BR kann nur durch einen ordnungsgemäßen Mehrheitsbeschluss rechtlich wirksam handeln.
+124;Arbeitsschutz;Wer führt das "Verbandbuch"?;Der Chef;Der Ersthelfer/AG;Der BR;Die Polizei;B;DGUV Vorschrift 1;Jede Erste-Hilfe-Leistung muss dokumentiert werden (Nachweis für Berufsgenossenschaft bei Spätfolgen).
+125;Gehalt;Was ist eine "Sonderzahlung"?;Normaler Lohn;Weihnachts-/Urlaubsgeld;Eine Strafe;Ein Abzug;B;BetrVG allgemein;Freiwillige Sonderzahlungen unterliegen hinsichtlich der Verteilungsgrundsätze der Mitbestimmung (§ 87).
+126;Bildung;Wer zahlt die Reisekosten zur BR-Schulung?;Der MA;Der Arbeitgeber;Die Gewerkschaft;Die Krankenkasse;B;§ 40 Abs. 1 BetrVG;Zu den Kosten der Betriebsratstätigkeit gehören auch die Reisekosten für erforderliche Schulungsteilnahmen.
+127;Allgemein;Was ist die "Wählerliste"?;Einkaufsliste;Verzeichnis der Wahlberechtigten;Lohnliste;Telefonbuch;B;§ 2 WO;Nur wer in der Wählerliste eingetragen ist, darf wählen oder gewählt werden.
+128;IT-Datenschutz;Darf der AG private E-Mails am PC verbieten?;Ja;Nein;Nur im Sommer;Nur bei Azubis;A;§ 87 / IT-BV;Der Arbeitgeber kann die private Nutzung von IT-Systemen untersagen oder einschränken.
+129;Jugend;Wie lange dauert die Amtszeit der JAV?;1 Jahr;2 Jahre;4 Jahre;5 Jahre;B;§ 64 BetrVG;Die regelmäßige Amtszeit der Jugend- und Auszubildendenvertretung beträgt zwei Jahre.
+130;Arbeitszeit;Was ist "Rufbereitschaft"?;Arbeit am Ofen;Warten auf Abruf (Ort frei);Schlafen im Werk;Pause;B;ArbZG / BAG;Der MA kann seinen Aufenthaltsort selbst wählen, muss aber erreichbar sein. Sie gilt nicht als Arbeitszeit (außer die Einsatzzeit).
+131;Stahl;Darf der BR die Kantinenpreise mitbestimmen?;Nein;Ja (Soziale Einrichtung);Nur bei Fleisch;Nur für Gäste;B;§ 87 Abs. 1 Nr. 8 BetrVG;Die Festlegung der Preise in einer Sozialeinrichtung des Betriebs (Kantine) ist mitbestimmungspflichtig.
+132;Abmahnung;Wie lange bleibt eine Abmahnung in der Akte?;Ewig;Meist 2-3 Jahre (bis zur Wirkungslosigkeit);1 Monat;10 Jahre;B;Rechtsprechung;Es gibt keine feste Frist, aber nach ca. 2-3 Jahren ohne neue Vorfälle verliert sie meist ihre Warnfunktion.
+133;Urlaub;Was ist "Urlaubsabgeltung"?;Urlaub nehmen;Geld für nicht genommenen Urlaub;Urlaub kürzen;Urlaub schenken;B;§ 7 Abs. 4 BUrlG;Nur wenn der Urlaub wegen Beendigung des Arbeitsverhältnisses nicht mehr genommen werden kann, ist er finanziell abzugelten.
+134;Betriebsvereinbarung;Kann eine BV den Tarifvertrag verschlechtern?;Ja;Nein (Günstigkeitsprinzip);Nur bei Krise;Nur mit Chef;B;§ 77 Abs. 3 BetrVG;Arbeitsentgelte und Arbeitsbedingungen, die durch Tarifvertrag geregelt sind, können nicht durch BV verschlechtert werden (Tarifvorrang).
+135;Personal;Darf der BR ein "qualifiziertes Zeugnis" fordern?;Nein;Ja (Unterstützung des MA);Nur für Chefs;Nur bei Rente;B;§ 109 GewO / § 80 BetrVG;Jeder MA hat Anspruch auf ein Zeugnis, das auch Angaben zu Führung und Leistung enthält.
+136;Arbeitsschutz;Muss der BR bei der Brandschutzübung dabei sein?;Nein;Ja (Teil des Gesundheitsschutzes);Nur bei Feuer;Nur nachts;B;§ 80 / § 87 BetrVG;Der BR hat über die Durchführung der Brandschutzvorschriften zu wachen und wirkt bei der Organisation mit.
+137;Kuendigung;Gilt der Kündigungsschutz für Kleinbetriebe?;Ja;Nein (unter 10 MA);Nur bei Stahl;Nur bei Azubis;B;§ 23 KSchG;Das Kündigungsschutzgesetz gilt erst in Betrieben mit in der Regel mehr als 10 Arbeitnehmern.
+138;Arbeitszeit;Darf der AG Überstunden mit Freizeit ausgleichen?;Ja (wenn vereinbart);Nein nie;Nur bei Azubis;Nur im Winter;A;Arbeitsvertrag / BV;Ein Freizeitausgleich für Überstunden bedarf einer vertraglichen Grundlage oder einer BV.
+139;Stahl;Was ist ein "Aufsichtsratsvorsitzender"?;Der BR-Chef;Leiter des Aufsichtsrats;Der Pförtner;Ein Azubi;B;AktG;Er leitet die Sitzungen des Aufsichtsrats und wird meist von der Anteilseignerseite gestellt (außer Montan-Besonderheiten).
+140;Allgemein;Wann ist ein BR "beschlussfähig"?;Immer;Wenn mind. die Hälfte anwesend ist;Nur bei 100%;Nur mit dem Chef;B;§ 33 Abs. 2 BetrVG;Die Beschlussfähigkeit ist gegeben, wenn mindestens die Hälfte der Betriebsratsmitglieder an der Beschlussfassung teilnimmt.
+141;IT-Datenschutz;Darf der BR eine "IT-Rahmenbetriebsvereinbarung" fordern?;Nein;Ja (zwingende Mitbestimmung);Nur für Laptops;Nur für Apple;B;§ 87 Abs. 1 Nr. 6 BetrVG;Zur Regelung allgemeiner Einführungsgrundsätze von Software ist eine Rahmen-BV sinnvoll und erzwingbar.
+142;Freistellung;Wie viele BR-Mitglieder sind bei 500 MA freigestellt?;Keines;Eins;Zwei;Drei;B;§ 38 BetrVG;In Betrieben mit 501 bis 900 Arbeitnehmern sind zwei Betriebsratsmitglieder von ihrer beruflichen Tätigkeit freizustellen (unter 500 ist es eines).
+143;Versetzung;Darf der BR einer Versetzung wegen fehlender Qualifikation widersprechen?;Nein;Ja (Nachteil für MA);Nur bei Hitze;Nur nachts;B;§ 99 Abs. 2 Nr. 4 BetrVG;Wenn der betroffene Arbeitnehmer durch die Maßnahme benachteiligt wird, ohne dass dies aus sachlichen Gründen gerechtfertigt ist.
+144;Geheimhaltung;Darf der BR die Gehälter der Kollegen kennen?;Nein;Ja (Bruttolohnlisten);Nur die vom Chef;Nur bei Streik;B;§ 80 Abs. 2 BetrVG;Der Betriebsausschuss hat das Recht, die Listen über die Bruttolöhne und -gehälter jederzeit einzusehen.
+145;Betriebsvereinbarung;Wann tritt eine BV in Kraft?;Sofort;Wie in der BV vereinbart;Nach 1 Jahr;Nie;B;§ 77 Abs. 2 BetrVG;Das Inkrafttreten richtet sich nach der Vereinbarung in der BV selbst; fehlt diese, mit der Unterzeichnung.
+146;Arbeitsschutz;Was ist eine "Sicherheitsfachkraft" (SiFa)?;Ein Türsteher;Berater für Arbeitssicherheit;Der BR-Chef;Ein Polizist;B;§ 5 ASiG;Der Arbeitgeber hat Fachkräfte für Arbeitssicherheit zu bestellen, um ihn beim Arbeitsschutz und bei der Unfallverhütung zu unterstützen.
+147;Kuendigung;Darf der BR eine Kündigung "aufschieben"?;Ja;Nein (nur widersprechen);Nur bei Azubis;Nur im Sommer;B;§ 102 BetrVG;Der BR kann die Kündigung nicht verhindern, aber durch einen Widerspruch die Weiterbeschäftigung bis zum Prozessende ermöglichen.
+148;Urlaub;Darf man im Urlaub für eine andere Firma arbeiten?;Ja;Nein (Erholungszweck);Nur am Wochenende;Nur ehrenamtlich;B;§ 8 BUrlG;Während des Urlaubs darf der Arbeitnehmer keine dem Urlaubszweck (Erholung) widersprechende Erwerbsarbeit leisten.
+149;Arbeitszeit;Darf der BR Schichtzulagen eigenständig erhöhen?;Nein;Ja (Mitbestimmung Entgelt);Nur bei Stahl;Nur bei Nacht;B;§ 87 Abs. 1 Nr. 10 BetrVG;Der BR bestimmt über die Verteilungsgrundsätze mit, die Höhe selbst ist oft im Tarifvertrag geregelt.
+150;Stahl;Was ist das "Montan-Modell"?;Ein Auto;Besondere Mitbestimmung (Kohle/Stahl);Ein Ofentyp;Ein Tarifvertrag;B;MontanMitbestG;Das Montan-Modell sieht eine echte Parität im Aufsichtsrat vor (gleich viele Banken/AG-Vertreter wie Arbeitnehmer).
+151;Wirtschaft;Was ist der Wirtschaftsausschuss (WA)?;Ein Sparclub;Gremium zur Beratung wirtschaftlicher Fragen;Die Buchhaltung;Der Chef-Zirkel;B;§ 106 BetrVG;In Unternehmen mit mehr als 100 MA muss ein WA gebildet werden, um den BR über die wirtschaftliche Lage zu informieren.
+152;Arbeitszeit;Darf der AG "Kappung" von Stunden im System einstellen?;Ja;Nein (Arbeitszeit muss erfasst werden);Nur am Freitag;Nur bei Azubis;B;BAG Urteile;Arbeitszeit, die geleistet wurde, darf nicht einfach durch Software-Einstellungen gelöscht ("gekappt") werden.
+153;Kuendigung;Darf der BR eine Kündigung wegen "Low Performance" ablehnen?;Nein;Ja (wenn soziale Gründe überwiegen);Nur bei Diebstahl;Nur bei Azubis;B;§ 102 Abs. 3 BetrVG;Der BR kann widersprechen, wenn der AG die sozialen Gesichtspunkte bei der Auswahl nicht oder nicht ausreichend berücksichtigt hat.
+154;Rechte;Darf der BR die Namen der Leiharbeiter wissen?;Nein;Ja (Informationsrecht);Nur bei Streik;Nur bei Unfällen;B;§ 80 Abs. 2 BetrVG;Der AG muss dem BR auf Verlangen die Namen und Einsatzorte von Leiharbeitnehmern mitteilen.
+155;Arbeitsschutz;Darf der BR eine externe Messung von Giftstoffen fordern?;Nein;Ja (Gesundheitsschutz);Nur bei Feuer;Nur im Winter;B;§ 80 Abs. 3 BetrVG;Der BR kann zur Erfüllung seiner Aufgaben (Überwachung des Arbeitsschutzes) Sachverständige hinzuziehen.
+156;Gehalt;Was ist eine "Zulage für Erschwerung"?;Geld für Urlaub;Geld für Hitze/Lärm;Ein Abzug;Ein Kredit;B;Tarifvertrag;Zusatzentgelt für Arbeiten, die über das normale Maß hinaus belasten (z.B. Arbeiten am Hochofen).
+157;Personal;Muss der BR bei jeder Einstellung zustimmen?;Nein;Ja (in Betrieben > 20 MA);Nur bei Chefs;Nur bei Azubis;B;§ 99 BetrVG;Der AG muss den BR vor jeder Einstellung informieren und seine Zustimmung einholen.
+158;IT-Datenschutz;Darf der AG Software zur Gesichtserkennung einführen?;Ja;Nein (hohe Hürden/Mitbestimmung);Nur im Büro;Nur nachts;B;§ 87 / DSGVO;Biometrische Daten sind besonders geschützt; der BR hat hier ein massives Mitbestimmungsrecht.
+159;Versetzung;Ist die Zuweisung eines anderen Schichtmodells eine Versetzung?;Nein;Ja (erhebliche Änderung);Nur im Sommer;Nur bei Azubis;B;§ 95 Abs. 3 BetrVG;Ändert sich die Arbeitszeitverteilung erheblich (z.B. von Früh auf Konti-Schicht), liegt eine Versetzung vor.
+160;Allgemein;Was ist eine "Betriebsvereinbarung (BV)";Ein Wunschzettel;Rechtsnorm zwischen BR und AG;Ein Vertrag mit der Gewerkschaft;Eine Kündigung;B;§ 77 BetrVG;BVs gelten unmittelbar und zwingend für alle Arbeitnehmer des Betriebs, wie ein Gesetz vor Ort.
+161;Stahl;Was ist die "Stahl-Stiftung"?;Ein Museum;Auffanggesellschaft bei Entlassungen;Eine Bank;Ein Sportverein;B;Sozialplan;In der Stahlindustrie oft genutzt, um bei Krisen Mitarbeiter zu qualifizieren und in neue Jobs zu vermitteln.
+162;Arbeitszeit;Darf der BR Pausenräume fordern?;Nein;Ja (Soziale Angelegenheit);Nur im Keller;Nur für Raucher;B;§ 87 Abs. 1 Nr. 8 BetrVG;Der BR hat bei der Form und Ausgestaltung von Sozialeinrichtungen (wie Pausenräumen) mitzubestimmen.
+163;Kuendigung;Darf der AG eine Kündigung per E-Mail aussprechen?;Ja;Nein (Unwirksam);Nur bei Azubis;Nur im Ausland;B;§ 623 BGB;Kündigungen bedürfen der Schriftform (Papier mit Originalunterschrift), E-Mail oder Fax reichen nicht aus.
+164;Rechte;Darf der BR an Aufsichtsratssitzungen teilnehmen?;Nie;Ja (wenn er Mitglied ist);Nur als Gast;Nur bei Insolvenz;B;MitbestG;Die vom BR/AN gewählten Vertreter im Aufsichtsrat nehmen an allen Sitzungen und Abstimmungen teil.
+165;Arbeitsschutz;Was ist eine "Begehung"?;Ein Spaziergang;Prüfung des Arbeitsplatzes vor Ort;Ein Streik;Eine Feier;B;§ 80 / § 89 BetrVG;BR-Mitglieder haben das Recht, an Besichtigungen und Unfalluntersuchungen des AG oder der Behörden teilzunehmen.
+166;Bildung;Darf der BR Schulungen für "Rhetorik" besuchen?;Nein;Ja (erforderlich für Verhandlungen);Nur der Vorsitz;Nur privat;B;§ 37 Abs. 6 BetrVG;Rhetorik kann erforderlich sein, wenn das BR-Mitglied Verhandlungen führen oder Reden (Betriebsversammlung) halten muss.
+167;Wirtschaft;Was sind "Betriebsänderungen"?;Umzug von Büros;Einschränkung/Stilllegung/Fusion;Neue Farbe am Ofen;Namensänderung;B;§ 111 BetrVG;Maßnahmen, die wesentliche Nachteile für die Belegschaft haben können. Hier muss ein Interessenausgleich verhandelt werden.
+168;Personal;Darf der AG "Sippenhaft" (Gruppenstrafe) verhängen?;Ja;Nein (Verbot von Kollektivstrafen);Nur bei Diebstahl;Nur bei Stahl;B;Arbeitsrecht;Disziplinarische Maßnahmen dürfen sich nur gegen den konkreten Verursacher richten, nicht gegen eine ganze Schicht.
+169;IT-Datenschutz;Muss der BR bei "Cloud-Software" zustimmen?;Nein;Ja (wegen Datenübertragung);Nur bei US-Firmen;Nur bei Azubis;B;§ 87 Abs. 1 Nr. 6 BetrVG;Da Cloud-Systeme meist Verhaltensdaten speichern oder übertragen können, besteht Mitbestimmung.
+170;Allgemein;Was ist eine "Einigungsstelle"?;Ein Café;Neutraler Schlichter bei Konflikten;Die Kantine;Das Arbeitsgericht;B;§ 76 BetrVG;Wenn AG und BR sich nicht einigen, kann diese Stelle (mit unparteiischem Vorsitz) eine verbindliche Entscheidung fällen.
+171;Arbeitszeit;Darf der AG "Arbeit auf Abruf" ohne BR einführen?;Ja;Nein (Mitbestimmung);Nur im Winter;Nur für Rentner;B;§ 87 Abs. 1 Nr. 2 BetrVG;Die Einführung von flexiblen Arbeitszeitsystemen wie Abrufarbeit erfordert die Zustimmung des BR.
+172;Stahl;Was regelt der "Montan-Arbeitsdirektor"?;Technik am Ofen;Personal- und Sozialwesen;Die Logistik;Den Verkauf;B;§ 13 MontanMitbestG;Er ist im Vorstand speziell für die Belange der Arbeitnehmer und das Personalwesen zuständig.
+173;Kuendigung;Was ist eine "außerordentliche Kündigung"?;Kündigung mit 6 Monaten Frist;Fristlose Kündigung aus wichtigem Grund;Kündigung wegen Alter;Ein Lob;B;§ 626 BGB;Beendigung des Arbeitsverhältnisses ohne Einhaltung einer Frist, wenn die Fortsetzung unzumutbar ist.
+174;Rechte;Darf der BR die Namen derer wissen, die Überstunden machen?;Nein;Ja (Kontrollrecht);Nur bei Streik;Nur bei Azubis;B;§ 80 / § 87 BetrVG;Zur Überprüfung, ob die Mitbestimmung bei Mehrarbeit eingehalten wird, darf der BR die Namen und Stunden einsehen.
+175;Arbeitsschutz;Was ist eine "Gefahrstoffverordnung"?;Regeln für Pausen;Schutz beim Umgang mit Chemie/Gas;Regeln für Lohn;Parkplatzordnung;B;GefStoffV;Vorschrift zum Schutz der Beschäftigten vor gefährlichen Stoffen (in der Hütte z.B. Gase oder Stäube).
+176;Personal;Darf der BR eine Einstellung wegen "Vetternwirtschaft" ablehnen?;Nein;Ja (Benachteiligung anderer);Nur bei Azubis;Nur nachts;B;§ 99 Abs. 2 Nr. 3 BetrVG;Wenn die Besorgnis besteht, dass durch die Einstellung andere Mitarbeiter benachteiligt werden.
+177;Gehalt;Ist das "Weihnachtsgeld" im Gesetz geregelt?;Ja;Nein (meist Tarifvertrag/BV/Vertrag);Nur bei Stahl;Nur für Eltern;B;Arbeitsrecht;Es gibt keinen gesetzlichen Anspruch auf Weihnachtsgeld; er entsteht meist aus Tarifverträgen oder betrieblicher Übung.
+178;Versetzung;Darf der BR eine Versetzung ablehnen, wenn der MA "nein" sagt?;Ja;Nein (nur bei rechtlichen Gründen);Nur bei Azubis;Nur im Sommer;B;§ 99 Abs. 2 BetrVG;Der BR kann nur aus den im Gesetz genannten Gründen widersprechen, nicht allein weil der MA die Stelle nicht mag.
+179;Allgemein;Was ist die "Konstituierende Sitzung"?;Erste Sitzung nach der Wahl;Abschlussfeier;Sitzung beim AG;Streikversammlung;B;§ 29 BetrVG;Die erste Sitzung des neu gewählten BR, in der Vorsitzender und Stellvertreter gewählt werden.
+180;Arbeitszeit;Darf der AG "Minus-Stunden" einseitig anordnen?;Ja;Nein (nur über Zeitkonto-Regelung);Nur bei Krise;Nur nachts;B;§ 87 / BV;Ohne eine entsprechende Vereinbarung (BV) trägt der AG das Wirtschaftsrisiko; er darf keine Minusstunden erzwingen, wenn er keine Arbeit hat.
+181;Stahl;Was bedeutet "Parität"?;Der Chef entscheidet;Gleichgewicht/Gleichheit;Urlaub für alle;Lohnkürzung;B;MontanMitbestG;Die gleiche Stärke von Arbeitgeber- und Arbeitnehmervertretern in einem Gremium (z.B. Aufsichtsrat).
+182;Kuendigung;Wie lange hat der BR Zeit für eine Stellungnahme zur Kündigung?;1 Tag;1 Woche (ordentlich) / 3 Tage (außerordentlich);1 Monat;Gar keine Zeit;B;§ 102 Abs. 2 BetrVG;Bei einer ordentlichen Kündigung muss der BR innerhalb einer Woche reagieren, sonst gilt die Zustimmung als erteilt.
+183;Rechte;Darf der BR einen eigenen Internetzugang fordern?;Nein;Ja (Sachmittelanspruch);Nur für Musik;Nur nachts;B;§ 40 Abs. 2 BetrVG;Zur Informationsbeschaffung und Kommunikation hat der BR Anspruch auf zeitgemäße Informationstechnik (Internet/PC).
+184;Arbeitsschutz;Wer ist der "Werksarzt"?;Ein Sanitäter;Facharzt für Arbeitsmedizin;Der BR-Chef;Ein Chirurg;B;§ 2 ASiG;Der AG hat Betriebsärzte zu bestellen, um ihn beim Arbeitsschutz und der Unfallverhütung zu unterstützen.
+185;Personal;Was ist eine "Beförderung"?;Ein Lob;Versetzung auf eine höherwertige Stelle;Mehr Urlaub;Ein Dienstwagen;B;§ 95 Abs. 3 / § 99 BetrVG;Rechtlich eine Versetzung, da sich der Arbeitsbereich und meist die Verantwortung/Vergütung ändert; mitbestimmungspflichtig.
+186;IT-Datenschutz;Darf der AG die Privatnutzung von E-Mails "mitlesen"?;Immer;Nur bei Verdacht auf Straftaten (hohe Hürden);Nie;Nur bei Azubis;B;TDDDG / BDSG;Das Fernmeldegeheimnis schützt E-Mails; eine Kontrolle ist ohne schwerwiegenden Grund und BR-Beteiligung verboten.
+187;Gehalt;Was ist "Akkordlohn"?;Lohn nach Zeit;Lohn nach Leistung/Stückzahl;Urlaubsgeld;Festgehalt;B;§ 87 Abs. 1 Nr. 11 BetrVG;Entgeltform, bei der die Höhe vom Arbeitsergebnis abhängt. Die Einführung und Sätze sind mitbestimmungspflichtig.
+188;Bildung;Darf der BR Schulungen für neue Gesetze besuchen?;Nein;Ja (Aktualisierung erforderlich);Nur bei Streik;Nur privat;B;§ 37 Abs. 6 BetrVG;Die Vermittlung von Kenntnissen über neue rechtliche Rahmenbedingungen gehört zu den erforderlichen Schulungen.
+189;Allgemein;Was ist der "Gesamtbetriebsrat (GBR)"?;Alle BR-Mitglieder;Zusammenschluss bei mehreren Betrieben;Die Gewerkschaft;Der Vorstand;B;§ 47 BetrVG;Bestehen in einem Unternehmen mehrere Betriebsräte, so ist ein GBR zu errichten.
+190;Arbeitszeit;Darf der BR "Gleitzeit" fordern?;Nein;Ja (Initiativrecht);Nur im Büro;Nur für Azubis;B;§ 87 Abs. 1 Nr. 2 BetrVG;Der BR kann die Einführung flexibler Arbeitszeiten verlangen, um die Vereinbarkeit von Beruf und Familie zu fördern.
+191;Stahl;Was ist die "IG Metall"?;Ein Sportverein;Die zuständige Gewerkschaft für Stahl;Eine Versicherung;Ein Automobilclub;B;Tarifrecht;Gewerkschaft, die Tarifverträge für die Metall- und Elektroindustrie sowie Eisen und Stahl aushandelt.
+192;Kuendigung;Darf der BR eine Kündigung wegen "Schwangerschaft" ablehnen?;Ja (Gesetzesverstoß);Nein;Nur bei Azubis;Nur im Büro;A;§ 17 MuSchG / § 102 BetrVG;Die Kündigung einer schwangeren Frau ist unzulässig; der BR muss widersprechen, da die Maßnahme gegen ein Gesetz verstößt.
+193;Rechte;Darf der BR an Personalplanungen teilnehmen?;Nein;Ja (Informationsrecht);Nur bei Entlassungen;Nur bei Stahl;B;§ 92 BetrVG;Der AG hat den BR über die Personalplanung (Bedarf, Ausbildung, Qualifizierung) rechtzeitig zu informieren.
+194;Arbeitsschutz;Muss der BR bei der "Lärmmessung" dabei sein?;Nein;Ja (Überwachungsrecht);Nur bei 100 dB;Nur nachts;B;§ 80 / § 89 BetrVG;Der BR hat das Recht, bei Messungen von Emissionen und Lärm am Arbeitsplatz teilzunehmen.
+195;Personal;Darf der AG einen MA "verleihen"?;Immer;Nur mit Zustimmung des MA;Nie;Nur bei Azubis;B;AÜG / Arbeitsvertrag;Das Überlassen eines Mitarbeiters an einen Dritten bedarf in der Regel der schriftlichen Vereinbarung.
+196;IT-Datenschutz;Was ist eine "Verfahrensverzeichnis"?;Eine Bauanleitung;Liste aller IT-Systeme mit Daten;Ein Urlaubsantrag;Ein Kündigungsgrund;B;DSGVO;Dokumentation darüber, welche personenbezogenen Daten wie und warum im Unternehmen verarbeitet werden.
+197;Gehalt;Was ist eine "Eingruppierungsklage"?;Klage auf mehr Urlaub;Klage auf korrekte Lohnstufe;Klage gegen Chef;Klage auf Kündigung;B;Arbeitsrecht;Wenn ein MA oder der BR der Meinung ist, dass die aktuelle Tätigkeit einer höheren Entgeltgruppe entspricht.
+198;Bildung;Darf der Chef eine Schulung "wegen zu hoher Kosten" ablehnen?;Nein;Nur wenn unverhältnismäßig teuer;Immer;Nur bei Stahl;B;§ 37 Abs. 6 BetrVG;Der AG muss die Kosten tragen, außer es gibt eine wesentlich günstigere, gleichwertige Schulung.
+199;Allgemein;Was ist ein "Ersatzmitglied"?;Ein Azubi;Nachrücker für verhinderte BR-Mitglieder;Der Chef;Ein Polizist;B;§ 25 BetrVG;Scheidet ein Mitglied aus oder ist verhindert (Urlaub/Krankheit), rückt das nächste Ersatzmitglied der Liste nach.
+200;Stahl;Darf der BR die Verteilung der Schichtzulagen mitbestimmen?;Nein;Ja (Verteilungsgrundsätze);Nur bei Hitze;Nur nachts;B;§ 87 Abs. 1 Nr. 10 BetrVG;Bei der Festsetzung von betrieblichen Lohn- und Gehaltsstrukturen (nicht der Höhe) hat der BR ein zwingendes Mitbestimmungsrecht.
+201;Allgemein;Was ist ein "Freigestellter"?;Ein Arbeitsloser;BR-Mitglied ohne normale Arbeitspflicht;Ein Azubi;Der Chef;B;§ 38 BetrVG;Ab einer bestimmten Betriebsgröße (ab 200 MA) sind BR-Mitglieder komplett von ihrer beruflichen Tätigkeit freizustellen, um BR-Arbeit zu leisten.
+202;Arbeitszeit;Muss der BR bei Kurzarbeit zustimmen?;Nein;Ja (Einführung und Ausgestaltung);Nur bei Kündigungen;Nur bei Stahl;B;§ 87 Abs. 1 Nr. 3 BetrVG;Die vorübergehende Verkürzung der betriebsüblichen Arbeitszeit (Kurzarbeit) ist zwingend mitbestimmungspflichtig.
+203;Kuendigung;Was ist eine "Sozialauswahl"?;Auswahl der Kantine;Prüfung der Schutzwürdigkeit;Ein Fest;Wahl des BR;B;§ 1 KSchG;Bei betriebsbedingten Kündigungen müssen Alter, Betriebszugehörigkeit, Unterhaltspflichten und Behinderung verglichen werden.
+204;Rechte;Darf der BR die Unterlagen zur Lohnsteuer einsehen?;Nein;Ja (Bruttolohnlisten);Nur bei Chefs;Nur bei Diebstahl;B;§ 80 Abs. 2 BetrVG;Der BR hat das Recht auf Einblick in die Listen über die Bruttolöhne und -gehälter, um die Entgeltgerechtigkeit zu prüfen.
+205;Arbeitsschutz;Darf der BR eine Duschpflicht bei Giftstoffen fordern?;Nein;Ja (Gesundheitsschutz);Nur bei Hitze;Nur im Sommer;B;§ 87 Abs. 1 Nr. 7 BetrVG;Maßnahmen zur Unfallverhütung und zum Gesundheitsschutz (z.B. Hygiene bei Gefahrstoffen) unterliegen der Mitbestimmung.
+206;Gehalt;Was ist eine "Zulage für Nachtarbeit"?;Geld für Schlaf;Geld für Arbeit zw. 23-6 Uhr;Bonus für Urlaub;Ein Darlehen;B;§ 6 ArbZG / TV;Nachtarbeitnehmer haben Anspruch auf einen angemessenen Zuschlag oder eine entsprechende Anzahl bezahlter freier Tage.
+207;Personal;Darf der AG einen MA ohne BR zum Teamleiter machen?;Ja;Nein (Beförderung ist Versetzung);Nur bei Azubis;Nur im Büro;B;§ 95 Abs. 3 / § 99 BetrVG;Eine Beförderung ist rechtlich eine Versetzung, da sich der Aufgabenbereich ändert. Der BR muss zustimmen.
+208;IT-Datenschutz;Muss der BR bei der Einführung von "Outlook" zustimmen?;Nein;Ja (Verhaltenskontrolle möglich);Nur bei E-Mails;Nur im Ausland;B;§ 87 Abs. 1 Nr. 6 BetrVG;Da Outlook zur Überwachung von Leistung oder Verhalten geeignet ist, besteht ein zwingendes Mitbestimmungsrecht.
+209;Allgemein;Wann muss der AG eine Betriebsversammlung erlauben?;Nie;Vierteljährlich;Alle 5 Jahre;Nur bei Streik;B;§ 43 BetrVG;Der Betriebsrat hat einmal in jedem Kalendervierteljahr eine Betriebsversammlung einzuberufen.
+210;Kuendigung;Darf eine schwangere Frau gekündigt werden?;Ja;Nein (Kündigungsverbot);Nur bei Diebstahl;Nur in der Probezeit;B;§ 17 MuSchG;Es besteht ein absolutes Kündigungsverbot während der Schwangerschaft und bis zum Ablauf von vier Monaten nach der Entbindung.
+211;Arbeitszeit;Wie viel Pause steht einem MA bei 7 Std. Arbeit zu?;15 Min.;30 Min.;45 Min.;60 Min.;B;§ 4 ArbZG;Bei einer Arbeitszeit von mehr als sechs bis zu neun Stunden ist eine Ruhepause von mindestens 30 Minuten vorgeschrieben.
+212;Stahl;Was ist ein "Aufsichtsratsmitglied der Arbeitnehmer"?;Ein Spion;Vertreter der Belegschaft im AR;Der Pförtner;Der Werksleiter;B;MitbestG;Diese Mitglieder werden von der Belegschaft gewählt und haben im Aufsichtsrat die gleichen Rechte wie die Arbeitgebervertreter.
+213;Rechte;Darf der BR eine "Beschwerdestelle" fordern?;Nein;Ja (Beschwerderecht);Nur bei Kündigungen;Nur bei Azubis;B;§ 84 / § 85 BetrVG;Jeder Arbeitnehmer hat das Recht, sich beim Betriebsrat zu beschweren, wenn er sich benachteiligt oder ungerecht behandelt fühlt.
+214;Urlaub;Muss der AG bei Urlaubswünschen "soziale Aspekte" prüfen?;Nein;Ja (z.B. Schulferien der Kinder);Nur im Winter;Nur bei Azubis;B;§ 7 BUrlG;Bei der zeitlichen Festlegung des Urlaubs sind die Wünsche des Arbeitnehmers zu berücksichtigen, sofern keine dringenden betrieblichen Belange oder Urlaubswünsche anderer vorrangig sind.
+215;Gleichstellung;Was ist eine "Frauenbeauftragte"?;Ein BR-Mitglied;In der Regel Ansprechpartnerin im Betrieb;Gibt es nicht;Nur in der Politik;B;BetrVG / GleichstG;Im privaten Sektor übernimmt der BR diese Aufgabe (§ 80); im öffentlichen Dienst gibt es oft explizite Gleichstellungsbeauftragte.
+216;IT-Datenschutz;Darf der AG private Messenger (z.B. WhatsApp) für Dienstliches erzwingen?;Ja;Nein (Datenschutz/Privatgerät);Nur im Notfall;Nur nachts;B;DSGVO / PersR;Die Nutzung privater Endgeräte oder Messenger für dienstliche Zwecke kann nicht einseitig angeordnet werden.
+217;Personal;Was ist eine "Personalakte"?;Ein Buch;Sammlung aller MA-Daten;Ein Gesetz;Ein Kündigungsgrund;B;§ 82 / § 83 BetrVG;Die Akte enthält alle Unterlagen, die das Arbeitsverhältnis betreffen. Der MA hat jederzeit das Recht auf Einsicht.
+218;Allgemein;Darf der BR-Vorsitzende alleine einen Anwalt beauftragen?;Ja;Nein (BR-Beschluss erforderlich);Nur im Notfall;Nur bei Geld;B;§ 33 BetrVG;Rechtshandlungen (wie Beauftragung eines Anwalts) setzen einen gültigen Mehrheitsbeschluss des Gremiums voraus.
+219;Versetzung;Darf der BR widersprechen, wenn der MA durch Versetzung "Lohn verliert"?;Nein;Ja (Benachteiligung ohne Grund);Nur bei Azubis;Nur im Sommer;B;§ 99 Abs. 2 Nr. 4 BetrVG;Wenn die Besorgnis besteht, dass der Arbeitnehmer durch die Versetzung benachteiligt wird, ohne dass dies durch sachliche Gründe gerechtfertigt ist.
+220;Kuendigung;Gilt Kündigungsschutz bei Eigenkündigung des MA?;Ja;Nein (KSchG nur bei AG-Kündigung);Nur bei Stahl;Nur bei Rentneren;B;§ 1 KSchG;Das Kündigungsschutzgesetz schützt nur vor einseitigen Kündigungen durch den Arbeitgeber.
+221;Arbeitszeit;Darf der BR "Überstundenzuschläge" für Azubis fordern?;Nein;Ja (Verhandlungssache);Nur bei Hitze;Nur am Wochenende;B;§ 87 BetrVG / JArbSchG;Mehrarbeit bei Azubis ist streng geregelt; der BR wacht über die Einhaltung und kann Vergütungsregeln mitgestalten.
+222;Stahl;Was regelt die "Konti-Schicht"?;Urlaub;Durchgehende Produktion (7 Tage/Woche);Nur Montage;Nur Büro;B;§ 87 BetrVG / BV;In der Stahlindustrie üblich, um die Hochöfen 24/7 zu betreiben. Die Ausgestaltung (Rhythmus) ist mitbestimmungspflichtig.
+223;Rechte;Darf der BR während der Freizeit BR-Arbeit machen?;Nein;Ja (Anspruch auf Freizeitausgleich);Nur nachts;Nur bei Streik;B;§ 37 Abs. 3 BetrVG;Wird BR-Arbeit aus betrieblichen Gründen außerhalb der Arbeitszeit durchgeführt, hat das Mitglied Anspruch auf Freizeitausgleich.
+224;Arbeitsschutz;Was ist ein "Ersthelfer"?;Ein Arzt;MA mit Erster-Hilfe-Ausbildung;Der BR-Chef;Ein Azubi;B;DGUV Vorschrift 1;Der AG muss sicherstellen, dass bei Unfällen Ersthelfer zur Verfügung stehen (Anzahl je nach Betriebsgröße).
+225;Gehalt;Was ist eine "Abfindung"?;Lohnvorschuss;Einmalzahlung bei Kündigung;Ein Kredit;Urlaubsgeld;B;§ 9 / § 10 KSchG;Zahlung des AG an den MA bei Beendigung des Arbeitsverhältnisses (oft im Rahmen eines Sozialplans).
+226;Bildung;Darf der AG die Kosten für "Rechtsschutz-Versicherung" des BR ablehnen?;Ja (AG trägt Kosten direkt);Nein;Nur bei Stahl;Nur privat;A;§ 40 BetrVG;Der AG muss die erforderlichen Kosten direkt tragen; eine Versicherung ist daher meist nicht erforderlich und vom AG nicht zu zahlen.
+227;Allgemein;Was ist ein "Listenwahl"-Verfahren?;Wahl einer Person;Wahl einer Vorschlagsliste;Lose ziehen;Nur für Azubis;B;§ 14 BetrVG;Werden mehrere Vorschlagslisten eingereicht, erfolgt die Wahl nach den Grundsätzen der Verhältniswahl (Listenwahl).
+228;IT-Datenschutz;Was ist "Homeoffice"?;Urlaub;Arbeiten von zu Hause;Schlafen;Krankmeldung;B;§ 87 BetrVG / BV;Die Einführung und Ausgestaltung von mobiler Arbeit (Homeoffice) unterliegt der Mitbestimmung des BR.
+229;Jugend;Darf die JAV eine eigene Versammlung abhalten?;Nein;Ja (Jugend- und Auszubildendenversammlung);Nur mit dem Chef;Nur am Sonntag;B;§ 71 BetrVG;Die JAV hat das Recht, vor oder nach jeder Betriebsversammlung eine eigene Versammlung durchzuführen.
+230;Arbeitszeit;Was ist "Mehrarbeit"?;Arbeit am Ofen;Arbeit über gesetzliche Höchstgrenze;Pause;Überstunden;B;ArbZG;Arbeit, die über die gesetzlichen Grenzen des Arbeitszeitgesetzes hinausgeht (oft fälschlich mit Überstunden verwechselt).
+231;Stahl;Darf der BR die Kantinen-Öffnungszeiten mitbestimmen?;Nein;Ja (Soziale Angelegenheit);Nur bei Nachtschicht;Nur am Wochenende;B;§ 87 Abs. 1 Nr. 8 BetrVG;Die Nutzungszeiten von Sozialeinrichtungen (wie der Kantine) unterliegen der Mitbestimmung.
+232;Abmahnung;Muss der BR vor einer Abmahnung angehört werden?;Ja;Nein (nur bei Kündigung);Nur bei Stahl;Nur bei Azubis;B;§ 102 BetrVG;Gesetzlich ist die Anhörung des BR nur vor Kündigungen vorgeschrieben, nicht vor Abmahnungen.
+233;Urlaub;Was ist der "Bundesurlaubstag"?;Feiertag;Gesetzlicher Anspruch (BUrlG);Ein Streiktag;Lohnfreier Tag;B;BUrlG;Das Bundesurlaubsgesetz regelt den gesetzlichen Mindestanspruch auf bezahlten Erholungsurlaub.
+234;Betriebsvereinbarung;Gilt eine BV auch für neue Mitarbeiter?;Nein;Ja (unmittelbar und zwingend);Nur nach 1 Jahr;Nur bei Stahl;B;§ 77 Abs. 4 BetrVG;BVs gelten für alle Arbeitnehmer des Betriebs, unabhängig davon, wann sie eingestellt wurden.
+235;Personal;Darf der BR die Stellenausschreibung "extern" verbieten?;Nein;Ja (erst intern ausschreiben);Nur bei Azubis;Nur nachts;B;§ 93 BetrVG;Der BR kann verlangen, dass Arbeitsplätze vor ihrer Besetzung innerhalb des Betriebs ausgeschrieben werden.
+236;Arbeitsschutz;Muss der BR bei der "Arbeitsplatz-Ergonomie" mitreden?;Nein;Ja (Gesundheitsschutz);Nur bei Büros;Nur im Sommer;B;§ 87 Abs. 1 Nr. 7 BetrVG;Die Gestaltung von Arbeitsplätzen zur Vermeidung von Gesundheitsschäden unterliegt der Mitbestimmung.
+237;Kuendigung;Darf der AG kündigen, weil der MA "zu oft krank" ist?;Nein;Ja (krankenbedingte Kündigung);Nur bei Diebstahl;Nur bei Azubis;B;KSchG;Unter strengen Bedingungen (negative Prognose, Beeinträchtigung betrieblicher Interessen) ist dies möglich.
+238;Arbeitszeit;Darf der AG "Bereitschaftsdienst" einseitig anordnen?;Ja;Nein (Mitbestimmung);Nur im Winter;Nur nachts;B;§ 87 Abs. 1 Nr. 2 BetrVG;Die Festlegung von Bereitschaftsdiensten ist mitbestimmungspflichtig, da sie Beginn und Ende der Arbeitszeit regelt.
+239;Stahl;Was regelt die "Arbeitsdirektor-Klausel"?;Die Helmfarbe;Besetzung des Arbeitsdirektors gegen BR-Mehrheit;Den Lohn;Den Urlaub;B;MontanMitbestG;Der Arbeitsdirektor kann im Montan-Bereich nicht gegen die Stimmen der Mehrheit der AN-Vertreter im AR bestellt werden.
+240;Allgemein;Wer leitet die Betriebsratswahl?;Der Chef;Der Wahlvorstand;Der BR-Vorsitzende;Die Gewerkschaft;B;§ 18 BetrVG;Der Wahlvorstand ist für die Vorbereitung und Durchführung der BR-Wahl verantwortlich.
+241;IT-Datenschutz;Darf der AG "Videoüberwachung" ohne BR einführen?;Ja;Nein (zwingende Mitbestimmung);Nur bei Diebstahl;Nur nachts;B;§ 87 Abs. 1 Nr. 6 BetrVG;Technik zur Überwachung des Verhaltens (Kameras) bedarf zwingend der Zustimmung des BR.
+242;Freistellung;Was ist eine "Teilfreistellung"?;Nur 50% Arbeit;BR-Mitglied ist teilweise freigestellt;Urlaub;Pause;B;§ 38 BetrVG;Freistellungen können auch als Teilfreistellungen (z.B. 50% BR, 50% normaler Job) gewährt werden.
+243;Versetzung;Muss der BR bei der "Rückversetzung" zustimmen?;Nein;Ja (erneute personelle Maßnahme);Nur bei Azubis;Nur im Sommer;B;§ 99 BetrVG;Auch die Rücknahme einer Versetzung oder eine erneute Versetzung an den alten Platz ist mitbestimmungspflichtig.
+244;Geheimhaltung;Darf der BR wirtschaftliche Daten an die Gewerkschaft geben?;Nein;Ja (im Rahmen der Beraterfunktion);Nur bei Streik;Nur bei Geld;B;§ 79 / § 108 BetrVG;Geheimhaltungspflichtige Daten dürfen nur unter engen Grenzen und zur Beratung weitergegeben werden.
+245;Betriebsvereinbarung;Wie wird eine BV "gekündigt"?;Durch Zerreißen;Schriftlich mit Frist (meist 3 Monate);Nur durch Streik;Gar nicht;B;§ 77 Abs. 5 BetrVG;Die Kündigungsfrist einer Betriebsvereinbarung beträgt, soweit nichts anderes vereinbart ist, drei Monate.
+246;Arbeitsschutz;Was ist eine "PSA-Verordnung"?;Regeln für Pausen;Regeln für Persönliche Schutzausrüstung;Lohnregeln;Parkplatzregeln;B;PSA-BV;Vorschriften über die Bereitstellung und Benutzung von persönlicher Schutzausrüstung bei der Arbeit.
+247;Kuendigung;Was ist eine "Verdachtskündigung"?;Kündigung ohne Grund;Kündigung bei dringendem Tatverdacht;Kündigung bei Urlaub;Ein Witz;B;Rechtsprechung;Der dringende Verdacht einer schweren Verfehlung kann eine Kündigung rechtfertigen, wenn der MA vorher angehört wurde.
+248;Urlaub;Darf der BR die "Urlaubssperre" mitbestimmen?;Nein;Ja (allgemeine Urlaubsgrundsätze);Nur bei Hitze;Nur im Winter;B;§ 87 Abs. 1 Nr. 5 BetrVG;Die Festlegung von Zeiten, in denen kein Urlaub genommen werden darf, unterliegt der Mitbestimmung.
+249;Arbeitszeit;Darf der BR "Zeitzuschläge" für Sonn- und Feiertage fordern?;Nein;Ja (Mitbestimmung);Nur bei Stahl;Nur für Azubis;B;§ 87 Abs. 1 Nr. 10 BetrVG;Die Aufstellung von Grundsätzen für die Vergütung von besonderen Belastungen (Sonntagsarbeit) ist mitbestimmungspflichtig.
+250;Wirtschaft;Was ist ein "Interessenausgleich"?;Ein Fest;Vereinbarung über das "Ob", "Wann" und "Wie" einer Änderung;Lohnabrechnung;Pause;B;§ 112 BetrVG;Bei Betriebsänderungen versuchen AG und BR einen Ausgleich der Interessen zu finden (z.B. Zeitplan der Umstrukturierung).
+251;Wirtschaft;Was ist ein "Sozialplan"?;Ein Kochbuch;Ausgleich wirtschaftlicher Nachteile für MA;Ein Sportevent;Eine Kündigung;B;§ 112 BetrVG;Ein Sozialplan mildert die Folgen einer Betriebsänderung (z.B. durch Abfindungen oder Qualifizierungen) ab.
+252;Arbeitszeit;Darf der AG "Vertrauensarbeitszeit" kontrollieren?;Nein;Ja (Dokumentationspflicht);Nur bei Diebstahl;Nur bei Azubis;B;EuGH / BAG Urteil;Der AG ist gesetzlich verpflichtet, die Arbeitszeit zu erfassen, auch wenn er auf die Kontrolle der Anwesenheit verzichtet.
+253;Kuendigung;Darf der BR eine Kündigung wegen "Streikteilnahme" ablehnen?;Ja (Maßregelungsverbot);Nein;Nur bei Azubis;Nur im Büro;A;§ 612a BGB / GG;Die Teilnahme an einem rechtmäßigen Streik ist ein Grundrecht und darf nicht zu einer Kündigung führen.
+254;Rechte;Darf der BR-Vorsitzende den AG allein verpflichten?;Ja;Nein (nur nach Beschluss);Nur im Notfall;Nur nachts;B;§ 26 BetrVG;Der Vorsitzende ist nur der "Bote" des Gremiums; ohne Beschluss kann er keine wirksamen Verträge mit dem AG schließen.
+255;Arbeitsschutz;Wer zahlt die ärztliche Untersuchung für Nachtschicht?;Der MA;Der Arbeitgeber;Die Krankenkasse;Niemand;B;§ 6 Abs. 3 ArbZG;Nachtarbeitnehmer haben das Recht auf regelmäßige Untersuchungen; die Kosten trägt der Arbeitgeber.
+256;Gehalt;Was ist eine "Sonderprämie" für Verbesserungsvorschläge?;Urlaubsgeld;Prämie für das betriebliche Vorschlagswesen;Eine Strafe;Ein Kredit;B;§ 87 Abs. 1 Nr. 12 BetrVG;Die Grundsätze über die Honorierung von Verbesserungsvorschlägen unterliegen der Mitbestimmung des BR.
+257;Personal;Darf der BR die Versetzung eines "leitenden Angestellten" verhindern?;Ja;Nein (eingeschränktes Recht);Nur bei Azubis;Nur nachts;B;§ 5 / § 105 BetrVG;Für leitende Angestellte gilt das BetrVG nur sehr eingeschränkt; der BR hat hier in der Regel kein Mitbestimmungsrecht bei Versetzungen.
+258;IT-Datenschutz;Darf der AG "Keycards" zur Bewegungskontrolle auswerten?;Ja;Nein (Zweckbindung/Mitbestimmung);Nur bei Diebstahl;Nur im Winter;B;§ 87 Abs. 1 Nr. 6 BetrVG;Keycards dienen der Sicherheit; eine heimliche Auswertung zur Leistungskontrolle ist unzulässig und mitbestimmungspflichtig.
+259;Versetzung;Gilt der Entzug eines Dienstwagens als Versetzung?;Nein;Ja (Änderung der Arbeitsbedingungen);Nur bei Azubis;Nur im Sommer;B;§ 95 Abs. 3 / Arbeitsrecht;Der Entzug von Arbeitsmitteln, die auch privat genutzt werden dürfen, ist meist eine Vertragsänderung, keine Versetzung im Sinne des BetrVG.
+260;Allgemein;Was ist ein "Sachverständiger"?;Ein Zeuge;Experte zur Unterstützung des BR;Der Chef;Ein Polizist;B;§ 80 Abs. 3 BetrVG;Der BR kann sich bei Fachfragen (z.B. IT, Bilanzen) durch externe Experten beraten lassen, sofern dies erforderlich ist.
+261;Stahl;Was ist die "Montan-Stolperstein-Klausel"?;Ein Baufehler;Spezielle Veto-Rechte im AR;Ein Lohnabzug;Ein Urlaubsmodell;B;MontanMitbestG;Umgangssprachlich für die starke Stellung der AN-Seite, die wichtige Personalentscheidungen im Vorstand blockieren kann.
+262;Arbeitszeit;Darf der BR Pausen "verlängern"?;Nein;Ja (Mitbestimmung);Nur nachts;Nur bei Hitze;B;§ 87 Abs. 1 Nr. 2 BetrVG;Über die Dauer und Lage der Pausen entscheidet der BR zwingend mit; er kann auch längere Pausen vorschlagen.
+263;Kuendigung;Darf der AG "mündlich" kündigen?;Ja;Nein (Nichtigkeit);Nur bei Azubis;Nur im Ausland;B;§ 623 BGB;Eine mündliche Kündigung ist rechtlich nicht existent. Sie muss zwingend auf Papier mit Unterschrift erfolgen.
+264;Rechte;Darf der BR in den "Aufsichtsrat" gewählt werden?;Nein;Ja (Arbeitnehmervertreter);Nur bei Stahl;Nur bei Kündigungen;B;MitbestG / DrittelparitätG;Je nach Unternehmensgröße werden 33% bis 50% der Aufsichtsratsmitglieder von der Belegschaft gewählt.
+265;Arbeitsschutz;Was ist eine "Sifa"?;Eine App;Sicherheitsfachkraft;Der BR-Chef;Eine Versicherung;B;§ 5 ASiG;Fachkräfte für Arbeitssicherheit beraten den AG und den BR beim Unfall- und Gesundheitsschutz.
+266;Bildung;Darf der BR Schulungen zum "Mobbing" besuchen?;Nein;Ja (erforderlich zur Überwachung);Nur der Vorsitz;Nur privat;B;§ 37 Abs. 6 / § 80 BetrVG;Der BR muss über die Einhaltung von Schutzgesetzen wachen; Wissen über Mobbing-Prävention ist daher erforderlich.
+267;Wirtschaft;Muss der AG über "Firmenzukäufe" informieren?;Nein;Ja (im Wirtschaftsausschuss);Nur bei Erfolg;Nur bei Stahl;B;§ 106 BetrVG;Wirtschaftliche Angelegenheiten wie die Übernahme anderer Unternehmen müssen dem WA rechtzeitig mitgeteilt werden.
+268;Personal;Was ist eine "Eignungsuntersuchung"?;Ein Sporttest;Prüfung der gesundheitlichen Eignung;Ein Kündigungsgrund;Ein Urlaubsantrag;B;§ 94 / § 95 BetrVG;Die Festlegung von Kriterien für solche Untersuchungen unterliegt der Mitbestimmung des BR.
+269;IT-Datenschutz;Was ist die "DSGVO"?;Ein Verein;Datenschutz-Grundverordnung;Ein Gesetz für Lohn;Ein Kündigungsgrund;B;DSGVO;Europäische Verordnung, die den Schutz personenbezogener Daten regelt und auch im Betrieb streng einzuhalten ist.
+270;Allgemein;Was passiert, wenn die Einigungsstelle keine Lösung findet?;Der Chef entscheidet;Vorsitzender entscheidet per Stimme;Streik;Arbeitsgericht;B;§ 76 BetrVG;Der Vorsitzende der Einigungsstelle gibt bei Stimmengleichheit nach einer Beratung den Ausschlag.
+271;Arbeitszeit;Darf der AG "Rufbereitschaft" während der Pause anordnen?;Ja;Nein (Pause muss frei von Arbeit sein);Nur nachts;Nur bei Azubis;B;§ 4 ArbZG;Während der Pause darf der MA nicht zur Arbeit oder zum Bereithalten zur Arbeit verpflichtet werden.
+272;Stahl;Was ist ein "Konzernbetriebsrat" (KBR)?;Alle BR-Mitglieder;Gremium für den gesamten Konzern;Die Gewerkschaft;Der Vorstand;B;§ 54 BetrVG;Der KBR ist für Angelegenheiten zuständig, die den Konzern oder mehrere Tochterunternehmen betreffen.
+273;Kuendigung;Was ist eine "betriebsbedingte Kündigung"?;Kündigung wegen Fehlverhalten;Kündigung wegen Arbeitsplatzwegfall;Kündigung bei Krankheit;Ein Lob;B;§ 1 KSchG;Wenn dringende betriebliche Erfordernisse (z.B. Auftragsmangel) einer Weiterbeschäftigung entgegenstehen.
+274;Rechte;Darf der BR die Personalakte eines MA ohne dessen Wissen einsehen?;Ja;Nein (Einwilligung nötig);Nur bei Diebstahl;Nur bei Stahl;B;§ 83 Abs. 1 BetrVG;Nur der MA selbst darf Einsicht nehmen; er kann ein BR-Mitglied dazu einladen, aber der BR hat kein eigenständiges Recht.
+275;Arbeitsschutz;Wer prüft die "elektrischen Geräte" im Werk?;Der Kollege;Qualifizierte Elektrofachkraft;Der BR-Chef;Die Polizei;B;DGUV Vorschrift 3;Alle elektrischen Betriebsmittel müssen regelmäßig auf Sicherheit geprüft werden (E-Check).
+276;Personal;Darf der BR Bewerber "interviewen"?;Ja;Nein (nur Teilnahme am Gespräch);Nur bei Azubis;Nur nachts;B;§ 99 BetrVG;Der BR hat ein Teilnahmerecht an Vorstellungsgesprächen, führt diese aber nicht selbst wie ein Personaler.
+277;Gehalt;Was ist eine "Ausschlussfrist"?;Zeit bis zur Rente;Zeitraum zur Geltendmachung von Ansprüchen;Eine Pause;Ein Abzug;B;Tarifvertrag / Vertrag;Wer Ansprüche (z.B. Überstundenlohn) nicht innerhalb dieser Frist anmeldet, verliert sie unwiderruflich.
+278;Versetzung;Darf der BR eine Versetzung ablehnen, wenn kein Ersatz da ist?;Nein;Ja (Nachteile für verbleibende MA);Nur bei Azubis;Nur im Sommer;B;§ 99 Abs. 2 Nr. 3 BetrVG;Wenn durch die Maßnahme die Gefahr besteht, dass die verbleibenden MA unzumutbar belastet werden.
+279;Allgemein;Wer zahlt die BR-Wahl?;Die Gewerkschaft;Der Arbeitgeber;Der BR privat;Die Gemeinde;B;§ 20 Abs. 3 BetrVG;Die Kosten der Wahl trägt der Arbeitgeber (Wahlunterlagen, Porto, Zeitversäumnis).
+280;Arbeitszeit;Darf der AG "Überstunden" mit dem Gehalt pauschal abgelten?;Ja;Nein (oft unzulässig/Transparenz);Nur bei Chefs;Nur im Winter;B;BGB / BAG;Klauseln wie "Alle Überstunden sind mit dem Gehalt abgegolten" sind meist unwirksam, wenn keine konkrete Stundenzahl genannt wird.
+281;Stahl;Was bedeutet "Mitbestimmungserstreckung"?;Mehr Urlaub;Ausdehnung der Montan-Mitbestimmung;Lohnkürzung;Streik;B;MontanMitbestGErgG;Regelt, wie die paritätische Mitbestimmung in Konzernen erhalten bleibt, auch wenn sich die Firmenstruktur ändert.
+282;Kuendigung;Darf der BR einer Kündigung widersprechen, wenn der MA umgeschult werden könnte?;Ja;Nein;Nur bei Azubis;Nur im Sommer;A;§ 102 Abs. 3 Nr. 4 BetrVG;Ein Widerspruchsgrund ist, wenn der MA an einem anderen Arbeitsplatz oder durch Umschulung weiterbeschäftigt werden kann.
+283;Rechte;Darf der BR "Schwarze Bretter" nutzen?;Nein;Ja (Sachmittelanspruch);Nur für Musik;Nur nachts;B;§ 40 Abs. 2 BetrVG;Der AG hat dem BR Flächen für Bekanntmachungen (analog oder digital) zur Verfügung zu stellen.
+284;Arbeitsschutz;Was ist eine "Sicherheitsunterweisung"?;Ein Test;Jährliche Belehrung über Gefahren;Ein Fest;Ein Kündigungsgrund;B;§ 12 ArbSchG;Der AG muss die MA über Sicherheit und Gesundheitsschutz bei der Arbeit ausreichend und angemessen unterweisen.
+285;Personal;Darf der AG eine "interne Ausschreibung" verweigern?;Ja;Nein (wenn BR es verlangt);Nur bei Chefs;Nur bei Azubis;B;§ 93 BetrVG;Verlangt der BR die interne Ausschreibung, muss der AG dieser Forderung nachkommen, bevor er extern sucht.
+286;IT-Datenschutz;Darf der AG "Office 365" ohne BV nutzen?;Ja;Nein (Datenschutzrisiken);Nur bei Apple;Nur bei Azubis;B;§ 87 / DSGVO;Aufgrund der Telemetriedaten und Überwachungsmöglichkeiten ist eine BV zwingend erforderlich.
+287;Gehalt;Was ist eine "Entgeltgruppe"?;Ein Sportverein;Lohnstufe im Tarifvertrag;Ein Kündigungsgrund;Ein Abzug;B;Tarifrecht;Die Zuordnung zu einer Gruppe richtet sich nach der Tätigkeit und Qualifikation (Eingruppierung).
+288;Bildung;Darf der BR Schulungen zum "Arbeitsrecht" besuchen?;Nein;Ja (Grundlagenwissen);Nur bei Streik;Nur privat;B;§ 37 Abs. 6 BetrVG;Grundkenntnisse im Arbeitsrecht sind für die tägliche BR-Arbeit unerlässlich und daher erforderlich.
+289;Allgemein;Was ist ein "Beschluss"?;Ein Wunsch;Verbindliche Entscheidung des BR-Gremiums;Ein Gesetz;Ein Kündigungsgrund;B;§ 33 BetrVG;Nur durch einen ordnungsgemäßen Beschluss (Mehrheit der Stimmen) wird der Wille des Betriebsrats gültig.
+290;Arbeitszeit;Darf der BR "Zeiterfassung per Fingerabdruck" ablehnen?;Nein;Ja (Persönlichkeitsrecht);Nur im Büro;Nur nachts;B;§ 87 / DSGVO;Biometrische Systeme sind ein schwerer Eingriff; der BR kann und sollte hier auf Alternativen bestehen.
+291;Stahl;Was ist die "Stahl-Arbeitszeit"?;40 Stunden;35 Stunden (Tarif);42 Stunden;30 Stunden;B;TV Eisen-Stahl;In der Stahlindustrie gilt in der Regel die 35-Stunden-Woche als tariflicher Standard.
+292;Kuendigung;Was ist ein "Aufhebungsvertrag"?;Eine Kündigung;Einvernehmliche Beendigung;Ein Lob;Ein Darlehen;B;BGB / Arbeitsrecht;AG und MA einigen sich gemeinsam auf das Ende des Vertrags. Achtung: Sperrzeit beim Arbeitsamt möglich!
+293;Rechte;Darf der BR an "Aufsichtsratssitzungen" teilnehmen?;Nein;Ja (wenn gewählt/entsandt);Nur als Gast;Nur nachts;B;MitbestG;AN-Vertreter im Aufsichtsrat haben die gleichen Rechte und Pflichten wie die Vertreter der Kapitalseite.
+294;Arbeitsschutz;Darf der BR "Hitzefrei" erzwingen?;Nein;Ja (über Gefährdungsbeurteilung);Nur im Sommer;Nur im Büro;B;§ 87 Abs. 1 Nr. 7 BetrVG;Bei extremer Hitze kann der BR über die Mitbestimmung Schutzmaßnahmen (Pausen, Getränke, Abbruch) fordern.
+295;Personal;Darf der AG einen MA "versetzen", um ihn zu ärgern?;Ja;Nein (Maßregelungsverbot/Schikane);Nur bei Diebstahl;Nur bei Stahl;B;§ 612a BGB / § 226 BGB;Willkürliche Versetzungen zum Zweck der Bestrafung sind rechtlich unzulässig.
+296;IT-Datenschutz;Was ist ein "Datenschutzbeauftragter"?;Der Chef;Überwachungsinstanz für Daten;Ein Azubi;Ein Polizist;B;DSGVO;Er berät das Unternehmen und den BR bei der Einhaltung der Datenschutzvorschriften.
+297;Gehalt;Was ist eine "Zulagen-Kürzung"?;Ein Bonus;Reduzierung von freiwilligen Zahlungen;Eine Beförderung;Ein Darlehen;B;§ 87 / Arbeitsrecht;Die Kürzung von Zulagen ist oft an Bedingungen geknüpft und bedarf bei Kollektivbezug der Mitbestimmung.
+298;Bildung;Muss der BR-Ersatzmann geschult werden?;Nein;Ja (wenn er häufig nachrückt);Nur bei Streik;Nur privat;B;§ 37 Abs. 6 BetrVG;Ersatzmitglieder haben Anspruch, wenn sie regelmäßig über einen längeren Zeitraum BR-Aufgaben übernehmen.
+299;Allgemein;Was ist ein "Protokoll"?;Ein Gesetz;Niederschrift der BR-Sitzung;Ein Kündigungsgrund;Ein Brief;B;§ 34 BetrVG;Über jede Verhandlung des Betriebsrats ist eine Niederschrift anzufertigen, die vom Vorsitzenden und einem Mitglied unterschrieben wird.
+300;Wahl;Wer ist "wahlberechtigt"?;Alle über 16 Jahre;Alle AN über 16 Jahre;Nur Deutsche;Nur Festangestellte;B;§ 7 BetrVG;Wahlberechtigt sind alle Arbeitnehmer des Betriebs, die das 16. Lebensjahr vollendet haben.
+301;Wahl;Wer ist "wählbar" (passives Wahlrecht)?;Jeder;Alle Wahlberechtigten (6 Monate im Betrieb);Nur Chefs;Nur Gewerkschafter;B;§ 8 BetrVG;Wählbar sind alle Wahlberechtigten, die dem Betrieb sechs Monate angehören.
+302;Jugend;Wie viele JAV-Mitglieder bei 21-50 Azubis?;1;3;5;7;B;§ 62 BetrVG;Die Anzahl der JAV-Mitglieder ist nach der Anzahl der im Betrieb beschäftigten Jugendlichen und Azubis gestaffelt.
+303;Kuendigung;Was ist ein "Kündigungsschutzprozess"?;Ein Fest;Klage vor dem Arbeitsgericht;Eine Mahnung;Ein Zeugnis;B;§ 4 KSchG;Der Arbeitnehmer wehrt sich gerichtlich gegen eine Kündigung, um die Unwirksamkeit feststellen zu lassen.
+304;Rechte;Darf der BR-Vorsitzende den AG eigenmächtig verklagen?;Ja;Nein (BR-Beschluss zwingend);Nur bei Eile;Nur bei Geld;B;§ 33 BetrVG;Ohne einen wirksamen Beschluss des Gremiums darf der Vorsitzende keine gerichtlichen Schritte im Namen des BR einleiten.
+305;Arbeitsschutz;Was ist eine "Sicherheitsbegehung"?;Ein Spaziergang;Vor-Ort-Prüfung der Sicherheit;Ein Streik;Eine Pause;B;§ 89 BetrVG;Der BR hat das Recht und die Pflicht, an Besichtigungen durch die Aufsichtsbehörden teilzunehmen.
+306;Gehalt;Darf der BR "Prämiensätze" mitbestimmen?;Nein;Ja (Akkord/Prämien);Nur bei Stahl;Nur bei Nacht;B;§ 87 Abs. 1 Nr. 11 BetrVG;Die Festsetzung von Akkord- und Prämiensätzen sowie vergleichbaren leistungsbezogenen Entgelten ist mitbestimmungspflichtig.
+307;Personal;Muss der BR bei "Leiharbeit" zustimmen?;Nein;Ja (Einstellung von Leiharbeitern);Nur bei 100 MA;Nur im Sommer;B;§ 99 BetrVG / AÜG;Die Beschäftigung von Leiharbeitnehmern gilt als Einstellung und bedarf der Zustimmung des Betriebsrats.
+308;IT-Datenschutz;Was ist ein "E-Mail-Verbot"?;Verbot von Internet;Verbot privater E-Mails am Platz;Ein Kündigungsgrund;Ein Streik;B;IT-BV / § 87;Der Arbeitgeber kann die private Nutzung der betrieblichen IT untersagen; die Kontrolle unterliegt dem BR.
+309;Allgemein;Was ist eine "Schlichtung"?;Ein Streit;Verfahren zur Beilegung von Konflikten;Eine Kündigung;Ein Urlaubsantrag;B;§ 76 BetrVG;Die Einigungsstelle ist das zentrale Schlichtungsorgan zwischen Arbeitgeber und Betriebsrat.
+310;Kuendigung;Darf der BR einer Kündigung "Bedenken" äußern?;Nein;Ja (schwächere Form des Widerspruchs);Nur bei Azubis;Nur im Winter;B;§ 102 Abs. 2 BetrVG;Der BR kann Bedenken äußern, auch wenn kein gesetzlicher Widerspruchsgrund vorliegt.
+311;Arbeitszeit;Darf der BR "Arbeitszeitkonten" fordern?;Nein;Ja (Initiativrecht);Nur im Büro;Nur für Rentner;B;§ 87 Abs. 1 Nr. 2 BetrVG;Der BR kann die Einführung von Zeitkonten verlangen, um die Arbeitszeit flexibler zu gestalten.
+312;Stahl;Was regelt der "Montan-Aufsichtsrat"?;Die Kantine;Wirtschaftliche Grundsatzentscheidungen;Nur Urlaub;Den Fuhrpark;B;MontanMitbestG;Er entscheidet über Großinvestitionen, Fusionen und die Bestellung des Vorstands.
+313;Rechte;Darf der BR "Sachverständige für KI" laden?;Nein;Ja (bei Einführung von KI);Nur bei Google;Nur privat;B;§ 80 Abs. 3 BetrVG;Bei der Einführung von Künstlicher Intelligenz hat der BR oft Anspruch auf externe Fachberatung.
+314;Urlaub;Kann man Urlaub in das "nächste Jahr" mitnehmen?;Immer;Nur bei dringenden Gründen (bis 31.3.);Nie;Nur bei Kündigung;B;§ 7 Abs. 3 BUrlG;Eine Übertragung ist nur statthaft, wenn betriebliche oder persönliche Gründe (Krankheit) vorliegen.
+315;Gleichstellung;Was ist "Entgelttransparenz"?;Lohnzettel zeigen;Recht zu erfahren, was andere verdienen;Ein Gesetz;Ein Abzug;B;EntgTranspG;In Betrieben ab 200 MA haben Beschäftigte einen Auskunftsanspruch über das Gehalt vergleichbarer Kollegen.
+316;IT-Datenschutz;Darf der AG "Logfiles" zur Kontrolle nutzen?;Ja;Nein (Zweckbindung beachten);Nur bei Diebstahl;Nur bei Stahl;B;DSGVO / § 87;Systemdaten dürfen in der Regel nur zur Fehlersuche, nicht zur heimlichen Leistungskontrolle genutzt werden.
+317;Personal;Was ist eine "Probezeit"?;Zeit zum Feiern;Zeitraum mit verkürzter Kündigungsfrist;Ein Urlaub;Ein Kündigungsgrund;B;§ 622 Abs. 3 BGB;Während einer vereinbarten Probezeit (max. 6 Monate) kann mit einer Frist von zwei Wochen gekündigt werden.
+318;Allgemein;Darf der BR während der "Arbeitszeit" tagen?;Nein;Ja (Grundsatz des Gesetzes);Nur nachts;Nur bei Streik;B;§ 30 BetrVG;BR-Sitzungen finden während der Arbeitszeit statt; der AG muss die Zeit wie Arbeitszeit bezahlen.
+319;Versetzung;Muss der BR bei der "Zuweisung eines anderen Büros" zustimmen?;Nein (meist keine Versetzung);Ja;Nur bei Stahl;Nur bei Chefs;A;§ 95 Abs. 3 BetrVG;Ein bloßer Zimmerwechsel innerhalb einer Abteilung ohne Änderung der Aufgabe ist meist keine Versetzung.
+320;Kuendigung;Darf der AG "wegen Diebstahl" sofort kündigen?;Nein;Ja (fristlos bei wichtigem Grund);Nur bei Azubis;Nur im Sommer;B;§ 626 BGB;Eine außerordentliche Kündigung ist möglich, wenn dem AG die Fortsetzung des Verhältnisses unzumutbar ist.
+321;Arbeitszeit;Darf der BR "Sonn- und Feiertagsarbeit" ablehnen?;Nein;Ja (Mitbestimmungsrecht);Nur bei Hitze;Nur nachts;B;§ 87 Abs. 1 Nr. 3 BetrVG;Der BR entscheidet mit, ob und in welchem Umfang an Sonn- und Feiertagen gearbeitet werden darf.
+322;Stahl;Was bedeutet "Neutrales Mitglied"?;Ein Schiedsrichter;Das 11./21. Mitglied im Aufsichtsrat;Der Pförtner;Der Werksleiter;B;§ 8 MontanMitbestG;Das neutrale Mitglied soll bei Stimmengleichheit zwischen Kapital und Arbeit im Aufsichtsrat vermitteln.
+323;Rechte;Darf der BR-Vorsitzende allein eine BV unterschreiben?;Ja (wenn Beschluss vorliegt);Nein;Nur im Notfall;Nur bei Geld;A;§ 77 Abs. 2 BetrVG;Der Vorsitzende unterschreibt die BV für den Betriebsrat, benötigt aber vorher die Zustimmung des Gremiums per Beschluss.
+324;Arbeitsschutz;Muss der BR bei der "Lärmminderung" mitreden?;Nein;Ja (Gesundheitsschutz);Nur bei 100 dB;Nur nachts;B;§ 87 Abs. 1 Nr. 7 BetrVG;Maßnahmen zur Reduzierung von Lärmbelastung am Arbeitsplatz unterliegen der Mitbestimmung.
+325;Gehalt;Was ist eine "Leistungszulage"?;Normaler Lohn;Zahlung für besondere Leistung;Eine Strafe;Ein Kredit;B;§ 87 Abs. 1 Nr. 11 BetrVG;Die Kriterien für die Gewährung von Leistungszulagen müssen mit dem BR vereinbart werden.
+326;Bildung;Darf der BR Schulungen zur "Öffentlichkeitsarbeit" besuchen?;Nein;Ja (bedingt, zur Information der Belegschaft);Nur der Vorsitz;Nur privat;B;§ 37 Abs. 6 BetrVG;Wenn es um die Information der Belegschaft (z.B. Erstellung von BR-Zeitschriften) geht, kann dies erforderlich sein.
+327;Allgemein;Was ist ein "Wahlvorstand"?;Der Chef;Organ zur Durchführung der BR-Wahl;Der BR-Vorsitzende;Die Gewerkschaft;B;§ 18 BetrVG;Der Wahlvorstand bereitet die Wahl vor, erstellt die Wählerliste und leitet die Stimmauszählung.
+328;IT-Datenschutz;Was ist eine "Betriebliche Datenschutz-BV"?;Ein Wunschzettel;Vereinbarung zum Schutz der MA-Daten;Ein Gesetz;Ein Kündigungsgrund;B;§ 87 / DSGVO;In dieser BV wird geregelt, welche Daten der AG erheben darf und wie er diese schützen muss.
+329;Jugend;Darf die JAV an jeder BR-Sitzung teilnehmen?;Nein;Ja (über einen Vertreter);Nur bei Streik;Nur nachts;B;§ 67 BetrVG;Die JAV kann einen Vertreter zu jeder Betriebsratsunterredung entsenden.
+330;Arbeitszeit;Darf der AG "Überstunden" mit Pizza bezahlen?;Ja;Nein (Lohn- oder Freizeitausgleich);Nur bei Stahl;Nur am Freitag;B;Arbeitsrecht;Überstunden müssen entsprechend dem Vertrag oder Tarif vergütet oder ausgeglichen werden.
+331;Stahl;Darf der BR die "Schutzkleidung-Marke" mitbestimmen?;Nein;Ja (Tragekomfort/Akzeptanz);Nur bei Gelb;Nur nachts;B;§ 87 Abs. 1 Nr. 7 BetrVG;Bei der Auswahl der PSA hat der BR ein Mitbestimmungsrecht, insbesondere wenn es um die Gesundheit geht.
+332;Abmahnung;Kann man eine Abmahnung aus der "Personalakte" entfernen lassen?;Nein;Ja (bei Unrichtigkeit oder nach Zeit);Nur bei Kündigung;Nur bei Stahl;B;§ 83 BetrVG / BGB;Ist die Abmahnung unberechtigt, hat der MA einen Anspruch auf Entfernung aus der Akte.
+333;Urlaub;Was ist "Erholungsbeihilfe"?;Normaler Lohn;Zuschuss des AG zum Urlaub (freiwillig);Ein Kredit;Ein Abzug;B;Arbeitsrecht;Eine freiwillige Zahlung des Arbeitgebers zur Unterstützung des Erholungsurlaubs.
+334;Betriebsvereinbarung;Kann eine BV "unbefristet" sein?;Ja (bis zur Kündigung);Nein;Nur für 1 Jahr;Nur bei Stahl;A;§ 77 BetrVG;BVs gelten in der Regel so lange, bis sie von einer Seite gekündigt oder durch eine neue BV ersetzt werden.
+335;Personal;Darf der BR die "Eingruppierung" ablehnen?;Nein;Ja (bei Verstoß gegen Tarifvertrag);Nur bei Azubis;Nur nachts;B;§ 99 Abs. 2 Nr. 1 BetrVG;Der BR kann die Zustimmung verweigern, wenn die Eingruppierung gegen Bestimmungen des Tarifvertrags verstößt.
+336;Arbeitsschutz;Muss der BR bei "Kameraüberwachung" am Hochofen zustimmen?;Nein;Ja (Verhaltenskontrolle möglich);Nur bei Diebstahl;Nur im Sommer;B;§ 87 Abs. 1 Nr. 6 BetrVG;Auch Sicherheitskameras können zur Überwachung genutzt werden und sind daher mitbestimmungspflichtig.
+337;Kuendigung;Was ist eine "Sperrfrist"?;Zeit bis zur Rente;Zeitraum beim Arbeitsamt nach Eigenkündigung;Eine Pause;Ein Abzug;B;SGB III;Wer ohne wichtigen Grund selbst kündigt, erhält in der Regel 12 Wochen kein Arbeitslosengeld.
+338;Arbeitszeit;Darf der BR "kurze Pausen" (5 Min.) fordern?;Nein;Ja (über Mitbestimmung);Nur im Büro;Nur nachts;B;§ 87 Abs. 1 Nr. 2 BetrVG;Der BR kann zusätzliche Kurzpausen fordern, z.B. bei belastender Fließbandarbeit oder Hitze.
+339;Stahl;Was ist ein "Konzern-Arbeitsdirektor"?;Der Chef;Personalvorstand für den ganzen Konzern;Ein Azubi;Ein Polizist;B;MontanMitbestGErgG;Sorgt für einheitliche Personalstandards in einem großen Montan-Konzern.
+340;Allgemein;Wer darf die "Wählerliste" einsehen?;Nur der Chef;Alle Arbeitnehmer des Betriebs;Nur der BR;Nur die Gewerkschaft;B;§ 2 WO;Die Wählerliste muss zur Einsichtnahme ausgelegt werden, damit Fehler korrigiert werden können.
+341;IT-Datenschutz;Darf der AG "GPS-Tracker" in Dienstwagen einbauen?;Ja;Nein (nur bei Zweckbindung/BR);Nur bei Diebstahl;Nur nachts;B;§ 87 / DSGVO;GPS-Tracking zur Leistungskontrolle ist verboten; zur Logistik nur mit BR-Zustimmung erlaubt.
+342;Freistellung;Was ist ein "Freistellungsanspruch"?;Recht auf Urlaub;Recht des BR auf Befreiung von Arbeit;Lohn;Pause;B;§ 38 BetrVG;Der Gesetzgeber legt fest, wie viele BR-Mitglieder je nach Betriebsgröße komplett freigestellt werden müssen.
+343;Versetzung;Muss der BR bei der "Abordnung" zu einer Schulung zustimmen?;Nein;Ja (wenn > 1 Monat);Nur bei Stahl;Nur bei Chefs;B;§ 95 Abs. 3 BetrVG;Dauert eine Zuweisung eines anderen Arbeitsbereichs länger als einen Monat, ist es eine Versetzung.
+344;Geheimhaltung;Darf der BR "Betriebsgeheimnisse" dem Ehepartner sagen?;Ja;Nein (Verschwiegenheitspflicht);Nur bei Stress;Nur nachts;B;§ 79 BetrVG;Die Schweigepflicht gilt gegenüber jedermann, der nicht zur Geheimhaltung verpflichtet ist.
+345;Betriebsvereinbarung;Was ist eine "Regelungsabrede"?;Ein Gesetz;Lose Vereinbarung (formfrei) zw. AG und BR;Ein Kündigungsgrund;Ein Abzug;B;Arbeitsrecht;Eine Absprache, die nicht die unmittelbare Wirkung einer BV hat, aber das Handeln von AG und BR bindet.
+346;Arbeitsschutz;Muss der BR bei der "Brandschutzordnung" mitreden?;Nein;Ja (Unfallverhütung);Nur bei Feuer;Nur nachts;B;§ 87 Abs. 1 Nr. 7 BetrVG;Regeln zum Verhalten im Brandfall betreffen die Sicherheit und sind mitbestimmungspflichtig.
+347;Kuendigung;Darf der AG "wegen politischer Meinung" kündigen?;Ja;Nein (Maßregelungsverbot/GG);Nur bei Diebstahl;Nur bei Azubis;B;AGG / GG;Niemand darf wegen seiner politischen Anschauung benachteiligt oder gekündigt werden (solange die Arbeit nicht gestört wird).
+348;Urlaub;Darf der BR "Urlaubsgeld" für alle fordern?;Nein (nur Verteilung);Ja (immer);Nur bei Stahl;Nur bei Azubis;A;§ 87 Abs. 1 Nr. 10 BetrVG;Der BR kann die Zahlung selbst meist nicht erzwingen, aber bei den Verteilungsgrundsätzen mitreden.
+349;Arbeitszeit;Darf der AG "Überstunden" einseitig streichen?;Ja;Nein (Mitbestimmung/Vertrag);Nur bei Stahl;Nur nachts;B;§ 87 / Arbeitsrecht;Einmal angeordnete und genehmigte Überstunden können nicht willkürlich wieder weggenommen werden.
+350;Urlaub;Gibt es Sonderurlaub bei der eigenen Hochzeit?;Nein;Ja (bezahlte Freistellung);Nur am Wochenende;Nur unbezahlt;B;§ 616 BGB;Bei wichtigen persönlichen Ereignissen wie der eigenen Hochzeit besteht Anspruch auf bezahlte Freistellung.
+351;Urlaub;Bekommt man bei einem Todesfall in der Familie frei?;Nein;Ja (Sonderurlaub);Nur bei Erbe;Nur unbezahlt;B;§ 616 BGB;Der Tod naher Angehöriger gilt als unverschuldete Verhinderung, die zur bezahlten Freistellung berechtigt.
+352;Eltern;Was ist "Elternzeit"?;Urlaub für alle;Freistellung zur Kinderbetreuung;Kündigung;Ein Bonus;B;BEEG;Eltern haben Anspruch auf unbezahlte Freistellung von der Arbeit bis zur Vollendung des dritten Lebensjahres des Kindes.
+353;Eltern;Darf man in der Elternzeit in Teilzeit arbeiten?;Nein;Ja (unter bestimmten Bedingungen);Nur bei Stahl;Nur nachts;B;§ 15 BEEG;Während der Elternzeit ist eine Teilzeitbeschäftigung von bis zu 32 Wochenstunden beim selben AG möglich.
+354;Pflege;Was ist die "kurzzeitige Arbeitsverhinderung"?;Urlaub;Bis zu 10 Tage für Akutpflege;Krankmeldung;Pause;B;§ 2 PflegeZG;MA haben das Recht, bis zu 10 Arbeitstage fernzubleiben, um eine pflegerische Notfallsituation eines Angehörigen zu regeln.
+355;Pflege;Was ist "Pflegeunterstützungsgeld"?;Lohn;Ersatzleistung der Pflegekasse;Ein Kredit;Ein Abzug;B;§ 44a SGB XI;Lohnersatzleistung während der kurzzeitigen Arbeitsverhinderung (bis zu 10 Tage).
+356;Rente;Was ist die "betriebliche Altersvorsorge" (bAV)?;Gesetzliche Rente;Zusatzrente über den AG;Ein Sparbuch;Eine Kündigung;B;BetrAVG;Der AG sagt dem MA Leistungen der Alters-, Invaliditäts- oder Hinterbliebenenversorgung zu.
+357;Rente;Muss der AG einen Teil des Gehalts für bAV umwandeln?;Nein;Ja (Anspruch auf Entgeltumwandlung);Nur bei Stahl;Nur bei Chefs;B;§ 1a BetrAVG;Jeder MA kann verlangen, dass Teile seiner künftigen Entgeltansprüche für die Altersvorsorge verwendet werden.
+358;Rente;Gibt der AG einen Zuschuss zur Entgeltumwandlung?;Nein;Ja (meist 15% bei Ersparnis);Nur bei Stahl;Nur bei Azubis;B;§ 1a Abs. 1a BetrAVG;Der AG muss 15 % des umgewandelten Betrags als Zuschuss zahlen, wenn er dadurch Sozialversicherungsbeiträge spart.
+359;Allgemein;Was ist eine "Massenentlassungsanzeige"?;Eine E-Mail;Meldung an die Agentur für Arbeit;Ein Fest;Ein Plakat;B;§ 17 KSchG;Ab einer bestimmten Anzahl von Entlassungen innerhalb von 30 Tagen muss der AG dies der Behörde melden.
+360;Wahl;Darf man "per Brief" den BR wählen?;Nein;Ja (Briefwahl auf Antrag/Anordnung);Nur bei Stahl;Nur nachts;B;§ 24 WO;Wer am Wahltag verhindert ist, kann seine Stimme per Briefwahl abgeben.
+361;Stahl;Was regelt der "Tarifvertrag Altersvorsorge Stahl"?;Pausen;Spezielle bAV-Leistungen für Hüttenwerker;Urlaub;Helmfarbe;B;TV Altersvorsorge;Spezifische tarifliche Regelungen für die Zusatzvorsorge in der Eisen- und Stahlindustrie.
+362;Arbeitszeit;Darf der BR "Rauchverbote" im Werk mitbestimmen?;Nein;Ja (Gesundheitsschutz/Ordnung);Nur bei Feuer;Nur nachts;B;§ 87 Abs. 1 Nr. 1 BetrVG;Rauchverbote betreffen das Ordnungsverhalten im Betrieb und unterliegen der Mitbestimmung.
+363;Kuendigung;Darf der AG "wegen Facebook-Beleidigung" kündigen?;Nein;Ja (je nach Schwere/Geschäftsschädigung);Nur bei Azubis;Nur im Sommer;B;Arbeitsrecht;Grobe Beleidigungen des AG oder von Kollegen in sozialen Netzwerken können eine Kündigung rechtfertigen.
+364;Rechte;Darf der BR "externe Berater" zur Betriebsversammlung laden?;Nein;Ja (z.B. Gewerkschaftsvertreter);Nur bei Streik;Nur nachts;B;§ 46 BetrVG;Beauftragte der im Betrieb vertretenen Gewerkschaften können beratend an der Betriebsversammlung teilnehmen.
+365;Arbeitsschutz;Was ist eine "Sicherheitsfachkraft"?;Ein Türsteher;Berater für Arbeitssicherheit;Ein Polizist;Der BR-Chef;B;§ 5 ASiG;Der AG hat Fachkräfte für Arbeitssicherheit zu bestellen (SiFa).
+366;Bildung;Darf der BR "PC-Grundkurse" besuchen?;Nein;Ja (wenn für BR-Arbeit nötig);Nur der Vorsitz;Nur privat;B;§ 37 Abs. 6 BetrVG;Wenn das BR-Mitglied den PC für die BR-Tätigkeit braucht, ist eine Basisschulung erforderlich.
+367;Wirtschaft;Was ist eine "Verschmelzung"?;Ein Fest;Zusammenführung zweier Firmen;Eine Kündigung;Ein Abzug;B;UmwG / § 111 BetrVG;Rechtlicher Vorgang, bei dem Firmen fusionieren. Dies ist eine Betriebsänderung mit BR-Beteiligung.
+368;Personal;Was ist ein "Qualifizierungsgespräch"?;Ein Test;Gespräch über Fortbildung/Zukunft;Ein Kündigungsgrund;Ein Abzug;B;§ 92a / § 96 BetrVG;Der BR kann Vorschläge zur Sicherung und Förderung der Beschäftigung durch Qualifizierung machen.
+369;IT-Datenschutz;Darf der AG "Private Telefonate" am Diensthandy verbieten?;Ja;Nein;Nur im Sommer;Nur bei Azubis;A;Arbeitsrecht;Der AG stellt das Handy für Dienstzwecke zur Verfügung; er kann die Privatnutzung regeln oder untersagen.
+370;Allgemein;Was ist ein "Interessenausgleich mit Namensliste"?;Ein Fest;Liste der zu kündigenden Personen;Ein Urlaubsantrag;Ein Abzug;B;§ 1 Abs. 5 KSchG;Wird eine Namensliste vereinbart, wird die gerichtliche Überprüfung der Sozialauswahl für den MA schwieriger.
+371;Arbeitszeit;Darf der BR "Überstunden für Schwangere" verhindern?;Nein;Ja (Gesetzliches Verbot);Nur bei Stahl;Nur nachts;B;§ 4 MuSchG;Werdende und stillende Mütter dürfen keine Mehrarbeit (über 8,5 Std. täglich) leisten.
+372;Stahl;Was ist die "Stahlarbeitszeit-Verkürzung"?;Urlaub;Tarifliche Reduzierung der Wochenstunden;Ein Streik;Ein Abzug;B;TV Eisen-Stahl;Historisch erkämpfte Reduzierung der Arbeitszeit zur Beschäftigungssicherung (35h-Woche).
+373;Kuendigung;Darf der BR einer Kündigung wegen "mangelnder Qualifikation" widersprechen?;Ja;Nein;Nur bei Azubis;Nur im Sommer;A;§ 102 Abs. 3 Nr. 4 BetrVG;Widerspruch ist möglich, wenn der MA durch Umschulung weiterbeschäftigt werden könnte.
+374;Rechte;Darf der BR "Büromaterial" (Drucker/Papier) verlangen?;Nein;Ja (Sachaufwand);Nur bei Streik;Nur nachts;B;§ 40 Abs. 2 BetrVG;Der AG muss dem BR die für die laufende Geschäftsführung erforderlichen Sachmittel bereitstellen.
+375;Arbeitsschutz;Muss der BR bei der "Hitzeschutzkleidung" mitreden?;Nein;Ja (Sicherheit und Trageakzeptanz);Nur bei Feuer;Nur im Sommer;B;§ 87 Abs. 1 Nr. 7 BetrVG;Bei der Auswahl spezieller Schutzausrüstung am Hochofen hat der BR mitzubestimmen.
+376;Personal;Darf der AG "Alkoholtests" ohne Grund durchführen?;Ja;Nein (Persönlichkeitsrecht);Nur bei Stahl;Nur bei Azubis;B;Arbeitsrecht;Anlasslose Kontrollen sind unzulässig; bei konkretem Verdacht (Gefahr im Verzug) sieht es anders aus.
+377;Gehalt;Was ist eine "Ausschlussfrist im Tarifvertrag"?;Zeit bis zur Rente;Frist zum Einklagen von Geld;Eine Pause;Ein Abzug;B;Tarifrecht;Meist kurze Fristen (z.B. 3 Monate), nach denen Ansprüche auf Lohn oder Zuschläge verfallen.
+378;Versetzung;Darf der BR eine Versetzung "vorläufig" stoppen?;Nein;Ja (im Eilverfahren);Nur bei Stahl;Nur im Sommer;B;§ 100 BetrVG;Der AG kann eine Maßnahme vorläufig durchführen, der BR kann dies jedoch gerichtlich überprüfen lassen.
+379;Allgemein;Was ist ein "Betriebsausschuss"?;Ein Fest;Gremium zur Erledigung laufender Geschäfte;Eine Kündigung;Ein Abzug;B;§ 27 BetrVG;Ab 9 BR-Mitgliedern muss ein Betriebsausschuss gebildet werden.
+380;Arbeitszeit;Darf der BR "Homeoffice-Pauschalen" fordern?;Nein;Ja (Verhandlungssache);Nur im Büro;Nur nachts;B;§ 87 BetrVG;Zwar kann der BR die Höhe oft nicht erzwingen, aber die Rahmenbedingungen der Kosten erstattung mitgestalten.
+381;Stahl;Was ist ein "Schlichter" im Tarifstreit?;Der Chef;Neutraler Vermittler bei Tarifverhandlungen;Ein Azubi;Ein Polizist;B;Tarifrecht;Er hilft, wenn sich Gewerkschaft und AG-Verband nicht auf einen neuen Lohn einigen können.
+382;Kuendigung;Darf der BR einer Kündigung wegen "Lebensalter" widersprechen?;Ja (Sozialauswahl);Nein;Nur bei Azubis;Nur im Sommer;A;§ 102 Abs. 3 BetrVG;Wenn der AG ältere MA entlassen will und jüngere (weniger schutzwürdige) behält.
+383;Rechte;Darf der BR "BR-Sprechstunden" einführen?;Nein;Ja (während der Arbeitszeit);Nur in der Pause;Nur nachts;B;§ 39 BetrVG;Der BR kann Zeiten festlegen, in denen MA ihre Anliegen persönlich vortragen können.
+384;Arbeitsschutz;Wer ist für "Brandschutzhelfer" zuständig?;Die Feuerwehr;Der Arbeitgeber (Bestellung);Der BR;Der Azubi;B;§ 10 ArbSchG;Der AG muss eine ausreichende Anzahl von Beschäftigten durch Unterweisung und Übung als Brandschutzhelfer benennen.
+385;Personal;Darf der BR "Anforderungsprofile" mitgestalten?;Nein;Ja (bei Stellenausschreibungen);Nur bei Chefs;Nur bei Azubis;B;§ 95 BetrVG;Bei der Festlegung von Auswahlrichtlinien (was ein Bewerber können muss) redet der BR mit.
+386;IT-Datenschutz;Darf der AG "Teams/Zoom" zur Leistungskontrolle nutzen?;Ja;Nein (Mitbestimmung/Verbot);Nur bei Apple;Nur bei Azubis;B;§ 87 Abs. 1 Nr. 6 BetrVG;Statusanzeigen ("abwesend") dürfen nicht zur Überwachung der Arbeitsleistung herangezogen werden.
+387;Gehalt;Was ist eine "Sonderzahlung"?;Normaler Lohn;Zahlung aus besonderem Anlass (z.B. Jubiläum);Ein Abzug;Ein Kredit;B;Arbeitsrecht;Zusätzliche Leistungen des AG, oft in BVs oder Tarifverträgen geregelt.
+388;Bildung;Darf der BR Schulungen zur "Betrieblichen Altersvorsorge" besuchen?;Nein;Ja (wenn er dazu beraten soll);Nur bei Streik;Nur privat;B;§ 37 Abs. 6 BetrVG;Da der BR über bAV-Systeme mitentscheidet, muss er auch die rechtlichen Grundlagen kennen.
+389;Allgemein;Was ist ein "Konzern-BR-Vorsitzender"?;Der Konzernchef;Sprecher des KBR;Ein Azubi;Ein Polizist;B;§ 55 BetrVG;Er vertritt den Konzernbetriebsrat gegenüber der Konzernleitung.
+390;Arbeitszeit;Darf der BR "Vertrauensarbeitszeit" ablehnen?;Nein;Ja (Mitbestimmung);Nur im Büro;Nur nachts;B;§ 87 Abs. 1 Nr. 2 BetrVG;Da Vertrauensarbeitszeit die Lage der Arbeitszeit betrifft, kann der BR Bedingungen stellen.
+391;Stahl;Was regelt die "Tarifliche Zusatzvergütung (T-ZUG)"?;Pausen;Spezielle jährliche Extrazahlung/Freizeitoption;Lohn;Urlaub;B;TV Metall/Stahl;Wahlmöglichkeit zwischen Geld oder zusätzlichen freien Tagen für bestimmte MA-Gruppen.
+392;Kuendigung;Was ist ein "Kündigungsgrund in der Person"?;Diebstahl;Langzeiterkrankung / fehlende Eignung;Streik;Pause;B;§ 1 KSchG;Der MA kann nicht mehr arbeiten (z.B. durch Krankheit), auch wenn er eigentlich will.
+393;Rechte;Darf der BR "Mitarbeiter-Gespräche" begleiten?;Nein;Ja (auf Wunsch des MA);Nur bei Kündigung;Nur nachts;B;§ 82 Abs. 2 BetrVG;Der MA kann verlangen, dass ein BR-Mitglied bei einem Gespräch über seine Leistung oder Entwicklung dabei ist.
+394;Arbeitsschutz;Muss der BR bei der "Lichtstärke" am Arbeitsplatz mitreden?;Nein;Ja (Gesundheitsschutz);Nur bei Büros;Nur nachts;B;§ 87 Abs. 1 Nr. 7 BetrVG;Gute Beleuchtung ist Teil des Arbeitsschutzes und unterliegt der Mitbestimmung.
+395;Personal;Darf der AG "Fremdfirmen" ohne BR-Info einsetzen?;Ja;Nein (Unterrichtungspflicht);Nur bei Stahl;Nur bei Azubis;B;§ 80 Abs. 2 / § 92 BetrVG;Der BR muss über den Einsatz von Fremdfirmenpersonal informiert werden (Umfang und Dauer).
+396;IT-Datenschutz;Was ist eine "Datenschutz-Folgenabschätzung"?;Ein Test;Prüfung hoher Risiken für Daten;Ein Kündigungsgrund;Ein Abzug;B;Art. 35 DSGVO;Muss durchgeführt werden, wenn eine Datenverarbeitung (z.B. neue Überwachungssoftware) hohe Risiken für MA birgt.
+397;Gehalt;Was ist eine "Erschwerniszulage"?;Bonus für Urlaub;Geld für Schmutz/Hitze/Lärm;Ein Abzug;Ein Kredit;B;Tarifrecht;Zuschläge für Tätigkeiten, die unter belastenden Bedingungen stattfinden.
+398;Bildung;Darf der BR-Vorsitzende mehr Schulungen besuchen?;Nein;Meist ja (wegen höherer Verantwortung);Nur bei Streik;Nur privat;B;§ 37 Abs. 6 BetrVG;Der Vorsitzende benötigt oft zusätzliches Wissen in Führung, Organisation und Kommunikation.
+399;Allgemein;Was ist ein "Beschlussentwurf"?;Ein Gesetz;Vorbereiteter Vorschlag für eine BR-Abstimmung;Ein Kündigungsgrund;Ein Abzug;B;§ 33 BetrVG;Damit der BR sauber entscheiden kann, sollten Anträge vor der Sitzung schriftlich formuliert sein.
+400;Wirtschaft;Bleibt der BR bei einer Insolvenz im Amt?;Nein;Ja (bis zur Betriebsstillegung);Nur bei Stahl;Nur bei Chefs;B;§ 1 InsO / BetrVG;Auch im Insolvenzverfahren bleibt der BR der gesetzliche Vertreter der Belegschaft gegenüber dem Insolvenzverwalter.
+401;Wirtschaft;Was ist ein "Insolvenzgeld"?;Ein Kredit;Lohnersatz durch die Arbeitsagentur;Ein Bonus;Ein Abzug;B;§ 165 SGB III;Wenn der AG pleite ist, zahlt die Arbeitsagentur für bis zu drei Monate das ausstehende Gehalt.
+402;IT-Datenschutz;Darf die KI über eine Kündigung entscheiden?;Ja;Nein (Mensch muss entscheiden);Nur bei Stahl;Nur nachts;B;Art. 22 DSGVO;Automatisierte Entscheidungen im Einzelfall, die rechtliche Wirkung entfalten, sind ohne menschliches Eingreifen unzulässig.
+403;IT-Datenschutz;Muss der BR bei "Predictive Maintenance" (KI) mitreden?;Nein;Ja (wegen Überwachungspotenzial);Nur bei Hitze;Nur im Büro;B;§ 87 Abs. 1 Nr. 6 BetrVG;Systeme, die Maschinen überwachen, können oft auch Rückschlüsse auf das Verhalten der Bediener zulassen.
+404;Rechte;Haftet ein BR-Mitglied privat für falsche Beschlüsse?;Ja;Nein (außer bei grober Fahrlässigkeit);Nur bei Stahl;Nur bei Geld;B;Rechtsprechung;BR-Mitglieder genießen einen weitgehenden Haftungsschutz bei der Ausübung ihres Amtes.
+405;Arbeitsschutz;Darf der BR eine "Gefährdungsbeurteilung psychischer Belastung" fordern?;Nein;Ja (zwingendes Recht);Nur im Büro;Nur nachts;B;§ 5 ArbSchG / § 87 BetrVG;Der AG muss auch psychische Belastungen (Stress, Lärm, Überforderung) beurteilen und Maßnahmen mit dem BR abstimmen.
+406;Gehalt;Was ist eine "Sonn- und Feiertagszulage"?;Bonus für Urlaub;Zuschlag für Arbeit an diesen Tagen;Ein Abzug;Ein Kredit;B;Tarifrecht / § 87;Die Verteilung und Höhe dieser Zulagen ist ein klassisches Feld der Mitbestimmung (oft tariflich fixiert).
+407;Gleichstellung;Was ist ein "Gleichstellungsplan"?;Ein Kochbuch;Plan zur Förderung von Frauen/Minderheiten;Ein Kündigungsgrund;Ein Abzug;B;§ 80 / § 92 BetrVG;Der BR kann Maßnahmen vorschlagen, um die tatsächliche Gleichstellung von Mann und Frau im Betrieb durchzusetzen.
+408;Personal;Darf der BR "Bewerbertests" (Psychotests) ablehnen?;Nein;Ja (Zustimmung erforderlich);Nur bei Chefs;Nur bei Azubis;B;§ 94 BetrVG;Persönlichkeitsfragen in Tests unterliegen der Mitbestimmung; der BR kann unangemessene Tests stoppen.
+409;Allgemein;Was ist eine "Außerordentliche Betriebsversammlung"?;Ein Fest;Versammlung aus wichtigem Grund;Ein Streik;Ein Abzug;B;§ 43 Abs. 3 BetrVG;Auf Wunsch des AG oder eines Viertels der Wahlberechtigten muss der BR eine Versammlung einberufen.
+410;Kuendigung;Was ist ein "Sonderkündigungsschutz" für den BR?;Kein Schutz;Kündigung nur mit BR-Zustimmung/Gericht;Nur bei Stahl;Nur nachts;B;§ 15 KSchG / § 103 BetrVG;BR-Mitglieder können ordentlich nicht gekündigt werden; fristlos nur mit Zustimmung des BR oder des Gerichts.
+411;Arbeitszeit;Darf der AG "Rüstzeiten" (Umziehen/Waschen) unbezahlt lassen?;Ja;Nein (wenn Pflichtkleidung);Nur bei Stahl;Nur nachts;B;BAG Urteile;Ist das Tragen von Schutzkleidung im Betrieb Pflicht, gehört das Umziehen und Waschen im Werk zur bezahlten Arbeitszeit.
+412;Stahl;Was regelt die "Europäische Mitbestimmung" (SE)?;Urlaub;Mitbestimmung in EU-weiten Firmen;Lohn;Ein Abzug;B;SEBG;In einer Europäischen Aktiengesellschaft (SE) gelten besondere Regeln für den Aufsichtsrat und den SE-Betriebsrat.
+413;Rechte;Darf der BR "Öffentlichkeitsarbeit" gegen den AG machen?;Ja (in engen Grenzen/Sachlichkeit);Nein;Nur bei Streik;Nur nachts;A;§ 2 / § 74 BetrVG;Der BR darf die Belegschaft informieren, muss aber das Gebot der vertrauensvollen Zusammenarbeit (keine Schmähkritik) achten.
+414;Urlaub;Was ist "Zwangsurlaub"?;Ein Fest;Einseitig angeordneter Urlaub durch AG;Ein Streik;Ein Abzug;B;§ 7 BUrlG;Zwangsurlaub ist nur in extremen Ausnahmefällen (z.B. Betriebsstörung) und meist nur mit BR-Zustimmung zulässig.
+415;Gleichstellung;Was ist "Lohngerechtigkeit"?;Alle verdienen gleich;Gleicher Lohn für gleiche/gleichwertige Arbeit;Ein Gesetz;Ein Abzug;B;EntgTranspG / Art. 157 AEUV;Frauen und Männer müssen für die gleiche Arbeit das gleiche Entgelt erhalten.
+416;IT-Datenschutz;Darf der AG "Social Media Profile" von Bewerbern prüfen?;Immer;Nein (nur öffentlich/berufliche Profile);Nie;Nur bei Chefs;B;DSGVO;Das Ausspähen privater Profile (z.B. privates Facebook) ist datenschutzrechtlich unzulässig.
+417;Personal;Darf der BR "Personalfragebögen für Externe" mitbestimmen?;Nein;Ja (allgemeine Fragebögen);Nur bei Stahl;Nur nachts;B;§ 94 BetrVG;Fragebögen, die zur Beurteilung von Bewerbern genutzt werden, bedürfen der Zustimmung des BR.
+418;Allgemein;Darf der BR "per Video" tagen?;Nein;Ja (unter Voraussetzungen/Geschäftsordnung);Nur bei Streik;Nur nachts;B;§ 30 Abs. 2 BetrVG;Seit der Gesetzänderung sind Videositzungen erlaubt, wenn die Voraussetzungen in der Geschäftsordnung geregelt sind.
+419;Versetzung;Gilt eine "Änderungskündigung" als Versetzung?;Nein;Ja (plus Kündigungsrecht);Nur bei Stahl;Nur bei Azubis;B;§ 2 KSchG / § 99 BetrVG;Hier wird das alte Verhältnis gekündigt und ein neues (mit geänderten Bedingungen) angeboten. Der BR ist doppelt zu beteiligen.
+420;Kuendigung;Darf der AG "wegen häufiger Kurzzeiterkrankung" kündigen?;Nein;Ja (unter strengen Bedingungen);Nur bei Diebstahl;Nur im Sommer;B;KSchG / BAG;Möglich, wenn eine negative Gesundheitsprognose vorliegt und der Betrieb erheblich belastet wird (hohe Entgeltfortzahlung).
+421;Arbeitszeit;Darf der BR "Schichttausch" unter Kollegen erlauben?;Nein;Ja (Regelung per BV);Nur bei Stahl;Nur nachts;B;§ 87 Abs. 1 Nr. 2 BetrVG;Der BR kann ein Verfahren vereinbaren, nach dem MA unkompliziert Schichten tauschen dürfen.
+422;Stahl;Was ist ein "Aufsichtsrats-Ausschuss"?;Ein Fest;Untergruppe des AR für Spezialthemen;Ein Azubi;Ein Polizist;B;AktG;Der Aufsichtsrat kann Ausschüsse (z.B. Prüfungsausschuss, Personalausschuss) bilden, um die Arbeit zu effizienter zu gestalten.
+423;Rechte;Darf der BR "Kosten für Fachliteratur" verlangen?;Nein;Ja (erforderliche Gesetzestexte/Kommentare);Nur bei Streik;Nur nachts;B;§ 40 Abs. 2 BetrVG;Der AG muss die Kosten für Fachzeitschriften und Kommentare zum BetrVG tragen, damit der BR rechtssicher arbeiten kann.
+424;Arbeitsschutz;Was ist die "Arbeitsstättenverordnung"?;Regeln für Lohn;Vorschriften für die Gestaltung von Betrieben;Ein Gesetz für Urlaub;Ein Abzug;B;ArbStättV;Regelt Anforderungen an Belüftung, Temperatur, Toiletten, Pausenräume und Sicherheit im Gebäude.
+425;Gehalt;Was ist "Entgeltfortzahlung"?;Lohn bei Arbeit;Lohn bei Krankheit/Urlaub;Ein Kredit;Ein Abzug;B;EntgFG;Der AG zahlt bei Krankheit bis zu 6 Wochen das volle Gehalt weiter.
+426;Bildung;Darf ein "Ersatzmitglied" auf Schulung, wenn es nie nachrückt?;Nein;Nur in Ausnahmefällen;Immer;Nur nachts;A;§ 37 Abs. 6 BetrVG;Schulungsanspruch besteht für Ersatzmitglieder nur, wenn ein häufiges Nachrücken konkret absehbar ist.
+427;Allgemein;Was ist eine "Amtszeit-Überschreitung"?;Ein Lob;Tätigkeit nach Ende der Wahlperiode;Ein Kündigungsgrund;Ein Abzug;B;§ 21 BetrVG;Der BR bleibt im Amt, bis der neue BR gewählt und das Ergebnis bekannt gegeben ist (Übergangsmandat unter Bedingungen).
+428;IT-Datenschutz;Darf der AG "Biometrische Daten" (Iris-Scan) erzwingen?;Ja;Nein (nur bei extremem Sicherheitsbedarf);Nur bei Stahl;Nur bei Azubis;B;§ 26 BDSG;Biometrie ist hochsensibel; der BR muss hier besonders auf die Verhältnismäßigkeit achten.
+429;Jugend;Darf die JAV "Übernahmegarantien" fordern?;Nein;Ja (Verhandlung über BR);Nur bei Streik;Nur nachts;B;§ 78a BetrVG;Azubis, die in der JAV sind, haben einen gesetzlichen Anspruch auf Übernahme in ein unbefristetes Arbeitsverhältnis.
+430;Arbeitszeit;Darf der AG "Pausen" am Arbeitsplatz verbieten?;Ja (Erholungszweck);Nein;Nur bei Stahl;Nur im Büro;A;§ 4 ArbZG;Pausen dienen der Erholung; der MA muss den Arbeitsplatz verlassen dürfen, um wirklich "abzuschalten".
+431;Stahl;Darf der BR "Werkswohnungen" mitbestimmen?;Nein;Ja (Zuweisung und Kündigung);Nur bei Hitze;Nur nachts;B;§ 87 Abs. 1 Nr. 9 BetrVG;Soweit der AG Wohnungen für MA bereitstellt, hat der BR bei den allgemeinen Bedingungen mitzureden.
+432;Abmahnung;Muss eine Abmahnung "begründet" sein?;Ja;Nein;Nur bei Stahl;Nur bei Azubis;A;Arbeitsrecht;Eine Abmahnung muss das Fehlverhalten genau beschreiben (Datum, Uhrzeit, Ort) und für den Wiederholungsfall warnen.
+433;Urlaub;Was ist "Urlaubsübertragung"?;Urlaub schenken;Mitnahme von Resturlaub ins Folgejahr;Ein Streik;Ein Abzug;B;§ 7 Abs. 3 BUrlG;Nur bei dringenden betrieblichen oder persönlichen Gründen statthaft.
+434;Betriebsvereinbarung;Gilt eine BV bei "Betriebsübergang" weiter?;Nein;Ja (in der Regel 1 Jahr als Vertragsbestandteil);Nur bei Stahl;Nur bei Chefs;B;§ 613a BGB;Wird ein Betrieb verkauft, gehen die Rechte aus BVs in die Arbeitsverträge über und dürfen 1 Jahr nicht verschlechtert werden.
+435;Personal;Darf der BR "Altersgrenzen" in Ausschreibungen fordern?;Nein;Nein (Diskriminierungsverbot);Nur bei Stahl;Nur nachts;B;§ 1 / § 7 AGG;Stellenausschreibungen dürfen niemanden wegen seines Alters benachteiligen.
+436;Arbeitsschutz;Muss der BR bei "Kälteschutzkleidung" mitreden?;Nein;Ja (Gesundheitsschutz);Nur im Winter;Nur nachts;B;§ 87 Abs. 1 Nr. 7 BetrVG;Auch Schutz gegen Kälte (z.B. in Kühlhäusern oder im Freien) unterliegt der Mitbestimmung.
+437;Kuendigung;Darf der AG kündigen, wenn der MA "unpünktlich" ist?;Nein;Ja (nach Abmahnung/verhaltensbedingt);Nur bei Diebstahl;Nur im Sommer;B;KSchG / BAG;Wiederholte Unpünktlichkeit ist ein Verstoß gegen die Arbeitspflicht und kann zur Kündigung führen.
+438;Arbeitszeit;Darf der BR "Mindestbesetzung" in der Schicht fordern?;Nein;Ja (Arbeitsschutz/Belastung);Nur bei Stahl;Nur nachts;B;§ 87 Abs. 1 Nr. 7 BetrVG;Zu dünne Personaldecken führen zu Gesundheitsgefahren; hier kann der BR über den Gesundheitsschutz eingreifen.
+439;Stahl;Was regelt die "Stahl-Rente"?;Urlaub;Zusatzversorgungssystem der Stahlindustrie;Lohn;Ein Abzug;B;TV Altersvorsorge;Besonders attraktive betriebliche Altersvorsorge für Beschäftigte im Montan-Bereich.
+440;Allgemein;Was ist ein "Wahlabbruch"?;Ein Fest;Stopp der BR-Wahl (nur durch Gericht);Ein Streik;Ein Abzug;B;Wahlordnung;Eine laufende Wahl kann nur bei schwersten Fehlern durch das Arbeitsgericht abgebrochen werden.
+441;IT-Datenschutz;Darf der AG "E-Learning" überwachen?;Ja;Nein (nur Teilnahme, nicht Ergebnisse/Dauer);Nur bei Chefs;Nur bei Azubis;B;§ 87 / DSGVO;Die Auswertung von Lerngeschwindigkeiten oder Fehlerraten ist ohne BV unzulässig.
+442;Freistellung;Darf der freigestellte BR "Fortbildung im alten Job" machen?;Nein;Ja (Anspruch auf Qualifizierung);Nur bei Streik;Nur nachts;B;§ 37 / § 38 BetrVG;Der Freigestellte darf nicht den Anschluss an seinen eigentlichen Beruf verlieren; der AG muss dies fördern.
+443;Versetzung;Darf der AG einen MA "ins Ausland" versetzen?;Ja (wenn im Vertrag);Nein;Nur bei Stahl;Nur bei Chefs;A;Arbeitsrecht;Das Direktionsrecht erlaubt Versetzungen ins Ausland nur, wenn dies im Arbeitsvertrag ausdrücklich vereinbart wurde.
+444;Geheimhaltung;Darf der BR "Gehaltslisten" fotografieren?;Nein (nur Notizen/Einsicht);Ja;Nur bei Streik;Nur nachts;A;§ 80 Abs. 2 BetrVG;Das Einsichtsrecht umfasst das Lesen und Notieren; Kopien oder Fotos sind ohne Zustimmung des AG meist unzulässig.
+445;Betriebsvereinbarung;Was ist eine "Sprechklausel"?;Regel für Mikrofone;Verweis in der BV auf den Tarifvertrag;Ein Gesetz;Ein Abzug;B;Tarifrecht;Erlaubt es, in der BV Details zu regeln, die eigentlich tariflich gesperrt wären.
+446;Arbeitsschutz;Muss der BR bei der "Bestellung des Werkschutzes" mitreden?;Nein;Ja (Ordnungsverhalten/Überwachung);Nur bei Diebstahl;Nur nachts;B;§ 87 Abs. 1 Nr. 1 BetrVG;Da der Werkschutz das Verhalten der MA überwacht, hat der BR ein Mitbestimmungsrecht bei den Aufgaben.
+447;Kuendigung;Was ist eine "Massenentlassung"?;Eine Kündigung;Entlassung vieler MA in kurzer Zeit;Ein Fest;Ein Abzug;B;§ 17 KSchG;Erfordert besondere Konsultationen mit dem BR und Meldungen an die Behörden.
+448;Urlaub;Darf der BR "Resturlaub-Verfall" verhindern?;Nein;Ja (Überwachung des BUrlG);Nur bei Stahl;Nur im Winter;B;§ 7 BUrlG / EuGH;Der BR muss darauf achten, dass der AG die MA rechtzeitig auffordert, den Urlaub zu nehmen, damit dieser nicht verfällt.
+449;Arbeitszeit;Darf der AG "Arbeitszeitbetrug" fristlos kündigen?;Nein;Ja (Vertrauensbruch);Nur bei Stahl;Nur bei Azubis;B;§ 626 BGB;Das vorsätzliche Manipulieren der Zeiterfassung ist ein schwerer Vertrauensbruch und rechtfertigt meist die fristlose Entlassung.
+450;Personal;Darf der BR die Namen von Leiharbeitern fordern?;Nein;Ja (Kontrollrecht);Nur bei Streik;Nur bei Unfällen;B;§ 80 Abs. 2 BetrVG;Der AG muss dem BR die Namen und Einsatzorte von Leiharbeitnehmern zur Überprüfung der Rechtslage mitteilen.
+451;Personal;Was ist die "Höchstüberlassungsdauer"?;1 Jahr;18 Monate;3 Jahre;Ewig;B;§ 1 Abs. 1b AÜG;Leiharbeitnehmer dürfen in der Regel nicht länger als 18 aufeinanderfolgende Monate demselben Entleiher überlassen werden.
+452;Gleichstellung;Darf der BR eine "Beschwerdestelle für Mobbing" fordern?;Nein;Ja (Schutz der Persönlichkeit);Nur im Büro;Nur nachts;B;§ 75 / § 84 BetrVG;Der BR hat darüber zu wachen, dass die freie Entfaltung der Persönlichkeit der MA geschützt wird.
+453;Gleichstellung;Was ist das "AGG"?;Ein Sportverein;Allgemeines Gleichbehandlungsgesetz;Lohnsteuer;Pause;B;AGG;Gesetz zum Schutz vor Benachteiligung wegen Rasse, Geschlecht, Religion, Alter oder Behinderung.
+454;Allgemein;Was ist eine "Betriebsteilstilllegung"?;Ein Fest;Schließung einer Abteilung;Eine Kündigung;Ein Abzug;B;§ 111 BetrVG;Eine Betriebsänderung, bei der ein abgrenzbarer Teil des Betriebs dauerhaft geschlossen wird.
+455;Allgemein;Darf der BR eine "Mitarbeiter-App" fordern?;Nein;Ja (Initiativrecht zur Information);Nur bei Apple;Nur im Büro;B;§ 40 / § 2 BetrVG;Der BR kann verlangen, dass moderne Kommunikationsmittel zur Information der Belegschaft genutzt werden.
+456;IT-Datenschutz;Darf der AG "Privat-Laptops" am Firmennetz verbieten?;Nein;Ja (IT-Sicherheit);Nur bei Stahl;Nur nachts;B;IT-Sicherheit;Aus Gründen der Datensicherheit kann der AG das Anschließen privater Hardware untersagen.
+457;IT-Datenschutz;Was ist ein "Systemadministrator"?;Der Chef;Technischer Verwalter der IT;Ein Azubi;Ein Polizist;B;DSGVO;Er hat weitreichende Zugriffsrechte und muss daher besonders auf den Datenschutz verpflichtet werden.
+458;Rechte;Darf der BR-Vorsitzende ein "Diensthandy" verlangen?;Nein;Ja (Erforderlichkeit);Nur bei Streik;Nur nachts;B;§ 40 Abs. 2 BetrVG;Wenn der Vorsitzende ständig erreichbar sein muss (z.B. im Werk), ist ein Handy ein erforderliches Sachmittel.
+459;Arbeitszeit;Darf der BR "Rüstzeit" für Azubis kontrollieren?;Nein;Ja (Überwachung JArbSchG);Nur bei Stahl;Nur nachts;B;§ 80 BetrVG;Der BR muss prüfen, ob die Lernzeiten und Vorbereitungszeiten für Azubis korrekt als Arbeitszeit gewertet werden.
+460;Stahl;Was regelt die "Montan-Sicherung"?;Urlaub;Spezielle Absicherung bei Konzernumwandlung;Lohn;Pause;B;MontanMitbestGErgG;Sichert, dass die Arbeitnehmerrechte erhalten bleiben, wenn ein Montan-Unternehmen seine Struktur ändert.
+461;Kuendigung;Darf der BR eine Kündigung wegen "Gewerkschaftsarbeit" ablehnen?;Ja (Verstoß gegen Grundgesetz);Nein;Nur bei Stahl;Nur nachts;A;Art. 9 Abs. 3 GG;Niemand darf wegen seiner Zugehörigkeit oder Tätigkeit in einer Gewerkschaft benachteiligt oder gekündigt werden.
+462;Kuendigung;Was ist ein "Abwicklungsvertrag"?;Ein Fest;Vertrag nach einer Kündigung (keine Klage);Ein Lob;Ein Darlehen;B;Arbeitsrecht;Der MA akzeptiert die Kündigung und verzichtet gegen Abfindung auf eine Klage.
+463;Arbeitsschutz;Muss der BR bei der "Arbeitsschutzkleidung-Farbe" mitreden?;Nein (meist Geschmack);Ja (wenn Sicherheitsfunktion);Nur bei Gelb;Nur nachts;B;§ 87 Abs. 1 Nr. 7 BetrVG;Die Farbe ist mitbestimmungspflichtig, wenn sie der Erkennbarkeit dient (Warnkleidung).
+464;Arbeitsschutz;Darf der BR eine "Kantine mit gesundem Essen" fordern?;Nein;Ja (Soziale Einrichtung);Nur im Büro;Nur im Sommer;B;§ 87 Abs. 1 Nr. 8 BetrVG;Über die Ausgestaltung der Verpflegungseinrichtungen im Betrieb entscheidet der BR mit.
+465;Personal;Was ist eine "Leistungsbeurteilung"?;Ein Lob;Systematische Bewertung der Arbeit;Ein Kündigungsgrund;Ein Abzug;B;§ 94 / § 87 BetrVG;Die Kriterien und Methoden einer Beurteilung unterliegen der Mitbestimmung des BR.
+466;Personal;Darf der AG "Headhunter" einsetzen?;Ja;Nein (nur über BR);Nur bei Stahl;Nur nachts;A;Direktionsrecht;Der AG kann externe Personalvermittler beauftragen, muss aber bei der Einstellung dennoch den BR beteiligen.
+467;Gehalt;Was ist eine "Zulage für Erfindung"?;Bonus für Urlaub;Vergütung für Patente;Ein Abzug;Ein Kredit;B;ArbnErfG;Arbeitnehmererfindungen müssen vom AG vergütet werden, wenn er sie in Anspruch nimmt.
+468;Gehalt;Darf der BR "Urlaubsgeld-Kürzung" bei Krankheit fordern?;Nein;Ja (Anwesenheitsprämie);Nur bei Stahl;Nur nachts;B;§ 4a EntgFG;Sondervergütungen können unter bestimmten Bedingungen bei Krankheit gekürzt werden; der BR entscheidet über die Grundsätze mit.
+469;Bildung;Darf der BR "Englischkurse" besuchen?;Nein;Ja (wenn Konzernsprache Englisch ist);Nur der Vorsitz;Nur privat;B;§ 37 Abs. 6 BetrVG;Ist die Kommunikation im Betrieb (z.B. mit dem Management) nur auf Englisch möglich, ist ein Kurs erforderlich.
+470;Allgemein;Was passiert bei "Amtsniederlegung" des gesamten BR?;Chef übernimmt;Neuwahlen erforderlich;Streik;Insolvenz;B;§ 13 Abs. 2 BetrVG;Tritt der BR geschlossen zurück, muss unverzüglich ein Wahlvorstand für Neuwahlen bestellt werden.
+471;Allgemein;Darf ein "Leitender Angestellter" den BR wählen?;Ja;Nein;Nur wenn er will;Nur bei Stahl;B;§ 5 Abs. 3 BetrVG;Leitende Angestellte sind vom Betriebsverfassungsgesetz weitgehend ausgenommen und wählen den BR nicht.
+472;Stahl;Darf der BR "Hütten-Besichtigungen" für Externe stoppen?;Nein;Ja (wenn Sicherheit gefährdet);Nur bei Stahl;Nur nachts;B;§ 80 / § 87 BetrVG;Aus Gründen der Ordnung und Sicherheit im Betrieb kann der BR Regelungen für Werksführungen mitbestimmen.
+473;Arbeitszeit;Darf der AG "Rauchpausen" vom Lohn abziehen?;Ja (keine Arbeitszeit);Nein;Nur bei Stahl;Nur im Büro;A;Arbeitsrecht;Rauchpausen sind in der Regel keine bezahlte Arbeitszeit; der BR kann aber die Lage der Pausen mitbestimmen.
+474;Arbeitszeit;Muss der BR bei "Kameraüberwachung von Parkplätzen" zustimmen?;Nein;Ja (Verhaltenskontrolle);Nur bei Diebstahl;Nur nachts;B;§ 87 Abs. 1 Nr. 6 BetrVG;Da Parkplätze zum Betriebsgelände gehören, unterliegt die Videoüberwachung der Mitbestimmung.
+475;Rechte;Darf der BR "Informationsbroschüren" im Werk verteilen?;Nein;Ja (Unterrichtungsrecht);Nur bei Streik;Nur nachts;B;§ 2 / § 40 BetrVG;Der BR darf die Belegschaft über seine Arbeit und arbeitsrechtliche Themen informieren.
+476;Arbeitsschutz;Was ist ein "Sicherheitsbeauftragter"?;Ein Türsteher;MA, der den AG vor Ort unterstützt;Ein Polizist;Der BR-Chef;B;§ 22 SGB VII;In Betrieben mit mehr als 20 MA müssen Sicherheitsbeauftragte bestellt werden.
+477;Personal;Darf der BR die "Befristung" eines Vertrags prüfen?;Nein;Ja (bei Einstellung);Nur bei Stahl;Nur bei Azubis;B;§ 99 BetrVG / TzBfG;Der BR prüft bei der Einstellung, ob ein sachlicher Grund für die Befristung vorliegt.
+478;Personal;Was ist eine "Umsetzung"?;Ein Umzug;Zuweisung eines anderen Platzes ohne Versetzung;Eine Kündigung;Ein Abzug;B;§ 95 Abs. 3 BetrVG;Eine kurzfristige oder geringfügige Änderung des Arbeitsplatzes, die noch keine Versetzung im Sinne des Gesetzes ist.
+479;IT-Datenschutz;Darf der AG "Künstliche Intelligenz" zur Auswahl von Bewerbern nutzen?;Ja;Nein (Mitbestimmung/Diskriminierung);Nur bei Google;Nur bei Azubis;B;§ 95 BetrVG / AGG;Der Einsatz von KI-Tools bei Personalauswahlrichtlinien bedarf zwingend der Zustimmung des BR.
+480;Allgemein;Was ist eine "Amtsenthebung" eines BR-Mitglieds?;Ein Lob;Ausschluss bei grober Pflichtverletzung;Ein Fest;Ein Abzug;B;§ 23 Abs. 1 BetrVG;Bei groben Verstößen gegen gesetzliche Pflichten kann das Arbeitsgericht ein Mitglied aus dem BR ausschließen.
+481;Stahl;Darf der BR "Hitzeschutzzulagen" fordern?;Nein;Ja (Erschwernis-Mitbestimmung);Nur im Sommer;Nur nachts;B;§ 87 Abs. 1 Nr. 10 BetrVG;Soweit keine tarifliche Regelung besteht, kann der BR Grundsätze für Zulagen bei besonderen Belastungen mitverhandeln.
+482;Kuendigung;Darf der BR einer Kündigung wegen "Alters" widersprechen?;Ja;Nein;Nur bei Azubis;Nur im Sommer;A;§ 102 Abs. 3 BetrVG;Widerspruch ist möglich, wenn der AG bei der Sozialauswahl das Lebensalter falsch berücksichtigt hat.
+483;Kuendigung;Was ist eine "Sammelkündigung"?;Eine Kündigung;Kündigung vieler MA gleichzeitig;Ein Fest;Ein Abzug;B;§ 17 KSchG;Andere Bezeichnung für Massenentlassung, die besondere Anzeigepflichten auslöst.
+484;Arbeitszeit;Darf der AG "Handyverbot am Arbeitsplatz" einseitig anordnen?;Ja;Nein (Mitbestimmung);Nur bei Stahl;Nur nachts;B;§ 87 Abs. 1 Nr. 1 BetrVG;Allgemeine Verhaltensregeln im Betrieb (wie Handyverbote) unterliegen der Mitbestimmung.
+485;Arbeitszeit;Darf der BR "Arbeitszeitverkürzung zur Beschäftigungssicherung" fordern?;Nein;Ja (Initiativrecht);Nur bei Stahl;Nur nachts;B;§ 92a BetrVG;Der BR kann Vorschläge zur Sicherung der Beschäftigung (z.B. 4-Tage-Woche statt Entlassung) machen.
+486;Rechte;Darf der BR "Kosten für eine Cloud-Lösung" verlangen?;Nein;Ja (wenn für BR-Arbeit erforderlich);Nur bei IT-lern;Nur nachts;B;§ 40 Abs. 2 BetrVG;Zur sicheren Ablage von BR-Daten kann eine Cloud-Lösung oder ein eigener Server beansprucht werden.
+487;Arbeitsschutz;Wer ist für "Lärmschutz-Kopfhörer" zuständig?;Der MA;Der Arbeitgeber (Kosten/Bereitstellung);Der BR;Die Krankenkasse;B;§ 3 PSA-BV;Der AG muss die erforderliche Schutzausrüstung kostenfrei zur Verfügung stellen.
+488;Gehalt;Was ist eine "Tarifautonomie"?;Urlaub für alle;Recht der Gewerkschaften auf Tarifverträge;Ein Gesetz;Ein Abzug;B;Art. 9 Abs. 3 GG;Der Staat darf sich nicht in die Lohnverhandlungen zwischen Gewerkschaft und AG-Verband einmischen.
+489;Gehalt;Was ist ein "Streikgeld"?;Lohn vom Chef;Ersatzleistung der Gewerkschaft;Ein Kredit;Ein Abzug;B;Gewerkschaftssatzung;Da der AG im Streik keinen Lohn zahlt, erhalten Gewerkschaftsmitglieder finanzielle Unterstützung aus der Streikkasse.
+490;Bildung;Darf der BR Schulungen zum "Insolvenzrecht" besuchen?;Nein;Ja (wenn der Betrieb in der Krise ist);Nur der Vorsitz;Nur privat;B;§ 37 Abs. 6 BetrVG;Bei drohender Insolvenz muss der BR wissen, wie er die Interessen der Belegschaft schützt.
+491;Allgemein;Was ist ein "Europäischer Betriebsrat" (EBR)?;Alle BR-Mitglieder;Gremium für grenzüberschreitende Themen;Ein Gesetz;Ein Abzug;B;EBRG;Wird in Unternehmen mit Standorten in verschiedenen EU-Ländern gebildet.
+492;Stahl;Was regelt die "Stahl-Charta"?;Urlaub;Absprachen zur Zukunft der Stahlstandorte;Lohn;Pause;B;Politik/Wirtschaft;Oft informelle oder politische Abkommen zur Sicherung der Industrie in Deutschland.
+493;IT-Datenschutz;Darf der AG "Künstliche Intelligenz" zur Videoanalyse nutzen?;Ja;Nein (hohe Hürden/Mitbestimmung);Nur bei Diebstahl;Nur nachts;B;§ 87 / DSGVO;KI-gestützte Videoüberwachung ist ein massiver Eingriff in das Persönlichkeitsrecht.
+494;IT-Datenschutz;Muss der BR bei "Smart-Watches" im Werk zustimmen?;Nein;Ja (Datenübertragung/Kontrolle);Nur bei Apple;Nur bei Azubis;B;§ 87 Abs. 1 Nr. 6 BetrVG;Tragbare Computer (Wearables), die Leistungsdaten erfassen, sind mitbestimmungspflichtig.
+495;Versetzung;Darf der BR einer Versetzung wegen "Sprachbarrieren" widersprechen?;Ja (Benachteiligung des MA);Nein;Nur bei Stahl;Nur nachts;A;§ 99 Abs. 2 Nr. 4 BetrVG;Wenn der MA am neuen Platz aufgrund fehlender Sprachkenntnisse überfordert wäre.
+496;Arbeitsschutz;Muss der BR bei "Trinkwasserspendern" mitreden?;Nein;Ja (Soziale Einrichtung);Nur im Sommer;Nur bei Hitze;B;§ 87 Abs. 1 Nr. 8 BetrVG;Die Bereitstellung von Getränken im Betrieb (insb. an Hitzearbeitsplätzen) unterliegt der Mitbestimmung.
+497;Gehalt;Darf der AG "Lohnvorschüsse" eigenmächtig kürzen?;Ja;Nein (nur im Rahmen der Pfändungsgrenzen);Nur bei Stahl;Nur nachts;B;Arbeitsrecht / BGB;Verrechnungen von Vorschüssen mit dem Lohn müssen die Existenzgrenzen des MA beachten.
+498;Bildung;Muss der AG die "Übernachtung" zur BR-Schulung zahlen?;Nein;Ja (wenn Seminarort weit entfernt);Nur bei Stahl;Nur bei Chefs;B;§ 40 Abs. 1 BetrVG;Reise- und Übernachtungskosten gehören zu den notwendigen Kosten der BR-Tätigkeit.
+499;Allgemein;Was ist ein "Minderheitsgeschlecht" im BR?;Männer;Das im Betrieb weniger stark vertretene Geschlecht;Frauen;Azubis;B;§ 15 Abs. 2 BetrVG;Sorgt dafür, dass Frauen und Männer im BR proportional zur Belegschaft vertreten sind.
+500;Zeugnis;Muss ein Zeugnis "wohlwollend" sein?;Nein;Ja (Grundsatz der Zeugniswahrheit/-güte);Nur bei Stahl;Nur bei Kündigung;B;§ 109 GewO;Das Zeugnis darf das weitere Fortkommen des MA nicht unnötig erschweren, muss aber wahr sein.
+501;Zeugnis;Was ist ein "Qualifiziertes Zeugnis"?;Nur Daten;Zeugnis mit Leistungs- und Führungskritik;Ein Lob;Ein Abzug;B;§ 109 GewO;Im Gegensatz zum einfachen Zeugnis enthält es eine detaillierte Bewertung der Arbeit des MA.
+502;Zeugnis;Darf der AG "Krankheitstage" ins Zeugnis schreiben?;Ja;Nein (unzulässig);Nur bei 100 Tagen;Nur bei Stahl;B;Rechtsprechung;Krankheitszeiten haben im Zeugnis nichts zu suchen, außer sie machen den Großteil der Beschäftigungszeit aus.
+503;Whistleblowing;Was ist das "Hinweisgeberschutzgesetz"?;Ein Verbot;Schutz für MA, die Missstände melden;Ein Streik;Ein Abzug;B;HinSchG;Schützt Personen, die im beruflichen Kontext Informationen über Verstöße erlangt haben und diese melden.
+504;Whistleblowing;Muss der BR bei der "Meldestelle" mitreden?;Nein;Ja (Einrichtung und Ausgestaltung);Nur im Büro;Nur nachts;B;§ 87 Abs. 1 Nr. 1/6 BetrVG;Die Einführung eines internen Meldesystems betrifft das Ordnungsverhalten und oft die IT-Überwachung.
+505;Dienstwagen;Darf der BR die "Dienstwagen-Richtlinie" mitbestimmen?;Nein;Ja (sofern kollektiver Bezug);Nur bei Chefs;Nur bei Stahl;B;§ 87 / Arbeitsrecht;Die allgemeinen Regeln, wer unter welchen Bedingungen einen Wagen bekommt, sind mitbestimmungspflichtig.
+506;Dienstwagen;Ist die "1%-Regelung" Gesetz?;Ja;Nein (steuerliche Pauschale);Nur bei Stahl;Nur nachts;B;EStG;Pauschale zur Versteuerung der privaten Nutzung eines Dienstwagens.
+507;Urheberrecht;Wem gehört eine "Software", die der MA im Job schreibt?;Dem MA;Dem Arbeitgeber;Dem BR;Niemandem;B;§ 69b UrhG;Schöpfungen, die in Erfüllung der Dienstpflichten entstehen, stehen in der Regel dem AG zur Verwertung zu.
+508;Allgemein;Was ist ein "Betriebsübergang"?;Umzug;Verkauf des Betriebs an neuen Inhaber;Eine Kündigung;Ein Abzug;B;§ 613a BGB;Der neue Inhaber tritt in alle Rechte und Pflichten der bestehenden Arbeitsverhältnisse ein.
+509;Allgemein;Darf der BR-Vorsitzende den "Aufsichtsratsvorsitz" innehaben?;Nein;Meist nein (Interessenskonflikt/Satzung);Nur bei Stahl;Nur nachts;B;AktG / MitbestG;In der Regel wird der AR-Vorsitzende von der Kapitalseite gestellt, der Stellvertreter von der AN-Seite.
+510;Stahl;Was ist die "Kohle-Stahl-Union" heute?;Ein Verein;Die EU (historischer Ursprung);Eine Bank;Ein Ofen;B;Geschichte;Die Montanunion war der Vorläufer der heutigen EU und prägte die Sonderrechte der Mitbestimmung.
+511;Kuendigung;Darf der AG "wegen mangelndem Deutsch" kündigen?;Nein;Ja (wenn Arbeit unmöglich ist);Nur bei Azubis;Nur im Sommer;B;KSchG;Möglich als personenbedingte Kündigung, wenn die Verständigung für die Sicherheit oder Arbeitsausführung zwingend ist.
+512;Kuendigung;Was ist ein "Zwischenzeugnis"?;Ein Lob;Zeugnis während des laufenden Vertrags;Ein Abzug;Ein Kredit;B;Arbeitsrecht;MA haben bei berechtigtem Interesse (z.B. Vorgesetztenwechsel) Anspruch auf ein Zwischenzeugnis.
+513;Rechte;Darf der BR "Berichte über Leiharbeit" veröffentlichen?;Ja (anonymisiert);Nein;Nur bei Streik;Nur nachts;A;§ 80 Abs. 2 BetrVG;Der BR darf die Belegschaft über den Umfang der Leiharbeit informieren, solange keine Geschäftsgeheimnisse verraten werden.
+514;Arbeitsschutz;Muss der BR bei "Alkoholverboten" zustimmen?;Nein;Ja (Ordnung im Betrieb);Nur bei Stahl;Nur nachts;B;§ 87 Abs. 1 Nr. 1 BetrVG;Ein generelles Alkoholverbot betrifft das Verhalten der MA und ist mitbestimmungspflichtig.
+515;Arbeitsschutz;Was ist eine "Suchtprävention-BV"?;Ein Fest;Regeln zum Umgang mit Sucht (Alkohol/Drogen);Lohn;Pause;B;§ 87 / § 88 BetrVG;Freiwillige oder erzwungene Vereinbarung zur Hilfe und zum Vorgehen bei Suchtproblemen im Werk.
+516;Personal;Darf der AG "Video-Interviews" erzwingen?;Ja;Nein (Einwilligung/Mitbestimmung);Nur bei IT-Jobs;Nur nachts;B;DSGVO / § 94 BetrVG;Der Einsatz von Videotechnik in Auswahlverfahren bedarf einer klaren Regelung mit dem BR.
+517;Personal;Was ist "Employer Branding"?;Ein Brand;Markenbildung des AG als attraktiver Chef;Lohn;Ein Abzug;B;Marketing;Massnahmen zur Mitarbeitergewinnung; der BR kann hier bei Ausschreibungen mitreden.
+518;Gehalt;Was ist eine "Inflationsausgleichsprämie"?;Normaler Lohn;Steuerfreie Einmalzahlung (befristet);Ein Kredit;Ein Abzug;B;Gesetzgeber;Sonderzahlung bis zu 3000 Euro, die der AG freiwillig oder tariflich leisten konnte/kann.
+519;Gehalt;Darf der BR "Lohnabrechnungen per App" erzwingen?;Nein;Ja (über Mitbestimmung IT);Nur im Büro;Nur nachts;B;§ 87 Abs. 1 Nr. 6 BetrVG;Die Art und Weise der Entgeltauszahlung und -mitteilung kann Gegenstand von BVs sein.
+520;Bildung;Darf der BR "Coaching für den Vorsitz" fordern?;Nein;Ja (als erforderliche Schulung);Nur bei Streik;Nur privat;B;§ 37 Abs. 6 BetrVG;Führungsaufgaben im BR-Gremium können eine spezielle Schulung/Coaching rechtfertigen.
+521;Allgemein;Was ist ein "Gesamt-Jugend-BR" (GJAV)?;Alle Azubis;Gremium auf Unternehmensebene für Azubis;Ein Gesetz;Ein Abzug;B;§ 72 BetrVG;Bestehen im Unternehmen mehrere JAVs, wird eine GJAV gebildet.
+522;Stahl;Darf der BR "Besuchsgruppen am Hochofen" regeln?;Nein;Ja (Ordnung und Sicherheit);Nur bei Stahl;Nur nachts;B;§ 87 Abs. 1 Nr. 1 BetrVG;Der Zutritt Betriebsfremder zum Werk kann durch den BR mitgestaltet werden (Sicherheitsprotokolle).
+523;Arbeitszeit;Darf der AG "Sonntagsarbeit im Büro" anordnen?;Ja;Nein (nur bei Ausnahmen/Gesetz);Nur bei Stahl;Nur nachts;B;§ 9 ArbZG;Sonntagsarbeit ist grundsätzlich verboten, außer es liegen gesetzliche Ausnahmetatbestände vor.
+524;Arbeitszeit;Muss der BR bei "Rufbereitschaft-Pauschalen" mitreden?;Nein;Ja (Mitbestimmung Vergütung);Nur im Winter;Nur nachts;B;§ 87 Abs. 1 Nr. 10 BetrVG;Die Entlohnungsgrundsätze für Bereitschaft sind mitbestimmungspflichtig.
+525;Rechte;Darf der BR "Interviews für die Presse" geben?;Ja (als BR-Mitglied);Nein;Nur bei Streik;Nur nachts;A;GG / Pressefreiheit;Ein BR darf über seine Arbeit berichten, muss aber Geschäftsgeheimnisse und Loyalitätspflichten wahren.
+526;Arbeitsschutz;Wer zahlt den "Gehörschutz" am Hochofen?;Der MA;Der Arbeitgeber;Die Gewerkschaft;Die Stadt;B;§ 3 ArbSchG;Der AG muss alle Kosten für den erforderlichen Arbeitsschutz tragen.
+527;Personal;Was ist eine "Versetzungsklausel"?;Regel für Urlaub;Vertragsklausel zur Flexibilität;Ein Lob;Ein Abzug;B;Arbeitsvertrag;Erlaubt dem AG, den MA an andere Standorte oder Positionen zu versetzen (muss fair sein).
+528;IT-Datenschutz;Was ist "Bring Your Own Device" (BYOD)?;Urlaub;Nutzung privater Geräte für die Arbeit;Ein Streik;Ein Abzug;B;IT-Recht;Erfordert zwingend eine BV wegen massiver Datenschutz- und Sicherheitsrisiken.
+529;IT-Datenschutz;Darf der AG "Social Media Richtlinien" erlassen?;Ja;Nein (Mitbestimmung);Nur bei Apple;Nur bei Azubis;B;§ 87 Abs. 1 Nr. 1 BetrVG;Regeln zum Verhalten in sozialen Medien (wenn Firmenbezug) unterliegen der Mitbestimmung.
+530;Allgemein;Was ist ein "Teilbetrieb"?;Ein Parkplatz;Eigenständige Abteilung mit Leitung;Ein Gesetz;Ein Abzug;B;§ 111 BetrVG;Wichtig für die Bestimmung von Betriebsänderungen und Kündigungsschutz.
+531;Stahl;Darf der BR "Umweltmaßnahmen" im Werk fordern?;Nein;Ja (indirekt über Gesundheitsschutz);Nur bei Stahl;Nur nachts;B;§ 80 Abs. 1 Nr. 9 BetrVG;Der BR soll die Förderung des Arbeitsschutzes und des betrieblichen Umweltschutzes unterstützen.
+532;Abmahnung;Muss die Abmahnung "schriftlich" sein?;Nein (mündlich geht auch);Ja;Nur bei Stahl;Nur bei Azubis;A;Arbeitsrecht;Mündliche Abmahnungen sind wirksam, aber schwer beweisbar. Schriftform wird dringend empfohlen.
+533;Urlaub;Darf der BR "Betriebsferien" vorschlagen?;Nein;Ja (Initiativrecht);Nur im Sommer;Nur im Winter;B;§ 87 Abs. 1 Nr. 5 BetrVG;Der BR kann verlangen, dass der gesamte Betrieb zu einer bestimmten Zeit schließt.
+534;Betriebsvereinbarung;Was ist eine "Nachwirkung"?;Urlaub;Geltung der BV nach Kündigung bis zu einer neuen;Ein Lob;Ein Abzug;B;§ 77 Abs. 6 BetrVG;Erzwingbare BVs wirken nach, damit kein rechtsfreier Raum entsteht.
+535;Personal;Darf der BR "Sprachtests" bei Einstellungen fordern?;Nein;Ja (wenn für Sicherheit nötig);Nur bei Stahl;Nur nachts;B;§ 94 / § 99 BetrVG;Wenn Sprachkenntnisse zwingend für die Unfallverhütung sind, kann dies ein Auswahlkriterium sein.
+536;Arbeitsschutz;Was ist die "VBG"?;Ein Verein;Verwaltungs-Berufsgenossenschaft;Ein Gesetz;Ein Abzug;B;SGB VII;Träger der gesetzlichen Unfallversicherung für viele Branchen.
+537;Kuendigung;Was ist eine "Austrittsprämie"?;Lohn;Geld für freiwilliges Verlassen (Turboprämie);Ein Kredit;Ein Abzug;B;Sozialplan;Wird oft in Krisen gezahlt, um langwierige Kündigungsprozesse zu vermeiden.
+538;Arbeitszeit;Darf der BR "Sabbaticals" fordern?;Nein;Ja (als Rahmenregelung);Nur im Büro;Nur nachts;B;§ 87 / § 88 BetrVG;Die Einführung von Langzeitkonten für Auszeiten kann per BV geregelt werden.
+539;Stahl;Was regelt die "Stahl-Montan-Sonderumlage"?;Urlaub;Finanzierung der Mitbestimmungsorgane;Lohn;Pause;B;MontanMitbestG;Besonderheit der Finanzierung im Bereich der paritätischen Mitbestimmung.
+540;Allgemein;Was ist ein "Wahleinspruch"?;Ein Fest;Anfechtung der BR-Wahl;Ein Streik;Ein Abzug;B;§ 19 BetrVG;Innerhalb von zwei Wochen kann die Wahl beim Arbeitsgericht angefochten werden.
+541;IT-Datenschutz;Darf der AG "ChatGPT" im Werk verbieten?;Ja;Nein (Mitbestimmung);Nur bei IT-lern;Nur nachts;B;§ 87 Abs. 1 Nr. 1/6 BetrVG;Nutzungsregeln für KI am Arbeitsplatz sind mitbestimmungspflichtig.
+542;Freistellung;Darf der BR-Vorsitzende "Homeoffice" machen?;Ja (wie andere MA);Nein;Nur bei Streik;Nur nachts;A;§ 37 / § 38 BetrVG;Freigestellte dürfen nicht schlechter gestellt werden als vergleichbare MA mit Homeoffice-Option.
+543;Versetzung;Muss der BR bei "Zuweisung neuer Software" zustimmen?;Nein (meist keine Versetzung);Ja;Nur bei Stahl;Nur bei Chefs;A;§ 95 Abs. 3 BetrVG;Ein neues Werkzeug allein ist keine Versetzung, aber die Einführung der Software unterliegt § 87.
+544;Geheimhaltung;Darf der BR "Lohnsummen" im Werk aushängen?;Nein (Datenschutz);Ja;Nur bei Streik;Nur nachts;A;§ 79 BetrVG / DSGVO;Aggregierte Daten gehen, aber Rückschlüsse auf Einzelne müssen ausgeschlossen sein.
+545;Betriebsvereinbarung;Was ist eine "Öffnungsklausel"?;Regel für Fenster;Tarifvorrang wird für BV geöffnet;Ein Gesetz;Ein Abzug;B;§ 77 Abs. 3 BetrVG;Erlaubt es dem BR, Dinge zu regeln, die eigentlich den Gewerkschaften vorbehalten sind.
+546;Arbeitsschutz;Muss der BR bei "Kantine-Preisen" mitreden?;Nein;Ja (Soziale Einrichtung);Nur im Sommer;Nur nachts;B;§ 87 Abs. 1 Nr. 8 BetrVG;Die Preisgestaltung in betriebseigenen Kantinen ist mitbestimmungspflichtig.
+547;Kuendigung;Darf der AG "wegen privater Schulden" kündigen?;Nein;Ja (bei Lohnpfändungen/Extremfall);Nur bei Banken;Nur im Sommer;B;KSchG;Nur wenn die Pfändungen den AG unzumutbar belasten (hoher Verwaltungsaufwand).
+548;Urlaub;Darf der BR "Urlaubsvergabe per Los" vorschlagen?;Nein;Ja (bei Konflikten);Nur bei Stahl;Nur im Winter;B;§ 87 Abs. 1 Nr. 5 BetrVG;Wenn sich MA nicht einigen können, kann der BR faire Auswahlverfahren mitbestimmen.
+549;Arbeitszeit;Darf der AG "Dienst-Handy-Ausschalten" verbieten?;Ja;Nein (Recht auf Nichterreichbarkeit);Nur bei Chefs;Nur nachts;B;ArbZG / BetrVG;In der Freizeit müssen MA in der Regel nicht für den AG erreichbar sein (außer Rufbereitschaft).
