@@ -24,54 +24,49 @@
 
 <div class="card">
     <h1>🎓 BR-Tagesquiz</h1>
-    <p class="sub">Hüttenfuchs Edition • Wissen für Stahlwerker</p>
-    
-    <div id="q-text">Lade...</div>
+    <p class="sub">Hüttenfuchs Edition • 100% Sicher & Zufällig</p>
+    <div id="q-text">Lade Fragen...</div>
     <div id="q-options" class="options"></div>
     <div id="feedback"></div>
-    
     <button id="next-btn" class="btn-next" style="display:none;" onclick="handleNext()">Nächste Frage</button>
 </div>
 
 <script>
-// --- VARIABLEN ---
 let allQuestions = [];
 let currentSessionQuestions = [];
 let currentIndex = 0;
 let correctCount = 0; 
 let trackingAllowed = false;
 
-// Ewige Statistik aus dem Speicher laden
 let totalPlayed = localStorage.getItem('hüttenfuchs_total') || 0;
 let totalCorrect = localStorage.getItem('hüttenfuchs_correct') || 0;
 
-// --- 1. START-FUNKTION ---
+// Hilfsfunktion zum Mischen
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 async function loadQuiz() {
     const consent = localStorage.getItem('hüttenfuchs_consent');
-    
-    // Wenn noch nie gefragt wurde -> Abfrage zeigen
-    if (consent === null) {
-        showConsent();
-        return;
-    }
-    
+    if (consent === null) { showConsent(); return; }
     trackingAllowed = (consent === 'true');
     startLogic();
 }
 
-// --- 2. DATENSCHUTZ-ABFRAGE ---
 function showConsent() {
-    document.getElementById('q-options').innerHTML = "";
     document.getElementById('q-text').innerHTML = `
-        <div style="text-align:left; padding:15px; background: rgba(68, 102, 255, 0.1); border-radius: 15px; border: 1px solid var(--acc);">
-            <h3 style="margin-top:0; color:var(--acc);">📊 Statistik aktivieren?</h3>
-            <p style="font-size:0.85rem; line-height:1.4;">Möchtest du, dass deine Ergebnisse <b>lokal auf deinem Gerät</b> gespeichert werden, um deinen ewigen Schnitt anzuzeigen?</p>
-            <p style="font-size:0.7rem; color:var(--muted);">🔒 Deine Daten verlassen niemals dieses Gerät. Keine Übertragung an Dritte oder Server.</p>
-            <div style="display:grid; gap:10px; margin-top:15px;">
-                <button onclick="setConsent(true)" style="background:var(--acc); text-align:center;">Ja, Statistik führen</button>
-                <button onclick="setConsent(false)" style="text-align:center; opacity:0.7;">Nein, nicht speichern</button>
-            </div>
+        <div style="text-align:left; padding:10px; background: rgba(68, 102, 255, 0.1); border-radius: 15px;">
+            <h3 style="margin-top:0; color:var(--acc);">📊 Statistik & Fairness</h3>
+            <p style="font-size:0.85rem;">Möchtest du deine Ergebnisse lokal speichern? <br><br>
+            💡 <b>Neu:</b> Antworten werden ab jetzt bei jeder Frage zufällig gemischt!</p>
         </div>`;
+    document.getElementById('q-options').innerHTML = `
+        <button onclick="setConsent(true)" style="background:var(--acc); text-align:center;">Ja, los geht's!</button>
+        <button onclick="setConsent(false)" style="text-align:center; opacity:0.7;">Nein, nur spielen</button>`;
 }
 
 function setConsent(val) {
@@ -80,35 +75,26 @@ function setConsent(val) {
     startLogic();
 }
 
-// --- 3. DAS EIGENTLICHE QUIZ LADEN ---
 async function startLogic() {
     try {
         const res = await fetch('fragen.csv?v=' + new Date().getTime());
         const txt = await res.text();
         allQuestions = txt.split(/\r?\n/).filter(r => r.trim() !== '' && r.includes(';'));
         allQuestions.shift(); 
-
         prepareDailyQuestions();
         showQuestion();
     } catch (e) {
-        document.getElementById('q-text').innerText = "Fehler beim Laden der Fragen!";
+        document.getElementById('q-text').innerText = "CSV-Datei konnte nicht geladen werden.";
     }
 }
 
 function prepareDailyQuestions() {
-    const now = new Date();
-    const dayId = Math.floor(now.getTime() / 86400000); 
+    const dayId = Math.floor(new Date().getTime() / 86400000); 
     const startIdx = (dayId * 5) % allQuestions.length;
     const dailyNew = [];
-    for(let i=0; i<5; i++) {
-        dailyNew.push(allQuestions[(startIdx + i) % allQuestions.length]);
-    }
-    const prevDayId = dayId - 1;
-    const prevStartIdx = (prevDayId * 5) % allQuestions.length;
+    for(let i=0; i<5; i++) { dailyNew.push(allQuestions[(startIdx + i) % allQuestions.length]); }
     const dailyRepeat = [];
-    for(let i=0; i<2; i++) {
-        dailyRepeat.push(allQuestions[(prevStartIdx + i) % allQuestions.length]);
-    }
+    for(let i=0; i<2; i++) { dailyRepeat.push(allQuestions[((dayId - 1) * 5 + i) % allQuestions.length]); }
     currentSessionQuestions = [...dailyRepeat, ...dailyNew];
 }
 
@@ -119,85 +105,73 @@ function showQuestion() {
     feedback.style.display = 'none';
     nextBtn.style.display = 'none';
 
-    if (currentIndex >= currentSessionQuestions.length) {
-        showFinal();
-        return;
-    }
+    if (currentIndex >= currentSessionQuestions.length) { showFinal(); return; }
 
     const cols = currentSessionQuestions[currentIndex].split(';');
-    const isRepeat = currentIndex < 2;
+    
+    // Dynamische Erkennung: Wo steht die Lösung? (Letzte Spalte)
+    const solutionIdx = cols.length - 1;
+    const solutionLetter = cols[solutionIdx].trim().toUpperCase();
+    const letterToIdx = { 'A': 2, 'B': 3, 'C': 4, 'D': 5 };
+    const correctText = cols[letterToIdx[solutionLetter]].trim();
+
+    // Antworten sammeln (A, B, C und falls vorhanden D)
+    let choices = [cols[2], cols[3], cols[4]];
+    if (cols[5] && cols[5].trim() !== "" && solutionIdx === 6) {
+        choices.push(cols[5]); // Füge D hinzu, wenn die Spalte existiert
+    }
+
+    // Antworten mischen
+    shuffle(choices);
 
     document.getElementById('q-text').innerHTML = `
-        <small style="color:var(--acc)">${isRepeat ? '🔄 WIEDERHOLUNG' : '🔥 NEUE FRAGE'}</small><br>
-        <span style="font-size:0.8rem; color:var(--muted)">Frage ${currentIndex + 1} von 7</span><br>
+        <small style="color:var(--acc)">FRAGE ${currentIndex + 1} VON 7</small><br>
         ${cols[1]}`;
 
     opts.innerHTML = '';
-    ['A', 'B', 'C'].forEach((letter, i) => {
+    choices.forEach(choiceText => {
+        if(!choiceText || choiceText.trim() === "") return;
         const btn = document.createElement('button');
-        btn.innerText = letter + ') ' + cols[i+2];
+        btn.innerText = choiceText.trim();
         btn.onclick = () => {
             feedback.style.display = 'block';
-            const correctLetter = cols[5] ? cols[5].trim() : "";
-            const isCorrect = letter === correctLetter;
+            const isCorrect = (choiceText.trim() === correctText);
             if (isCorrect) correctCount++; 
-            feedback.innerText = isCorrect ? "✅ Richtig!" : "❌ Falsch! Lösung: " + correctLetter;
+            feedback.innerText = isCorrect ? "✅ Richtig!" : "❌ Falsch! Lösung: " + correctText;
             feedback.style.color = isCorrect ? "#44ff88" : "#ff4444";
-            feedback.style.background = isCorrect ? "rgba(0,255,100,0.1)" : "rgba(255,0,0,0.1)";
+            feedback.style.background = isCorrect ? "rgba(255,255,255,0.05)" : "rgba(255,0,0,0.05)";
             Array.from(opts.children).forEach(b => b.disabled = true);
             nextBtn.style.display = 'block';
-            nextBtn.innerText = (currentIndex + 1 < currentSessionQuestions.length) ? "Nächste Frage" : "Ergebnis zeigen";
+            nextBtn.innerText = (currentIndex + 1 < currentSessionQuestions.length) ? "Weiter" : "Ergebnis";
         };
         opts.appendChild(btn);
     });
 }
 
-function handleNext() {
-    currentIndex++;
-    showQuestion();
-}
+function handleNext() { currentIndex++; showQuestion(); }
 
-// --- 4. DAS FINALE LAYOUT (ERGEBNIS) ---
 function showFinal() {
     let statsHTML = "";
-
-    // Wenn Nutzer zugestimmt hat, Statistik berechnen und anzeigen
     if (trackingAllowed) {
         totalPlayed = parseInt(totalPlayed) + currentSessionQuestions.length;
         totalCorrect = parseInt(totalCorrect) + correctCount;
         localStorage.setItem('hüttenfuchs_total', totalPlayed);
         localStorage.setItem('hüttenfuchs_correct', totalCorrect);
         const ewigerSchnitt = Math.round((totalCorrect / totalPlayed) * 100);
-        
-        statsHTML = `
-            <hr style="border: 0; border-top: 1px solid #303048; margin: 15px 0;">
-            <p style="font-size: 0.85rem; color: var(--acc); margin-bottom: 5px;">📊 Dein ewiger Schnitt</p>
-            <div style="font-size: 1.5rem; font-weight: bold;">${ewigerSchnitt}%</div>
-            <small style="color: var(--muted); font-size: 0.7rem;">(${totalCorrect} Treffer aus ${totalPlayed} Fragen)</small>
-        `;
+        statsHTML = `<hr style="border:0; border-top:1px solid #333; margin:15px 0;">
+                     <p style="font-size:0.8rem; color:var(--acc);">📊 Dein Gesamtschnitt: ${ewigerSchnitt}%</p>`;
     }
-
-    const total = currentSessionQuestions.length;
-    const prozentHeute = Math.round((correctCount / total) * 100);
-    let farbe = prozentHeute >= 70 ? "#44ff88" : "#ffaa00";
-
     document.getElementById('q-text').innerHTML = `
-        <div style="text-align:center; padding:20px; background: rgba(255,255,255,0.05); border-radius: 20px; border: 1px solid ${farbe};">
-            <h2 style="margin:0; color:${farbe};">Heute: ${correctCount} von ${total}</h2>
-            <p style="font-size: 1.1rem; font-weight: 600; margin: 10px 0;">${prozentHeute}% richtig</p>
+        <div style="text-align:center; padding:10px;">
+            <h2 style="color:var(--acc);">Fertig!</h2>
+            <p style="font-size:1.5rem; font-weight:bold;">${correctCount} von 7 richtig</p>
             ${statsHTML}
-            <div style="margin-top: 20px; font-size: 0.6rem; color: var(--muted);">
-                🔒 Ergebnisse werden nur lokal gespeichert.
-            </div>
+            <p style="font-size:0.7rem; color:var(--muted); margin-top:20px;">Morgen gibt es 5 neue Fragen! ⚒️</p>
         </div>`;
-        
     document.getElementById('q-options').innerHTML = "";
     document.getElementById('next-btn').style.display = 'none';
 }
-
-// DER MOTOR: Startet alles
 loadQuiz();
 </script>
-
 </body>
 </html>
