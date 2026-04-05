@@ -1,101 +1,559 @@
-Kategorie;Frage;Antwort A;Antwort B;Antwort C;Loesung
-Arbeitszeit;Darf der Chef Überstunden ohne Zustimmung des BR anordnen?;Ja immer;Nur im Notfall;Nein (Mitbestimmung §87);C
-Stahl-Spezial;Wer wählt den Arbeitsdirektor im Montan-Bereich?;Der Vorstand allein;Der Aufsichtsrat (BR-Veto);Die Gewerkschaft;B
-Urlaub;Was passiert bei Krankheit im Urlaub?;Pech gehabt;Tage werden gutgeschrieben;Urlaub wird verlängert;B
-Kuendigung;Was ist die Frist für eine Kündigungsschutzklage?;1 Woche;3 Wochen;3 Monate;B
-Arbeitszeit;Wie lange muss die Ruhepause zwischen zwei Schichten sein?;8 Stunden;10 Stunden;11 Stunden;C
-Rechte;Darf der BR-Vorsitzende allein Entscheidungen treffen?;Ja;Nein (nur im Namen des Gremiums);Nur bei Eile;B
-Versetzung;Ab welcher Dauer gilt eine Zuweisung als Versetzung?;1 Tag;1 Woche;Mehr als 1 Monat;C
-Geheimhaltung;Darf man BR-Infos dem Ehepartner erzählen?;Ja klar;Nein (Verschwiegenheitspflicht);Nur bei Stress;B
-Ausschuesse;Wann MUSS ein Betriebsausschuss gebildet werden?;Ab 3 BR-Mitgliedern;Ab 9 BR-Mitgliedern;Immer;B
-Stahl-Spezial;Was ist das Besondere an der Montan-Parität?;Gleiche Anzahl AG/AN im AR;AG hat mehr Stimmen;BR entscheidet alles;A
-Arbeitsschutz;Wer zahlt die Sicherheitsschuhe im Werk?;Der Kollege selbst;50/50;Der Arbeitgeber komplett;C
-Abmahnung;Muss man eine Abmahnung unterschreiben?;Ja Pflicht;Nein (nur Erhalt bestätigen);Nur wenn man zustimmt;B
-Urlaub;Darf der BR die allgemeine Urlaubsplanung mitbestimmen?;Nein;Ja (§87 BetrVG);Nur bei Streik;B
-Betriebsvereinbarung;Wie lange wirkt eine BV nach?;Gar nicht;Bis eine neue Regelung gilt;Maximal 1 Monat;B
-Kuendigung;Wann muss der BR zur Kündigung angehört werden?;Nach der Kündigung;Gleichzeitig;Vor der Kündigung;C
-Arbeitszeit;Sind Raucherpausen gesetzliche Arbeitszeit?;Ja;Nein;Nur in der Spätschicht;B
-Stahl-Spezial;Darf der BR bei der Wahl des Ofen-Teams mitreden?;Nein;Ja (Versetzung/Besetzung);Nur bei Hitze;B
-Freistellung;Was ist der Grundsatz für BR-Schulungen?;Freiwillig;Erforderlichkeit;Lust und Laune;B
-Arbeitsschutz;Darf der BR eine Gefährdungsbeurteilung erzwingen?;Nein;Ja (Initiativrecht);Nur nach Unfall;B
-IT-Datenschutz;Darf der AG heimlich GPS im Stapler auswerten?;Ja zur Logistik;Nein (Leistungskontrolle);Nur nachts;B
-Urlaub;Kann der AG Urlaub wegen Personalmangel einfach streichen?;Ja jederzeit;Nein (nur bei Notfällen);Nur bei Azubis;B
-Arbeitszeit;Gilt Fahrzeit zur Baustelle als Arbeitszeit?;Immer;Oft ja (kommt auf BV/TV an);Nie;B
-Stahl-Spezial;Wie hoch ist die Mitbestimmung bei Arbeitsschutz?;Gering;Eingeschränkt;Sehr hoch (Zwingend);C
-Freistellung;Muss man sich beim Chef für BR-Arbeit abmelden?;Nein;Ja (Abmelden & Zurückmelden);Nur bei Meetings;B
-Versetzung;Kann eine Versetzung auch eine Lohnkürzung sein?;Immer;Nein;Ja (erfordert Änderungskündigung);C
-Geheimhaltung;Darf ein BR-Mitglied Betriebsgeheimnisse an Dritte geben?;Ja;Nie (§79 BetrVG);Nur nach Wahl;B
-Ausschuesse;Was macht der Arbeitsschutzausschuss (ASA)?;Feiern planen;Sicherheit prüfen;Lohn verhandeln;B
-Arbeitsschutz;Ab welcher Lautstärke ist Gehörschutz Pflicht?;70 dB(A);80-85 dB(A);100 dB(A);B
-Kuendigung;Darf man während der Krankheit gekündigt werden?;Nein nie;Ja (unter engen Bedingungen);Nur bei Betrug;B
-Arbeitszeit;Zählt Umkleidezeit zur Arbeitszeit?;Nie;Oft ja (wenn PSA vorgeschrieben);Nur bei Stahl;B
-Stahl-Spezial;Was regelt der Tarifvertrag Eisen/Stahl primär?;Lohn und Arbeitszeit;Nur Urlaub;Nur Kantinenpreise;A
-Abmahnung;Kann man eine Gegendarstellung zur Abmahnung schreiben?;Nein;Ja (muss in die Akte);Nur mündlich;B
-Urlaub;Was ist der gesetzliche Mindesturlaub (5-Tage-Woche)?;20 Tage;24 Tage;30 Tage;A
-Betriebsvereinbarung;Wer unterschreibt eine BV?;Alle Kollegen;BR-Vorsitz & AG-Leitung;Nur der Chef;B
-Ausschuesse;Darf ein Ausschuss eigenständig Verträge schließen?;Nie;Nur bei Übertragung durch Gremium;Immer;B
-Rechte;Darf der BR an Vorstellungsgesprächen teilnehmen?;Ja (§95);Nur bei Azubis;Nein;A
-Arbeitsschutz;Was ist die UVV?;Urlaubsverordnung;Unfallverhütungsvorschrift;Umweltvorschrift;B
-Kuendigung;Was passiert bei einer betriebsbedingten Kündigung?;Losentscheid;Sozialauswahl;Chef entscheidet;B
-Arbeitszeit;Wie viele Sonntage müssen im Jahr frei bleiben?;Mindestens 10;Mindestens 15;Mindestens 20;B
-Stahl-Spezial;Was ist eine Erschwerniszulage?;Geld für Hitze/Schmutz;Geld für Urlaub;Geld für Pendler;A
-IT-Datenschutz;Muss der BR bei neuen Tablets im Werk zustimmen?;Nein;Ja (Überwachungspotenzial);Nur bei Kamera;B
-Freistellung;Wie werden BR-Sitzungen bezahlt?;Gar nicht;Wie normale Arbeitszeit;Doppelt;B
-Versetzung;Darf der BR eine Versetzung ablehnen?;Nie;Ja (bei Verstoß gegen Gesetze);Nur bei Frauen;B
-Geheimhaltung;Was droht bei Verrat von Betriebsgeheimnissen?;Nichts;Geldstrafe/Kündigung/Haft;Nur Rüge;B
-Betriebsvereinbarung;Wo muss die BV im Betrieb hängen?;Im Safe;An geeigneter Stelle (bekannt);Gar nicht;B
-Arbeitsschutz;Muss der BR bei der PSA-Farbe mitreden?;Kann er (Trageakzeptanz);Nein;Nur bei Gelb;A
-Kuendigung;Gilt der Kündigungsschutz während der Probezeit?;Ja voll;Nein (nur Mindestschutz);Erst nach 1 Jahr;B
-Urlaub;Was ist Sonderurlaub?;Urlaub für Sport;Bezahlte Freistellung (z.B. Geburt);Urlaub ohne Lohn;B
-Arbeitszeit;Darf der BR die Schichtpläne mitgestalten?;Nein;Ja (volles Recht);Nur bei Nacht;B
-Stahl-Spezial;Wie viele AN-Vertreter sind im Montan-Aufsichtsrat?;3;Hälfte;2;B
-Ausschuesse;Muss der Wirtschaftsausschuss informiert werden?;Vierteljährlich;Einmal im Jahr;Nie;A
-Abmahnung;Wie viele Abmahnungen braucht man zur Kündigung?;Immer genau 3;Kommt auf die Schwere an;Keine;B
-Rechte;Hat der BR ein eigenes Büro-Recht?;Nein;Ja (Sachmittelanspruch §40);Nur bei 500 MA;B
-Arbeitsschutz;Ab wann ist ein Betriebsarzt Pflicht?;Ab 1 MA;Ab 100 MA;Ab 500 MA;A
-Kuendigung;Was ist eine außerordentliche Kündigung?;Fristlose Kündigung;Kündigung mit 1 Jahr Frist;Aufhebungsvertrag;A
-Arbeitszeit;Darf man 12 Stunden am Stück arbeiten?;Ja immer;Nur in Ausnahmen/Notfall;Nein verboten;B
-Urlaub;Darf Urlaub in Geld ausgezahlt werden?;Ja immer;Nur bei Beendigung des Jobs;Nur bei Stahl;B
-Stahl-Spezial;Wer ist der "Neutrale" im Montan-Aufsichtsrat?;Der Chef;Zusätzliches Mitglied (Zünglein);Der Bürgermeister;B
-Betriebsvereinbarung;Kann eine BV den Tarifvertrag verschlechtern?;Ja;Nein (Günstigkeitsprinzip);Nur bei Krise;B
-Freistellung;Darf der BR während der Arbeitszeit tagen?;Nur in der Pause;Ja (erforderlich);Nur abends;B
-Versetzung;Was ist eine "Umgruppierung"?;Anderer Parkplatz;Andere Lohnstufe;Anderes Werk;B
-IT-Datenschutz;Was ist die DSGVO?;Dampf-Schutz-Gesetz;Datenschutzgrundverordnung;Dienst-Sicherungs-Gesetz;B
-Arbeitsschutz;Wer ist für die Sicherheit im Werk verantwortlich?;Nur der BR;Der Arbeitgeber;Nur der Sanitäter;B
-Rechte;Darf der BR eine Betriebsversammlung abhalten?;Nein;Ja (vierteljährlich);Nur einmal im Jahr;B
-Kuendigung;Was ist der besondere Kündigungsschutz für BR?;Unkündbar;Kündigung nur mit BR-Zustimmung;Kein Schutz;B
-Arbeitszeit;Darf der BR Überstunden-Konten kontrollieren?;Nein;Ja (Überwachungsrecht);Nur bei Fehlern;B
-Urlaub;Was ist der "Urlaubsanspruch" bei Teilzeit?;Weniger Tage;Verhältnismäßig gleich;Gar keiner;B
-Stahl-Spezial;Darf der BR am Hochofen Hitze-Messungen fordern?;Nein;Ja (Arbeitsschutz);Nur im Sommer;B
-Geheimhaltung;Gilt die Verschwiegenheit nach dem BR-Amt weiter?;Nein;Ja (lebenslang für Geheimnisse);Nur 1 Jahr;B
-Ausschuesse;Darf der BR-Vorsitzende Gast im Ausschuss sein?;Nein;Ja jederzeit;Nur mit Einladung;B
-Abmahnung;Was ist die "Warnfunktion" der Abmahnung?;Chef droht nur;Ankündigung der Kündigung;Lob;B
-Versetzung;Muss der BR bei jeder Einstellung gefragt werden?;Nein;Ja (§99 BetrVG);Nur bei Führungskräften;B
-Rechte;Darf der BR externe Berater hinzuziehen?;Nein;Ja (nach Absprache/Beschluss);Nur Anwälte;B
-Arbeitsschutz;Was ist eine "Begehung"?;Spaziergang;Kontrolle der Arbeitsplätze;Besuch beim Chef;B
-Kuendigung;Was ist eine Änderungskündigung?;Neuer Job oder Kündigung;Kündigung mit neuer Frist;Lohnerhöhung;A
-Arbeitszeit;Sind 6-Tage-Wochen gesetzlich erlaubt?;Nein;Ja (Montag bis Samstag);Nur im Winter;B
-Stahl-Spezial;Wer entscheidet über die Schutzkleidung?;Chef allein;BR und AG gemeinsam;Gewerkschaft;B
-IT-Datenschutz;Darf der AG den Browserverlauf prüfen?;Immer;Nein (außer bei Verdacht/BV);Ja zur Sicherheit;B
-Freistellung;Wie meldet man sich zur Schulung an?;Gar nicht;BR-Beschluss und Mitteilung AG;Chef fragen;B
-Betriebsvereinbarung;Wie lange ist die Kündigungsfrist einer BV?;1 Woche;3 Monate;Keine;B
-Stahl-Spezial;Was ist die "Arbeitsdirektoren-Klausel"?;Veto-Recht des BR;Gehaltsgrenze;Urlaubstage;A
-Rechte;Darf der BR in die Gehaltslisten schauen?;Nein;Ja (Einsichtsrecht Bruttolohn);Nur bei Chefs;B
-Arbeitsschutz;Was ist psychische Belastung?;Stress/Mobbing/Lärm;Nur Faulheit;Gibt es nicht;A
-Kuendigung;Muss eine Kündigung schriftlich sein?;Ja (auf Papier);E-Mail reicht;Mündlich reicht;A
-Arbeitszeit;Wann beginnt die Nachtarbeit im Gesetz?;18 Uhr;23 Uhr (bis 6 Uhr);20 Uhr;B
-Urlaub;Hat man Anspruch auf Urlaub am Stück?;Nein;Ja (mind. 12 Werktage);Nur im Sommer;B
-Stahl-Spezial;Darf der BR bei der Stilllegung eines Ofens mitreden?;Nein;Ja (Interessenausgleich/Sozialplan);Nur beim Preis;B
-Ausschuesse;Wann tagt der Arbeitsschutzausschuss?;Täglich;Vierteljährlich;Nie;B
-Abmahnung;Kann der BR eine Abmahnung stoppen?;Ja;Nein (nur Beschwerde möglich);Nur bei Azubis;B
-Versetzung;Muss der AG die Kosten einer Versetzung tragen?;Nein;In der Regel ja;Nur bei Benzin;B
-Rechte;Wer trägt die Kosten für BR-Wahlen?;Der BR;Der Arbeitgeber;Die Gewerkschaft;B
-Arbeitsschutz;Darf man die Arbeit bei akuter Gefahr verweigern?;Nein;Ja (Selbstschutz);Nur bei Regen;B
-Kuendigung;Was ist eine Sozialauswahl?;Alter/Dienstzeit/Kinder/Behinderung;Wer am besten arbeitet;Wer am wenigsten verdient;A
-Arbeitszeit;Darf die tägliche Arbeitszeit 10h überschreiten?;Ja immer;Nein (nur in Ausnahmen);Nur bei Stahl;B
-Stahl-Spezial;Wer vertritt die AN im Aufsichtsrat?;Nur interne BR;BR und externe Gewerkschafter;Nur Anwälte;B
-Geheimhaltung;Darf der BR die Presse über BR-Sitzungen informieren?;Ja;Nein (Sitzungen sind nicht öffentlich);Nur bei Streik;B
-Betriebsvereinbarung;Gilt eine BV für alle Mitarbeiter?;Nur für BR-Mitglieder;Ja für alle im Geltungsbereich;Nur für Azubis;B
-Arbeitsschutz;Was ist die "Unterweisung"?;Befehl vom Chef;Schulung zur Sicherheit;Hausordnung;B
-Rechte;Darf der BR IT-Systeme sperren?;Nein;Indirekt ja (über Einigungsstelle);Nur am PC;B
-Allgemein;Was ist das höchste Ziel des BetrVG?;Streik;Wohl der Arbeitnehmer und des Betriebs;Mehr Lohn;B
+Kategorie;Frage;Antwort A;Antwort B;Antwort C;Antwort D;Loesung
+Arbeitszeit;Darf der Chef morgen die Frühschicht um 2 Std. verlängern?;Ja bei Reparaturen immer;Nein (Mitbestimmung §87);Nur gegen 50% Zuschlag;Nur wenn er es 24h vorher sagt;B
+Stahl;Wer ist im Montan-Betrieb für Personal im Vorstand zuständig?;Der Vorstandschef;Der Arbeitsdirektor;Der kaufmännische Leiter;Der Aufsichtsratsvorsitzende;B
+Urlaub;Wann verfällt Resturlaub aus dem Vorjahr normalerweise?;Am 31. Dezember;Am 31. März (Folgejahr);Gar nicht;Nach genau 12 Monaten;B
+Rechte;Wem darf ein BR-Mitglied geheime Investitionspläne verraten?;Der Presse;Nur den BR-Kollegen (intern);Jedem in der Kantine;Dem Ehepartner;B
+Abmahnung;Muss eine rechtmäßige Abmahnung nach genau 2 Jahren gelöscht werden?;Ja Pflicht;Nein (keine starre Frist);Nur bei Rauchern;Nur auf Antrag des Anwalts;B
+Ausschuesse;Ab wie vielen BR-Mitgliedern MUSS ein Betriebsausschuss her?;Ab 5 Mitgliedern;Ab 9 Mitgliedern;Immer;Ab 15 Mitgliedern;B
+Versetzung;Ist ein Hallenwechsel (dauerhaft) eine Versetzung?;Nein;Ja (bei erheblicher Änderung);Nur wenn der Weg länger wird;Nur bei Lohnänderung;B
+Kuendigung;Was ist eine Kündigung ohne BR-Anhörung?;Trotzdem gültig;Unwirksam (§ 102);Schwebend wirksam;Nur eine Ordnungswidrigkeit;B
+Arbeitsschutz;Wer trägt die Kosten für feuerfeste Kleidung am Ofen?;Der Kollege;Der Arbeitgeber;Die Berufsgenossenschaft;50/50 Beteiligung;B
+IT;Darf der AG den Browserverlauf am PC heimlich prüfen?;Immer;Nein (nur bei begründetem Verdacht);Nur in der Nachtschicht;Ja, zur Performance-Messung;B
+Wahl;Darf ein Leiharbeiter den BR im Werk wählen?;Nie;Ja (wenn > 3 Monate im Betrieb);Nur wenn er Gewerkschaftsmitglied ist;Nur bei der JAV-Wahl;B
+Geheimhaltung;Darf man BR-Sitzungsprotokolle kopieren und aushängen?;Ja klar;Nein (streng vertraulich);Nur die Ergebnisse;Nur für die Gewerkschaft;B
+Schicht;Darf der BR die Schichtzulagen im Werk erhöhen?;Ja (Mitbestimmung);Nein (Tarifvorrang §77);Nur bei Überstunden;Nur für Azubis;B
+Stahl;Was ist die "Montan-Mitbestimmung"?;Gleichberechtigung im Aufsichtsrat;Mehr Geld für Stahlwerker;Recht auf Freibier;Verbot von Nachtarbeit;A
+Urlaub;Darf der Chef Urlaub wegen "viel Arbeit" einfach streichen?;Ja immer;Nein (nur in extremen Notfällen);Nur bei Azubis;Nur gegen Auszahlung;B
+Rechte;Darf ein einzelnes BR-Mitglied allein verhandeln?;Ja;Nein (nur das Gremium);Nur der Vorsitzende;Nur bei Eilbedürftigkeit;B
+Abmahnung;Muss der BR bei jeder Abmahnung vorher gefragt werden?;Ja;Nein (keine Mitbestimmung);Nur bei Schwerbehinderten;Nur bei Azubis;B
+Arbeitszeit;Darf man 12 Stunden am Stück im Werk arbeiten?;Ja immer;Nur im Notfall/Ausnahme;Nie;Nur am Wochenende;B
+Hütte;Wer bestimmt die PSA (Schutzkleidung) im Werk?;Der Chef allein;BR und AG gemeinsam;Die Feuerwehr;Der Sicherheitsbeauftragte;B
+IT;Darf der AG eine Kamera direkt am Arbeitsplatz aufstellen?;Ja zur Sicherheit;Nein (Persönlichkeitsrecht);Nur bei Diebstahl;Nur in der Kantine;B
+Wahl;Wie lange dauert eine Amtszeit des BR?;2 Jahre;4 Jahre;6 Jahre;Unbefristet;B
+Konflikt;Was ist die "Einigungsstelle"?;Ein Gericht;Internes Schiedsgericht;Eine Kantine;Der Pausenraum;B
+Geld;Darf der BR über die Lohnhöhe (Grundgehalt) entscheiden?;Ja;Nein (Tarifautonomie);Nur bei Sonderprämien;Nur bei Weihnachtsgeld;B
+Stahl;Was regelt der Manteltarifvertrag?;Nur den Lohn;Arbeitsbedingungen (Urlaub/Kündigung);Die Farbe der Helme;Den Preis von Stahl;B
+Rechte;Darf der BR Sachverständige (Berater) hinzuziehen?;Nein;Ja (nach Beschluss/Absprache);Nur Anwälte;Nur im Streikfall;B
+Schicht;Sind Raucherpausen bezahlte Arbeitszeit?;Ja;Nein;Nur in der Spätschicht;Nur für den BR;B
+Urlaub;Hat man Anspruch auf Urlaub am Stück (2 Wochen)?;Nein;Ja (mind. 12 Werktage);Nur im Sommer;Nur bei Hochzeit;B
+Abmahnung;Kann man eine Gegendarstellung zur Abmahnung schreiben?;Nein;Ja (muss in die Akte);Nur mündlich;Nur über die Gewerkschaft;B
+Arbeitsschutz;Darf der BR eine Gefährdungsbeurteilung erzwingen?;Nein;Ja (Initiativrecht);Nur nach einem Unfall;Nur bei Hitze;B
+Versetzung;Muss der BR bei einer Einstellung gefragt werden?;Nein;Ja (§ 99 BetrVG);Nur bei Führungskräften;Nur bei Leiharbeit;B
+Kuendigung;Darf man während der Krankheit gekündigt werden?;Nein nie;Ja (unter engen Bedingungen);Nur bei Betrug;Nur nach 6 Monaten;B
+Stahl;Was ist die "Parität"?;Gleichgewicht im Aufsichtsrat;Ein Werkzeug;Eine Lohnstufe;Ein Feiertag;A
+Geld;Darf der AG Weihnachtsgeld einfach kürzen?;Ja immer;Nein (oft betriebliche Übung);Nur bei Azubis;Nur bei Kurzarbeit;B
+Wahl;Muss der AG die Kosten der BR-Wahl tragen?;Nein;Ja (§ 20);Nur 50%;Nur die Stimmzettel;B
+Konflikt;Darf der BR zum Streik aufrufen?;Ja;Nein (nur Gewerkschaft);Nur bei Lohnverzug;Nur am Wochenende;B
+IT;Muss der BR bei neuer Software (SAP etc.) zustimmen?;Nein;Ja (Leistungsüberwachung);Nur bei Kameras;Nur bei Internetnutzung;B
+Rechte;Darf der BR-Vorsitzende ein Machtwort sprechen?;Ja;Nein (Gleichberechtigung);Nur bei Eile;Nur bei Azubis;B
+Schicht;Darf man Schichten untereinander einfach tauschen?;Ja immer;Nein (Zustimmung AG/BR nötig);Nur in der Frühschicht;Nur bei Krankheit;B
+Urlaub;Was passiert mit Resturlaub bei Kündigung?;Er verfällt;Er muss abgegolten (bezahlt) werden;Pech gehabt;Er wird halbiert;B
+Abmahnung;Wie viele Abmahnungen braucht man zur Kündigung?;Immer genau 3;Kommt auf die Schwere an;Keine;Immer 5;B
+Arbeitsschutz;Wer ist der Sicherheitsbeauftragte?;Ein BR-Mitglied;Ein erfahrener Kollege (beratend);Der Werksleiter;Ein externer Prüfer;B
+Hütte;Darf der AG den Spind ohne Grund durchsuchen?;Ja immer;Nein (Privatsphäre);Nur bei Diebstahlverdacht;Nur mit dem BR;B
+Geld;Darf der BR die Verteilung von Prämien mitbestimmen?;Nein;Ja (§ 87 Abs. 1 Nr. 10);Nur bei Akkord;Nur bei Chefs;B
+Versetzung;Darf der BR eine Versetzung ablehnen?;Nie;Ja (bei Gesetzesverstoß);Nur bei Lohneinbußen;Nur bei Azubis;B
+Wahl;Dürfen leitende Angestellte den BR wählen?;Ja;Nein;Nur wenn sie wollen;Nur bei der JAV;B
+Stahl;Wie oft tagt der Wirtschaftsausschuss?;Monatlich;Vierteljährlich;Nie;Wöchentlich;B
+IT;Darf der AG private Handys im Werk verbieten?;Nein;Ja (Ordnungsverhalten § 87);Nur bei Azubis;Nur am Ofen;B
+Konflikt;Was ist die "Friedenspflicht"?;Kein Streit im Werk;Kein Streik während Tariflaufzeit;Mittagspause;Sitzungsruhe;B
+Rechte;Darf der BR Infos vom Wirtschaftsausschuss fordern?;Nein;Ja (Informationsrecht);Nur bei Krise;Nur bei Kündigungen;B
+Schicht;Darf der AG "Kurzarbeit" allein anordnen?;Ja;Nein (Zustimmung BR nötig);Nur bei Stahlkrise;Nur für 1 Woche;B
+Arbeitszeit;Zählt Umkleidezeit zur Arbeitszeit?;Nie;Oft ja (wenn PSA vorgeschrieben);Nur bei Hitze;Nur für den BR;B
+Urlaub;Darf der BR bei der Urlaubsliste mitreden?;Nein;Ja (Mitbestimmung);Nur bei Azubis;Nur im Sommer;B
+Abmahnung;Muss eine Abmahnung schriftlich sein?;Ja;Nein (mündlich gilt auch);Nur bei Kündigung;Nur per E-Mail;B
+Arbeitsschutz;Darf der BR Messungen (Lärm/Staub) fordern?;Nein;Ja (Gesundheitsschutz);Nur nach Unfall;Nur im Sommer;B
+Hütte;Wer zahlt die Brille für Bildschirmarbeit?;Der Kollege;Der Arbeitgeber (anteilig);Die Krankenkasse;Niemand;B
+Versetzung;Gilt eine Zuweisung von 2 Wochen als Versetzung?;Ja;Nein (erst ab 1 Monat);Nur bei Lohnänderung;Nur im Notfall;B
+Wahl;Darf der BR-Vorsitzende den Wahlvorstand bestimmen?;Ja;Nein (das Gremium wählt ihn);Nur bei Eile;Nur bei Neuwahlen;B
+Stahl;Was macht der Arbeitsdirektor?;Verkauft Stahl;Leitet Personal/Soziales;Prüft die Qualität;Fährt den Stapler;B
+Rechte;Darf der BR die Bruttolohnliste einsehen?;Nein;Ja (§ 80 Abs. 2);Nur bei Chefs;Nur bei Männern;B
+Konflikt;Was passiert bei "grober Pflichtverletzung" des BR?;Nichts;Auflösung durch Arbeitsgericht;Rüge vom Chef;Geldstrafe;B
+Geld;Darf der BR eine Lohnerhöhung für alle fordern?;Nein;Ja (Initiativrecht bei Zulagen);Nur im Streik;Nur bei Gewinn;B
+IT;Darf der AG E-Mails lesen (bei Privatnutzung erlaubt)?;Ja;Nein (Fernmeldegeheimnis);Nur bei Viren;Nur bei Kündigung;B
+Hütte;Darf der BR eine Kantine fordern?;Ja;Nein (Freiwillige Leistung);Nur bei 1000 MA;Nur bei Nachtschicht;B
+Arbeitszeit;Wann ist die maximale Arbeitszeit pro Tag erreicht?;8 Stunden;10 Stunden;12 Stunden;14 Stunden;B
+Urlaub;Darf der Chef "Betriebsferien" allein festlegen?;Ja;Nein (Zustimmung BR nötig);Nur im Winter;Nur bei Streik;B
+Schicht;Muss der Schichtplan 4 Wochen vorher aushängen?;Ja;Nein (aber angemessene Frist);Nur bei Azubis;Nur bei Nachtschicht;B
+Abmahnung;Darf ein BR-Mitglied bei einer Abmahnung dabei sein?;Nein;Ja (Recht des MA);Nur als Zeuge;Nur bei Azubis;B
+Versetzung;Kann eine Versetzung gegen den Willen des MA erfolgen?;Nein;Ja (wenn BR zustimmt);Nur bei Notfall;Nur bei Azubis;B
+Wahl;Sind BR-Mitglieder besonders vor Kündigung geschützt?;Nein;Ja (Sonderkündigungsschutz);Nur 1 Jahr lang;Nur der Vorsitzende;B
+Rechte;Darf der BR während der Arbeitszeit tagen?;Nein;Ja (soweit erforderlich);Nur in der Pause;Nur abends;B
+Hütte;Wer ist für Erste Hilfe im Werk verantwortlich?;Nur der Arzt;Der Arbeitgeber;Die Berufsgenossenschaft;Der BR;B
+Geld;Sind Fahrtkosten zum Werk Arbeitszeit?;Immer;Nein (Privatsache);Nur bei Baustellen;Nur bei 100km;B
+Stahl;Wie viele Sitze hat der Montan-Aufsichtsrat oft?;5;11, 15 oder 21;Immer 100;Nur 3;B
+Wahl;Darf der Chef eine BR-Wahl verbieten?;Ja;Nein (Straftat § 119);Nur bei Krise;Nur bei Azubis;B
+IT;Darf der AG GPS-Tracking im Stapler nutzen?;Ja zur Logistik;Nein (Leistungsüberwachung);Nur nachts;Nur bei Unfällen;B
+Hütte;Darf der BR Musik in der Werkhalle fordern?;Nein;Ja (Ordnungsverhalten § 87);Nur bei Radio;Nur bei Spätschicht;B
+Arbeitszeit;Muss man Überstunden leisten ohne Vertrag/BV?;Ja immer;Nein;Nur bei Hitze;Nur bei Azubis;B
+Rechte;Darf der BR eine Betriebsversammlung abhalten?;Nein;Ja (4x pro Jahr);Nur bei Krise;Nur einmal im Jahr;B
+Geld;Darf der BR bei der Eingruppierung mitreden?;Nein;Ja (§ 99);Nur bei Azubis;Nur bei Chefs;B
+Konflikt;Wer zahlt den Anwalt des Betriebsrats?;Die Gewerkschaft;Der Arbeitgeber (§ 40);Der BR selbst;Niemand;B
+Stahl;Was ist ein "Hüttenvertrag"?;Kaufvertrag;Spezieller Haustarif;Mietvertrag;Arbeitsanweisung;B
+Hütte;Darf der AG Taschenkontrollen am Tor machen?;Ja immer;Nein (nur bei Verdacht/BV);Nur bei Azubis;Nur nach Feierabend;B
+IT;Darf der AG den Monitor des MA spiegeln?;Ja;Nein (Überwachung);Nur zur Schulung;Nur bei Verdacht;B
+Arbeitszeit;Wie lange muss die Ruhezeit zwischen Schichten sein?;8 Stunden;11 Stunden;12 Stunden;14 Stunden;B
+Abmahnung;Kann man eine Abmahnung nach 3 Jahren löschen lassen?;Nein;Ja (wenn keine Bedeutung mehr);Nur bei Rauchern;Nur bei Versetzung;B
+Wahl;Ab wie vielen MA ist ein BR-Mitglied freigestellt?;Ab 100 MA;Ab 200 MA;Ab 500 MA;Ab 1000 MA;B
+Geld;Darf der BR eine Prämie für "Unfallfreies Arbeiten" fordern?;Nein;Ja (Mitbestimmung);Nur bei Stahl;Nur bei Azubis;B
+Rechte;Darf der BR-Vorsitzende allein eine BV unterschreiben?;Nein;Ja (wenn Beschluss vorliegt);Nur bei Eile;Nur im Urlaub;B
+Stahl;Wer ist "Obermeister" im Werk?;Ein Chef;Ein Handwerks-Titel;Gibt es nicht;Ein Azubi-Sprecher;B
+Hütte;Darf der BR einen Raum für Gebete fordern?;Nein;Ja (Glaubensfreiheit/BV);Nur am Sonntag;Nur für den BR;B
+Urlaub;Was passiert bei Krankheit im Urlaub?;Pech gehabt;Tage werden gutgeschrieben;Urlaub wird verlängert;Lohnkürzung;B
+IT;Darf der AG "Keylogger" (Tastatur-Aufzeichnung) einsetzen?;Nie;Nur bei schwerstem Straftatverdacht;Immer;Nur zur IT-Sicherheit;B
+Konflikt;Darf der AG Kleidungsvorschriften (Dienstkleidung) machen?;Nein;Ja (Mitbestimmung des BR § 87);Nur bei Azubis;Nur bei Krawattenpflicht;B
+Geld;Darf der AG bei Krankheit den Lohn ab dem 1. Tag kürzen?;Nein;Ja (wenn im Vertrag geregelt);Nur bei Azubis;Nur bei Stahlkochern;B
+Rechte;Darf der BR-Vorsitzende ein eigenes Siegel führen?;Ja;Nein;Nur bei Wahlen;Nur im Montan-Bereich;B
+IT;Darf der AG die private IP-Adresse im Homeoffice tracken?;Ja;Nein (Datenschutz);Nur bei Diebstahl;Nur bei Azubis;B
+Schicht;Darf man in der Schichtpause das Werk verlassen?;Nein;Ja (Pause ist Freizeit);Nur mit Pass;Nur zur Kantine;B
+Wahl;Ab wie vielen MA darf ein BR gewählt werden?;5 wahlberechtigte MA;50 MA;100 MA;500 MA;A
+Konflikt;Darf der AG den BR-Vorsitzenden kündigen?;Nur bei Diebstahl/Gewalt;Ja (mit Zustimmung BR/Gericht);Gar nicht;Nur bei Krise;B
+Rechte;Darf der BR Akteneinsicht in Personalakten fordern?;Nein;Nur mit Zustimmung des MA;Immer;Nur bei Azubis;B
+Stahl;Was ist die "Arbeitsdirektoren-Klausel"?;Veto-Recht des BR;Gehaltsgrenze;Urlaubstage;Arbeitszeit;A
+Arbeitszeit;Darf die tägliche Arbeitszeit 10h überschreiten?;Ja immer;Nein (nur in Ausnahmen);Nur bei Stahl;Nur bei Azubis;B
+Kuendigung;Was ist eine Sozialauswahl?;Kriterien: Alter/Dienstzeit/Unterhalt;Wer am besten arbeitet;Wer am wenigsten verdient;Losverfahren;A
+Schicht;Darf der BR Überstunden-Konten kontrollieren?;Nein;Ja (Überwachungsrecht);Nur bei Verdacht;Nur bei Leiharbeitern;B
+Arbeitsschutz;Ab wann ist ein Betriebsarzt Pflicht?;Ab 1 MA;Ab 100 MA;Ab 500 MA;Ab 1000 MA;A
+Urlaub;Darf Urlaub in Geld ausgezahlt werden?;Ja immer;Nur bei Beendigung des Jobs;Nur bei Stahl;Nur über 10 Tage;B
+Freistellung;Darf der BR während der Arbeitszeit tagen?;Nur in der Pause;Ja (erforderlich);Nur abends;Nur am Wochenende;B
+Rechte;Darf der BR externe Berater hinzuziehen?;Nein;Ja (nach Absprache);Nur Anwälte;Nur Gewerkschaft;B
+IT-Datenschutz;Was ist die DSGVO?;Dampf-Schutz;Datenschutzgrundverordnung;Dienst-Sicherung;Datenspeicher;B
+Versetzung;Was ist eine "Umgruppierung"?;Anderer Parkplatz;Andere Lohnstufe;Anderes Werk;Pausenänderung;B
+Kuendigung;Muss eine Kündigung schriftlich sein?;Ja (Papier);E-Mail reicht;Mündlich reicht;WhatsApp reicht;A
+Arbeitsschutz;Was ist die "Unterweisung"?;Befehl vom Chef;Schulung zur Sicherheit;Hausordnung;Abmahnung;B
+Urlaub;Hat man Anspruch auf Urlaub am Stück?;Nein;Ja (mind. 12 Werktage);Nur im Sommer;Nur bei Hochzeit;B
+Abmahnung;Kann der BR eine Abmahnung stoppen?;Ja;Nein (nur Beschwerde);Nur bei Azubis;Nur im Streik;B
+Rechte;Wer trägt die Kosten für BR-Wahlen?;Der BR;Der Arbeitgeber (§20);Die Gewerkschaft;Das Arbeitsamt;B
+Schicht;Darf der AG "Kurzarbeit" allein anordnen?;Ja;Nein (Zustimmung BR nötig);Nur bei Stahlkrise;Nur für 1 Woche;B
+Arbeitszeit;Muss man sich beim Chef für BR-Arbeit abmelden?;Nein;Ja (Abmelden & Zurückmelden);Nur bei Meetings;Nur bei Azubis;B
+Urlaub;Was passiert mit dem Urlaub bei einem Betriebsübergang?;Er verfällt;Er bleibt unverändert bestehen;Er wird ausgezahlt;Er wird halbiert;B
+Stahl-Spezial;Wie viele AN-Vertreter sind im Montan-Aufsichtsrat?;3;Genau die Hälfte;2;Zwei Drittel;B
+Ausschuesse;Muss der Wirtschaftsausschuss informiert werden?;Vierteljährlich;Einmal im Jahr;Nie;Nur bei Gewinn;A
+Abmahnung;Wie viele Abmahnungen braucht man zur Kündigung?;Immer genau 3;Kommt auf die Schwere an;Keine;Immer 5;B
+Rechte;Hat der BR ein eigenes Büro-Recht?;Nein;Ja (Sachmittelanspruch §40);Nur bei 500 MA;Nur im Keller;B
+Arbeitsschutz;Ab wann ist ein Betriebsarzt Pflicht?;Ab 1 MA;Ab 100 MA;Ab 500 MA;Ab 10 MA;A
+Kuendigung;Was ist eine außerordentliche Kündigung?;Fristlose Kündigung;Kündigung mit 1 Jahr Frist;Aufhebungsvertrag;Abmahnung;A
+Arbeitszeit;Darf man 12 Stunden am Stück arbeiten?;Ja immer;Nur in Ausnahmen/Notfall;Nein verboten;Nur bei Hitze;B
+Urlaub;Darf Urlaub in Geld ausgezahlt werden?;Ja immer;Nur bei Beendigung des Jobs;Nur bei Stahl;Nur bei Azubis;B
+Stahl-Spezial;Wer ist der "Neutrale" im Montan-Aufsichtsrat?;Der Chef;Zusätzliches Mitglied (Zünglein);Der Bürgermeister;Der Pförtner;B
+Betriebsvereinbarung;Kann eine BV den Tarifvertrag verschlechtern?;Ja;Nein (Günstigkeitsprinzip);Nur bei Krise;Nur bei Azubis;B
+Freistellung;Darf der BR während der Arbeitszeit tagen?;Nur in der Pause;Ja (erforderlich);Nur abends;Nur am Wochenende;B
+Versetzung;Was ist eine "Umgruppierung"?;Anderer Parkplatz;Andere Lohnstufe;Anderes Werk;Neue Arbeitszeit;B
+IT-Datenschutz;Was ist die DSGVO?;Dampf-Schutz-Gesetz;Datenschutzgrundverordnung;Dienst-Sicherungs-Gesetz;Datenspeichergesetz;B
+Arbeitsschutz;Wer ist für die Sicherheit im Werk verantwortlich?;Nur der BR;Der Arbeitgeber;Nur der Sanitäter;Die Gewerkschaft;B
+Rechte;Darf der BR eine Betriebsversammlung abhalten?;Nein;Ja (vierteljährlich);Nur einmal im Jahr;Nur im Streik;B
+Kuendigung;Was ist der besondere Kündigungsschutz für BR?;Unkündbar;Kündigung nur mit BR-Zustimmung;Kein Schutz;Schutz für 10 Jahre;B
+Arbeitszeit;Darf der BR Überstunden-Konten kontrollieren?;Nein;Ja (Überwachungsrecht);Nur bei Fehlern;Nur bei Leiharbeitern;B
+Urlaub;Was ist der "Urlaubsanspruch" bei Teilzeit?;Weniger Tage;Verhältnismäßig gleich;Gar keiner;Hängt vom BR ab;B
+Stahl-Spezial;Darf der BR am Hochofen Hitze-Messungen fordern?;Nein;Ja (Arbeitsschutz);Nur im Sommer;Nur bei 50 Grad;B
+Geheimhaltung;Gilt die Verschwiegenheit nach dem BR-Amt weiter?;Nein;Ja (lebenslang für Geheimnisse);Nur 1 Jahr;Nur für 5 Jahre;B
+Ausschuesse;Darf der BR-Vorsitzende Gast im Ausschuss sein?;Nein;Ja jederzeit;Nur mit Einladung;Nur bei Azubi-Themen;B
+Abmahnung;Was ist die "Warnfunktion" der Abmahnung?;Chef droht nur;Ankündigung der Kündigung;Lob;Hausverbot;B
+Versetzung;Muss der BR bei jeder Einstellung gefragt werden?;Nein;Ja (§99 BetrVG);Nur bei Führungskräften;Nur bei Azubis;B
+Rechte;Darf der BR externe Berater hinzuziehen?;Nein;Ja (nach Absprache/Beschluss);Nur Anwälte;Nur im Notfall;B
+Arbeitsschutz;Was ist eine "Begehung"?;Spaziergang;Kontrolle der Arbeitsplätze;Besuch beim Chef;Feuerwehrübung;B
+Kuendigung;Was ist eine Änderungskündigung?;Neuer Job oder Kündigung;Kündigung mit neuer Frist;Lohnerhöhung;Urlaubskürzung;A
+Arbeitszeit;Sind 6-Tage-Wochen gesetzlich erlaubt?;Nein;Ja (Montag bis Samstag);Nur im Winter;Nur bei Azubis;B
+Stahl-Spezial;Wer entscheidet über die Schutzkleidung?;Chef allein;BR und AG gemeinsam;Gewerkschaft;Arbeitsamt;B
+IT-Datenschutz;Darf der AG den Browserverlauf prüfen?;Immer;Nein (außer bei Verdacht/BV);Ja zur Sicherheit;Nur in der Pause;B
+Freistellung;Wie meldet man sich zur Schulung an?;Gar nicht;BR-Beschluss und Mitteilung AG;Chef fragen;Per SMS;B
+Betriebsvereinbarung;Wie lange ist die Kündigungsfrist einer BV?;1 Woche;3 Monate;Keine;1 Jahr;B
+Stahl-Spezial;Was ist die "Arbeitsdirektoren-Klausel"?;Veto-Recht des BR;Gehaltsgrenze;Urlaubstage;Pausenzeit;A
+Rechte;Darf der BR in die Gehaltslisten schauen?;Nein;Ja (Einsichtsrecht Bruttolohn);Nur bei Chefs;Nur bei Männern;B
+Arbeitsschutz;Was ist psychische Belastung?;Stress/Mobbing/Lärm;Nur Faulheit;Gibt es nicht;Nur Privatkram;A
+Kuendigung;Muss eine Kündigung schriftlich sein?;Ja (auf Papier);E-Mail reicht;Mündlich reicht;WhatsApp reicht;A
+Arbeitszeit;Wann beginnt die Nachtarbeit im Gesetz?;18 Uhr;23 Uhr (bis 6 Uhr);20 Uhr;0 Uhr;B
+Urlaub;Hat man Anspruch auf Urlaub am Stück?;Nein;Ja (mind. 12 Werktage);Nur im Sommer;Nur bei Hochzeit;B
+Stahl-Spezial;Darf der BR bei der Stilllegung eines Ofens mitreden?;Nein;Ja (Interessenausgleich/Sozialplan);Nur beim Preis;Nur bei Azubis;B
+Ausschuesse;Wann tagt der Arbeitsschutzausschuss?;Täglich;Vierteljährlich;Nie;Wöchentlich;B
+Abmahnung;Kann der BR eine Abmahnung stoppen?;Ja;Nein (nur Beschwerde möglich);Nur bei Azubis;Nur im Streik;B
+Versetzung;Muss der AG die Kosten einer Versetzung tragen?;Nein;In der Regel ja;Nur bei Benzin;Nur bei Hotel;B
+Rechte;Wer trägt die Kosten für BR-Wahlen?;Der BR;Der Arbeitgeber;Die Gewerkschaft;Die Stadt;B
+Arbeitsschutz;Darf man die Arbeit bei akuter Gefahr verweigern?;Nein;Ja (Selbstschutz);Nur bei Regen;Nur mit Helm;B
+Kuendigung;Was ist eine Sozialauswahl?;Alter/Dienstzeit/Kinder/Behinderung;Wer am besten arbeitet;Wer am wenigsten verdient;Wer am lautesten ist;A
+Arbeitszeit;Darf die tägliche Arbeitszeit 10h überschreiten?;Ja immer;Nein (nur in Ausnahmen);Nur bei Stahl;Nur bei Azubis;B
+Stahl-Spezial;Wer vertritt die AN im Aufsichtsrat?;Nur interne BR;BR und externe Gewerkschafter;Nur Anwälte;Nur der Werksleiter;B
+Geheimhaltung;Darf der BR die Presse über BR-Sitzungen informieren?;Ja;Nein (Sitzungen sind nicht öffentlich);Nur bei Streik;Nur anonym;B
+Betriebsvereinbarung;Gilt eine BV für alle Mitarbeiter?;Nur für BR-Mitglieder;Ja für alle im Geltungsbereich;Nur für Azubis;Nur für Männer;B
+Arbeitsschutz;Was ist die "Unterweisung"?;Befehl vom Chef;Schulung zur Sicherheit;Hausordnung;Abmahnung;B
+Rechte;Darf der BR IT-Systeme sperren?;Nein;Indirekt ja (über Einigungsstelle);Nur am PC;Nur im Homeoffice;B
+Allgemein;Was ist das höchste Ziel des BetrVG?;Streik;Wohl der Arbeitnehmer und des Betriebs;Mehr Lohn;Abschaffung der Chefs;B
+Hütte;Wer muss den Ersthelfer-Kurs bezahlen?;Der Kollege;Der Arbeitgeber;Die Gewerkschaft;Die Krankenkasse;B
+Arbeitszeit;Darf der BR Kurzarbeit ablehnen?;Nein;Ja (erzwingbare Mitbestimmung);Nur bei Gewinn;Nur bei Azubis;B
+Urlaub;Darf der Chef Urlaub "vorschreiben"?;Ja immer;Nein (Wünsche des MA vorrangig);Nur bei Azubis;Nur im Winter;B
+Stahl;Was ist ein "Gieß-Rhythmus"?;Ein Tanz;Zeitplan für die Schmelze;Pausenzeiten;Lohnmodell;B
+Abmahnung;Wie lange bleibt eine Abmahnung in der Akte?;Immer 1 Jahr;Keine feste Frist;Immer 10 Jahre;Nur 1 Monat;B
+Wahl;Wer darf den Wahlvorstand wählen?;Der Chef;Der Betriebsrat;Nur die Gewerkschaft;Das Amtsgericht;B
+Konflikt;Was macht man bei Uneinigkeit über Überstunden?;Streik;Einigungsstelle anrufen;Chef entscheiden lassen;Polizei rufen;B
+Geld;Gibt es gesetzlichen Anspruch auf Weihnachtsgeld?;Ja;Nein (nur über Vertrag/BV/Übung);Nur bei Stahl;Nur bei Azubis;B
+Stahl;Was ist die "IG Metall"?;Ein Metallhandel;Zuständige Gewerkschaft;Ein Sportverein;Ein Werkzeug;B
+Rechte;Darf der BR die Kantinenpreise mitbestimmen?;Nein;Ja (Soziale Angelegenheit);Nur bei Azubis;Nur beim Bier;B
+IT;Darf der AG den Laptop per Fernzugriff sperren?;Ja immer;Nur bei Gefahr/Kündigung;Nie;Nur in der Pause;B
+Versetzung;Was ist eine "Abordnung"?;Kündigung;Vorübergehende Zuweisung;Beförderung;Betriebsratswahl;B
+Urlaub;Was ist die "Urlaubssperre"?;Verbot von Urlaub;Zeitraum ohne Urlaubsgenehmigung;Ein Schloss am Koffer;Streik;B
+Arbeitsschutz;Was ist eine "Sifa"?;Eine Limonade;Fachkraft für Arbeitssicherheit;Ein Werkzeug;Eine Lohnstufe;B
+Hütte;Was ist "Schlacke"?;Abfallprodukt der Schmelze;Ein Kollege;Pausenzeit;Lohnzulage;A
+Geld;Darf der AG den Lohn bar auszahlen?;Ja;Nur noch per Überweisung (Regelfall);Nur bei Azubis;Nur bei Streik;B
+Wahl;Wann ist die nächste reguläre BR-Wahl?;2024;2026;2030;Jedes Jahr;B
+Rechte;Darf der BR eine Sprechstunde abhalten?;Nein;Ja (während der Arbeitszeit);Nur in der Pause;Nur per Telefon;B
+Konflikt;Was ist ein "Hausverbot" für BR?;Gibt es nicht;Nur bei schwersten Straftaten möglich;Darf der Chef immer;Nur bei Streik;B
+IT;Darf der BR eine eigene Website im Intranet haben?;Nein;Ja (Informationsrecht);Nur nach Prüfung durch Chef;Nur für Azubis;B
+Stahl;Was ist "Roheisen"?;Eisen mit hohem Kohlenstoffgehalt;Kaputtes Eisen;Ein Werkzeug;Eine Lohnstufe;A
+Hütte;Was ist ein "Konverter"?;Ein Taschenrechner;Anlage zur Stahlerzeugung;Ein Pausenraum;Ein Dienstwagen;B
+Arbeitszeit;Was ist die "Kernarbeitszeit"?;Zeit der Schmelze;Anwesenheitspflicht bei Gleitzeit;Mittagspause;Sitzungszeit;B
+Urlaub;Darf man im Urlaub für einen anderen AG arbeiten?;Ja;Nein (Erholungszweck);Nur bei Stahl;Nur am Wochenende;B
+Abmahnung;Muss der Name des Abmahnenden draufstehen?;Nein;Ja (Klarheit);Nur bei Azubis;Nur bei Diebstahl;B
+Rechte;Darf der BR Briefe an alle MA schreiben?;Nein;Ja (Informationsrecht);Nur mit Erlaubnis;Nur per Post;B
+Geld;Was ist die "Entgeltfortzahlung"?;Lohn bei Krankheit;Lohn bei Streik;Lohn bei Kündigung;Lohn bei Urlaub;A
+IT;Darf der AG eine "Blacklist" für Websites führen?;Nein;Ja (Ordnungsverhalten);Nur bei Azubis;Nur im Homeoffice;B
+Stahl;Was ist ein "Walzwerk"?;Eine Bäckerei;Anlage zur Formgebung von Stahl;Ein Parkplatz;Ein Bürogebäude;B
+Hütte;Darf der BR eine Dusche im Werk fordern?;Ja;Ja (Hygiene/Arbeitsschutz);Nur bei Hitze;Nur für Chefs;B
+Arbeitszeit;Darf man die Ruhepause aufteilen?;Nein;Ja (in mind. 15 Min Blöcke);Nur bei Stahl;Nur in der Nacht;B
+Urlaub;Darf der AG Urlaub "wegen Krankheit" kürzen?;Ja;Nein;Nur bei Azubis;Nur bei Langzeitkranken;B
+Abmahnung;Darf man Zeugen zur Abmahnung mitbringen?;Nein;Ja (BR-Mitglied);Nur die Eltern;Nur den Anwalt;B
+Wahl;Was ist eine "Liste" bei der Wahl?;Eine Einkaufsliste;Vorschlagsliste von Kandidaten;Eine Anwesenheitsliste;Ein Protokoll;B
+Geld;Darf der BR bei der Lohngestaltung mitreden?;Nein;Ja (§87 Abs. 1 Nr. 10);Nur bei Azubis;Nur bei Überstunden;B
+Konflikt;Was ist ein "Friedensrichter"?;Der Chef;Vorsitzender der Einigungsstelle;Der Pförtner;Der Bürgermeister;B
+IT;Darf der BR ein Handy vom AG fordern?;Nein;Ja (wenn für Arbeit erforderlich);Nur der Vorsitzende;Nur bei Rufbereitschaft;B
+Stahl;Was ist "legierter Stahl"?;Billiger Stahl;Stahl mit Zusatzstoffen;Rostiger Stahl;Flüssiger Stahl;B
+Hütte;Was ist "PSA"?;Persönliche Schutzausrüstung;Pausen-Service-Amt;Personal-Stahl-Abteilung;Prüf-Siegel-Ausschuss;A
+Arbeitszeit;Darf der AG Stechuhren einführen?;Nein;Ja (Mitbestimmung BR);Nur bei Azubis;Nur im Büro;B
+Urlaub;Was ist "unbezahlter Urlaub"?;Freistellung ohne Lohn;Krankheit;Streik;Urlaubsgeld;A
+Abmahnung;Darf man bei einer Abmahnung weinen?;Ja;Ist egal (keine rechtliche Relevanz);Nein verboten;Nur im BR-Büro;B
+Wahl;Darf ein Azubi in den BR gewählt werden?;Nein (nur JAV);Ja (wenn über 18);Nur als Gast;Nur bei 500 MA;B
+Geld;Was ist die "Beitragsbemessungsgrenze"?;Lohnobergrenze;Grenze für Sozialbeiträge;Mindestlohn;Steuersatz;B
+Rechte;Darf der BR die Belegschaft befragen (Umfrage)?;Nein;Ja (BR-Arbeit);Nur mit Chef-Erlaubnis;Nur über Urlaub;B
+Stahl;Was ist "Schrott"?;Wertvoller Rohstoff für den Ofen;Müll;Ein kaputter Hammer;Pausenbrot;A
+Stahl;Was ist "Sinter"?;Feinkörniges Eisenerz für den Hochofen;Abfall;Ein Werkzeug;Pausenbrot;A
+Hütte;Darf der BR eine Klimaanlage im Steuerstand fordern?;Nein;Ja (Gesundheitsschutz);Nur bei 40 Grad;Nur für Chefs;B
+Arbeitszeit;Darf man die Pausenzeit am PC verbringen?;Ja;Ja (Pause ist Freizeit);Nein verboten;Nur bei IT-lern;B
+Urlaub;Was ist der "Urlaubskalender"?;Ein Geschenk;Planung der Abwesenheiten;Ein Feiertag;Streikliste;B
+Abmahnung;Darf der Chef eine Abmahnung per WhatsApp schicken?;Ja;Nein (Beweiskraft/Dokumentation);Nur bei Azubis;Nur im Notfall;B
+Wahl;Darf man während der Arbeitszeit wählen gehen?;Nein;Ja (Wahlrecht unterstützen);Nur in der Pause;Nur per Post;B
+Geld;Was ist die "Jahressonderzahlung"?;Weihnachtsgeld;Lohn;Bonus;Urlaubsgeld;A
+Konflikt;Was ist eine "Dienstvereinbarung"?;BV im öffentlichen Dienst;Ein Befehl;Ein Vertrag;Ein Gesetz;A
+IT;Darf der BR ein Laptop-Verbot fordern?;Nein;Ja (bei Gefährdung/Überwachung);Nur nachts;Nur für Azubis;B
+Stahl;Was ist ein "Hochofenabstich"?;Entnahme des flüssigen Eisens;Ein Unfall;Feierabend;Pausenbeginn;A
+Hütte;Darf der BR Arbeitskleidung mit Logo fordern?;Ja;Ja (Mitbestimmung);Nur für PR;Nur bei Streik;B
+Arbeitszeit;Was ist "Vertrauensarbeitszeit"?;Arbeit ohne Zeiterfassung;Überstunden;Pausenzeit;Freizeit;A
+Urlaub;Darf der AG Urlaub wegen "Ungehorsam" kürzen?;Ja;Nein;Nur bei Azubis;Nur bei Stahl;B
+Abmahnung;Muss der BR-Vorsitzende die Abmahnung prüfen?;Nein;Ja (bei Beschwerde des MA);Immer;Nur bei Kündigung;B
+Wahl;Darf ein Leiharbeiter den Wahlvorstand wählen?;Nein;Ja (nach 3 Monaten);Nur bei Streik;Nur bei Azubis;B
+Geld;Was ist die "Bezugnahme-Klausel"?;Link zum Tarifvertrag;Kündigungsfrist;Urlaubsregel;Lohnstufe;A
+Konflikt;Was ist die "Urabstimmung"?;Wahl des BR;Abstimmung über Streik;Essenwahl;Pausenwahl;B
+IT;Darf der AG "Big Data" zur Leistungsprüfung nutzen?;Ja;Nein (Mitbestimmung/Datenschutz);Nur nachts;Nur bei Chefs;B
+Stahl;Was ist "Flüssigstahl"?;Geschmolzenes Eisen;Wasser;Öl;Farbe;A
+Hütte;Darf der BR Obstkörbe fordern?;Ja;Ja (Gesundheit/Freiwillig);Nur bei Hitze;Nur für Frauen;B
+Arbeitszeit;Darf der AG "Rufbereitschaft" allein anordnen?;Ja;Nein (Mitbestimmung);Nur bei Stahl;Nur am Sonntag;B
+Urlaub;Darf man Urlaub "mitnehmen" bei AG-Wechsel?;Ja;Nein (Urlaubsbescheinigung nötig);Nur bei Stahl;Nur bei Azubis;B
+Abmahnung;Darf die Abmahnung in die Personalakte?;Nein;Ja (Dokumentation);Nur bei Kündigung;Nur bei Diebstahl;B
+Wahl;Darf man den BR-Wahl-Aushang abreißen?;Ja;Nein (Wahlbehinderung);Nur nach 1 Woche;Nur der Chef;B
+Geld;Was ist der "Lohnsteuerausgleich"?;Steuererstattung;Gehalt;Bonus;Abzug;A
+Konflikt;Darf der BR-Vorsitzende den Chef beleidigen?;Ja;Nein (Arbeitsvertragspflichten);Nur im Streit;Nur leise;B
+IT;Darf der BR eine Schulung für Excel fordern?;Nein;Ja (wenn erforderlich für BR-Arbeit);Nur für Azubis;Nur privat;B
+Stahl;Was ist "Stahl-Schrott"?;Rohstoff;Müll;Ein kaputter Eimer;Pausenrest;A
+Hütte;Darf der BR einen Grillplatz fordern?;Ja;Ja (Soziales/BV);Nur im Sommer;Nur für Chefs;B
+Arbeitszeit;Was ist die "Sollarbeitszeit"?;Geplante Arbeitszeit;Überstunden;Freizeit;Nachtschicht;A
+Urlaub;Darf der Chef im Urlaub anrufen?;Ja;Nein (Freizeit);Nur im Notfall;Nur bei Azubis;B
+Abmahnung;Darf man die Unterschrift unter die Abmahnung verweigern?;Nein;Ja (man muss nur Empfang bestätigen);Nur bei Unschuld;Nur bei Azubis;B
+Wahl;Was ist ein "Ersatzmitglied"?;Nachrücker für den BR;Ein Azubi;Der Chef;Ein Zeuge;A
+Geld;Was ist die "Gefahrenzulage"?;Extra Geld für riskante Arbeit;Urlaubsgeld;Bonus;Lohn;A
+Konflikt;Darf der AG den BR-Raum kündigen?;Ja;Nein (Sachmittelanspruch);Nur bei Platzmangel;Nur nachts;B
+IT;Darf der AG die Mausbewegungen tracken?;Ja;Nein (unzulässige Kontrolle);Nur bei IT-lern;Nur bei Azubis;B
+Stahl;Was ist "Edelstahl"?;Besonders reiner Stahl;Teurer Stahl;Gold;Silber;A
+Hütte;Darf der BR einen Wasserspender fordern?;Ja;Ja (Arbeitsschutz/Hygiene);Nur bei Hitze;Nur für Gäste;B
+Arbeitszeit;Was ist "Freizeitausgleich"?;Abbummeln von Stunden;Urlaub;Feiertag;Streik;A
+Urlaub;Darf man Urlaubstage "verkaufen"?;Ja;Nein (Gesetzlicher Schutz);Nur bei Stahl;Nur bei Kündigung;B
+Abmahnung;Darf der AG die Abmahnung vor allen Kollegen aussprechen?;Ja;Nein (Datenschutz/Persönlichkeit);Nur bei Azubis;Nur im Notfall;B
+Wahl;Muss die Wahlkabine blickdicht sein?;Nein;Ja (Wahlgeheimnis);Ist egal;Nur im Werk;B
+Geld;Was ist die "Kalte Progression"?;Steuereffekt;Gehalt;Bonus;Abzug;A
+Konflikt;Darf der BR gegen den AG klagen?;Nein;Ja (bei Rechtsverletzung);Nur bei Streik;Nur bei Kündigung;B
+IT;Darf der BR WLAN für alle fordern?;Nein;Ja (Soziale Einrichtung);Nur im Büro;Nur für den BR;B
+Stahl;Was ist "Baustahl"?;Stahl für den Bau;Stahl für Autos;Gold;Holz;A
+Hütte;Darf der BR eine Kantinen-App fordern?;Ja;Ja (Mitbestimmung IT);Nur für Jüngere;Nur bei Streik;B
+Arbeitszeit;Was ist "Schichtwechsel"?;Wechsel der Arbeitszeit;Pause;Feierabend;Urlaub;A
+Urlaub;Was ist "Erholungsurlaub"?;Gesetzlicher Urlaub;Freizeit;Krankheit;Streik;A
+Abmahnung;Was ist eine "mündliche Abmahnung"?;Ermahnung;Befehl;Lob;Witz;A
+Wahl;Wer darf die Stimmen auszählen?;Nur der Chef;Der Wahlvorstand (öffentlich);Nur die Gewerkschaft;Nur der BR;B
+Geld;Was ist das "Bruttogehalt"?;Lohn vor Abzügen;Lohn nach Abzügen;Bonus;Urlaubsgeld;A
+Konflikt;Was ist ein "Schlichtungsverfahren"?;Einigungsversuch;Streik;Krieg;Pausenregelung;A
+IT;Darf der AG die Webcam am Laptop einschalten?;Ja;Nein (Verbot ohne Grund/Zustimmung);Nur bei Meetings;Nur bei Azubis;B
+Stahl;Was ist ein "Walzgerüst"?;Teil der Walzstraße;Ein Baugerüst;Ein Stuhl;Ein Auto;A
+Hütte;Darf der BR E-Bikes für das Werksgelände fordern?;Ja;Ja (Arbeitsschutz/Mobilität);Nur bei Hitze;Nur für Chefs;B
+Arbeitszeit;Was ist "Gleitzeit"?;Flexible Arbeitszeit;Pause;Streik;Feierabend;A
+Urlaub;Darf man Resturlaub ins nächste Jahr mitnehmen?;Ja;Ja (bis 31.03. bei Grund);Nein nie;Nur bei Stahl;B
+Abmahnung;Darf man nach der Abmahnung sofort gehen?;Ja;Nein (Arbeitspflicht);Nur bei Wut;Nur bei Azubis;B
+Wahl;Darf der Wahlvorstand die Wahl abbrechen?;Ja;Nein (nur bei extremen Fehlern);Nur wenn der Chef will;Nur bei Regen;B
+Geld;Was ist die "Sozialversicherung"?;Rente/Krankheit/Pflege;Lohn;Bonus;Steuer;A
+Konflikt;Was ist eine "Güteverhandlung"?;Erster Termin beim Gericht;Streik;Pausengespräch;Essenwahl;A
+IT;Darf der BR die Nutzung von ChatGPT regeln?;Nein;Ja (IT-Mitbestimmung);Nur für Texte;Nur für Azubis;B
+Stahl;Was ist "Werkzeugstahl"?;Stahl für Werkzeuge;Stahl für Autos;Büromaterial;Holz;A
+Hütte;Darf der BR eine Lärmschutzwand fordern?;Ja;Ja (Arbeitsschutz);Nur bei 100 dB;Nur für das Büro;B
+Arbeitszeit;Was ist "Mehrarbeit"?;Arbeit über die tarifliche Zeit;Pause;Freizeit;Nachtschicht;A
+Urlaub;Was ist der "Urlaubsantrag"?;Schriftlicher Wunsch;Befehl;Witz;Geschenk;A
+Abmahnung;Was ist eine "Sammelabmahnung"?;Abmahnung für mehrere Gründe;Abmahnung für alle;Lob;Wahlwerbung;A
+Wahl;Darf man die Wahlurne mit nach Hause nehmen?;Ja;Nein (Wahlmanipulation);Nur über Nacht;Nur der Chef;B
+Geld;Was ist das "Nettogehalt"?;Auszahlungsbetrag;Lohn vor Steuern;Bonus;Abzug;A
+Konflikt;Darf der AG dem BR-Mitglied die Zulagen kürzen?;Ja;Nein (Benachteiligungsverbot);Nur bei Fehlern;Nur nachts;B
+IT;Darf der AG den Browser-Cache löschen?;Ja;Ja (IT-Wartung);Nein verboten;Nur bei Azubis;B
+Stahl;Was ist "Draht"?;Dünner, langer Stahl;Ein Blech;Ein Rohr;Ein Stein;A
+Hütte;Darf der BR eine bessere Beleuchtung fordern?;Ja;Ja (Arbeitsschutz);Nur im Winter;Nur nachts;B
+Arbeitszeit;Was ist "Anwesenheitszeit"?;Zeit im Betrieb;Pause;Weg zur Arbeit;Schlafzeit;A
+Urlaub;Was ist der "Mindesturlaub"?;Gesetzliche 20/24 Tage;1 Tag;100 Tage;Gibt es nicht;A
+Abmahnung;Darf der AG die Abmahnung "befristen"?;Nein;Ja (Bewährungsfrist);Nur bei Azubis;Nur bei Stahl;B
+Wahl;Muss der Wahlvorstand neutral sein?;Nein;Ja (Pflicht);Nur zum Chef;Nur zur Gewerkschaft;B
+Geld;Was ist die "Kirchensteuer"?;Abgabe an die Kirche;Lohn;Bonus;Abzug;A
+Konflikt;Darf der BR die Arbeit niederlegen?;Ja;Nein (nur im Rahmen Streik);Nur bei Wut;Nur nachts;B
+IT;Darf der BR eine "Digital-Pause" fordern?;Nein;Ja (Gesundheitsschutz);Nur für IT-ler;Nur bei Azubis;B
+Stahl;Was ist ein "Bramme"?;Gussblock aus Stahl;Ein Pausenbrot;Ein Hammer;Ein Auto;A
+Hütte;Darf der BR Ladestationen für E-Autos fordern?;Ja;Ja (BV/Mitbestimmung);Nur für Chefs;Nur bei Sonne;B
+Arbeitszeit;Was ist "Schichtzulage"?;Extra Geld für Schicht;Lohn;Bonus;Abzug;A
+Urlaub;Was ist "Urlaubsentgelt"?;Lohnfortzahlung im Urlaub;Urlaubsgeld;Bonus;Abzug;A
+Abmahnung;Darf der AG bei Verspätung abmahnen?;Nein;Ja (Verhaltensfehler);Nur bei 1 Minute;Nur bei Azubis;B
+Wahl;Darf man den Stimmzettel fotografieren?;Ja;Nein (Wahlgeheimnis);Nur für Facebook;Nur der Chef;B
+Geld;Was ist die "Pendlerpauschale"?;Steuervorteil für Fahrweg;Lohn;Bonus;Abzug;A
+Konflikt;Darf der BR den AG anzeigen?;Nein;Ja (bei Straftaten/Verstößen);Nur bei Streik;Nur bei Kündigung;B
+IT;Darf der AG den Desktop-Hintergrund vorschreiben?;Nein;Ja (Ordnungsverhalten/Corporate Design);Nur bei Azubis;Nur im Büro;B
+Stahl;Was ist ein "Ofen"?;Anlage zum Schmelzen;Ein Kühlschrank;Ein Tisch;Ein Auto;A
+Hütte;Darf der BR eine Kaffeemaschine fordern?;Ja;Ja (Soziale Einrichtung);Nur für Chefs;Nur im Büro;B
+Arbeitszeit;Was ist "Pausendurchgriff"?;Durchgehende Arbeit ohne Pause;Essen;Schlafen;Streik;A
+Urlaub;Was ist "Betriebsurlaub"?;Urlaub für alle;Einzelurlaub;Krankheit;Streik;A
+Abmahnung;Darf der AG wegen "schlechter Laune" abmahnen?;Ja;Nein (kein Verhaltensverstoß);Nur bei Verkäufern;Nur bei Azubis;B
+Wahl;Wer darf die Wahl anfechten?;Nur der Chef;Arbeitnehmer/BR/AG;Niemand;Nur die Polizei;B
+Geld;Was ist das "13. Monatsgehalt"?;Zusatzgehalt;Lohn;Bonus;Abzug;A
+Stahl;Was ist "Schlacke-Verwertung"?;Einsatz im Straßenbau;Entsorgung im Meer;Verbrennung;Gibt es nicht;A
+Hütte;Darf der BR einen Ruheraum für Schwangere fordern?;Ja;Ja (Mutterschutz/Arbeitsstättenrichtlinie);Nur bei Hitze;Nur im Büro;B
+Arbeitszeit;Was ist "Kapazitätsorientierte Arbeitszeit"?;Arbeit nach Bedarf (Abruf);Feste Schicht;Überstunden;Urlaub;A
+Urlaub;Was ist die "Urlaubsbescheinigung"?;Nachweis über genommenen Urlaub;Ein Attest;Ein Visum;Ein Kündigungsschreiben;A
+Abmahnung;Darf man die Abmahnung selbst aus der Akte nehmen?;Ja;Nein (Urkundenunterdrückung);Nur nach 2 Jahren;Nur bei Kündigung;B
+Wahl;Was ist eine "Personenwahl"?;Wahl ohne Listen (Mehrheitswahl);Wahl des Chefs;Essenwahl;Pausenwahl;A
+Geld;Was ist die "Lohnfortzahlung"?;Geld bei Krankheit (6 Wochen);Streikgeld;Bonus;Abzug;A
+Konflikt;Was ist ein "Mediator"?;Neutraler Vermittler;Anwalt des Chefs;Polizist;Richter;A
+IT;Darf der BR die Nutzung von KI-Tools regeln?;Nein;Ja (Mitbestimmung §87);Nur für Texte;Nur für Azubis;B
+Stahl;Was ist "Strangguss"?;Endloses Gießen von Stahl;Ein Seil;Ein Eimer;Ein Auto;A
+Hütte;Darf der BR Gehörschutz-Stopfen fordern?;Ja;Ja (Arbeitsschutz);Nur bei 100 dB;Nur für Gäste;B
+Arbeitszeit;Was ist "Arbeitsbereitschaft"?;Warten auf Arbeit am Platz;Schlafen;Pause;Freizeit;A
+Urlaub;Darf der AG den Urlaub wegen "Lustlosigkeit" streichen?;Ja;Nein;Nur bei Azubis;Nur bei Stahl;B
+Abmahnung;Muss der BR-Vorsitzende die Abmahnung unterschreiben?;Ja;Nein;Nur als Zeuge;Nur bei Azubis;B
+Wahl;Darf ein Rentner den BR wählen?;Nein;Nein (nur aktive MA);Ja;Nur wenn er Gewerkschafter ist;B
+Geld;Was ist die "Entgeltgruppe"?;Einstufung im Tarif;Alter;Wohnort;Schuhgröße;A
+Konflikt;Was ist ein "Warnstreik"?;Kurzer Streik zur Druckerzeugung;Krieg;Feuerwehralarm;Pausenende;A
+IT;Darf der AG das Tippverhalten analysieren?;Ja;Nein (Persönlichkeitsrecht);Nur bei IT-lern;Nur bei Azubis;B
+Stahl;Was ist "Kaltwalzen"?;Walzen bei Raumtemperatur;Walzen im Winter;Eiswürfelform;Kühlung;A
+Hütte;Darf der BR ergonomische Stühle fordern?;Ja;Ja (Gesundheitsschutz);Nur für Chefs;Nur im Büro;B
+Arbeitszeit;Was ist "Kurzarbeit Null"?;Gar keine Arbeit bei vollem Lohnausgleich;Überstunden;Urlaub;Gar keine Arbeit (0 Stunden);D
+Urlaub;Darf man Urlaubstage "vererben"?;Ja;Nein;Nur bei Stahl;Nur bei Azubis;B
+Abmahnung;Darf der AG die Abmahnung an die Privatadresse schicken?;Ja;Ja (wirksamer Zugang);Nein verboten;Nur bei Kündigung;B
+Wahl;Darf man die Wahlurne versiegeln?;Nein;Ja (Schutz vor Manipulation);Ist egal;Nur der Chef;B
+Geld;Was ist die "Steuerklasse"?;Einstufung beim Finanzamt;Lohnstufe;Bonus;Abzug;A
+Konflikt;Darf der BR den Chef zum Duell fordern?;Ja;Nein (Friedenspflicht);Nur im Wald;Nur bei Beleidigung;B
+IT;Darf der BR eine Schulung für Zoom/Teams fordern?;Nein;Ja (wenn für BR nötig);Nur für Azubis;Nur privat;B
+Stahl;Was ist "Grobblech"?;Dickes Stahlblech;Dünne Folie;Ein Hammer;Ein Auto;A
+Hütte;Darf der BR Sonnencreme am Hochofen fordern?;Ja;Ja (Arbeitsschutz/UV);Nur im Sommer;Nur für Gäste;B
+Arbeitszeit;Was ist die "Rahmenarbeitszeit"?;Zeitfenster für Gleitzeit;Pause;Nacht;Urlaub;A
+Urlaub;Darf der Chef im Urlaub "Hausbesuche" machen?;Ja;Nein (Privatsphäre);Nur bei Krankheit;Nur bei Azubis;B
+Abmahnung;Muss der MA die Abmahnung laut vorlesen?;Ja;Nein;Nur vor Zeugen;Nur bei Azubis;B
+Wahl;Was ist ein "Listenvertreter"?;Ansprechpartner einer Wahlliste;Der Chef;Ein Bote;Ein Zeuge;A
+Geld;Was ist die "Schmutzzulage"?;Geld für dreckige Arbeit;Urlaubsgeld;Bonus;Abzug;A
+Konflikt;Darf der AG den BR-Computer überwachen?;Ja;Nein (Vertraulichkeit §79);Nur bei Viren;Nur nachts;B
+IT;Darf der AG die Mausgeschwindigkeit messen?;Ja;Nein (Leistungsprüfung);Nur bei IT-lern;Nur bei Azubis;B
+Stahl;Was ist "Feinblech"?;Dünnes Stahlblech;Dicker Block;Gold;Silber;A
+Hütte;Darf der BR einen Defibrillator fordern?;Ja;Ja (Erste Hilfe/Schutz);Nur für Chefs;Nur bei 1000 MA;B
+Arbeitszeit;Was ist "Freischicht"?;Schichtfrei durch Stundenabbau;Urlaub;Feiertag;Streik;A
+Urlaub;Was ist "Sonderurlaub bei Umzug"?;Bezahlte Freistellung (oft per BV/TV);Pech gehabt;Normaler Urlaub;Streik;A
+Abmahnung;Darf der AG die Abmahnung im Intranet veröffentlichen?;Ja;Nein (schwere Persönlichkeitsverletzung);Nur bei Azubis;Nur bei Diebstahl;B
+Wahl;Muss die Wahlurne aus Metall sein?;Nein;Nein (jedes sichere Gefäß);Ja;Nur im Stahlwerk;B
+Geld;Was ist die "Progressionszone"?;Steuerbereich;Lohnstufe;Bonus;Abzug;A
+Konflikt;Darf der BR den AG beim Arbeitsgericht verklagen?;Nein;Ja (Beschlussverfahren);Nur bei Streik;Nur bei Kündigung;B
+IT;Darf der BR freies Internet in den Pausen fordern?;Nein;Ja (Soziale Angelegenheit);Nur im Büro;Nur für den BR;B
+Stahl;Was ist "Profilstahl"?;Geformter Stahl (z.B. T-Träger);Flaches Blech;Gold;Holz;A
+Hütte;Darf der BR eine Essensbezuschussung fordern?;Ja;Ja (Mitbestimmung Kantine);Nur für Chefs;Nur bei Überstunden;B
+Arbeitszeit;Was ist "Schichtwechselanzeige"?;Ankündigung neuer Schichtzeit;Pause;Feierabend;Urlaub;A
+Urlaub;Was ist "Bildungsurlaub"?;Freistellung für Fortbildung;Ferien;Krankheit;Streik;A
+Abmahnung;Darf man die Abmahnung zerreißen?;Ja;Ja (aber sie gilt trotzdem);Nein verboten;Nur im BR-Büro;B
+Wahl;Wer darf die Stimmzettel vernichten?;Der Chef;Der BR nach Ablauf der Fristen;Niemand;Die Polizei;B
+Geld;Was ist das "Grundentgelt"?;Basislohn ohne Zulagen;Lohn mit Überstunden;Bonus;Urlaubsgeld;A
+Konflikt;Was ist eine "Einigung"?;Vertragliche Lösung;Streik;Krieg;Pausenende;A
+IT;Darf der AG die Mikrofon-Lautstärke am PC regeln?;Ja;Ja (IT-Einstellung);Nein verboten;Nur bei Azubis;B
+Stahl;Was ist ein "Walzballen"?;Teil einer Walze;Ein Fußball;Ein Brot;Ein Auto;A
+Hütte;Darf der BR Lastenfahrräder fordern?;Ja;Ja (Arbeitsschutz/Mobilität);Nur bei Hitze;Nur für Chefs;B
+Arbeitszeit;Was ist "Kernzeitverletzung"?;Früheres Gehen bei Gleitzeit;Pause;Streik;Feierabend;A
+Urlaub;Darf man Resturlaub bis zum Jahresende behalten?;Ja;Ja (Regelfall);Nein nie;Nur bei Stahl;B
+Abmahnung;Darf man nach der Abmahnung weinen?;Ja;Ist egal;Nein verboten;Nur im BR-Büro;B
+Wahl;Darf der Wahlvorstand die Wahl verschieben?;Ja;Nein (nur in Ausnahmen);Nur wenn der Chef will;Nur bei Regen;B
+Geld;Was ist die "Rentenversicherung"?;Altersvorsorge;Lohn;Bonus;Steuer;A
+Konflikt;Was ist ein "Vergleich"?;Gegenseitiges Nachgeben;Streik;Pausenende;Essenwahl;A
+IT;Darf der BR die Nutzung von Social Media regeln?;Nein;Ja (Ordnungsverhalten);Nur für Marketing;Nur für Azubis;B
+Stahl;Was ist "Edelstahl rostfrei"?;Chrom-Nickel-Stahl;Normales Eisen;Holz;Plastik;A
+Hütte;Darf der BR Schallschutzkabinen fordern?;Ja;Ja (Arbeitsschutz);Nur bei 100 dB;Nur im Büro;B
+Arbeitszeit;Was ist "Sonderarbeitszeit"?;Abweichende Regelung;Pause;Freizeit;Nacht;A
+Urlaub;Was ist ein "Urlaubskonto"?;Übersicht der Tage;Sparbuch;Witz;Geschenk;A
+Abmahnung;Was ist eine "verhaltensbedingte Abmahnung"?;Abmahnung wegen Fehlverhalten;Lob;Wahlwerbung;Krankmeldung;A
+Wahl;Darf man die Wahlurne aus Pappe bauen?;Ja;Ja (wenn sie stabil und verschlossen ist);Nein verboten;Nur der Chef;B
+Geld;Was ist die "Lohnsteuerbescheinigung"?;Nachweis für das Finanzamt;Lohn;Bonus;Abzug;A
+Konflikt;Darf der AG dem BR den Strom abstellen?;Ja;Nein (Sachmittelanspruch);Nur bei Fehlern;Nur nachts;B
+IT;Darf der AG die IP-Adressen protokollieren?;Ja;Ja (IT-Sicherheit/Mitbestimmung);Nein verboten;Nur bei Azubis;B
+Stahl;Was ist "Drahtwalzen"?;Herstellung von Draht;Ein Blech;Ein Rohr;Ein Stein;A
+Hütte;Darf der BR bessere Spiegel in der Umkleide fordern?;Ja;Ja (Soziale Einrichtung);Nur im Winter;Nur nachts;B
+Arbeitszeit;Was ist "Präsenzzeit"?;Zeit der Anwesenheit;Pause;Weg zur Arbeit;Schlafzeit;A
+Urlaub;Was ist "unbezahlte Freistellung"?;Pause ohne Lohn;1 Tag;100 Tage;Gibt es nicht;A
+Abmahnung;Darf der AG die Abmahnung "befristen"?;Nein;Ja (Bewährungsfrist);Nur bei Azubis;Nur bei Stahl;B
+Wahl;Muss der Wahlvorstand Protokoll führen?;Nein;Ja (Pflicht);Nur zum Chef;Nur zur Gewerkschaft;B
+Geld;Was ist die "Solidaritätszuschlag"?;Steuerabgabe;Lohn;Bonus;Abzug;A
+Konflikt;Darf der BR die Arbeit verweigern?;Ja;Nein (Arbeitspflicht);Nur bei Wut;Nur nachts;B
+IT;Darf der BR "Digital-Detox" fordern?;Nein;Ja (Gesundheitsschutz);Nur für IT-ler;Nur bei Azubis;B
+Stahl;Was ist "Flüssigeisen"?;Geschmolzenes Erz;Pausenbrot;Hammer;Auto;A
+Hütte;Darf der BR Wallboxen fordern?;Ja;Ja (BV/Mitbestimmung);Nur für Chefs;Nur bei Sonne;B
+Arbeitszeit;Was ist "Nachtzuschlag"?;Extra Geld für Nachtarbeit;Lohn;Bonus;Abzug;A
+Urlaub;Was ist "Urlaubsgeld"?;Zusatzleistung zum Lohn;Normaler Lohn;Bonus;Abzug;B
+Abmahnung;Darf der AG bei Rauchen im Werk abmahnen?;Nein;Ja (Verstoß gegen Brandschutz/Ordnung);Nur bei 1 Minute;Nur bei Azubis;B
+Wahl;Darf man den Stimmzettel unterschreiben?;Ja;Nein (Wahlgeheimnis/Ungültig);Nur für Facebook;Nur der Chef;B
+Geld;Was ist die "Entfernungspauschale"?;Steuervorteil;Lohn;Bonus;Abzug;A
+Konflikt;Darf der BR den AG verklagen?;Nein;Ja (Arbeitsgericht);Nur bei Streik;Nur bei Kündigung;B
+IT;Darf der AG die Desktop-Farbe vorschreiben?;Nein;Ja (Corporate Design);Nur bei Azubis;Nur im Büro;B
+Stahl;Was ist ein "Lichtbogenofen"?;Elektrischer Ofen;Kühlschrank;Tisch;Auto;A
+Hütte;Darf der BR einen Wasserkühler fordern?;Ja;Ja (Arbeitsschutz);Nur für Chefs;Nur im Büro;B
+Arbeitszeit;Was ist "Mehrarbeitszuschlag"?;Geld für Überstunden;Essen;Schlafen;Streik;A
+Urlaub;Was ist "Erholungszweck"?;Ziel des Urlaubs;Einzelurlaub;Krankheit;Streik;A
+Abmahnung;Darf der AG wegen "müdem Aussehen" abmahnen?;Ja;Nein (kein Verhaltensverstoß);Nur bei Verkäufern;Nur bei Azubis;B
+Wahl;Wer darf die Wahl stoppen?;Nur das Arbeitsgericht;Jeder;Niemand;Die Polizei;A
+Geld;Was ist das "Urlaubsentgelt"?;Lohnfortzahlung;Lohn;Bonus;Abzug;A
+Stahl;Was ist "Stranggießen"?;Kontinuierliches Gießen von Stahl;Ein Seiltrick;Ein Eimer;Ein Auto;A
+Hütte;Darf der BR einen Sichtschutz an Glaswänden fordern?;Ja;Ja (Persönlichkeitsschutz);Nur bei Sonne;Nur für Chefs;B
+Arbeitszeit;Was ist "Schichtfolge"?;Reihenfolge der Schichten (Früh/Spät/Nacht);Pause;Urlaub;Streik;A
+Urlaub;Was ist die "Urlaubskartei"?;Übersicht der Urlaubstage;Ein Stadtplan;Ein Pass;Ein Kündigungsschreiben;A
+Abmahnung;Darf man die Abmahnung im Müll entsorgen?;Ja;Ja (aber sie bleibt in der Akte);Nein verboten;Nur im BR-Büro;B
+Wahl;Was ist eine "Listenwahl"?;Wahl nach Vorschlagslisten;Wahl des Essens;Einkaufsliste;Pausenwahl;A
+Geld;Was ist die "Lohnabrechnung"?;Dokument über den Verdienst;Ein Brief;Ein Bonus;Ein Abzug;A
+Konflikt;Was ist ein "Gewerkschaftssekretär"?;Hauptamtlicher Mitarbeiter der Gewerkschaft;Der Chef;Ein Polizist;Ein Richter;A
+IT;Darf der BR die Nutzung von USB-Sticks regeln?;Nein;Ja (IT-Sicherheit/Mitbestimmung);Nur für Musik;Nur für Azubis;B
+Stahl;Was ist "Konti-Schicht"?;Durchgehende Schichtarbeit (7 Tage/Woche);Pause;Feierabend;Urlaub;A
+Hütte;Darf der BR eine Abstimmung über die Kantinen-Menüs fordern?;Ja;Ja (Soziale Angelegenheit);Nur für Chefs;Nur bei Überstunden;B
+Arbeitszeit;Was ist "Arbeitszeitbetrug"?;Falsche Zeiterfassung;Pause;Überstunden;Urlaub;A
+Urlaub;Darf der AG den Urlaub wegen "schlechtem Wetter" streichen?;Ja;Nein;Nur bei Azubis;Nur bei Stahl;B
+Abmahnung;Muss der BR-Vorsitzende die Abmahnung absegnen?;Ja;Nein;Nur als Zeuge;Nur bei Azubis;B
+Wahl;Darf ein Leiharbeiter nach 6 Monaten den BR wählen?;Ja;Ja (§ 7 BetrVG);Nein;Nur wenn er Gewerkschafter ist;B
+Geld;Was ist die "Entgelttabelle"?;Übersicht der Lohnstufen;Alter;Wohnort;Schuhgröße;A
+Konflikt;Was ist ein "Streikbrecher"?;Person, die trotz Streik arbeitet;Der Chef;Ein Polizist;Ein Richter;A
+IT;Darf der AG die Tippgeschwindigkeit protokollieren?;Ja;Nein (Leistungsüberwachung);Nur bei IT-lern;Nur bei Azubis;B
+Stahl;Was ist "Warmwalzen"?;Walzen bei hoher Temperatur;Walzen im Sommer;Heizung;Kühlung;A
+Hütte;Darf der BR höhenverstellbare Tische fordern?;Ja;Ja (Gesundheitsschutz);Nur für Chefs;Nur im Büro;B
+Arbeitszeit;Was ist "Minusstunden"?;Arbeitszeitkonto unter Null;Überstunden;Urlaub;Pause;A
+Urlaub;Darf man Urlaubstage "verschenken"?;Ja;Nein;Nur bei Stahl;Nur bei Azubis;B
+Abmahnung;Darf der AG die Abmahnung per Einschreiben schicken?;Ja;Ja (Nachweis des Zugangs);Nein verboten;Nur bei Kündigung;B
+Wahl;Darf man die Wahlurne bewachen?;Nein;Ja (Schutz vor Betrug);Ist egal;Nur der Chef;B
+Geld;Was ist die "Steueridentifikationsnummer"?;Dauerhafte Nummer beim Finanzamt;Lohnstufe;Bonus;Abzug;A
+Konflikt;Darf der BR den Chef zum Armdrücken herausfordern?;Ja;Ist rechtlich unerheblich;Nein verboten;Nur im Sportverein;B
+IT;Darf der BR eine Schulung für Datensicherheit fordern?;Nein;Ja (wenn für BR nötig);Nur für Azubis;Nur privat;B
+Stahl;Was ist "Feuerverzinken"?;Stahl mit Zink vor Rost schützen;Anzünden;Lackieren;Einfrieren;A
+Hütte;Darf der BR Insektenschutzgitter fordern?;Ja;Ja (Arbeitsschutz/Hygiene);Nur im Sommer;Nur für Gäste;B
+Arbeitszeit;Was ist die "Kernzeit"?;Anwesenheitspflicht bei Gleitzeit;Pause;Nacht;Urlaub;A
+Urlaub;Darf der Chef im Urlaub "Kontrollanrufe" machen?;Ja;Nein (Freizeit);Nur bei Krankheit;Nur bei Azubis;B
+Abmahnung;Muss der MA die Abmahnung unterschreiben?;Ja;Nein (nur Empfang quittieren);Nur vor Zeugen;Nur bei Azubis;B
+Wahl;Was ist ein "Listenführer"?;Erster Kandidat einer Wahlliste;Der Chef;Ein Bote;Ein Zeuge;A
+Geld;Was ist die "Schichtzulage"?;Geld für Arbeit in Schichten;Urlaubsgeld;Bonus;Abzug;A
+Konflikt;Darf der AG den BR-Drucker überwachen?;Ja;Nein (Vertraulichkeit);Nur bei Viren;Nur nachts;B
+IT;Darf der AG die Klicks pro Minute zählen?;Ja;Nein (unzulässige Kontrolle);Nur bei IT-lern;Nur bei Azubis;B
+Stahl;Was ist "Edelstahl"?;Besonders legierter/reiner Stahl;Dicker Block;Gold;Silber;A
+Hütte;Darf der BR eine Erste-Hilfe-Schulung fordern?;Ja;Ja (Arbeitsschutz);Nur für Chefs;Nur bei 1000 MA;B
+Arbeitszeit;Was ist "Freizeitausgleich"?;Abbummeln von Überstunden;Urlaub;Feiertag;Streik;A
+Urlaub;Was ist "Sonderurlaub bei Hochzeit"?;Bezahlte Freistellung;Pech gehabt;Normaler Urlaub;Streik;A
+Abmahnung;Darf der AG die Abmahnung am Schwarzen Brett aushängen?;Ja;Nein (Datenschutzverstoß);Nur bei Azubis;Nur bei Diebstahl;B
+Wahl;Muss die Wahlurne blickdicht sein?;Nein;Ja (Wahlgeheimnis);Ist egal;Nur im Stahlwerk;B
+Geld;Was ist die "Einkommensteuer"?;Steuer auf das Gehalt;Lohnstufe;Bonus;Abzug;A
+Konflikt;Darf der BR den AG vor dem Arbeitsgericht verklagen?;Nein;Ja (Rechtsstreit);Nur bei Streik;Nur bei Kündigung;B
+IT;Darf der BR WLAN in der Kantine fordern?;Nein;Ja (Soziale Einrichtung);Nur im Büro;Nur für den BR;B
+Stahl;Was ist "Formstahl"?;Stahlträger in Profilform;Flaches Blech;Gold;Holz;A
+Hütte;Darf der BR einen Kantinen-Zuschuss fordern?;Ja;Ja (Mitbestimmung);Nur für Chefs;Nur bei Überstunden;B
+Arbeitszeit;Was ist "Schichtplanänderung"?;Anpassung der Arbeitszeiten;Pause;Feierabend;Urlaub;A
+Urlaub;Was ist "Bildungsfreistellung"?;Recht auf Weiterbildung;Ferien;Krankheit;Streik;A
+Abmahnung;Darf man die Abmahnung wegwerfen?;Ja;Ja (aber sie bleibt wirksam);Nein verboten;Nur im BR-Büro;B
+Wahl;Wer bewahrt die Wahlunterlagen auf?;Der Chef;Der Betriebsrat (§ 19 WO);Niemand;Die Polizei;B
+Geld;Was ist das "Nettoentgelt"?;Auszahlungsbetrag nach Abzügen;Lohn mit Überstunden;Bonus;Urlaubsgeld;A
+Konflikt;Was ist eine "Güteverhandlung"?;Termin zur gütlichen Einigung;Streik;Krieg;Pausenende;A
+IT;Darf der AG die Lautsprecher am PC fernsteuern?;Ja;Nein (Eingriff in Arbeitsplatz);Nein verboten;Nur bei Azubis;B
+Stahl;Was ist ein "Haspel"?;Vorrichtung zum Aufwickeln von Draht/Blech;Ein Fisch;Ein Brot;Ein Auto;A
+Hütte;Darf der BR Werksfahrräder fordern?;Ja;Ja (Gesundheit/Mobilität);Nur bei Hitze;Nur für Chefs;B
+Arbeitszeit;Was ist "Gleitzeitkonto"?;Dokumentation der Zeitdifferenz;Pause;Streik;Feierabend;A
+Urlaub;Darf man Resturlaub bis zum 31.03. mitnehmen?;Ja;Ja (bei dringenden Gründen);Nein nie;Nur bei Stahl;B
+Abmahnung;Darf man nach der Abmahnung weinen?;Ja;Ist egal;Nein verboten;Nur im BR-Büro;B
+Wahl;Darf der Wahlvorstand die Wahl vorzeitig beenden?;Ja;Nein (Wahlzeit einhalten);Nur wenn der Chef will;Nur bei Regen;B
+Geld;Was ist die "Pflegeversicherung"?;Teil der Sozialversicherung;Lohn;Bonus;Steuer;A
+Konflikt;Was ist ein "Teilvergleich"?;Einigung über einen Teil des Streits;Streik;Pausenende;Essenwahl;A
+IT;Darf der BR die Nutzung von privaten Handys regeln?;Nein;Ja (Ordnung im Betrieb);Nur für Marketing;Nur für Azubis;B
+Stahl;Was ist "Verzinken"?;Korrosionsschutz;Normales Eisen;Holz;Plastik;A
+Hütte;Darf der BR Lärmschutzkopfhörer fordern?;Ja;Ja (Arbeitsschutz);Nur bei 100 dB;Nur im Büro;B
+Arbeitszeit;Was ist "Sonderschicht"?;Zusätzliche Schicht;Pause;Freizeit;Nacht;A
+Urlaub;Was ist ein "Urlaubsplaner"?;Tool zur Koordination;Sparbuch;Witz;Geschenk;A
+Abmahnung;Was ist eine "personenbedingte Abmahnung"?;Gibt es nicht (nur Ermahnung möglich);Lob;Wahlwerbung;Krankmeldung;A
+Wahl;Darf man die Wahlurne versperren?;Ja;Ja (Sicherung gegen Zugriff);Nein verboten;Nur der Chef;B
+Geld;Was ist die "Lohnsteuerkarte"?;Elektronisches Merkmal (ELStAM);Lohn;Bonus;Abzug;A
+Konflikt;Darf der AG den BR-Zugang zum Internet sperren?;Ja;Nein (Informationsrecht);Nur bei Fehlern;Nur nachts;B
+IT;Darf der AG die Mac-Adresse protokollieren?;Ja;Ja (IT-Verwaltung);Nein verboten;Nur bei Azubis;B
+Stahl;Was ist "Profilwalzen"?;Herstellung von Trägern;Ein Blech;Ein Rohr;Ein Stein;A
+Hütte;Darf der BR Seifenspender in den Duschen fordern?;Ja;Ja (Hygiene/Soziales);Nur im Winter;Nur nachts;B
+Arbeitszeit;Was ist "Ist-Arbeitszeit"?;Tatsächlich geleistete Zeit;Pause;Weg zur Arbeit;Schlafzeit;A
+Urlaub;Was ist "unbezahlter Urlaub"?;Freistellung ohne Gehalt;1 Tag;100 Tage;Gibt es nicht;A
+Abmahnung;Darf der AG die Abmahnung "befristen"?;Nein;Ja (Bewährungsfrist);Nur bei Azubis;Nur bei Stahl;B
+Wahl;Muss der Wahlvorstand die Stimmen zählen?;Nein;Ja (Pflicht);Nur zum Chef;Nur zur Gewerkschaft;B
+Geld;Was ist die "Kirchensteuer"?;Abgabe an Religionsgemeinschaft;Lohn;Bonus;Abzug;A
+Konflikt;Darf der BR die Arbeit boykottieren?;Ja;Nein (Friedenspflicht);Nur bei Wut;Nur nachts;B
+IT;Darf der BR "Digital-Pause" fordern?;Nein;Ja (Gesundheitsschutz);Nur für IT-ler;Nur bei Azubis;B
+Stahl;Was ist "Flüssigschlacke"?;Nebenprodukt der Schmelze;Pausenbrot;Hammer;Auto;A
+Hütte;Darf der BR Parkplätze mit Schatten fordern?;Ja;Ja (Mitbestimmung Ordnung/BV);Nur für Chefs;Nur bei Sonne;B
+Arbeitszeit;Was ist "Spätzuschlag"?;Extra Geld für Spätschicht;Lohn;Bonus;Abzug;A
+Urlaub;Was ist "Urlaubsentgelt"?;Lohnfortzahlung während Urlaub;Zusatzgeld;Bonus;Abzug;A
+Abmahnung;Darf der AG bei Alkoholkonsum abmahnen?;Nein;Ja (Verstoß gegen Sicherheit/Ordnung);Nur bei 1 Minute;Nur bei Azubis;B
+Wahl;Darf man den Stimmzettel bemalen?;Ja;Nein (Ungültigkeit riskieren);Nur für Facebook;Nur der Chef;B
+Geld;Was ist die "Kilometerpauschale"?;Steuervorteil;Lohn;Bonus;Abzug;A
+Konflikt;Darf der BR gegen den AG klagen?;Nein;Ja (Arbeitsgericht);Nur bei Streik;Nur bei Kündigung;B
+IT;Darf der AG die Desktop-Icons sortieren?;Nein;Ja (Standardisierung);Nur bei Azubis;Nur im Büro;B
+Stahl;Was ist ein "Induktionsofen"?;Elektrischer Schmelzofen;Kühlschrank;Tisch;Auto;A
+Hütte;Darf der BR einen Getränkeautomaten fordern?;Ja;Ja (Soziale Einrichtung);Nur für Chefs;Nur im Büro;B
+Arbeitszeit;Was ist "Mehrarbeit"?;Arbeit über Tarif/Gesetz;Essen;Schlafen;Streik;A
+Urlaub;Was ist "Erholung"?;Zweck des Urlaubs;Einzelurlaub;Krankheit;Streik;A
+Abmahnung;Darf der AG wegen "unordentlichem Schreibtisch" abmahnen?;Ja;Nein (meist kein Verhaltensverstoß);Nur bei Verkäufern;Nur bei Azubis;B
+Wahl;Wer darf die Wahl für ungültig erklären?;Nur das Arbeitsgericht;Jeder;Niemand;Die Polizei;A
+Geld;Was ist die "Entgeltfortzahlung"?;Lohn im Krankheitsfall;Lohn;Bonus;Abzug;A
+Stahl;Was ist "Sintern"?;Verbacken von Feinerz zu Brocken;Einschmelzen;Waschen;Verrosten;A
+Hütte;Darf der BR eine Beschwerdestelle für Diskriminierung fordern?;Ja;Ja (Allgemeines Gleichbehandlungsgesetz);Nur für Frauen;Nur für Azubis;B
+Arbeitszeit;Was ist "Kappung"?;Automatischer Abzug von Zeit;Pause;Bonus;Streik;A
+Urlaub;Was ist die "Urlaubsregelung"?;Interne Richtlinie zur Planung;Witz;Geschenk;Kündigung;A
+Abmahnung;Darf man die Abmahnung im Personalgespräch ablehnen?;Ja;Ja (hilft aber nicht gegen Wirksamkeit);Nein verboten;Nur im BR-Büro;B
+Wahl;Was ist eine "Stützunterschrift"?;Unterschrift zur Zulassung einer Liste;Autogramm;Pausenzettel;Wahlzettel;A
+Geld;Was ist die "Lohnfortzahlung im Todesfall"?;Zahlung an Hinterbliebene (oft TV);Gibt es nicht;Bonus;Abzug;A
+Konflikt;Was ist ein "Gewerkschaftsmitglied"?;Zugehöriger einer Gewerkschaft;Der Chef;Ein Polizist;Ein Richter;A
+IT;Darf der BR die Einführung von Microsoft 365 regeln?;Nein;Ja (Mitbestimmung §87);Nur für Word;Nur für Azubis;B
+Stahl;Was ist "Dauerbetrieb"?;Anlage läuft 24/7;Pause;Feierabend;Urlaub;A
+Hütte;Darf der BR eine gesunde Menülinie in der Kantine fordern?;Ja;Ja (Gesundheitsschutz/Soziales);Nur für Chefs;Nur bei Überstunden;B
+Arbeitszeit;Was ist "Zeitschuld"?;Fehlstunden auf dem Konto;Geld;Urlaub;Pause;A
+Urlaub;Was ist "Urlaubssperre bei Inventur"?;Zulässiger Grund zur Urlaubsablehnung;Witz;Geschenk;Streik;A
+Abmahnung;Muss der MA die Abmahnung sofort unterschreiben?;Ja;Nein (Bedenkzeit ist erlaubt);Nur vor Zeugen;Nur bei Azubis;B
+Wahl;Darf ein gekündigter MA wählen (wenn Klage läuft)?;Ja;Ja (Status bleibt bis Urteil);Nein;Nur wenn er Gewerkschafter ist;B
+Geld;Was ist die "Entgeltumwandlung"?;Teil vom Lohn für Rente;Lohnraub;Bonus;Abzug;A
+Konflikt;Was ist ein "Solidaritätsstreik"?;Streik zur Unterstützung anderer;Krieg;Feuerwehralarm;Pausenende;A
+IT;Darf der AG die Verweildauer auf Websites messen?;Ja;Nein (Leistungsüberwachung);Nur bei IT-lern;Nur bei Azubis;B
+Stahl;Was ist "Kaltfließpressen"?;Umformen bei Raumtemperatur;Walzen im Sommer;Heizung;Kühlung;A
+Hütte;Darf der BR Stehhilfen fordern?;Ja;Ja (Gesundheitsschutz);Nur für Chefs;Nur im Büro;B
+Arbeitszeit;Was ist "Ampelkonto"?;Arbeitszeitkonto mit Warnstufen;Überstunden;Urlaub;Pause;A
+Urlaub;Darf man Urlaubstage "spenden"?;Ja;Nein;Nur bei Stahl;Nur bei Azubis;B
+Abmahnung;Darf der AG die Abmahnung per E-Mail schicken?;Ja;Ja (wirksamer Zugang);Nein verboten;Nur bei Kündigung;B
+Wahl;Darf man die Wahlurne im Tresor lagern?;Nein;Ja (Sicherung);Ist egal;Nur der Chef;B
+Geld;Was ist die "Lohnsteuerklasse VI"?;Klasse für Nebenjobs;Lohnstufe;Bonus;Abzug;A
+Konflikt;Darf der BR den Chef zum Schachspiel herausfordern?;Ja;Ist rechtlich privat;Nein verboten;Nur im Sportverein;B
+IT;Darf der BR eine Schulung für Datenschutz fordern?;Nein;Ja (wenn für BR nötig);Nur für Azubis;Nur privat;B
+Stahl;Was ist "Verchromen"?;Stahl mit Chrom beschichten;Anzünden;Lackieren;Einfrieren;A
+Hütte;Darf der BR Fliegengitter fordern?;Ja;Ja (Arbeitsschutz/Hygiene);Nur im Sommer;Nur für Gäste;B
+Arbeitszeit;Was ist die "Gleitzeitspanne"?;Zeit zwischen frühestem/spätestem Beginn;Pause;Nacht;Urlaub;A
+Urlaub;Darf der Chef im Urlaub "SMS schreiben"?;Ja;Nein (Freizeit);Nur bei Krankheit;Nur bei Azubis;B
+Abmahnung;Muss der MA die Abmahnung verstehen?;Ja;Ja (Hinweisfunktion);Nur vor Zeugen;Nur bei Azubis;B
+Wahl;Was ist ein "Wahlhelfer"?;Unterstützer des Wahlvorstands;Der Chef;Ein Bote;Ein Zeuge;A
+Geld;Was ist die "Nachtzulage"?;Geld für Arbeit nachts;Urlaubsgeld;Bonus;Abzug;A
+Konflikt;Darf der AG das BR-Telefon abhören?;Ja;Nein (Straftat/Vertraulichkeit);Nur bei Viren;Nur nachts;B
+IT;Darf der AG die Anschläge pro Stunde zählen?;Ja;Nein (unzulässige Kontrolle);Nur bei IT-lern;Nur bei Azubis;B
+Stahl;Was ist "Spezialstahl"?;Stahl für extreme Belastung;Dicker Block;Gold;Silber;A
+Hütte;Darf der BR eine Brandschutzschulung fordern?;Ja;Ja (Arbeitsschutz);Nur für Chefs;Nur bei 1000 MA;B
+Arbeitszeit;Was ist "Zeitausgleich"?;Abbummeln von Stunden;Urlaub;Feiertag;Streik;A
+Urlaub;Was ist "Sonderurlaub bei Todesfall"?;Bezahlte Freistellung (nahe Angehörige);Pech gehabt;Normaler Urlaub;Streik;A
+Abmahnung;Darf der AG die Abmahnung im Schaukasten aushängen?;Ja;Nein (schwere Ehrverletzung);Nur bei Azubis;Nur bei Diebstahl;B
+Wahl;Muss die Wahlurne versperrt sein?;Nein;Ja (Wahlgeheimnis);Ist egal;Nur im Stahlwerk;B
+Geld;Was ist die "Umsatzsteuer"?;Steuer auf Verkäufe;Lohnstufe;Bonus;Abzug;A
+Konflikt;Darf der BR den AG vor dem Bundesarbeitsgericht verklagen?;Nein;Ja (letzte Instanz);Nur bei Streik;Nur bei Kündigung;B
+IT;Darf der BR WLAN im Pausenraum fordern?;Nein;Ja (Soziale Einrichtung);Nur im Büro;Nur für den BR;B
+Stahl;Was ist "Rundstahl"?;Stabstahl mit rundem Querschnitt;Flaches Blech;Gold;Holz;A
+Hütte;Darf der BR einen Essenszuschuss fordern?;Ja;Ja (Mitbestimmung);Nur für Chefs;Nur bei Überstunden;B
+Arbeitszeit;Was ist "Schichtdienst"?;Regelmäßiger Wechsel der Arbeitszeit;Pause;Feierabend;Urlaub;A
+Urlaub;Was ist "Bildungszeit"?;Anspruch auf Weiterbildung;Ferien;Krankheit;Streik;A
+Abmahnung;Darf man die Abmahnung im Klo runterspülen?;Ja;Ja (aber sie bleibt wirksam);Nein verboten;Nur im BR-Büro;B
+Wahl;Wer ist für die Richtigkeit der Wählerliste verantwortlich?;Der Chef;Der Wahlvorstand;Niemand;Die Polizei;B
+Geld;Was ist das "Jahresbrutto"?;Gesamtverdienst im Jahr;Lohn mit Überstunden;Bonus;Urlaubsgeld;A
